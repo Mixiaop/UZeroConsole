@@ -1,0 +1,18 @@
+2017-05-22 15:01:29,031 [8] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:05:55,466 [5] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:06:50,657 [8] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:06:52,032 [13] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:06:52,252 [18] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:06:52,416 [8] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:06:52,590 [16] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/List.aspx
+2017-05-22 15:09:20,409 [28] U.Logging.ULog4netLogger - (null) - ID“tbKey”已被其他控件使用。
+ http://localhost:8400/UZeroJobs/RemoteJobs/Add.aspx?redirectUrl=aHR0cDovL2xvY2FsaG9zdDo4NDAwL3V6ZXJvam9icy9yZW1vdGVqb2JzL2xpc3QuYXNweA==
+2017-05-22 15:24:39,461 [22] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroJobs/RemoteJobs/Add.aspx?redirectUrl=aHR0cDovL2xvY2FsaG9zdDo4NDAwL3V6ZXJvam9icy9yZW1vdGVqb2JzL2xpc3QuYXNweA%3d%3d

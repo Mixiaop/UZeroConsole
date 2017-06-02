@@ -1,0 +1,14 @@
+2017-01-09 09:15:01,745 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2017-01-09 09:15:02,014 [1] U.Logging.ULog4netLogger - (null) - Found 9 UPrimes in total.
+2017-01-09 09:15:02,019 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.2.1.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,019 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Dapper.UDapperUPrime, U.Dapper, Version=0.2.1.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,020 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.2.1.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,021 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,021 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.Dapper.UZeroLogDapperUPrime, UZeroLog.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,022 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,023 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.UZeroLogUPrime, UZeroLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,024 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.2.1.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,025 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Dapper.UZeroConsoleDapperUPrime, UZeroConsole.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-01-09 09:15:02,028 [1] U.Logging.ULog4netLogger - (null) - 9 UPrime loaded.
+2017-01-09 09:15:02,428 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2017-01-09 09:15:02,429 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.

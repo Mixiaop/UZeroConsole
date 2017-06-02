@@ -1,0 +1,63 @@
+2017-03-28 16:40:43,223 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2017-03-28 16:40:43,564 [1] U.Logging.ULog4netLogger - (null) - Found 10 UPrimes in total.
+2017-03-28 16:40:43,570 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,571 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,572 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,572 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,573 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,574 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,575 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,575 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,576 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,577 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:40:43,579 [1] U.Logging.ULog4netLogger - (null) - 10 UPrime loaded.
+2017-03-28 16:40:44,034 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2017-03-28 16:40:44,035 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2017-03-28 16:40:44,481 [6] U.Logging.ULog4netLogger - (null) - WebRequestHelper.HttpPost Start
+2017-03-28 16:40:47,482 [6] U.Logging.ULog4netLogger - (null) - WebRequestHelper.HttpPost Start
+2017-03-28 16:41:01,935 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2017-03-28 16:41:02,299 [1] U.Logging.ULog4netLogger - (null) - Found 10 UPrimes in total.
+2017-03-28 16:41:02,305 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,306 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,306 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,307 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,308 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,308 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,309 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,309 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,310 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,310 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 16:41:02,313 [1] U.Logging.ULog4netLogger - (null) - 10 UPrime loaded.
+2017-03-28 16:41:02,761 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2017-03-28 16:41:02,762 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2017-03-28 16:41:03,246 [20] U.Logging.ULog4netLogger - (null) - WebRequestHelper.HttpPost Start
+2017-03-28 17:15:29,330 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2017-03-28 17:15:29,680 [1] U.Logging.ULog4netLogger - (null) - Found 10 UPrimes in total.
+2017-03-28 17:15:29,686 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,687 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,688 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,688 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,689 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,690 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,691 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,691 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,692 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,693 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:15:29,696 [1] U.Logging.ULog4netLogger - (null) - 10 UPrime loaded.
+2017-03-28 17:15:30,137 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2017-03-28 17:15:30,138 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2017-03-28 17:42:43,040 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2017-03-28 17:42:43,377 [1] U.Logging.ULog4netLogger - (null) - Found 10 UPrimes in total.
+2017-03-28 17:42:43,383 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,384 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,385 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,385 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,386 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,386 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,387 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,388 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,389 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.3.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,389 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.0.1.0, Culture=neutral, PublicKeyToken=null
+2017-03-28 17:42:43,391 [1] U.Logging.ULog4netLogger - (null) - 10 UPrime loaded.
+2017-03-28 17:42:43,828 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2017-03-28 17:42:43,829 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.

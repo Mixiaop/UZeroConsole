@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9E6C5EE-E169-4FD1-A3E9-6DDA04CAF54D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UZeroConsole</RootNamespace>
+    <AssemblyName>UZeroConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Autofac.3.5.0\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="U">
+      <HintPath>..\packages\U\U.dll</HintPath>
+    </Reference>
+    <Reference Include="U.AutoMapper">
+      <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Collections">
+      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Core">
+      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Serialization">
+      <HintPath>..\packages\U\U.Extension.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="U.HangFire">
+      <HintPath>..\packages\U\U.HangFire.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Utilities">
+      <HintPath>..\packages\U\U.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\DatabaseSettings.cs" />
+    <Compile Include="Configuration\ConsoleSettings.cs" />
+    <Compile Include="Configuration\LoggingSettings.cs" />
+    <Compile Include="Domain\Admin.cs" />
+    <Compile Include="Domain\IAdminRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\IPermissionRepository.cs" />
+    <Compile Include="Domain\IRolePermissionRepository.cs" />
+    <Compile Include="Domain\IRoleRepository.cs" />
+    <Compile Include="Domain\Jobs\IRemoteJobRepository.cs" />
+    <Compile Include="Domain\Jobs\RemoteJob.cs" />
+    <Compile Include="Domain\Jobs\RemoteJobType.cs" />
+    <Compile Include="Domain\Logging\ActionModule.cs" />
+    <Compile Include="Domain\Logging\ExceptionLog.cs" />
+    <Compile Include="Domain\Logging\IActionModuleRepository.cs" />
+    <Compile Include="Domain\Logging\IExceptionLogRepository.cs" />
+    <Compile Include="Domain\Logging\ActionLogOperateType.cs" />
+    <Compile Include="Domain\Logging\ILogAppRepository.cs" />
+    <Compile Include="Domain\Logging\IActionLogRepository.cs" />
+    <Compile Include="Domain\Logging\ActionLog.cs" />
+    <Compile Include="Domain\Logging\IVisitLogRepository.cs" />
+    <Compile Include="Domain\Logging\LogApp.cs" />
+    <Compile Include="Domain\Logging\VisitLog.cs" />
+    <Compile Include="Domain\Permission.cs" />
+    <Compile Include="Domain\Role.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\RolePermission.cs" />
+    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\Dto\AdminDto.cs" />
+    <Compile Include="Services\Dto\ChangePasswordInput.cs" />
+    <Compile Include="Services\Dto\ChangePasswordOutput.cs" />
+    <Compile Include="Services\Dto\CreateOrZeroUserInput.cs" />
+    <Compile Include="Services\Dto\InsertOrUpdatePermissionInput.cs" />
+    <Compile Include="Services\Dto\InsertOrUpdateRoleInput.cs" />
+    <Compile Include="Services\Dto\PermissionDto.cs" />
+    <Compile Include="Services\Dto\RoleDto.cs" />
+    <Compile Include="Services\Dto\RolePermissionDto.cs" />
+    <Compile Include="Services\Dto\SearchAdminInput.cs" />
+    <Compile Include="Services\Dto\SearchPermissionInput.cs" />
+    <Compile Include="Services\Dto\ZeroUserDto.cs" />
+    <Compile Include="Services\FormsAuthenticationService.cs" />
+    <Compile Include="Services\IAdminService.cs" />
+    <Compile Include="Services\IAuthenticationService.cs" />
+    <Compile Include="Services\IPermissionsService.cs" />
+    <Compile Include="Services\IRoleService.cs" />
+    <Compile Include="Services\Jobs\IRemoteJobService.cs" />
+    <Compile Include="Services\Jobs\RemoteJobService.cs" />
+    <Compile Include="Services\Jobs\URemoteJob.cs" />
+    <Compile Include="Services\Logging\ActionLogService.cs" />
+    <Compile Include="Services\Logging\Dto\ActionLogTopDto.cs" />
+    <Compile Include="Services\Logging\ExceptionLogService.cs" />
+    <Compile Include="Services\Logging\IActionLogService.cs" />
+    <Compile Include="Services\Logging\IExceptionLogService.cs" />
+    <Compile Include="Services\Logging\ILogAppService.cs" />
+    <Compile Include="Services\Logging\IVisitLogService.cs" />
+    <Compile Include="Services\Logging\LogAppService.cs" />
+    <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
+    <Compile Include="Services\PermissionsService.cs" />
+    <Compile Include="Services\RoleService.cs" />
+    <Compile Include="UZeroConsoleConsts.cs" />
+    <Compile Include="UZeroConsoleUPrime.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,42 @@
+2016-07-27 16:58:31,175 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2016-07-27 16:58:31,407 [1] U.Logging.ULog4netLogger - (null) - Found 9 UPrimes in total.
+2016-07-27 16:58:31,411 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,412 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Dapper.UDapperUPrime, U.Dapper, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,412 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,413 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,413 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Dapper.UZeroConsoleDapperUPrime, UZeroConsole.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,414 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,414 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.Infrastructure.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,415 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.Dapper.UZeroLogDapperUPrime, UZeroLog.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,415 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.UZeroLogUPrime, UZeroLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:58:31,418 [1] U.Logging.ULog4netLogger - (null) - 9 UPrime loaded.
+2016-07-27 16:58:31,881 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2016-07-27 16:58:31,882 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2016-07-27 16:59:13,100 [19] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2016-07-27 16:59:13,303 [19] U.Logging.ULog4netLogger - (null) - Found 9 UPrimes in total.
+2016-07-27 16:59:13,308 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,309 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Dapper.UDapperUPrime, U.Dapper, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,309 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,310 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,310 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Dapper.UZeroConsoleDapperUPrime, UZeroConsole.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,311 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,311 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.Infrastructure.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,311 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.Dapper.UZeroLogDapperUPrime, UZeroLog.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,312 [19] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.UZeroLogUPrime, UZeroLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 16:59:13,314 [19] U.Logging.ULog4netLogger - (null) - 9 UPrime loaded.
+2016-07-27 16:59:13,744 [19] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2016-07-27 16:59:13,744 [19] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2016-07-27 17:00:04,361 [25] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2016-07-27 17:00:04,544 [25] U.Logging.ULog4netLogger - (null) - Found 9 UPrimes in total.
+2016-07-27 17:00:04,549 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,549 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Dapper.UDapperUPrime, U.Dapper, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,550 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,550 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,551 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Dapper.UZeroConsoleDapperUPrime, UZeroConsole.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,552 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,552 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.Infrastructure.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,553 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.Dapper.UZeroLogDapperUPrime, UZeroLog.Dapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,553 [25] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroLog.UZeroLogUPrime, UZeroLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-07-27 17:00:04,555 [25] U.Logging.ULog4netLogger - (null) - 9 UPrime loaded.
+2016-07-27 17:00:04,988 [25] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2016-07-27 17:00:04,990 [25] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.

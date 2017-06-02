@@ -1,0 +1,124 @@
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll.config
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.pdb
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.csprojResolveAssemblyReference.cache
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.pdb
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Dapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Dapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Collections.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Core.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Serialization.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Web.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Castle.Core.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\log4net.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\System.Collections.Immutable.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.Enlightenment.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Dapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Utilities.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.AutoMapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Dapper.pdb
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.pdb
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\AutoMapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\BotDetect.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\AjaxPro.2.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroLog.Dapper.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\UZeroLog.dll
+D:\!DotNet项目\优志愿2016\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.xml
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll.config
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.pdb
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\AjaxPro.2.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\AutoMapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\BotDetect.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Castle.Core.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Dapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Dapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Collections.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Core.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Serialization.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Web.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Utilities.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Dapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroLog.Dapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroLog.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.AutoMapper.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\log4net.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\System.Collections.Immutable.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.Enlightenment.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Dapper.pdb
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.pdb
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.xml
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.csprojResolveAssemblyReference.cache
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.dll
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.pdb
+G:\Y 亿阁科技\项目 Projects\UZeroConsole\src\UZeroConsole.Web\bin\U.FakeMvc.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll.config
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Web.pdb
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\AjaxPro.2.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Integration.Mvc.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\AutoMapper.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\BotDetect.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Castle.Core.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.DynamicFilters.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.SqlServer.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.Core.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.SqlServer.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Owin.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.Http.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.Mvc.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.WebPages.Razor.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.EntityFramework.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Collections.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Core.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Serialization.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Web.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.FakeMvc.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.HangFire.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Utilities.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.Api.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.EntityFramework.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Logging.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\U.AutoMapper.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.WebPages.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\log4net.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Collections.Immutable.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.WebPages.Deployment.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.Enlightenment.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.EntityFramework.pdb
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Logging.pdb
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.pdb
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Integration.Mvc.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.SqlServer.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.Core.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.SqlServer.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.Http.xml
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\zh-Hans\System.Web.Http.resources.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.csprojResolveAssemblyReference.cache
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.pdb
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Owin.dll
+D:\!DotNet项目\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Owin.Host.SystemWeb.dll

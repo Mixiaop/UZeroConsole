@@ -1,0 +1,54 @@
+﻿using System;
+using U;
+using UZeroConsole.Domain.Jobs;
+using UZeroConsole.Services.Jobs;
+
+namespace UZeroConsole.Web.UZeroJobs.RemoteJobs
+{
+    public partial class Add : AuthPageBase
+    {
+        IRemoteJobService _remoteJobService = UPrimeEngine.Instance.Resolve<IRemoteJobService>();
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            btnSave.Click += btnSave_Click;
+        }
+
+        void btnSave_Click(object sender, EventArgs e)
+        {
+            string key = tbKey.Text.Trim();
+            string name = tbName.Text.Trim();
+            string url = tbUrl.Text.Trim();
+            string desc = tbDesc.Text.Trim();
+            int typeId = ddlType.SelectedValue.ToInt();
+            string strAtTime = tbAtTime.Text.Trim();
+            string recurringTime = tbRecurringTime.Text.Trim();
+
+            if (key.IsNullOrEmpty() || name.IsNullOrEmpty() || url.IsNullOrEmpty()) { 
+                ltlMessage.Text = AlertError("【名称、Key、URL】不能为空");
+                return;
+            }
+
+            if ((RemoteJobType)typeId == RemoteJobType.AtTime && strAtTime.IsNullOrEmpty())
+            {
+                ltlMessage.Text = AlertError("【定时时间】不能为空");
+                return;
+            }
+
+            if ((RemoteJobType)typeId == RemoteJobType.Recurring && recurringTime.IsNullOrEmpty())
+            {
+                ltlMessage.Text = AlertError("【循环时间】不能为空");
+                return;
+            }
+            DateTime? atTime = null;
+            if (strAtTime.IsNotNullOrEmpty())
+            {
+                atTime = strAtTime.ToDateTime();
+            }
+            _remoteJobService.CreateJob(key, name, url, desc, (RemoteJobType)typeId, recurringTime.ToInt(), atTime);
+
+            ltlMessage.Text = AlertSuccess("添加成功");
+            RedirectByTime(GetBackUrlDecoded("List.aspx"), 1000);
+        }
+    }
+}
