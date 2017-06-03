@@ -4,3 +4,4 @@ App_Data/Logs/
 _temp/
 *.suo
 obj/*
+src/UZero.Console.v12.suo
