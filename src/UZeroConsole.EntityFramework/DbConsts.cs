@@ -21,6 +21,10 @@ namespace UZeroConsole
             public const string Logging_ActionLogs = "UZeroConsole_Logging_ActionLogs";
             public const string Logging_ActionModules = "UZeroConsole_Logging_ActionModules";
             public const string Logging_VisitLogs = "UZeroConsole_Logging_VisitLogs";
+
+            public const string Config_ConfigProjects = "UZeroConsole_Config_ConfigProjects";
+            public const string Config_ConfigObjects = "UZeroConsole_Config_ConfigObjects";
+            public const string Config_ConfigAttrs = "UZeroConsole_Config_ConfigAttrs";
             
         }
     }

@@ -69,6 +69,9 @@
   <ItemGroup>
     <Compile Include="DbConsts.cs" />
     <Compile Include="Mapping\AdminMap.cs" />
+    <Compile Include="Mapping\Config\ConfigAttrMap.cs" />
+    <Compile Include="Mapping\Config\ConfigObjectMap.cs" />
+    <Compile Include="Mapping\Config\ConfigProjectMap.cs" />
     <Compile Include="Mapping\Jobs\RemoteJobMap.cs" />
     <Compile Include="Mapping\Logging\ActionModuleMap.cs" />
     <Compile Include="Mapping\Logging\ExceptionLogMap.cs" />
@@ -80,6 +83,9 @@
     <Compile Include="Mapping\RolePermissionMap.cs" />
     <Compile Include="Mapping\UZeroConsoleEntityTypeConfiguration.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
+    <Compile Include="Repositories\Config\ConfigAttrRepository.cs" />
+    <Compile Include="Repositories\Config\ConfigObjectRepository.cs" />
+    <Compile Include="Repositories\Config\ConfigProjectRepository.cs" />
     <Compile Include="Repositories\Jobs\RemoteJobRepository.cs" />
     <Compile Include="Repositories\Logging\ActionModuleRepository.cs" />
     <Compile Include="Repositories\Logging\ExceptionLogRepository.cs" />

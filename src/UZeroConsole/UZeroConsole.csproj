@@ -74,6 +74,12 @@
     <Compile Include="Configuration\ConsoleSettings.cs" />
     <Compile Include="Configuration\LoggingSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
+    <Compile Include="Domain\Config\ConfigAttr.cs" />
+    <Compile Include="Domain\Config\ConfigObject.cs" />
+    <Compile Include="Domain\Config\ConfigProject.cs" />
+    <Compile Include="Domain\Config\Repositories\IConfigAttrRepository.cs" />
+    <Compile Include="Domain\Config\Repositories\IConfigObjectRepository.cs" />
+    <Compile Include="Domain\Config\Repositories\IConfigProjectRepository.cs" />
     <Compile Include="Domain\IAdminRepository.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </Compile>
     <Compile Include="Domain\RolePermission.cs" />
     <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\ApplicationBase.cs" />
+    <Compile Include="Services\Config\IConfigService.cs" />
+    <Compile Include="Services\Config\Impl\ConfigService.cs" />
     <Compile Include="Services\Dto\AdminDto.cs" />
     <Compile Include="Services\Dto\ChangePasswordInput.cs" />
     <Compile Include="Services\Dto\ChangePasswordOutput.cs" />
@@ -114,6 +123,7 @@
     <Compile Include="Services\Dto\ZeroUserDto.cs" />
     <Compile Include="Services\FormsAuthenticationService.cs" />
     <Compile Include="Services\IAdminService.cs" />
+    <Compile Include="Services\IApplicationService.cs" />
     <Compile Include="Services\IAuthenticationService.cs" />
     <Compile Include="Services\IPermissionsService.cs" />
     <Compile Include="Services\IRoleService.cs" />
@@ -135,7 +145,9 @@
     <Compile Include="UZeroConsoleUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Services\Config\Dto\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
