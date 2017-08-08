@@ -12,13 +12,13 @@ using UZeroConsole.Services.Logging.Dto;
 
 namespace UZeroConsole.Logging
 {
-    public class LoggingService : ILoggingService
+    public class LoggingClientService : ILoggingClientService
     {
         private readonly LoggingSettings _settings;
         public const string SOA_Exception = "/UZeroLogging/SOA/Exception.aspx";
         public const string SOA_Log = "/UZeroLogging/SOA/Log.aspx";
         public const string SOA_ActionGetTopLogs = "/UZeroLogging/SOA/Action_GetTopLogs.aspx";
-        public LoggingService(LoggingSettings settings)
+        public LoggingClientService(LoggingSettings settings)
         {
             _settings = settings;
         }

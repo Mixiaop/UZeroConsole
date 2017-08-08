@@ -10,7 +10,7 @@ namespace UZeroConsole.Logging
     /// 日志模块服务
     /// 接管错误异常处理，及记录活动日志。（调用日志中心的SOA接口）
     /// </summary>
-    public interface ILoggingService : U.Application.Services.IApplicationService
+    public interface ILoggingClientService : U.Application.Services.IApplicationService
     {
         /// <summary>
         /// 处理异常

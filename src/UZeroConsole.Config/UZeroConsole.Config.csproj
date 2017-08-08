@@ -38,9 +38,31 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="U, Version=0.5.7.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\U.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Collections, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Core, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Extension.Serialization">
+      <HintPath>..\packages\U\U.Extension.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="U.Utilities, Version=0.5.7.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\U.Utilities.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ConfigClientService.cs" />
+    <Compile Include="Dto\ConfigAttr.cs" />
+    <Compile Include="IConfigClientService.cs" />
+    <Compile Include="UZeroConsoleConfigUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

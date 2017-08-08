@@ -34,7 +34,7 @@ namespace UZeroConsole.WebTests
         protected override void Application_Error(object sender, EventArgs e)
         {
             var exception = Server.GetLastError();
-            var loggingService = UPrimeEngine.Instance.Resolve<ILoggingService>();
+            var loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
             var httpException = exception as HttpException;
             if (httpException != null && httpException.GetHttpCode() != 404)
             {

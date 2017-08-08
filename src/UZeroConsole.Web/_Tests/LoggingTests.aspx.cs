@@ -12,7 +12,7 @@ namespace UZeroConsole.Web._Tests
 {
     public partial class LoggingTests : System.Web.UI.Page
     {
-        ILoggingService loggingService = UPrimeEngine.Instance.Resolve<ILoggingService>();
+        ILoggingClientService loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
         IActionLogService actionLogService = UPrimeEngine.Instance.Resolve<IActionLogService>();
         protected void Page_Load(object sender, EventArgs e)
         {

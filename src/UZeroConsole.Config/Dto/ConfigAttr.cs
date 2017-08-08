@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UZeroConsole.Config
+namespace UZeroConsole.Config.Dto
 {
-    public class Class1
+    class ConfigAttr
     {
     }
 }

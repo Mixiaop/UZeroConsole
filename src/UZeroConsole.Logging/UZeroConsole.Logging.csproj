@@ -65,8 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ILoggingService.cs" />
-    <Compile Include="LoggingService.cs" />
+    <Compile Include="ILoggingClientService.cs" />
+    <Compile Include="LoggingClientService.cs" />
     <Compile Include="UZeroConsoleLoggingUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,6 +75,9 @@
       <Project>{b9e6c5ee-e169-4fd1-a3e9-6dda04caf54d}</Project>
       <Name>UZeroConsole</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

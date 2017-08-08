@@ -12,7 +12,7 @@ namespace UZeroConsole.WebTests
 {
     public partial class ExceptionTests : System.Web.UI.Page
     {
-        ILoggingService _loggingService = UPrimeEngine.Instance.Resolve<ILoggingService>();
+        ILoggingClientService _loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
         protected void Page_Load(object sender, EventArgs e)
         {
             //throw new Exception("UZeroConsole.WebTests exception");
