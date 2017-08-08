@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -680,6 +681,7 @@
     <Content Include="assets\waterfall\js\vendor\jquery-1.10.2.min.js" />
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
+    <Content Include="UZeroConfig\Projects\List.aspx" />
     <Content Include="UZeroJobs\RemoteJobs\Add.aspx" />
     <Content Include="UZeroJobs\RemoteJobs\List.aspx" />
     <Content Include="UZeroLogging\ActionLogs\Info.aspx" />
@@ -1448,6 +1450,13 @@
     </Compile>
     <Compile Include="SysLogin.aspx.designer.cs">
       <DependentUpon>SysLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZeroConfig\Projects\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroConfig\Projects\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
     </Compile>
     <Compile Include="UZeroJobs\RemoteJobs\Add.aspx.cs">
       <DependentUpon>Add.aspx</DependentUpon>

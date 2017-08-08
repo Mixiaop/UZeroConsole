@@ -51,6 +51,34 @@ namespace UZeroConsole.Services.Config.Impl
         #endregion
 
         #region Objects
+        public ConfigObject InsertObject(ConfigObject obj) {
+            obj.Id = _objectRepository.InsertAndGetId(obj);
+            return obj;
+        }
+
+        public void UpdateObject(ConfigObject obj) {
+            _objectRepository.Update(obj);
+        }
+
+        public void DeleteObject(ConfigObject obj) {
+            _objectRepository.Delete(obj);
+        }
+
+        public PagedResultDto<ConfigObject> QueryObjects(int projectId = 0, string keywords = "", int pageIndex = 1, int pageSize = 20) {
+            var query = _objectRepository.GetAll();
+            if (projectId > 0) {
+                query = query.Where(x => x.ProjectId == projectId);
+            }
+            if (keywords.IsNotNullOrEmpty()) {
+                query = query.Where(x => x.Name.Contains(keywords));
+            }
+
+            query = query.OrderByDescending(x => x.CreationTime);
+            var count = query.Count();
+            var list = query.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
+
+            return new PagedResultDto<ConfigObject>(count, list);
+        }
         #endregion
 
         #region Attrs

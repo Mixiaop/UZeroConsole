@@ -22,6 +22,13 @@ namespace UZeroConsole.Services.Config
         #endregion
 
         #region Objects
+        ConfigObject InsertObject(ConfigObject obj);
+
+        void UpdateObject(ConfigObject obj);
+
+        void DeleteObject(ConfigObject obj);
+
+        PagedResultDto<ConfigObject> QueryObjects(int projectId = 0, string keywords = "", int pageIndex = 1, int pageSize = 20);
         #endregion
 
         #region Attrs
