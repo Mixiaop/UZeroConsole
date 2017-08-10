@@ -14,9 +14,9 @@ namespace UZeroConsole.Config
         /// <summary>
         /// 获取某个配置的值
         /// </summary>
-        /// <param name="objKey">配置所属的项目KEY</param>
+        /// <param name="objName">配置所属的对象名称</param>
         /// <param name="name">配置项名称</param>
         /// <returns></returns>
-        string GetAttrValue(string objKey, string name);
+        string GetAttrValue(string objName, string name);
     }
 }

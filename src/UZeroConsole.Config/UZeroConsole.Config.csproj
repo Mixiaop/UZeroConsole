@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigClientService.cs" />
+    <Compile Include="ConfigClientSettings.cs" />
     <Compile Include="Dto\ConfigAttr.cs" />
     <Compile Include="IConfigClientService.cs" />
     <Compile Include="UZeroConsoleConfigUPrime.cs" />
