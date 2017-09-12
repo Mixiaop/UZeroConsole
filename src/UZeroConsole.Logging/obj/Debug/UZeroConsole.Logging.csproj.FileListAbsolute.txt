@@ -46,3 +46,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Logging\bin\Debug\Newtonsoft.Json.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.csprojResolveAssemblyReference.cache
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.Logging\bin\Debug\Microsoft.Web.Administration.dll

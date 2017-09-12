@@ -38,6 +38,7 @@
                             <tr>
                                 <td width="10%"></td>
                                 <th width="15%">Name</th>
+                                <th width="15%">Type</th>
                                 <th class="text-center">Key</th>
                                 <th class="text-center">Url</th>
                                 <th class="text-center">Desc</th>
@@ -64,6 +65,20 @@
                                                                                                        { %>
                                     <label class="label label-success">运行中</label>
                                     <%}%></td>
+                                <td class="text-center">
+                                    <% if (app.Type == UZeroConsole.Domain.Jobs.RemoteJobType.General)
+                                             { %>
+                                        普通
+                                    <%}
+                                             else if (app.Type == UZeroConsole.Domain.Jobs.RemoteJobType.AtTime)
+                                             { %>
+                                    定时(<%= app.AtTime %>)
+                                    <%}
+                                             else if (app.Type == UZeroConsole.Domain.Jobs.RemoteJobType.Recurring)
+                                             { %>
+                                    循环(<%= app.RecurringSeconds %> 秒)
+                                    <%} %>
+                                </td>
                                 <td class="text-center"><%= app.Key %></td>
                                 <td class="text-center"><%= app.Url %></td>
                                 <td class="text-center"><%= app.Desc %> </td>

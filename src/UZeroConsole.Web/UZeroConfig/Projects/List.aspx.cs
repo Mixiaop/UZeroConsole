@@ -12,9 +12,16 @@ namespace UZeroConsole.Web.UZeroConfig.Projects
     public partial class List : AuthPageBase
     {
         IConfigService _configService = UPrimeEngine.Instance.Resolve<IConfigService>();
+
+        protected ListModel Model = new ListModel();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+    }
+
+
+    public class ListModel {
+
     }
 }

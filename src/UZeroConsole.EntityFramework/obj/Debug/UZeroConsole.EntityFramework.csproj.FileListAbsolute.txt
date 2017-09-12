@@ -50,3 +50,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramewo
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.csprojResolveAssemblyReference.cache
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Microsoft.Web.Administration.dll

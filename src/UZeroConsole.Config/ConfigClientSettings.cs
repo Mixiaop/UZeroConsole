@@ -11,9 +11,9 @@ namespace UZeroConsole.Configuration
         public string ServerHost { get; set; }
 
         /// <summary>
-        /// 当前使用的项目KEY
+        /// 默认使用的项目KEY
         /// </summary>
-        public string ProjectKey { get; set; }
+        public string DefaultProjectKey { get; set; }
         
         /// <summary>
         /// 是否为 debug env，默认 false
