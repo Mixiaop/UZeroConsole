@@ -180,5 +180,5 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.csprojRe
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Web.Infrastructure.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Web.Infrastructure.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Web.Administration.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Web.Infrastructure.xml

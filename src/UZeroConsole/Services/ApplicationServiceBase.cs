@@ -3,10 +3,10 @@ using U.Application.Services.Events;
 
 namespace UZeroConsole.Services
 {
-    public abstract class ApplicationBase : U.Application.Services.ApplicationService
+    public abstract class ApplicationServiceBase : U.Application.Services.ApplicationService
     {
         public IEventPublisher EventPublisher;
-        public ApplicationBase() {
+        public ApplicationServiceBase() {
             EventPublisher = UPrimeEngine.Instance.Resolve<IEventPublisher>();
         }
     }

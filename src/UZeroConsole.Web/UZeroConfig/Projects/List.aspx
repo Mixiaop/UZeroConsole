@@ -19,9 +19,9 @@
                 <div class="col-xs-12">
                     <div class="form-inline">
                         <div class="form-group">
-                            <%--<input type="text" id="txtKeywords" placeholder="名称" class="form-control" value="<%= Model.GetKeywords %>" />--%>
+                            <input type="text" id="txtKeywords" placeholder="关键字" class="form-control" value="<%= Model.GetKeywords %>" />
                             <label class="col-xs-pull-1">
-                                <%--<input type="button" class="btn btn-primary btn-sm" id="btnSearch" value="搜索" />--%>
+                                <input type="button" class="btn btn-primary btn-sm" id="btnSearch" value="搜索" />
                                 <a href="Add.aspx?<%= GetBackUrlEncoded() %>" class="btn btn-primary btn-sm">添加</a>
                             </label>
                         </div>
@@ -44,6 +44,7 @@
                                 <th class="text-center" width="8%">Time</th>
                             </tr>
                         </thead>
+                        <%= Model.Results.Items.Count %>
                         <%--<tbody>
                             <% foreach (var app in Model.Results.Items)
                                { %>
@@ -74,4 +75,11 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    <script>
+        $(document).ready(function () {
+            $('#btnSearch').click(function () {
+                alert(1);
+            });
+        });
+    </script>
 </asp:Content>

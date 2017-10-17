@@ -69,4 +69,5 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTest
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTests.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTests.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructure.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Administration.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructure.xml

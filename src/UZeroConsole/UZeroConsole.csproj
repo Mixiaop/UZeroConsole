@@ -74,6 +74,25 @@
     <Compile Include="Configuration\ConsoleSettings.cs" />
     <Compile Include="Configuration\LoggingSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
+    <Compile Include="Domain\CMS\CMSEnums.cs" />
+    <Compile Include="Domain\CMS\Content.cs" />
+    <Compile Include="Domain\CMS\ContentGroup.cs" />
+    <Compile Include="Domain\CMS\ContentImage.cs" />
+    <Compile Include="Domain\CMS\ContentParam.cs" />
+    <Compile Include="Domain\CMS\Node.cs" />
+    <Compile Include="Domain\CMS\NodeGroup.cs" />
+    <Compile Include="Domain\CMS\NodeParam.cs" />
+    <Compile Include="Domain\CMS\Param.cs" />
+    <Compile Include="Domain\CMS\Repositories\IContentGroupRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\IContentImageRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\IContentParamRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\IContentRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\INodeGroupRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\INodeParamRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\INodeRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\IParamRepository.cs" />
+    <Compile Include="Domain\CMS\Repositories\ITagRepository.cs" />
+    <Compile Include="Domain\CMS\Tag.cs" />
     <Compile Include="Domain\Config\ConfigAttr.cs" />
     <Compile Include="Domain\Config\ConfigObject.cs" />
     <Compile Include="Domain\Config\ConfigProject.cs" />
@@ -106,7 +125,9 @@
     </Compile>
     <Compile Include="Domain\RolePermission.cs" />
     <Compile Include="Services\AdminService.cs" />
-    <Compile Include="Services\ApplicationBase.cs" />
+    <Compile Include="Services\ApplicationServiceBase.cs" />
+    <Compile Include="Services\CMS\Impl\NodeService.cs" />
+    <Compile Include="Services\CMS\INodeService.cs" />
     <Compile Include="Services\Config\IConfigService.cs" />
     <Compile Include="Services\Config\Impl\ConfigService.cs" />
     <Compile Include="Services\Dto\AdminDto.cs" />

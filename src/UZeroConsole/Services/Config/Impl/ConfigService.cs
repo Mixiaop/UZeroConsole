@@ -6,7 +6,7 @@ using UZeroConsole.Domain.Config.Repositories;
 
 namespace UZeroConsole.Services.Config.Impl
 {
-    public class ConfigService : ApplicationBase, IConfigService
+    public class ConfigService : ApplicationServiceBase, IConfigService
     {
         private readonly IConfigProjectRepository _projectRepository;
         private readonly IConfigObjectRepository _objectRepository;

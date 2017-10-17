@@ -25,7 +25,9 @@ namespace UZeroConsole
             public const string Config_ConfigProjects = "UZeroConsole_Config_ConfigProjects";
             public const string Config_ConfigObjects = "UZeroConsole_Config_ConfigObjects";
             public const string Config_ConfigAttrs = "UZeroConsole_Config_ConfigAttrs";
-            
+
+
+            public const string CMS_Nodes = "UZeroConsole_CMS_Nodes";
         }
     }
 }

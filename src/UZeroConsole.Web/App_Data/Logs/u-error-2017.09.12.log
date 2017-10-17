@@ -1,0 +1,4 @@
+2017-09-12 14:14:00,696 [58] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZeroConfig\Projects\List.aspx(22): error CS1061: “UZeroConsole.Web.UZeroConfig.Projects.ListModel”不包含“GetKeywords”的定义，并且找不到可接受类型为“UZeroConsole.Web.UZeroConfig.Projects.ListModel”的第一个参数的扩展方法“GetKeywords”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZeroConfig/Projects/List.aspx
+2017-09-12 14:19:43,459 [7] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroConfig/Projects/List.aspx
