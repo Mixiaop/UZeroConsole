@@ -21,7 +21,7 @@ namespace UZeroConsole.Services
         /// </summary>
         /// <param name="admin">管理员信息</param>
         /// <param name="createPersistentCookie">是否创建固定的cookie</param>
-        public void SignIn(AdminDto admin, bool createPersistentCookie)
+        public void SignIn(AdminDto admin, bool createPersistentCookie = true)
         {
             var now = DateTime.UtcNow.ToLocalTime();
             var ticket = new FormsAuthenticationTicket(
@@ -49,6 +49,8 @@ namespace UZeroConsole.Services
 
             HttpContext.Current.Response.Cookies.Add(cookie);
             _cachedAdmin = admin;
+
+            _adminService.UpdateLastLoginTime(admin.Id);
         }
 
         /// <summary>

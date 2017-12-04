@@ -8,6 +8,8 @@ namespace UZeroConsole.EntityFramework.Mapping
         {
             this.ToTable(DbConsts.DbTableName.Roles);
             this.HasKey(x => x.Id);
+
+            this.HasRequired(x => x.SsoApp).WithMany().HasForeignKey(x => x.SsoAppId);
         }
     }
 }

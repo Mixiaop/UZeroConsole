@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title><%= ConsoleSettings.Title %> login</title>
+    <title><%= Model.Title %> login</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
     <!-- Stylesheets -->
     <!-- OneUI CSS framework -->
@@ -35,7 +35,7 @@
                 <div class="block block-themed animated fadeIn">
                     <div class="block-header bg-primary">
 
-                        <h3 class="block-title"><%= ConsoleSettings.Title %></h3>
+                        <h3 class="block-title"><%= Model.Title %></h3>
                     </div>
                     <div class="block-content block-content-full block-content-narrow">
                         <!-- Login Title -->

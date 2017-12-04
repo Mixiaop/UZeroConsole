@@ -6,7 +6,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title><%= ConsoleSettings.Title %></title>
+    <title><%= this.Settings.Title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
@@ -21,6 +21,42 @@
 
     <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
     <!-- <link rel="stylesheet" id="css-theme" href="/assets/css/themes/flat.min.css"> -->
+    <style type="text/css">
+        
+        #main-container {
+            position:relative;
+            z-index:100;
+            background:none;
+        }
+        #page-container {
+            background:none;
+        }
+        .side-teambar {
+            margin: 0 auto;
+            padding:13px 20px 1px;
+            max-width: 100%;
+        }
+        .teambar{
+            width:100%;
+            margin: 0 -20px;
+            border-left:3px solid #BD4A39;
+            padding-left:10px;
+        }
+            .teambar>button {
+                background:#212330;
+                font-weight:normal;
+                font-size:15px !important;
+                font-family:'Microsoft YaHei';
+                border:0;
+                color:#666 !important;
+                text-align:left;
+            }
+                .teambar>button i {
+                    font-size:15px !important;
+                    color:#666;
+                    margin-left:5px;
+                }
+    </style>
     <!-- END Stylesheets -->
 </head>
 <body style="overflow:hidden;">
@@ -62,7 +98,31 @@
                         </a>
                     </div>
                     <!-- END Side Header -->
-
+                    <% if (Model.IsOpendSso)
+                        { %>
+                    <div class="side-teambar">
+                            <div class="btn-group btn-group-xs teambar">
+                                            <button class="btn btn-default title" data-toggle="dropdown" type="button"><%= Model.CurrentApp!=null?Model.CurrentApp.Name:"" %> <i class="fa fa-caret-down"></i></button>
+                                            <ul class="dropdown-menu dropdown-menu-left">
+                                                <% if (Model.Apps != null)
+                                                         {
+                                                             foreach (var app in Model.Apps)
+                                                             {
+                                                                 if (app.Id != Model.CurrentApp.Id)
+                                                                 {
+                                                       %>
+                                                <li>
+                                                    <a tabindex="-1" href="<%= app.ReturnUrl %>"  class="btnUsedTeam"><i class="si si-cup"></i> &nbsp;<%= app.Name %></a>
+                                                </li>
+                                                <%}
+                                                             }
+                                                         }%>
+                                                <%--<li class="divider"></li>--%>
+                                            </ul>
+                                        </div>
+                        </div>
+                    <%} %>
+                    <% var Permissions = Model.Permissions; %>
                     <!-- Side Content -->
                     <div class="side-content" id="leftmenu">
                         <ul class="nav-main">

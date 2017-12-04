@@ -1,0 +1,16 @@
+2017-11-30 09:27:21,095 [94] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\PermissionList.aspx(33): error CS1502: 与“UZeroConsole.Services.IPermissionsService.GetAll(int, bool)”最匹配的重载方法具有一些无效参数
+ http://localhost:8400/UZero/PermissionList.aspx?time=0.7488930845368118
+2017-11-30 09:27:33,610 [94] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\PermissionList.aspx(33): error CS1502: 与“UZeroConsole.Services.IPermissionsService.GetAll(int, bool)”最匹配的重载方法具有一些无效参数
+ http://localhost:8400/UZero/PermissionList.aspx?time=0.38778316429812687
+2017-11-30 10:15:26,670 [14] U.Logging.ULog4netLogger - (null) - 服务器标记的格式不正确。
+ http://localhost:8400/UZero/Sso/AppList.aspx?time=0.5599698949162537
+2017-11-30 10:17:36,795 [12] U.Logging.ULog4netLogger - (null) - 服务器标记的格式不正确。
+ http://localhost:8400/UZero/Sso/AppList.aspx?time=0.3806116348791335
+2017-11-30 11:39:13,943 [59] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/RepositoryTests.aspx
+2017-11-30 11:43:19,119 [50] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/RepositoryTests.aspx
+2017-11-30 15:26:26,056 [46] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\Default.aspx(65): error CS0103: 当前上下文中不存在名称“Model”
+ http://localhost:8400/default.aspx
+2017-11-30 15:26:38,042 [46] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\Default.aspx(9): error CS0103: 当前上下文中不存在名称“ConsoleSettings”
+ http://localhost:8400/default.aspx

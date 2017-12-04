@@ -125,6 +125,10 @@
     <Reference Include="U">
       <HintPath>..\packages\U\U.dll</HintPath>
     </Reference>
+    <Reference Include="U.AutoMapper, Version=0.5.7.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="U.EntityFramework">
       <HintPath>..\packages\U\U.EntityFramework.dll</HintPath>
     </Reference>
@@ -695,10 +699,23 @@
     <Content Include="UZeroLogging\SOA\Action_GetTopLogs.aspx" />
     <Content Include="UZeroLogging\SOA\Exception.aspx" />
     <Content Include="UZeroLogging\SOA\Log.aspx" />
+    <Content Include="UZeroSOA\Sso\SignIn.aspx" />
     <Content Include="UZero\AdminCreate.aspx" />
     <Content Include="UZero\AdminUpdate.aspx" />
+    <Content Include="UZero\Sso\AdminCreate.aspx" />
+    <Content Include="UZero\Sso\AdminList.aspx" />
+    <Content Include="UZero\Sso\AdminUpdate.aspx" />
+    <Content Include="UZero\Sso\AppCreate.aspx" />
+    <Content Include="UZero\Sso\AppList.aspx" />
+    <Content Include="UZero\Sso\AppUpdate.aspx" />
+    <Content Include="UZero\Sso\PermissionList.aspx" />
+    <Content Include="UZero\Sso\permissionList.js" />
+    <Content Include="UZero\Sso\RoleList.aspx" />
+    <Content Include="UZero\Sso\roleList.js" />
+    <Content Include="UZero\Sso\RoleSetPermissions.aspx" />
     <Content Include="_Tests\JobTests.aspx" />
     <Content Include="_Tests\LoggingTests.aspx" />
+    <Content Include="_Tests\RepositoryTests.aspx" />
     <Content Include="_Tests\WebForm1.aspx" />
     <Content Include="_Tests\WebRequestHelperPostReceiveTests.aspx" />
     <Content Include="_Tests\WebRequestHelperTests.aspx" />
@@ -1550,6 +1567,13 @@
     <Compile Include="UZeroLogging\SOA\Log.aspx.designer.cs">
       <DependentUpon>Log.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZeroSOA\Sso\SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Sso\SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\AdminCreate.aspx.cs">
       <DependentUpon>AdminCreate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1599,6 +1623,69 @@
     <Compile Include="UZero\RoleSetPermissions.aspx.designer.cs">
       <DependentUpon>RoleSetPermissions.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZero\Sso\AdminCreate.aspx.cs">
+      <DependentUpon>AdminCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AdminCreate.aspx.designer.cs">
+      <DependentUpon>AdminCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\AdminList.aspx.cs">
+      <DependentUpon>AdminList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AdminList.aspx.designer.cs">
+      <DependentUpon>AdminList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\AdminUpdate.aspx.cs">
+      <DependentUpon>AdminUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AdminUpdate.aspx.designer.cs">
+      <DependentUpon>AdminUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\AppCreate.aspx.cs">
+      <DependentUpon>AppCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AppCreate.aspx.designer.cs">
+      <DependentUpon>AppCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\AppList.aspx.cs">
+      <DependentUpon>AppList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AppList.aspx.designer.cs">
+      <DependentUpon>AppList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\AppUpdate.aspx.cs">
+      <DependentUpon>AppUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\AppUpdate.aspx.designer.cs">
+      <DependentUpon>AppUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\PermissionList.aspx.cs">
+      <DependentUpon>PermissionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\PermissionList.aspx.designer.cs">
+      <DependentUpon>PermissionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\RoleList.aspx.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\RoleList.aspx.designer.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Sso\RoleSetPermissions.aspx.cs">
+      <DependentUpon>RoleSetPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Sso\RoleSetPermissions.aspx.designer.cs">
+      <DependentUpon>RoleSetPermissions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_Tests\JobTests.aspx.cs">
       <DependentUpon>JobTests.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1612,6 +1699,13 @@
     </Compile>
     <Compile Include="_Tests\LoggingTests.aspx.designer.cs">
       <DependentUpon>LoggingTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\RepositoryTests.aspx.cs">
+      <DependentUpon>RepositoryTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\RepositoryTests.aspx.designer.cs">
+      <DependentUpon>RepositoryTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -1649,9 +1743,7 @@
       <Name>UZeroConsole</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UZeroCMS\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

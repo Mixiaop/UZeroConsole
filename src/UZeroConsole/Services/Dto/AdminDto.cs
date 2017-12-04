@@ -1,4 +1,6 @@
-﻿using U.Application.Services.Dto;
+﻿using System.Collections;
+using System.Collections.Generic;
+using U.Application.Services.Dto;
 using System;
 
 namespace UZeroConsole.Services.Dto
@@ -34,6 +36,20 @@ namespace UZeroConsole.Services.Dto
         /// 最后登录时间
         /// </summary>
         public DateTime LastLoginTime { get; set; }
+        
+        public ICollection<RoleDto> Roles { get; set; }
+
+        public IList<int> RoleIds {
+            get {
+                List<int> ids = new List<int>();
+                if (Roles != null) {
+                    foreach (var role in Roles) {
+                        ids.Add(role.Id);
+                    }
+                }
+                return ids;
+            }
+        }
 
     }
 }

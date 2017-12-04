@@ -12,7 +12,7 @@ namespace UZeroConsole.Services
         /// </summary>
         /// <param name="admin">管理员信息</param>
         /// <param name="createPersistentCookie">是否创建固定的cookie</param>
-        void SignIn(AdminDto admin, bool createPersistentCookie);
+        void SignIn(AdminDto admin, bool createPersistentCookie = true);
 
         /// <summary>
         /// 登出

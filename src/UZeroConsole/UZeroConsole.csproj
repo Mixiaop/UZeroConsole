@@ -124,6 +124,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Domain\RolePermission.cs" />
+    <Compile Include="Domain\Sso\AdminAuthSession.cs" />
+    <Compile Include="Domain\Sso\App.cs" />
+    <Compile Include="Domain\Sso\Repositories\IAdminAuthSessionRepository.cs" />
+    <Compile Include="Domain\Sso\Repositories\IAppRepository.cs" />
     <Compile Include="Services\AdminService.cs" />
     <Compile Include="Services\ApplicationServiceBase.cs" />
     <Compile Include="Services\CMS\Impl\NodeService.cs" />
@@ -142,6 +146,7 @@
     <Compile Include="Services\Dto\SearchAdminInput.cs" />
     <Compile Include="Services\Dto\SearchPermissionInput.cs" />
     <Compile Include="Services\Dto\ZeroUserDto.cs" />
+    <Compile Include="Services\Extensions.cs" />
     <Compile Include="Services\FormsAuthenticationService.cs" />
     <Compile Include="Services\IAdminService.cs" />
     <Compile Include="Services\IApplicationService.cs" />
@@ -162,6 +167,14 @@
     <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
     <Compile Include="Services\PermissionsService.cs" />
     <Compile Include="Services\RoleService.cs" />
+    <Compile Include="Services\Sso\Dto\AppDto.cs" />
+    <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
+    <Compile Include="Services\Sso\IAppService.cs" />
+    <Compile Include="Services\Sso\Impl\AppService.cs" />
+    <Compile Include="Services\Sso\Impl\SsoAuthenticationService.cs" />
+    <Compile Include="Services\Sso\Impl\SsoWebService.cs" />
+    <Compile Include="Services\Sso\ISsoAuthenticationService.cs" />
+    <Compile Include="Services\Sso\ISsoWebService.cs" />
     <Compile Include="UZeroConsoleConsts.cs" />
     <Compile Include="UZeroConsoleUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

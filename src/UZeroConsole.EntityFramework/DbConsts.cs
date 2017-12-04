@@ -7,12 +7,17 @@ namespace UZeroConsole
 
         public class DbTableName
         {
+            //Sso
+            public const string Sso_Apps = "UZeroConsole_Sso_Apps";
+            public const string Sso_AdminAuthSessions = "UZeroConsole_Sso_AdminAuthSessions";
+
             //Console
             public const string Admins = "UZeroConsole_Admins";
             public const string AdminLogs = "UZeroConsole_AdminLogs";
             public const string Roles = "UZeroConsole_Roles";
             public const string Permissions = "UZeroConsole_Permissions";
             public const string RolePermissions = "UZeroConsole_RolePermissions";
+            public const string Admin_Roles_Mapping = "UZeroConsole_AdminRoles_Mapping";
 
             public const string Jobs_RemoteJobs = "UZeroConsole_Jobs_RemoteJobs";
 

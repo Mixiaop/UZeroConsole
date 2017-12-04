@@ -30,7 +30,7 @@
                     <div class="widget-body">
                         <div id="permissions" class="tree tree-plus-minus">
                             <% 
-                                var list = permissionService.GetAll();
+                                var list = permissionService.GetAll(0, true);
                                 if (list.Count == 0)
                                 {
                             %>

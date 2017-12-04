@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using U.Domain.Entities;
 using U.Domain.Entities.Auditing;
 
@@ -7,7 +9,7 @@ namespace UZeroConsole.Domain
     /// <summary>
     /// 代表一个“管理员”
     /// </summary>
-    public class Admin : Entity,IHasCreationTime, ISoftDelete
+    public class Admin : Entity, IHasCreationTime, ISoftDelete
     {
         /// <summary>
         /// 默认管理员的用户名
@@ -50,6 +52,7 @@ namespace UZeroConsole.Domain
         /// </summary>
         public DateTime? LastLoginTime { get; set; }
 
+        #region IHasCreationTime, ISoftDelete
         /// <summary>
         /// 是否已删除
         /// </summary>
@@ -59,11 +62,31 @@ namespace UZeroConsole.Domain
         /// 创建时间
         /// </summary>
         public virtual DateTime CreationTime { get; set; }
+        #endregion
 
         /// <summary>
         /// 用户角色
         /// </summary>
+        //[Obsolete("多角色会替换之")]
         public virtual Role Role { get; set; }
 
+        /// <summary>
+        /// 角色列表
+        /// </summary>
+        public virtual ICollection<Role> Roles { get; set; }
+
+        #region Custom
+        public IList<int> RoleIds {
+            get {
+                List<int> roleIds = new List<int>();
+                if (Roles != null) {
+                    foreach (var r in Roles)
+                        roleIds.Add(r.Id);
+                }
+
+                return roleIds;
+            }
+        }
+        #endregion
     }
 }

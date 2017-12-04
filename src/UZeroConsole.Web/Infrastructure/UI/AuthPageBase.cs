@@ -2,6 +2,7 @@
 using U;
 using U.Utilities.Web;
 using U.FakeMvc.Controllers;
+using UZeroConsole.Configuration;
 using UZeroConsole.Services;
 using UZeroConsole.Services.Dto;
 
@@ -10,7 +11,7 @@ namespace UZeroConsole.Web
     public class AuthPageBase : PageBase
     {
         public AdminDto CurrentAdmin;
-
+        
         //public UZeroConsoleWebLogService Logger = UPrimeEngine.Instance.Resolve<UZeroConsoleWebLogService>();
         protected override void OnPreInit(EventArgs e)
         {
@@ -85,11 +86,13 @@ namespace UZeroConsole.Web
     public abstract class AuthPageBase<TCtrl, TModel> : PageBase<TCtrl, TModel> where TCtrl : ControllerBase
     {
         public AdminDto CurrentAdmin;
+        
 
         //public UZeroConsoleWebLogService Logger = UPrimeEngine.Instance.Resolve<UZeroConsoleWebLogService>();
         protected override void OnPreInit(EventArgs e)
         {
             base.OnPreInit(e);
+            
             IAuthenticationService authService = UPrimeEngine.Instance.Resolve<IAuthenticationService>();
 
             CurrentAdmin = authService.GetAuthenticatedAdmin();

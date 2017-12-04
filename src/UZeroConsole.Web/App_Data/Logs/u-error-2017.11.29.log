@@ -1,0 +1,6 @@
+2017-11-29 16:59:58,645 [308] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Sso/PermissionList.aspx
+2017-11-29 17:01:27,921 [293] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Sso/PermissionList.aspx
+2017-11-29 17:01:32,817 [304] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Sso/PermissionList.aspx

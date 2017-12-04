@@ -5,17 +5,33 @@ using U.UI;
 using U.Utilities.Web;
 using UZeroConsole.Configuration;
 using UZeroConsole.Services;
+using UZeroConsole.Services.Sso;
 
 namespace UZeroConsole.Web
 {
     public partial class SysLogin : PageBase
     {
-        protected ConsoleSettings ConsoleSettings = UPrimeEngine.Instance.Resolve<ConsoleSettings>();
-        protected string redirectUrl;
+        IAppService _appService = UPrimeEngine.Instance.Resolve<IAppService>();
+        ISsoWebService _ssoService = UPrimeEngine.Instance.Resolve<ISsoWebService>();
+
+        protected SysLoginModel Model = new SysLoginModel();
         protected void Page_Load(object sender, EventArgs e)
         {
             btnLogin.Click += btnLogin_Click;
-            redirectUrl = WebHelper.GetString("redirectUrl");
+
+            Model.Title = this.Settings.Title;
+
+            #region Sso
+            if (this.Settings.IsSsoOpend && !this.Settings.IsDebug)
+            {
+                if (!_ssoService.IsServer())
+                {
+                    Response.Redirect(_ssoService.GetServerLoginUrl());
+                    Response.End();
+                }
+            }
+            #endregion
+
             if (!IsPostBack)
             {
                 //获取记住的用户
@@ -75,12 +91,21 @@ namespace UZeroConsole.Web
                 var admin = adminService.Validation(username, password);
                 if (admin != null)
                 {
-                    authService.SignIn(admin, true);
-                    adminService.UpdateLastLoginTime(admin.Id);
-                    if (redirectUrl.IsNullOrEmpty())
-                        Response.Redirect("/");
+                    if (this.Settings.IsSsoOpend && !this.Settings.IsDebug)
+                    {
+                        #region Sso
+                        _ssoService.CreateSessionRedirectToSignIn(admin, Model.GetSsoAppKey);
+                        #endregion
+                    }
                     else
-                        Response.Redirect(redirectUrl);
+                    {
+                        authService.SignIn(admin, true);
+
+                        if (Model.GetRedirectUrl.IsNullOrEmpty())
+                            Response.Redirect("/");
+                        else
+                            Response.Redirect(Model.GetRedirectUrl);
+                    }
                 }
             }
             catch (UserFriendlyException ex)
@@ -127,5 +152,13 @@ namespace UZeroConsole.Web
             CookieHelper.ClearCookie(COOKIE_USER_NAME);
         }
         #endregion
+    }
+
+    public class SysLoginModel
+    {
+        public string GetSsoAppKey { get { return WebHelper.GetString("ssoAppKey"); } }
+        public string GetRedirectUrl { get { return WebHelper.GetString("redirectUrl"); } }
+
+        public string Title { get; set; }
     }
 }

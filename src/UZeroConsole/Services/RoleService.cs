@@ -29,6 +29,7 @@ namespace UZeroConsole.Services
         {
             if (string.IsNullOrEmpty(input.Name)) { throw new UserFriendlyException("角色名称不能为空"); }
             var role = new Role();
+            role.SsoAppId = input.SsoAppId;
             role.Name = input.Name;
             role.Remark = input.Remark;
             _roleRepository.Insert(role);
@@ -73,10 +74,18 @@ namespace UZeroConsole.Services
         /// <summary>
         /// 获取所有角色
         /// </summary>
+        /// <param name="ssoAppId">应用Id（开启Sso时会用到）</param>
         /// <returns></returns>
-        public IList<RoleDto> GetAll()
+        public IList<RoleDto> GetAll(int ssoAppId = 0)
         {
-            var list = _roleRepository.GetAll().OrderBy(x => x.Id).ToList();
+            var query = _roleRepository.GetAll();
+            if (ssoAppId > 0)
+            {
+                query = query.Where(x => x.SsoAppId == ssoAppId);
+            }
+
+            var list = query.OrderBy(x => x.Id).ToList();
+            
             return list.MapTo<IList<RoleDto>>();
         }
         #endregion
@@ -120,7 +129,7 @@ namespace UZeroConsole.Services
         /// </summary>
         /// <param name="roleIds"></param>
         /// <returns></returns>
-        public IList<RolePermissionDto> GetPermissions(List<int> roleIds)
+        public IList<RolePermissionDto> GetPermissions(IList<int> roleIds)
         {
             var list = _rolePermissionRepository.GetAll().Where(x => roleIds.Contains(x.RoleId)).ToList();
 

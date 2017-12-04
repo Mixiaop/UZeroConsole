@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using UZeroConsole.Domain;
+using UZeroConsole.Domain.Sso;
 using UZeroConsole.Services.Dto;
+using UZeroConsole.Services.Sso.Dto;
 
 namespace UZeroConsole.Services.Mappers
 {
@@ -30,6 +32,7 @@ namespace UZeroConsole.Services.Mappers
             Mapper.CreateMap<Permission, PermissionDto>().ReverseMap();
             Mapper.CreateMap<Role, RoleDto>().ReverseMap();
             Mapper.CreateMap<RolePermission, RolePermissionDto>().ReverseMap();
+            Mapper.CreateMap<App, AppDto>().ReverseMap();
         }
     }
 }

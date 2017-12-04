@@ -19,6 +19,11 @@ namespace UZeroConsole.Web.UZero
         protected void Page_Load(object sender, EventArgs e)
         {
             btnSave.Click += btnSave_Click;
+            if (Settings.IsSsoOpend && Settings.IsSsoServer)
+            {
+                Response.Redirect("/UZero/Sso/RoleSetPermissions.aspx");
+            }
+
             if (roleId == 0)
                 Response.Redirect("RoleList.aspx");
 

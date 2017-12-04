@@ -38,8 +38,9 @@ namespace UZeroConsole.Services
         /// <summary>
         /// 获取所有角色
         /// </summary>
+        /// <param name="ssoAppId">应用Id（开启Sso时会用到）</param>
         /// <returns></returns>
-        IList<RoleDto> GetAll();
+        IList<RoleDto> GetAll(int ssoAppId = 0);
         #endregion
 
         #region RolePermission
@@ -67,7 +68,7 @@ namespace UZeroConsole.Services
         /// </summary>
         /// <param name="roleIds"></param>
         /// <returns></returns>
-        IList<RolePermissionDto> GetPermissions(List<int> roleIds);
+        IList<RolePermissionDto> GetPermissions(IList<int> roleIds);
         #endregion
     }
 }

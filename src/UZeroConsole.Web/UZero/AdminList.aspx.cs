@@ -15,6 +15,11 @@ namespace UZeroConsole.Web.UZero
         protected void Page_Load(object sender, EventArgs e)
         {
             btnSearch.Click += btnSearch_Click;
+            if (Settings.IsSsoOpend && Settings.IsSsoServer)
+            {
+                Response.Redirect("/UZero/Sso/AdminList.aspx");
+            }
+
             if (!IsPostBack)
             {
                 var roles = roleService.GetAll();
@@ -22,7 +27,7 @@ namespace UZeroConsole.Web.UZero
                 ddlRole.DataValueField = "Id";
                 ddlRole.DataTextField = "Name";
                 ddlRole.DataBind();
-                ddlRole.Items.Insert(0, new ListItem("请选择角色", "-1"));
+                ddlRole.Items.Insert(0, new ListItem("全部角色", "-1"));
 
                 ddlRole.SelectedValue = WebHelper.GetString("role");
                 tbSearchKeywords.Text = WebHelper.GetString("wd");

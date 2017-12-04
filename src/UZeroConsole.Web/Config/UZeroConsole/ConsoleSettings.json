@@ -1,5 +1,11 @@
 ﻿{
-	AppName: 'UZeroConsole.WebTests',
-    Title: '优志愿【企业版】控制中心',
-	UseJobs: true
+  "IsDebug": true,
+  "AppName": "UZeroConsole.WebTests",
+  "Title": "优志愿【企业版】控制中心",
+  "UseJobs": true,
+  "IsSsoOpend": true,
+  "IsSsoServer": true,
+  "SsoAuthExpiresMinutes": 1440,
+  "SsoServerHost": "",
+  "SsoAppKey": "3c9c3063b1864b7eb60998b10fc8d570"
 }

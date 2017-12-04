@@ -5,6 +5,8 @@ namespace UZeroConsole.Services.Dto
 {
     public class PermissionDto : EntityDto
     {
+        public int SsoAppId { get; set; }
+
         /// <summary>
         /// 权限名称
         /// </summary>

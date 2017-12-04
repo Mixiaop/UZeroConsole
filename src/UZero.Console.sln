@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{15F1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.Config", "UZeroConsole.Config\UZeroConsole.Config.csproj", "{830C6FE3-AB78-48A3-A054-41DFB06D73D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.Client", "UZeroConsole.Client\UZeroConsole.Client.csproj", "{0795393F-4AED-4ACE-8030-845D0A972E44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{830C6FE3-AB78-48A3-A054-41DFB06D73D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830C6FE3-AB78-48A3-A054-41DFB06D73D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830C6FE3-AB78-48A3-A054-41DFB06D73D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795393F-4AED-4ACE-8030-845D0A972E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795393F-4AED-4ACE-8030-845D0A972E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795393F-4AED-4ACE-8030-845D0A972E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795393F-4AED-4ACE-8030-845D0A972E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0A593F7E-D166-4151-9DB2-5E97508D08D6} = {15F15E1C-71EA-4308-9DCD-2EF33C702EF6}
 		{830C6FE3-AB78-48A3-A054-41DFB06D73D5} = {15F15E1C-71EA-4308-9DCD-2EF33C702EF6}
+		{0795393F-4AED-4ACE-8030-845D0A972E44} = {15F15E1C-71EA-4308-9DCD-2EF33C702EF6}
 	EndGlobalSection
 EndGlobal

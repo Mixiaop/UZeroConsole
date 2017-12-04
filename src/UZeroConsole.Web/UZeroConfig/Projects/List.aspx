@@ -36,42 +36,40 @@
                     <table class="table table-hover js-dataTable-full">
                         <thead>
                             <tr>
-                                <td width="10%"></td>
+                                <th width="10%"></th>
                                 <th  width="15%">Name</th>
-                                <th class="text-center">VIEW</th>
-                                <th class="text-center">DESC</th>
-                                <th class="text-center" width="5%">KEY</th>
+                                <th class="text-center">Code</th>
+                                <th class="text-center">Desc</th>
+                                <th class="text-center" width="5%">Key</th>
                                 <th class="text-center" width="8%">Time</th>
                             </tr>
                         </thead>
-                        <%= Model.Results.Items.Count %>
-                        <%--<tbody>
-                            <% foreach (var app in Model.Results.Items)
+                        <% foreach (var app in Model.Results.Items)
                                { %>
+                        <tbody>
                             <tr>
                                 <td >
-                                    <a class='btn btn-default btn-xs active-btn' href="Edit.aspx?appId=<%= app.Id %>&<%= GetBackUrlEncoded() %>" data-toggle="tooltip" title="编辑"><i class="fa fa-pencil"></i></a>
+                                    <%--<a class='btn btn-default btn-xs active-btn' href="Edit.aspx?appId=<%= app.Id %>&<%= GetBackUrlEncoded() %>" data-toggle="tooltip" title="编辑"><i class="fa fa-pencil"></i></a>--%>
                                 </td>
-                                <td ><%= app.Name %> <% if(app.IsTests){ %> <label class="label label-success">test</label> <%} %></td>
-                                <td class="text-center"><a href="../ExceptionLogs/List.aspx?appId=<%= app.Id %>" target="_blank" class="btn btn-info btn-sm">Exception</a> <a href="../ActionLogs/List.aspx?appId=<%= app.Id %>" target="_blank" class="btn btn-info btn-sm">Log</a></td>
-                                <td class="text-center"><%= app.Description %></td>
+                                <td ><%= app.Name %></td>
+                                <td class="text-center"><%= app.Code %></td>
+                                <td class="text-center"><%= app.Desc %></td>
                                 <td class="text-center"><%= app.Key %> </td>
                                 <td class="text-center"><%= app.CreationTime.ToString("yyyy-MM-dd HH:mm") %></td>
                             </tr>
-                            <%} %>
-                        </tbody>--%>
+                        </tbody>
+                        <%} %>
                     </table>
                 </div>
                 <div class="text-center">
-                    <%--<ul class="pagination">
+                    <ul class="pagination">
                         <%= Model.PaginHTML %>
-                    </ul>--%>
+                    </ul>
                 </div>
             </div>
             <!-- END Dynamic Table Full -->
         </div>
         <!-- END Page Content -->
-
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">

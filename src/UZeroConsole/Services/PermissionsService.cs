@@ -38,7 +38,7 @@ namespace UZeroConsole.Services
             permission.Level = input.Level;
             permission.Order = input.Order;
             permission.ParentId = input.ParentId;
-            permission.CreationTime = DateTime.Now;
+            permission.SsoAppId = input.SsoAppId;
             _permissionRepository.Insert(permission);
         }
 
@@ -96,10 +96,37 @@ namespace UZeroConsole.Services
         /// <summary>
         /// 获取所有权限列表
         /// </summary>
+        /// <param name="ssoAppId">Sso应用Id（开启Sso时使用）</param>
+        /// <param name="filterSystem">是否过滤系统权限</param>
         /// <returns></returns>
-        public IList<PermissionDto> GetAll()
+        public IList<PermissionDto> GetAll(int ssoAppId = 0, bool filterSystem = false)
         {
-            var list = _permissionRepository.GetAll().OrderBy(x => x.Order).ToList();
+            var query = _permissionRepository.GetAll();
+            if (ssoAppId > 0)
+            {
+                query = query.Where(x => x.SsoAppId == ssoAppId);
+            }
+
+            if (filterSystem)
+            {
+                query = query.Where(x => x.IsSystem == false);
+            }
+
+            var list = query.OrderBy(x => x.Order).ToList();
+
+            return list.MapTo<List<PermissionDto>>();
+        }
+
+        /// <summary>
+        /// 获取所有系统权限菜单
+        /// </summary>
+        /// <returns></returns>
+        public IList<PermissionDto> GetAllBySystem() {
+            var query = _permissionRepository.GetAll();
+            query = query.Where(x => x.IsSystem == true);
+
+            var list = query.OrderBy(x => x.Order).ToList();
+
             return list.MapTo<List<PermissionDto>>();
         }
     }

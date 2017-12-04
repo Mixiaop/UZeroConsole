@@ -82,6 +82,8 @@
     <Compile Include="Mapping\PermissionMap.cs" />
     <Compile Include="Mapping\RoleMap.cs" />
     <Compile Include="Mapping\RolePermissionMap.cs" />
+    <Compile Include="Mapping\Sso\AdminAuthSessionMap.cs" />
+    <Compile Include="Mapping\Sso\SsoMap.cs" />
     <Compile Include="Mapping\UZeroConsoleEntityTypeConfiguration.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
     <Compile Include="Repositories\CMS\NodeRepository.cs" />
@@ -97,6 +99,8 @@
     <Compile Include="Repositories\PermissionRepository.cs" />
     <Compile Include="Repositories\RolePermissionRepository.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
+    <Compile Include="Repositories\Sso\AdminAuthSessionRepository.cs" />
+    <Compile Include="Repositories\Sso\AppRepository.cs" />
     <Compile Include="UZeroConsoleDbContext.cs" />
     <Compile Include="UZeroConsoleEntityFrameworkUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,6 +3,7 @@ using U;
 using U.FakeMvc.UI;
 using U.Utilities.Web;
 using U.FakeMvc.Controllers;
+using UZeroConsole.Configuration;
 using UZeroConsole.Services;
 using UZeroConsole.Services.Dto;
 
@@ -10,6 +11,8 @@ namespace UZeroConsole.Web
 {
     public class PageBase : System.Web.UI.Page
     {
+        public ConsoleSettings Settings = UPrimeEngine.Instance.Resolve<ConsoleSettings>();
+
         #region Method
         #region Alert
 

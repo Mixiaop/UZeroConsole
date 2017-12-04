@@ -45,7 +45,7 @@
                         %>
                         <tr>
                             <td class="text-center">
-                                <a href="RoleSetPermissions.aspx?roleId=<%= role.Id %>" class='btn btn-xs' data-toggle="tooltip" title="设置权限"><i class="fa fa-key"></i></a>
+                                <a href="RoleSetPermissions.aspx?roleId=<%= role.Id %>" target="_blank" class='btn btn-xs' data-toggle="tooltip" title="设置权限"><i class="fa fa-key"></i></a>
                                 <a class='btn btn-xs' data-toggle="tooltip" title="编辑" onclick="vm.modalUpdateOpen(<%= role.Id %>)"><i class="fa fa-pencil"></i></a>
                                 <a class='btn btn-xs' data-toggle="tooltip" title="删除" onclick="vm.deleteRole(<%= role.Id %>,'<%= role.Name %>')"><i class="fa fa-close"></i></a>
                             </td>

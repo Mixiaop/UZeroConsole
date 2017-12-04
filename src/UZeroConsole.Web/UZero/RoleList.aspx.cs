@@ -14,6 +14,11 @@ namespace UZeroConsole.Web.UZero
         protected void Page_Load(object sender, EventArgs e)
         {
             Utility.RegisterTypeForAjax(typeof(UZeroConsole.Web.AjaxServices.UZero.RoleService));
+            if (Settings.IsSsoOpend && Settings.IsSsoServer)
+            {
+                Response.Redirect("/UZero/Sso/RoleList.aspx");
+            }
+
             roles = roleService.GetAll();
         }
     }

@@ -35,7 +35,15 @@ namespace UZeroConsole.Services
         /// <summary>
         /// 获取所有权限列表
         /// </summary>
+        /// <param name="ssoAppId">Sso应用Id（开启Sso时使用）</param>
+        /// <param name="filterSystem">是否过滤系统权限</param>
         /// <returns></returns>
-        IList<PermissionDto> GetAll();
+        IList<PermissionDto> GetAll(int ssoAppId = 0, bool filterSystem = false);
+
+        /// <summary>
+        /// 获取所有系统权限菜单
+        /// </summary>
+        /// <returns></returns>
+        IList<PermissionDto> GetAllBySystem();
     }
 }

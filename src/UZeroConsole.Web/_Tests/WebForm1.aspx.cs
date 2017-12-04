@@ -13,10 +13,11 @@ namespace UZeroConsole.Web._Tests
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            IRoleService roleService = UPrimeEngine.Instance.Resolve<IRoleService>();
+            //IRoleService roleService = UPrimeEngine.Instance.Resolve<IRoleService>();
 
-            var permissions = roleService.GetPermissions(2);
-            var a = 1;
+            //var permissions = roleService.GetPermissions(2);
+            //var a = 1;
+            Response.Write(Guid.NewGuid().ToString().Replace("-", "").Trim());
 
         }
     }

@@ -63,6 +63,7 @@ GO
 
 CREATE TABLE [dbo].[UZeroConsole_Permissions](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[SsoAppId] [int] NULL,
 	[Name] [nvarchar](200) NULL,
 	[Icon] [varchar](500) NULL,
 	[Url] [varchar](200) NULL,
@@ -81,7 +82,8 @@ GO
 
 SET ANSI_PADDING OFF
 GO
-
+ALTER TABLE [dbo].[UZeroConsole_Permissions] ADD  CONSTRAINT [DF_UZeroConsole_Permissions_SsoAppId]  DEFAULT ((0)) FOR [SsoAppId]
+GO
 ALTER TABLE [dbo].[UZeroConsole_Permissions] ADD  CONSTRAINT [DF_UZeroConsole_Permissions_Name]  DEFAULT ('') FOR [Name]
 GO
 
@@ -167,7 +169,9 @@ GO
 
 INSERT INTO [UZeroConsole_Admins] (Name,Username,Password,RoleId,Remark,LastLoginTime,IsDeleted,CreationTime,CreatorUserId)  values ('超级管理员','admin','21232f297a57a5a743894a0e4a801fc3',3,'',getdate(),0,getdate(),0)
 
-INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order]) VALUES('控制台 Console','','',0,1,-100)
-INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order]) VALUES('权限','','/UZero/PermissionList.aspx',1,2,1)
-INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order]) VALUES('角色','','/UZero/RoleList.aspx',1,2,2)
-INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order]) VALUES('管理员','','/UZero/AdminList.aspx',1,2,3)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('控制台 Console','','',0,1,-100, 1)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('Sso','','',1,2,0, 1)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('应用列表','','/UZero/Sso/AppList.aspx',2,3,1, 1)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('权限','','/UZero/PermissionList.aspx',1,2,1, 1)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('角色','','/UZero/RoleList.aspx',1,2,2, 1)
+INSERT INTO [UZeroConsole_Permissions](Name,Icon,Url,ParentId,[Level],[Order],IsSystem) VALUES('管理员','','/UZero/AdminList.aspx',1,2,3, 1)
