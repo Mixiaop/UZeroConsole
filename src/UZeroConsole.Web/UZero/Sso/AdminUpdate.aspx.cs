@@ -35,7 +35,7 @@ namespace UZeroConsole.Web.UZero.Sso
                 tbUsername.Text = Model.Admin.Username;
                 tbName.Text = Model.Admin.Name;
                 tbRemark.Text = Model.Admin.Remark;
-
+                tbUNoteUsername.Text = Model.Admin.UNoteUsername;
                 if (Model.Admin.Roles != null)
                 {
                     foreach (var role in Model.Admin.Roles)
