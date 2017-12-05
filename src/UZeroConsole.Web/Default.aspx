@@ -103,9 +103,10 @@
                     <div class="side-teambar">
                             <div class="btn-group btn-group-xs teambar">
                                             <button class="btn btn-default title" data-toggle="dropdown" type="button"><%= Model.CurrentApp!=null?Model.CurrentApp.Name:"" %> <i class="fa fa-caret-down"></i></button>
+                                <%if (Model.Apps != null)
+                                                         { %>
                                             <ul class="dropdown-menu dropdown-menu-left">
-                                                <% if (Model.Apps != null)
-                                                         {
+                                                <% 
                                                              foreach (var app in Model.Apps)
                                                              {
                                                                  if (app.Id != Model.CurrentApp.Id)
@@ -116,9 +117,10 @@
                                                 </li>
                                                 <%}
                                                              }
-                                                         }%>
+                                                        %>
                                                 <%--<li class="divider"></li>--%>
                                             </ul>
+                                <%} %>
                                         </div>
                         </div>
                     <%} %>
