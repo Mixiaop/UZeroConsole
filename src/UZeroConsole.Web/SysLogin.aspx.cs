@@ -91,6 +91,14 @@ namespace UZeroConsole.Web
                 var admin = adminService.Validation(username, password);
                 if (admin != null)
                 {
+                    #region 开启UNOTE
+                    if (WebHelper.GetInt("unote", 0) == 1 && this.Settings.UNoteExternalLoginOpened && admin.UNoteUsername.IsNotNullOrEmpty())
+                    {
+                        Response.Redirect(string.Format("{0}?appkey={1}&username={2}", this.Settings.UNoteExternalLoginUrl, this.Settings.UNoteAppKey, admin.UNoteUsername));
+                        Response.End();
+                    }
+                    #endregion
+
                     if (this.Settings.IsSsoOpend && !this.Settings.IsDebug)
                     {
                         #region Sso
