@@ -119,6 +119,12 @@
                                                              }
                                                         %>
                                                 <%--<li class="divider"></li>--%>
+                                                <% if(this.Settings.UNoteExternalLoginOpened && this.CurrentAdmin.UNoteUsername.IsNotNullOrEmpty()) { %>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <a tabindex="-1" href="<%= string.Format("{0}?appkey={1}&username={2}", this.Settings.UNoteExternalLoginUrl, this.Settings.UNoteAppKey, this.CurrentAdmin.UNoteUsername) %>" target="_blank"  class="btnUsedTeam"><i class="si si-cup"></i> &nbsp;UNote 笔记</a>
+                                                </li>
+                                                <%} %>
                                             </ul>
                                 <%} %>
                                         </div>

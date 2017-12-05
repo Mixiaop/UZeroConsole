@@ -56,6 +56,7 @@ namespace UZeroConsole.Web.UZero.Sso
             #region 编辑管理员
             string name = tbName.Text.Trim();
             string remark = tbRemark.Text.Trim();
+            string unoteUsername = tbUNoteUsername.Text.Trim();
             string[] roleIds = hfRoleId.Value.Trim().Split(',');
 
             if (string.IsNullOrEmpty(name))
@@ -76,7 +77,7 @@ namespace UZeroConsole.Web.UZero.Sso
                 }
             }
 
-            _adminService.Update(Model.Admin.Id, name, roles, remark);
+            _adminService.Update(Model.Admin.Id, name, roles, remark, unoteUsername);
             LogUpdate("修改了管理员", name);
             ltlMessage.Text = AlertSuccess("编辑成功");
             this.RedirectByTime("AdminList.aspx", 1000);

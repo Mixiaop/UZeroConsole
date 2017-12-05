@@ -37,6 +37,8 @@ namespace UZeroConsole.Services.Dto
         /// </summary>
         public DateTime LastLoginTime { get; set; }
         
+        public string UNoteUsername { get; set; }
+
         public ICollection<RoleDto> Roles { get; set; }
 
         public IList<int> RoleIds {

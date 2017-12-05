@@ -54,6 +54,14 @@
                         <div class="form-group">
                             <div class="col-xs-12">
                                 <div class="form-material">
+                                    <asp:TextBox runat="server" ID="tbUNoteUsername" CssClass="form-control" ></asp:TextBox>
+                                    <label >UNote用户名</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <div class="form-material">
                                     <asp:TextBox runat="server" ID="tbRemark" TextMode="MultiLine" CssClass="form-control"></asp:TextBox>
                                     <label >备注</label>
                                 </div>

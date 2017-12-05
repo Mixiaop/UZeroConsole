@@ -46,5 +46,20 @@ namespace UZeroConsole.Configuration
         /// 当前的Sso应用key
         /// </summary>
         public string SsoAppKey { get; set; }
+
+        /// <summary>
+        /// 是否开启UNote打通
+        /// </summary>
+        public bool UNoteExternalLoginOpened { get; set; }
+
+        /// <summary>
+        /// UNote自动登录URL
+        /// </summary>
+        public string UNoteExternalLoginUrl { get; set; }
+
+        /// <summary>
+        /// 开通 Unote 登录密钥
+        /// </summary>
+        public string UNoteAppKey { get; set; }
     }
 }

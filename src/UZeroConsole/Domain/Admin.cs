@@ -19,6 +19,7 @@ namespace UZeroConsole.Domain
         public Admin()
         {
             CreationTime = DateTime.Now;
+            UNoteUsername = "";
             IsDeleted = false;
         }
 
@@ -51,6 +52,11 @@ namespace UZeroConsole.Domain
         /// 最后登录时间
         /// </summary>
         public DateTime? LastLoginTime { get; set; }
+
+        /// <summary>
+        /// UNote用户名
+        /// </summary>
+        public string UNoteUsername { get; set; }
 
         #region IHasCreationTime, ISoftDelete
         /// <summary>

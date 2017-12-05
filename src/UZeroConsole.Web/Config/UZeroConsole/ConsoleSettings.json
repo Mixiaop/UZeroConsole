@@ -7,5 +7,8 @@
   "IsSsoServer": true,
   "SsoAuthExpiresMinutes": 1440,
   "SsoServerHost": "",
-  "SsoAppKey": "3c9c3063b1864b7eb60998b10fc8d570"
+  "SsoAppKey": "3c9c3063b1864b7eb60998b10fc8d570",
+  "UNoteExternalLoginOpened": true,
+  "UNoteExternalLoginUrl": "http://note.youzy.cn/externallogin.aspx",
+  "UNoteAppKey": "956e775af7384eaf8b7f8f33e3b993d2"
 }

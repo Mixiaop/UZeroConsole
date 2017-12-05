@@ -72,7 +72,8 @@ namespace UZeroConsole.Services
         /// <param name="name"></param>
         /// <param name="roleIds"></param>
         /// <param name="remark"></param>
-        void Update(int adminId, string name, List<int> roleIds, string remark);
+        /// <param name="unoteUsername"></param>
+        void Update(int adminId, string name, List<int> roleIds, string remark, string unoteUsername = "");
 
         /// <summary>
         /// 重置密码

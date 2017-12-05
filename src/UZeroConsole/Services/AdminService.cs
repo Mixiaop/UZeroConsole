@@ -174,13 +174,15 @@ namespace UZeroConsole.Services
         /// <param name="name"></param>
         /// <param name="roleIds"></param>
         /// <param name="remark"></param>
-        public void Update(int adminId, string name, List<int> roleIds, string remark) {
+        /// <param name="unoteUsername"></param>
+        public void Update(int adminId, string name, List<int> roleIds, string remark, string unoteUsername = "") {
             var admin = _adminRepository.Get(adminId);
 
             if (admin != null)
             {
                 admin.Name = name;
                 admin.Remark = remark;
+                admin.UNoteUsername = unoteUsername;
                 _adminRepository.Update(admin);
 
                 if (roleIds != null)

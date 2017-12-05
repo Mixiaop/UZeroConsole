@@ -22,7 +22,6 @@ namespace UZeroConsole.Web
         public DefaultModel Model = new DefaultModel();
         protected void Page_Load(object sender, EventArgs e)
         {
-
             Utility.RegisterTypeForAjax(typeof(UZeroConsole.Web.AjaxServices.UZero.AdminService));
             Model.IsOpendSso = this.Settings.IsSsoOpend;
             if (Model.IsOpendSso)

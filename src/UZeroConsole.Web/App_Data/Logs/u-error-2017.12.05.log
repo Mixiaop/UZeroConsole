@@ -1,0 +1,2 @@
+2017-12-05 15:40:13,480 [132] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Sso/AdminList.aspx
