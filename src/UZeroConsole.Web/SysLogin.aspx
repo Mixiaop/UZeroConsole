@@ -129,7 +129,7 @@
     <script src="http://rescdn.qqmail.com/node/ww/wwopenmng/js/sso/wwLogin-1.0.0.js"></script>
     <div class="modal fade" id="modalCorpWeixinLogin" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-popin">
-            <div class="modal-content" style="text-align:center;padding-top:50px;">
+            <div class="modal-content" style="text-align:center;padding-top:50px;background:none !important;">
                <div id="wxLoginWrapper"></div>
             </div>
         </div>
@@ -143,7 +143,7 @@
                     "agentid": "<%= Model.WeixinSettings.AuthAgentId %>",
                     "redirect_uri": "<%= U.Utilities.Web.WebHelper.GetThisPageUrl(true) %>",
                     "state": "",
-                    "href": "",
+                    "href": "https://static.youzy.cn/css/corpweixin.css",
                 });
                 $('#modalCorpWeixinLogin').modal('show');
             });
