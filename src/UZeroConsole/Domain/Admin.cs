@@ -20,6 +20,7 @@ namespace UZeroConsole.Domain
         {
             CreationTime = DateTime.Now;
             UNoteUsername = "";
+            CorpWeixinUserId = "";
             IsDeleted = false;
         }
 

@@ -28,7 +28,7 @@
 </head>
 <body>
     <!-- Login Content -->
-    <div class="content overflow-hidden login">
+    <div class="content overflow-hidden login <%= this.Settings.IsCorpWeixinLoginOpened?"hidden":"" %>" id="accountLoginWrapper">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
                 <!-- Login Block -->
@@ -104,6 +104,34 @@
         </div>
     </div>
     <!-- END Login Content -->
+    <% if(this.Settings.IsCorpWeixinLoginOpened){ %>
+    <!-- CorpWeixin Login Content -->
+    <div class="content overflow-hidden login <%= this.Settings.IsCorpWeixinLoginOpened?"":"hidden" %>" id="corpWeixinLoginWrapper">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                <!-- Login Block -->
+                <div class="block block-themed animated fadeIn">
+                    <div class="block-header bg-primary">
+
+                        <h3 class="block-title"><%= Model.Title %></h3>
+                    </div>
+                    <div class="block-content block-content-full block-content-narrow">
+                        <!-- Login Title -->
+                        <div id="weixinLogin" style="text-align:center"></div>
+                        <div class="form-group" style="padding-bottom:50px;">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <button type="button" class="btn btn-block btn-default" id="btnAccountLogin" style="font-weight:normal" ><i class="fa fa-user"></i> 帐号登录</button>
+                                </div>
+                            </div>
+                        <!-- END Login Form -->
+                    </div>
+                </div>
+                <!-- END Login Block -->
+            </div>
+        </div>
+    </div>
+    <!-- END Login Content -->
+    <%} %>
     <!-- Login Footer -->
     <div class="push-10-t text-center animated fadeInUp">
         <%--<small class="text-muted font-w600"><span class="js-year-copy"></span> &copy; youzy.cn</small>--%>
@@ -136,8 +164,20 @@
     </div>
     <script>
         $(function () {
+            var $accountLoginWrapper = $('#accountLoginWrapper');
+            var $corpWeixinLoginWrapper = $('#corpWeixinLoginWrapper');
+
+            window.WwLogin({
+                "id": "weixinLogin",
+                    "appid": "<%= Model.WeixinSettings.CorpId %>",
+                    "agentid": "<%= Model.WeixinSettings.AuthAgentId %>",
+                    "redirect_uri": "<%= U.Utilities.Web.WebHelper.GetThisPageUrl(true) %>",
+                    "state": "",
+                    "href": "https://static.youzy.cn/css/corpweixin.css",
+                });
+
             $('#btnCorpWeixinLogin').click(function () {
-                window.WwLogin({
+                <%-- window.WwLogin({
                     "id": "wxLoginWrapper",
                     "appid": "<%= Model.WeixinSettings.CorpId %>",
                     "agentid": "<%= Model.WeixinSettings.AuthAgentId %>",
@@ -145,7 +185,15 @@
                     "state": "",
                     "href": "https://static.youzy.cn/css/corpweixin.css",
                 });
-                $('#modalCorpWeixinLogin').modal('show');
+                $('#modalCorpWeixinLogin').modal('show');--%>
+
+                $accountLoginWrapper.addClass('hidden');
+                $corpWeixinLoginWrapper.removeClass('hidden');
+            });
+
+            $('#btnAccountLogin').click(function () {
+                $accountLoginWrapper.removeClass('hidden');
+                $corpWeixinLoginWrapper.addClass('hidden');
             });
         });
     </script>

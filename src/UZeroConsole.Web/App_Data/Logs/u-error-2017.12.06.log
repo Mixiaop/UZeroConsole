@@ -1,0 +1,2 @@
+2017-12-06 14:29:47,780 [30] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/SysLogin.aspx
