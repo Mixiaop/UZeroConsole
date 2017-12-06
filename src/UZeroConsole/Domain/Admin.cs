@@ -58,6 +58,11 @@ namespace UZeroConsole.Domain
         /// </summary>
         public string UNoteUsername { get; set; }
 
+        /// <summary>
+        /// 企业微信用户Id
+        /// </summary>
+        public string CorpWeixinUserId { get; set; }
+
         #region IHasCreationTime, ISoftDelete
         /// <summary>
         /// 是否已删除

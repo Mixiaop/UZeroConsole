@@ -5,7 +5,9 @@ using U.UI;
 using U.Utilities.Web;
 using UZeroConsole.Configuration;
 using UZeroConsole.Services;
+using UZeroConsole.Services.Dto;
 using UZeroConsole.Services.Sso;
+using UZeroConsole.Services.External;
 
 namespace UZeroConsole.Web
 {
@@ -13,13 +15,52 @@ namespace UZeroConsole.Web
     {
         IAppService _appService = UPrimeEngine.Instance.Resolve<IAppService>();
         ISsoWebService _ssoService = UPrimeEngine.Instance.Resolve<ISsoWebService>();
+        ICorpWeixinService _weixinService = UPrimeEngine.Instance.Resolve<ICorpWeixinService>();
+        IAuthenticationService _authService = UPrimeEngine.Instance.Resolve<IAuthenticationService>();
+        IAdminService _adminService = UPrimeEngine.Instance.Resolve<IAdminService>();
 
         protected SysLoginModel Model = new SysLoginModel();
         protected void Page_Load(object sender, EventArgs e)
         {
             btnLogin.Click += btnLogin_Click;
-
+            Model.WeixinSettings = UPrimeEngine.Instance.Resolve<CorpWeixinSettings>();
             Model.Title = this.Settings.Title;
+
+            if (this.Settings.IsCorpWeixinLoginOpened)
+            {
+                #region 企业微信登录回调
+                var code = WebHelper.GetString("code");
+                if (code.IsNotNullOrEmpty()) {
+                    AdminDto admin = new AdminDto();
+                    var token = _weixinService.GetAccessToken();
+                    if (token.IsSuccess()) {
+                        var user = _weixinService.GetUserId(token.access_token, code);
+                        if (user.IsSuccess()) {
+                            admin = _adminService.GetByCorpWeixinUserId(user.UserId);
+                        }
+                    }
+
+                    if (admin.Id > 0)
+                    {
+                        if (this.Settings.IsSsoOpend && !this.Settings.IsDebug)
+                        {
+                            #region Sso
+                            _ssoService.CreateSessionRedirectToSignIn(admin, Model.GetSsoAppKey);
+                            #endregion
+                        }
+                        else
+                        {
+                            _authService.SignIn(admin, true);
+
+                            if (Model.GetRedirectUrl.IsNullOrEmpty())
+                                Response.Redirect("/");
+                            else
+                                Response.Redirect(Model.GetRedirectUrl);
+                        }
+                    }
+                }
+                #endregion
+            }
 
             #region Sso
             if (this.Settings.IsSsoOpend && !this.Settings.IsDebug)
@@ -168,5 +209,7 @@ namespace UZeroConsole.Web
         public string GetRedirectUrl { get { return WebHelper.GetString("redirectUrl"); } }
 
         public string Title { get; set; }
+
+        public CorpWeixinSettings WeixinSettings { get; set; }
     }
 }

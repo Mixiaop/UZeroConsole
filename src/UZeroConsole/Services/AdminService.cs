@@ -43,7 +43,8 @@ namespace UZeroConsole.Services
         /// </summary>
         /// <param name="id">管理员Id</param>
         /// <returns></returns>
-        public Admin GetEntity(int id) {
+        public Admin GetEntity(int id)
+        {
             if (id == 0)
                 throw new UserFriendlyException("请传管理员Id过来获取管理员信息");
             return _adminRepository.Get(id);
@@ -175,7 +176,8 @@ namespace UZeroConsole.Services
         /// <param name="roleIds"></param>
         /// <param name="remark"></param>
         /// <param name="unoteUsername"></param>
-        public void Update(int adminId, string name, List<int> roleIds, string remark, string unoteUsername = "") {
+        public void Update(int adminId, string name, List<int> roleIds, string remark, string unoteUsername = "")
+        {
             var admin = _adminRepository.Get(adminId);
 
             if (admin != null)
@@ -268,6 +270,43 @@ namespace UZeroConsole.Services
 
         #endregion
 
+        #region CorpWeixin
+        /// <summary>
+        /// 通过企业微信UserId获取管理员信息
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public AdminDto GetByCorpWeixinUserId(string userId)
+        {
+            var admin = this._adminRepository.GetAll().Where(x => x.CorpWeixinUserId == userId.Trim()).FirstOrDefault();
+            AdminDto res = new AdminDto();
+            if (admin != null)
+            {
+                res = admin.MapTo<AdminDto>();
+            }
+            return res;
+        }
+
+        /// <summary>
+        /// 绑定企业微信帐号Id
+        /// </summary>
+        /// <param name="adminId"></param>
+        /// <param name="corpWeixinUserId"></param>
+        public void BindCorpWeixin(int adminId, string corpWeixinUserId)
+        {
+            var adminDto = GetByCorpWeixinUserId(corpWeixinUserId);
+            if (adminDto == null)
+            {
+                throw new Exception("企业微信UserId已被绑定到其他帐号");
+            }
+            var admin = GetEntity(adminId);
+            if (admin != null)
+            {
+                admin.CorpWeixinUserId = corpWeixinUserId;
+                this._adminRepository.Update(admin);
+            }
+        }
+        #endregion
         /// <summary>
         /// 为管理员设置角色，设置时会清除原来的角色
         /// </summary>

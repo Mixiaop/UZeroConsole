@@ -69,7 +69,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <asp:Button runat="server" ID="btnSave" CssClass="btn btn-primary"  Text="保存"   />
+                                <asp:Button runat="server" ID="btnSave" CssClass="btn btn-primary"  Text="保存"   /> <a href="/UZero/AdminBindCorpWeixin.aspx?adminId= <%=Model.Admin.Id %>" target="_blank" class="btn btn-default">绑定企业微信</a>
                             </div>
                         </div>
                     </div>

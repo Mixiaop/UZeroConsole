@@ -38,6 +38,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -70,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\CorpWeixinSettings.cs" />
     <Compile Include="Configuration\DatabaseSettings.cs" />
     <Compile Include="Configuration\ConsoleSettings.cs" />
     <Compile Include="Configuration\LoggingSettings.cs" />
@@ -147,6 +152,11 @@
     <Compile Include="Services\Dto\SearchPermissionInput.cs" />
     <Compile Include="Services\Dto\ZeroUserDto.cs" />
     <Compile Include="Services\Extensions.cs" />
+    <Compile Include="Services\External\Dto\GetCorpWexinAccessTokenOutput.cs" />
+    <Compile Include="Services\External\Dto\GetCorpWeixinUserIdOutput.cs" />
+    <Compile Include="Services\External\Dto\CorpWeixinResponseDto.cs" />
+    <Compile Include="Services\External\ICorpWeixinService.cs" />
+    <Compile Include="Services\External\Impl\CorpWeixinService.cs" />
     <Compile Include="Services\FormsAuthenticationService.cs" />
     <Compile Include="Services\IAdminService.cs" />
     <Compile Include="Services\IApplicationService.cs" />

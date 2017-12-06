@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using U.Application.Services;
 using U.Application.Services.Dto;
 using UZeroConsole.Domain;
 using UZeroConsole.Services.Dto;
@@ -95,15 +94,27 @@ namespace UZeroConsole.Services
         /// <returns></returns>
         ChangePasswordOutput ChangePassword(ChangePasswordInput input);
 
-        
-
         /// <summary>
         /// 删除一条管理员信息
         /// </summary>
         /// <param name="id">管理员Id</param>
         void Delete(int id);
+        #endregion
 
+        #region CorpWeixin
+        /// <summary>
+        /// 通过企业微信UserId获取管理员信息
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        AdminDto GetByCorpWeixinUserId(string userId);
 
+        /// <summary>
+        /// 绑定企业微信帐号Id
+        /// </summary>
+        /// <param name="adminId"></param>
+        /// <param name="corpWeixinUserId"></param>
+        void BindCorpWeixin(int adminId, string corpWeixinUserId);
         #endregion
 
         /// <summary>

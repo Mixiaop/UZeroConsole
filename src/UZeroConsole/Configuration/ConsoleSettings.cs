@@ -61,5 +61,10 @@ namespace UZeroConsole.Configuration
         /// 开通 Unote 登录密钥
         /// </summary>
         public string UNoteAppKey { get; set; }
+
+        /// <summary>
+        /// 是否开启企业微信登录
+        /// </summary>
+        public bool IsCorpWeixinLoginOpened { get; set; }
     }
 }

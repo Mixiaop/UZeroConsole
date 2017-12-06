@@ -90,6 +90,9 @@
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <asp:Button runat="server" ID="btnLogin" Text="登录" CssClass="btn btn-block btn-primary" />
+                                    <% if (this.Settings.IsCorpWeixinLoginOpened)
+                                        { %>
+                                    <button type="button" class="btn btn-block btn-default" style="font-weight:normal" id="btnCorpWeixinLogin"><i class="fa fa-comments-o"></i> 企业微信</button><%} %>
                                 </div>
                             </div>
                         </form>
@@ -107,7 +110,6 @@
     </div>
     <!-- END Login Footer -->
 
-
     <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
     <script src="/assets/js/core/jquery.min.js"></script>
     <script src="/assets/js/core/bootstrap.min.js"></script>
@@ -123,6 +125,30 @@
     <script src="/assets/js/core/three/renderers/CanvasRenderer.js"></script>
     <script src="/assets/js/core/three/renderers/Projector.js"></script>
     <script src="/assets/js/core/three/effect/line.js"></script>
-
+    <% if(this.Settings.IsCorpWeixinLoginOpened){ %>
+    <script src="http://rescdn.qqmail.com/node/ww/wwopenmng/js/sso/wwLogin-1.0.0.js"></script>
+    <div class="modal fade" id="modalCorpWeixinLogin" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-popin">
+            <div class="modal-content" style="text-align:center;padding-top:50px;">
+               <div id="wxLoginWrapper"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('#btnCorpWeixinLogin').click(function () {
+                window.WwLogin({
+                    "id": "wxLoginWrapper",
+                    "appid": "<%= Model.WeixinSettings.CorpId %>",
+                    "agentid": "<%= Model.WeixinSettings.AuthAgentId %>",
+                    "redirect_uri": "<%= U.Utilities.Web.WebHelper.GetThisPageUrl(true) %>",
+                    "state": "",
+                    "href": "",
+                });
+                $('#modalCorpWeixinLogin').modal('show');
+            });
+        });
+    </script>
+    <%} %>
 </body>
 </html>

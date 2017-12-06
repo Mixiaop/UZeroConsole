@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using U.Application.Services.Dto;
 using System;
 
@@ -38,6 +37,8 @@ namespace UZeroConsole.Services.Dto
         public DateTime LastLoginTime { get; set; }
         
         public string UNoteUsername { get; set; }
+
+        public string CorpWeixinUserId { get; set; }
 
         public ICollection<RoleDto> Roles { get; set; }
 

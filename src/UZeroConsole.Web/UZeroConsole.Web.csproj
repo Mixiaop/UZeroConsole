@@ -685,6 +685,9 @@
     <Content Include="assets\waterfall\js\vendor\jquery-1.10.2.min.js" />
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
+    <Content Include="UZero\AdminBindCorpWeixin.aspx" />
+    <Content Include="_Tests\EnterpriseWeixin\CallbackTests.aspx" />
+    <Content Include="_Tests\EnterpriseWeixin\Tests.aspx" />
     <Content Include="UZeroConfig\Projects\Add.aspx" />
     <Content Include="UZeroConfig\Projects\List.aspx" />
     <Content Include="UZeroJobs\RemoteJobs\Add.aspx" />
@@ -829,6 +832,7 @@
     <Content Include="Masters\UZero.Master" />
     <Content Include="Config\UZeroConsole\LoggingSettings.json" />
     <Content Include="packages.config" />
+    <Content Include="Config\UZeroConsole\CorpWeixinSettings.json" />
     <None Include="Properties\PublishProfiles\UZeroConsolePublish.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1431,6 +1435,27 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZero\AdminBindCorpWeixin.aspx.cs">
+      <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\AdminBindCorpWeixin.aspx.designer.cs">
+      <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\EnterpriseWeixin\CallbackTests.aspx.cs">
+      <DependentUpon>CallbackTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\EnterpriseWeixin\CallbackTests.aspx.designer.cs">
+      <DependentUpon>CallbackTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\EnterpriseWeixin\Tests.aspx.cs">
+      <DependentUpon>Tests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\EnterpriseWeixin\Tests.aspx.designer.cs">
+      <DependentUpon>Tests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1743,9 +1768,7 @@
       <Name>UZeroConsole</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="External\EnterpriseWeixin\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
