@@ -16,6 +16,7 @@ namespace UZeroConsole.Web._Tests
         {
             //UPrimeEngine.Instance.Resolve<IBackgroundJobManager>().Enqueue<UZeroJobs.Jobs.UZeroRemoteJob, int>(2);
             //Response.Write("sucess");
+            Response.Write(("2017-12-06 00:00:00").ToDateTime() < DateTime.Now);
         }
     }
 

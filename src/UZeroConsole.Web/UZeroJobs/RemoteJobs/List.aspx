@@ -91,7 +91,15 @@
                                                        { %><label class="label label-default">未启动</label><%} %> <% if (app.IsExecuting)
                                                                                                        { %>
                                     <label class="label label-success">运行中</label>
-                                    <%}%></td>
+                                    <%}%>
+                                    <% if (app.LastErrorTime.HasValue && app.LastSuccessTime.HasValue)
+                                             {
+                                                 if (app.LastErrorTime.Value > app.LastSuccessTime.Value)
+                                                 {%>
+                                    <label class="label label-danger">Error</label>
+                                    <%}
+                                             } %>
+                                </td>
                                 <td class="text-center">
                                     <% if (app.Type == UZeroConsole.Domain.Jobs.RemoteJobType.General)
                                              { %>
