@@ -21,6 +21,7 @@ namespace UZeroConsole.Domain.Jobs
             RecurringSeconds = 0;
             AtTime = null;
             AppJobId = "";
+            Tags = "";
         }
 
         /// <summary>
@@ -82,6 +83,11 @@ namespace UZeroConsole.Domain.Jobs
         /// 外部应用任务标识（如：Hangfire、Quantz）
         /// </summary>
         public string AppJobId { get; set; }
+
+        /// <summary>
+        /// 标签
+        /// </summary>
+        public string Tags { get; set; }
 
         #region Custom
         /// <summary>

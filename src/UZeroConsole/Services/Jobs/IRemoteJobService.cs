@@ -15,11 +15,12 @@ namespace UZeroConsole.Services.Jobs
         /// 查询并获取任务列表
         /// </summary>
         /// <param name="keywords"></param>
+        /// <param name="tags"></param>
         /// <param name="executing"></param>
         /// <param name="pageIndex"></param>
         /// <param name="pageSize"></param>
         /// <returns></returns>
-        PagedResultDto<RemoteJob> Query(string keywords, bool? executing = null, int pageIndex = 1, int pageSize = 20);
+        PagedResultDto<RemoteJob> Query(string keywords, string tags = "", bool? executing = null, int pageIndex = 1, int pageSize = 20);
 
         /// <summary>
         /// 获取一个任务
@@ -38,8 +39,9 @@ namespace UZeroConsole.Services.Jobs
         /// <param name="jobType">类型，默认为循环任务</param>
         /// <param name="recurringSeconds">循环任务的间隔（秒）</param>
         /// <param name="atTime">定时任务的触发的时间</param>
+        /// <param name="tags"></param>
         /// <returns></returns>
-        RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null);
+        RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "");
 
         /// <summary>
         /// 运行任务

@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/UZero.Master" AutoEventWireup="true" CodeBehind="Add.aspx.cs" Inherits="UZeroConsole.Web.UZeroJobs.RemoteJobs.Add" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="header" runat="server">
+    <link href="/assets/js/plugins/jquery-tags-input/jquery.tagsinput.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="mainContent" runat="server">
     <form runat="server">
@@ -105,6 +106,25 @@
                             </div>
                         </div>
                         <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="form-material">
+                                            <asp:TextBox runat="server" ID="tbTags" CssClass="form-control"></asp:TextBox>
+                                            <label>标签</label>
+                                        </div>
+                                        <div class="help-block">
+                                            按“回车”添加新标签
+                                        </div>
+                                        <% if (Model.Tags.Count > 0)
+                                           { %>
+                                        <div class="tags">
+                                            <% foreach (var tag in Model.Tags)
+                                               { %>
+                                            <a href="javascript:;"><%= tag.Name %></a> <%} %>
+                                        </div>
+                                        <%} %>
+                                    </div>
+                                </div>
+                        <div class="form-group">
                             <div class="col-xs-12">
                                 <asp:Button runat="server" ID="btnSave" CssClass="btn btn-primary"  Text="添加"   />
                             </div>
@@ -118,4 +138,34 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    <script src="/assets/js/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            var $tags = $('.content .tags');
+            var $tbTag = $('#<%= tbTags.ClientID %>');
+            
+            $tbTag.tagsInput({
+                height: '36px',
+                width: '100%',
+                defaultText: '添加标签',
+                removeWithBackspace: true,
+                delimiter: [',']
+            });
+
+            $tags.find('a').on('click', function () {
+                var val = $tbTag.val();
+                var tag = $(this).text();
+
+                if (val == '') {
+                    $tbTag.addTag(tag);
+                } else {
+                    if (val.indexOf(tag) == -1) {
+                        $tbTag.addTag(tag);
+                    } else {
+                        $tbTag.removeTag(tag);
+                    }
+                }
+            });
+        });
+    </script>
 </asp:Content>

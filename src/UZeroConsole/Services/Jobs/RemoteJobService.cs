@@ -3,6 +3,7 @@ using System.Linq;
 using U.BackgroundJobs;
 using U.Application.Services;
 using U.Application.Services.Dto;
+using UZeroConsole.Domain;
 using UZeroConsole.Domain.Jobs;
 
 namespace UZeroConsole.Services.Jobs
@@ -11,26 +12,35 @@ namespace UZeroConsole.Services.Jobs
     {
         private IBackgroundJobManager _backgroundJobManager;
         private IRemoteJobRepository _jobRepository;
-        public RemoteJobService(IRemoteJobRepository jobRepository, IBackgroundJobManager backgroundJobManager)
+
+        private ITagService _tagService;
+        public RemoteJobService(IRemoteJobRepository jobRepository, IBackgroundJobManager backgroundJobManager, ITagService tagService)
         {
             _jobRepository = jobRepository;
             _backgroundJobManager = backgroundJobManager;
+
+            _tagService = tagService;
         }
 
         /// <summary>
         /// 查询并获取任务列表
         /// </summary>
         /// <param name="keywords"></param>
+        /// <param name="tags"></param>
         /// <param name="executing"></param>
         /// <param name="pageIndex"></param>
         /// <param name="pageSize"></param>
         /// <returns></returns>
-        public PagedResultDto<RemoteJob> Query(string keywords, bool? executing = null, int pageIndex = 1, int pageSize = 20)
+        public PagedResultDto<RemoteJob> Query(string keywords, string tags = "", bool? executing = null, int pageIndex = 1, int pageSize = 20)
         {
             var query = _jobRepository.GetAll();
 
-            if (keywords.IsNullOrEmpty()) {
+            if (keywords.IsNotNullOrEmpty()) {
                 query = query.Where(x => x.Key.Contains(keywords) || x.Name.Contains(keywords));
+            }
+
+            if (tags.IsNotNullOrEmpty()) {
+                query = query.Where(x => x.Tags.Contains(tags));
             }
 
             if (executing.HasValue) {
@@ -67,8 +77,9 @@ namespace UZeroConsole.Services.Jobs
         /// <param name="jobType">类型，默认为循环任务</param>
         /// <param name="recurringSeconds">循环任务的间隔（秒）</param>
         /// <param name="atTime">定时任务的触发的时间</param>
+        /// <param name="tags"></param>
         /// <returns></returns>
-        public RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null) {
+        public RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "") {
             RemoteJob job = new RemoteJob();
             job.Key = key;
             job.Name = name;
@@ -77,6 +88,12 @@ namespace UZeroConsole.Services.Jobs
             job.Type = jobType;
             job.RecurringSeconds = recurringSeconds;
             job.AtTime = atTime;
+            job.Tags = tags;
+
+            if (job.Tags.IsNotNullOrEmpty()) {
+                job.Tags = job.Tags.Replace("，", ",");
+                _tagService.UpdateTags(TagType.Job, job.Tags);
+            }
 
             job.Id = _jobRepository.InsertAndGetId(job);
 
@@ -147,6 +164,12 @@ namespace UZeroConsole.Services.Jobs
             job.LastErrorDesc = errorMessage;
             job.LastErrorTime = DateTime.Now;
             _jobRepository.Update(job);
+
+            //继续执行
+            if (job.Type == RemoteJobType.Recurring)
+            {
+                Run(job);
+            }
         }
 
         /// <summary>

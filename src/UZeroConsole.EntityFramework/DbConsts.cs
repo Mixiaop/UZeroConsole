@@ -18,6 +18,7 @@ namespace UZeroConsole
             public const string Permissions = "UZeroConsole_Permissions";
             public const string RolePermissions = "UZeroConsole_RolePermissions";
             public const string Admin_Roles_Mapping = "UZeroConsole_AdminRoles_Mapping";
+            public const string Tags = "UZeroConsole_Tags";
 
             public const string Jobs_RemoteJobs = "UZeroConsole_Jobs_RemoteJobs";
 

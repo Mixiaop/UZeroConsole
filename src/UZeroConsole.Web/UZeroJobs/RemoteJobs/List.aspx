@@ -28,23 +28,50 @@
                     </div>
                 </div>
             </div>
-
+            <style>
+                .table td {
+                    word-break:break-all;
+                }
+            </style>
             <!-- Dynamic Table Full -->
             <div class="block">
+                <% if (Model.Tags != null && Model.Tags.Count > 0)
+       { %>
+    <div class="row filter-tags-wrapper">
+        <div class="col-lg-8 col-xs-12">
+
+            <ul class="filter-tags">
+                <li><a href="List.aspx">全部</a></li>
+                <% foreach (var tag in Model.Tags)
+                   { %>
+                <% if (Model.GetTags.Contains(tag.Name))
+                   { %>
+                <li><a class="active"><%= tag.Name %></a><a href="List.aspx" class="tag-close"><i class="fa fa-close"></i></a></li>
+                <%}
+                   else
+                   { %>
+                <li><a href="List.aspx?tags=<%= tag.Name  %>"><%= tag.Name %></a></li>
+                <%} %>
+                <%} %>
+            </ul>
+
+        </div>
+    </div>
+    <%} %>
                 <div class="block-content table-responsive">
                     <asp:Literal runat="server" ID="ltlMessage"></asp:Literal>
-                    <table class="table table-hover js-dataTable-full">
+                    <table class="table table-hover js-dataTable-full" style="table-layout:fixed" >
                         <thead>
                             <tr>
-                                <td width="10%"></td>
-                                <th width="15%">Name</th>
-                                <th width="15%">Type</th>
-                                <th class="text-center">Key</th>
-                                <th class="text-center">Url</th>
-                                <th class="text-center">Desc</th>
-                                <th class="text-center">Last Success</th>
-                                <th class="text-center" width="18%">Last Error </th>
-                                <th class="text-center" width="8%">Time</th>
+                                <th width="5%" ></th>
+                                <th class="text-center" width="15%" >Name</th>
+                                <th class="text-center" width="8%" >Type</th>
+                                <th class="text-center" width="10%">Key</th>
+                                <th class="text-center" width="19%" >Url</th>
+                                <th class="text-center" width="10%">Desc</th>
+                                <th class="text-center" width="6.5%">Last Success</th>
+                                <th class="text-center" width="20%">Last Error </th>
+                                <th class="text-center" width="6.5%">Time</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -56,7 +83,7 @@
                                     <a class='btn btn-default btn-xs active-btn btnRun' data-id="<%= app.Id %>" href="javascript:void(0);" data-toggle="tooltip" title="Run the job"><i class="fa fa-check"></i></a>
                                     <a class='btn btn-default btn-xs active-btn btnDelete' data-id="<%= app.Id %>" href="javascript:void(0);" data-toggle="tooltip" title="Delete the job"><i class="fa fa-remove"></i></a>
                                 </td>
-                                <td><%= app.Name %> <% if (app.Opend)
+                                <td ><%= app.Name %> <% if (app.Opend)
                                                        { %>
                                     <label class="label label-success">已启动</label>
                                     <%}
@@ -80,14 +107,15 @@
                                     <%} %>
                                 </td>
                                 <td class="text-center"><%= app.Key %></td>
-                                <td class="text-center"><%= app.Url %></td>
-                                <td class="text-center"><%= app.Desc %> </td>
+                                <td ><%= app.Url %></td>
+                                <td ><%= app.Desc %> <% if (app.Tags.IsNotNullOrEmpty())
+                                                         { %>（<%= app.Tags %>）<%} %></td>
                                 <td class="text-center"><%if (app.LastSuccessTime.HasValue)
-                                                          { %><%= app.LastSuccessTime.Value.ToString("yyyy-MM-dd hh:MM:ss") %><%}
+                                                          { %><%= app.LastSuccessTime.Value.ToString("yyyy-MM-dd hh:MM") %><%}
                                                           else
                                                           { %>-<%} %> </td>
                                 <td class="text-center"><%if (app.LastErrorTime.HasValue)
-                                                          { %><%= app.LastErrorTime.Value.ToString("yyyy-MM-dd hh:MM:ss") %> <span><%= app.LastErrorDesc %></span><%}
+                                                          { %><%= app.LastErrorTime.Value.ToString("yyyy-MM-dd hh:MM") %> <br /><span><%= app.LastErrorDesc %></span><%}
                                                           else
                                                           { %>-<%} %></td>
                                 <td class="text-center"><%= app.CreationTime.ToString("yyyy-MM-dd HH:mm") %></td>

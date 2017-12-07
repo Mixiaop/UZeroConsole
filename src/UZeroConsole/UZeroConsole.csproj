@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonEnums.cs" />
     <Compile Include="Configuration\CorpWeixinSettings.cs" />
     <Compile Include="Configuration\DatabaseSettings.cs" />
     <Compile Include="Configuration\ConsoleSettings.cs" />
@@ -104,12 +105,12 @@
     <Compile Include="Domain\Config\Repositories\IConfigAttrRepository.cs" />
     <Compile Include="Domain\Config\Repositories\IConfigObjectRepository.cs" />
     <Compile Include="Domain\Config\Repositories\IConfigProjectRepository.cs" />
-    <Compile Include="Domain\IAdminRepository.cs">
+    <Compile Include="Domain\Repositories\IAdminRepository.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Domain\IPermissionRepository.cs" />
-    <Compile Include="Domain\IRolePermissionRepository.cs" />
-    <Compile Include="Domain\IRoleRepository.cs" />
+    <Compile Include="Domain\Repositories\IPermissionRepository.cs" />
+    <Compile Include="Domain\Repositories\IRolePermissionRepository.cs" />
+    <Compile Include="Domain\Repositories\IRoleRepository.cs" />
     <Compile Include="Domain\Jobs\IRemoteJobRepository.cs" />
     <Compile Include="Domain\Jobs\RemoteJob.cs" />
     <Compile Include="Domain\Jobs\RemoteJobType.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Domain\Logging\LogApp.cs" />
     <Compile Include="Domain\Logging\VisitLog.cs" />
     <Compile Include="Domain\Permission.cs" />
+    <Compile Include="Domain\Repositories\ITagRepository.cs" />
     <Compile Include="Domain\Role.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -133,7 +135,8 @@
     <Compile Include="Domain\Sso\App.cs" />
     <Compile Include="Domain\Sso\Repositories\IAdminAuthSessionRepository.cs" />
     <Compile Include="Domain\Sso\Repositories\IAppRepository.cs" />
-    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Domain\Tag.cs" />
+    <Compile Include="Services\Impl\AdminService.cs" />
     <Compile Include="Services\ApplicationServiceBase.cs" />
     <Compile Include="Services\CMS\Impl\NodeService.cs" />
     <Compile Include="Services\CMS\INodeService.cs" />
@@ -157,12 +160,14 @@
     <Compile Include="Services\External\Dto\CorpWeixinResponseDto.cs" />
     <Compile Include="Services\External\ICorpWeixinService.cs" />
     <Compile Include="Services\External\Impl\CorpWeixinService.cs" />
-    <Compile Include="Services\FormsAuthenticationService.cs" />
+    <Compile Include="Services\Impl\FormsAuthenticationService.cs" />
     <Compile Include="Services\IAdminService.cs" />
     <Compile Include="Services\IApplicationService.cs" />
     <Compile Include="Services\IAuthenticationService.cs" />
+    <Compile Include="Services\Impl\TagService.cs" />
     <Compile Include="Services\IPermissionsService.cs" />
     <Compile Include="Services\IRoleService.cs" />
+    <Compile Include="Services\ITagService.cs" />
     <Compile Include="Services\Jobs\IRemoteJobService.cs" />
     <Compile Include="Services\Jobs\RemoteJobService.cs" />
     <Compile Include="Services\Jobs\URemoteJob.cs" />
@@ -175,8 +180,8 @@
     <Compile Include="Services\Logging\IVisitLogService.cs" />
     <Compile Include="Services\Logging\LogAppService.cs" />
     <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
-    <Compile Include="Services\PermissionsService.cs" />
-    <Compile Include="Services\RoleService.cs" />
+    <Compile Include="Services\Impl\PermissionsService.cs" />
+    <Compile Include="Services\Impl\RoleService.cs" />
     <Compile Include="Services\Sso\Dto\AppDto.cs" />
     <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
     <Compile Include="Services\Sso\IAppService.cs" />
