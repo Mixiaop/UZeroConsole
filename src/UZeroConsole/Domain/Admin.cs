@@ -15,6 +15,7 @@ namespace UZeroConsole.Domain
         /// 默认管理员的用户名
         /// </summary>
         public const string AdminUserName = "admin";
+        public const string AdminDefaultPassword = "123456";
 
         public Admin()
         {

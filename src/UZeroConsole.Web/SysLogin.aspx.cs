@@ -8,6 +8,7 @@ using UZeroConsole.Services;
 using UZeroConsole.Services.Dto;
 using UZeroConsole.Services.Sso;
 using UZeroConsole.Services.External;
+using UZeroConsole.Services.Installation;
 
 namespace UZeroConsole.Web
 {
@@ -20,9 +21,23 @@ namespace UZeroConsole.Web
         IAdminService _adminService = UPrimeEngine.Instance.Resolve<IAdminService>();
 
         protected SysLoginModel Model = new SysLoginModel();
+        protected override void OnPreInit(EventArgs e)
+        {
+            #region Check install
+            var installService = UPrimeEngine.Instance.Resolve<IInstallationService>();
+            if (!installService.IsInstalled())
+            {
+                Response.Redirect("/UZero/Install/Index.aspx");
+                Response.End();
+            }
+            #endregion
+
+            base.OnPreInit(e);
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             btnLogin.Click += btnLogin_Click;
+
             Model.WeixinSettings = UPrimeEngine.Instance.Resolve<CorpWeixinSettings>();
             Model.Title = this.Settings.Title;
 

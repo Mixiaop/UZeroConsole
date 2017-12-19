@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using U.Domain.Repositories;
+using UZeroConsole.Configuration;
 
 namespace UZeroConsole.Domain
 {
@@ -14,5 +15,12 @@ namespace UZeroConsole.Domain
         /// <param name="adminId">管理员Id</param>
         /// <param name="roleIds">角色Id列表</param>
         void SetRoles(int adminId, List<int> roleIds);
+
+        /// <summary>
+        /// 执行.sql的文件
+        /// </summary>
+        /// <param name="connectionStr"></param>
+        /// <param name="filePath"></param>
+        void ExecuteSqlFile(string connectionStr, string filePath);
     }
 }

@@ -165,6 +165,8 @@
     <Compile Include="Services\IApplicationService.cs" />
     <Compile Include="Services\IAuthenticationService.cs" />
     <Compile Include="Services\Impl\TagService.cs" />
+    <Compile Include="Services\Installation\IInstallationService.cs" />
+    <Compile Include="Services\Installation\SqlServerInstallationService.cs" />
     <Compile Include="Services\IPermissionsService.cs" />
     <Compile Include="Services\IRoleService.cs" />
     <Compile Include="Services\ITagService.cs" />
@@ -195,6 +197,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Domain\Caching\" />
     <Folder Include="Services\Config\Dto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

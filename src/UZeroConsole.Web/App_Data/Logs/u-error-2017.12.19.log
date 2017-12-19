@@ -1,0 +1,16 @@
+2017-12-19 10:05:33,024 [58] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\DatabaseSettings.json
+ (null)
+2017-12-19 10:41:28,100 [68] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/Default.aspx
+2017-12-19 10:42:25,313 [118] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/Default.aspx
+2017-12-19 10:47:56,939 [171] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Install/Index.aspx
+2017-12-19 11:03:11,268 [45] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\DatabaseSettings.json
+ (null)
+2017-12-19 11:07:08,547 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/default.aspx
+2017-12-19 11:08:46,608 [73] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\DatabaseSettings.json
+ (null)
+2017-12-19 11:12:03,887 [76] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\ConsoleSettings.json
+ (null)

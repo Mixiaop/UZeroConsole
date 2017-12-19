@@ -16,4 +16,5 @@ namespace UZeroConsole
     //0.1.4.2  -增加了U.FakeMvc.PageBase【不能登录验证】
     //0.1.5.2  -初版Sso结束
     //0.1.6.2  -Job新增标签分类搜索，修复【循环任务出错后就不执行的BUG】
+    //         -提供自动安装应用
 }

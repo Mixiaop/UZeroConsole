@@ -1,5 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.IO;
 using System.Collections.Generic;
+using System.Text;
+using System.Data.SqlClient;
 using UZeroConsole.Domain;
 
 namespace UZeroConsole.EntityFramework.Repositories
@@ -40,6 +44,60 @@ namespace UZeroConsole.EntityFramework.Repositories
                     this.Update(admin);
                 }
             }
+        }
+
+        /// <summary>
+        /// 执行.sql的文件
+        /// </summary>
+        /// <param name="connectionStr"></param>
+        /// <param name="filePath"></param>
+        public void ExecuteSqlFile(string connectionStr, string filePath) {
+
+            //var statements = new List<string>();
+
+            //using (var stream = File.OpenRead(filePath))
+            //using (var reader = new StreamReader(stream))
+            //{
+            //    string statement;
+            //    while ((statement = ReadNextStatementFromStream(reader)) != null)
+            //        statements.Add(statement);
+            //}
+
+            //foreach (string stmt in statements)
+            //    this.Context.ExecuteSqlCommand(stmt);
+
+            FileInfo file = new FileInfo(filePath);
+            string script = file.OpenText().ReadToEnd();
+            SqlConnection conn = new SqlConnection(connectionStr);
+            conn.Open();
+            var command = conn.CreateCommand();
+            command.CommandText = script.Replace("GO", ";");
+            command.ExecuteNonQuery();
+            conn.Close();
+        }
+
+
+        protected virtual string ReadNextStatementFromStream(StreamReader reader)
+        {
+            var sb = new StringBuilder();
+            while (true)
+            {
+                var lineOfText = reader.ReadLine();
+                if (lineOfText == null)
+                {
+                    if (sb.Length > 0)
+                        return sb.ToString();
+
+                    return null;
+                }
+
+                if (lineOfText.TrimEnd().ToUpper() == "GO")
+                    break;
+
+                sb.Append(lineOfText + Environment.NewLine);
+            }
+
+            return sb.ToString();
         }
     }
 }

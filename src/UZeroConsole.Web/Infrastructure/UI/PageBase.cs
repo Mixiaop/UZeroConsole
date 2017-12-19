@@ -1,11 +1,8 @@
 ﻿using System;
 using U;
-using U.FakeMvc.UI;
 using U.Utilities.Web;
 using U.FakeMvc.Controllers;
 using UZeroConsole.Configuration;
-using UZeroConsole.Services;
-using UZeroConsole.Services.Dto;
 
 namespace UZeroConsole.Web
 {
@@ -13,8 +10,15 @@ namespace UZeroConsole.Web
     {
         public ConsoleSettings Settings = UPrimeEngine.Instance.Resolve<ConsoleSettings>();
 
+        protected override void OnPreInit(EventArgs e)
+        {
+            base.OnPreInit(e);
+            
+            
+        }
+
         #region Method
-        #region Alert
+            #region Alert
 
         public string AlertSuccess(string message, string title = "", int timeoutByClose = 0)
         {

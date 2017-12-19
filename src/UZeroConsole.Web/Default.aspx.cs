@@ -10,6 +10,7 @@ using UZeroConsole.Services;
 using UZeroConsole.Services.Dto;
 using UZeroConsole.Services.Sso;
 using UZeroConsole.Services.Sso.Dto;
+using UZeroConsole.Services.Installation;
 
 namespace UZeroConsole.Web
 {
@@ -23,6 +24,7 @@ namespace UZeroConsole.Web
         protected void Page_Load(object sender, EventArgs e)
         {
             Utility.RegisterTypeForAjax(typeof(UZeroConsole.Web.AjaxServices.UZero.AdminService));
+
             Model.IsOpendSso = this.Settings.IsSsoOpend;
             if (Model.IsOpendSso)
             {

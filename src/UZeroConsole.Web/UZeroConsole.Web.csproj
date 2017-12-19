@@ -689,6 +689,10 @@
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="UZero\AdminBindCorpWeixin.aspx" />
+    <Content Include="UZero\Configuration\SetConsoleSettings.aspx" />
+    <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
+    <Content Include="UZero\Configuration\SetLoggingSettings.aspx" />
+    <Content Include="UZero\Install\Index.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\CallbackTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\Tests.aspx" />
     <Content Include="UZeroConfig\Projects\Add.aspx" />
@@ -719,6 +723,7 @@
     <Content Include="UZero\Sso\RoleList.aspx" />
     <Content Include="UZero\Sso\roleList.js" />
     <Content Include="UZero\Sso\RoleSetPermissions.aspx" />
+    <Content Include="_Tests\InstallTests.aspx" />
     <Content Include="_Tests\JobTests.aspx" />
     <Content Include="_Tests\LoggingTests.aspx" />
     <Content Include="_Tests\RepositoryTests.aspx" />
@@ -1445,6 +1450,34 @@
     <Compile Include="UZero\AdminBindCorpWeixin.aspx.designer.cs">
       <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZero\Configuration\SetConsoleSettings.aspx.cs">
+      <DependentUpon>SetConsoleSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Configuration\SetConsoleSettings.aspx.designer.cs">
+      <DependentUpon>SetConsoleSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Configuration\SetCorpWeixinSettings.aspx.cs">
+      <DependentUpon>SetCorpWeixinSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Configuration\SetCorpWeixinSettings.aspx.designer.cs">
+      <DependentUpon>SetCorpWeixinSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Configuration\SetLoggingSettings.aspx.cs">
+      <DependentUpon>SetLoggingSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Configuration\SetLoggingSettings.aspx.designer.cs">
+      <DependentUpon>SetLoggingSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Install\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Install\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_Tests\EnterpriseWeixin\CallbackTests.aspx.cs">
       <DependentUpon>CallbackTests.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1713,6 +1746,13 @@
     </Compile>
     <Compile Include="UZero\Sso\RoleSetPermissions.aspx.designer.cs">
       <DependentUpon>RoleSetPermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\InstallTests.aspx.cs">
+      <DependentUpon>InstallTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\InstallTests.aspx.designer.cs">
+      <DependentUpon>InstallTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\JobTests.aspx.cs">
       <DependentUpon>JobTests.aspx</DependentUpon>
