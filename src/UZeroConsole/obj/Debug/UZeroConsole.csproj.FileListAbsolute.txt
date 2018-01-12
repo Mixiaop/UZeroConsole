@@ -90,3 +90,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Newtonsoft.Json.xml
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Microsoft.Web.Administration.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache
