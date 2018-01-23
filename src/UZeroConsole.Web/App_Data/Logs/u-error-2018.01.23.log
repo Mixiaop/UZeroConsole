@@ -6,3 +6,65 @@
  http://localhost:8400/_Tests/ClientService/IRemoteJobClientServiceTests.aspx
 2018-01-23 13:24:37,154 [263] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
  http://localhost:8400/_Tests/ClientService/IRemoteJobClientServiceTests.aspx
+2018-01-23 13:48:08,080 [67] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:33,783 [56] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:48,057 [128] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:48,783 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:49,382 [126] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:49,882 [63] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:49,934 [64] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:49,975 [58] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,005 [55] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,027 [67] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,082 [124] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,128 [66] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,172 [128] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,217 [57] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,256 [57] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,293 [56] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,326 [55] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,368 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,403 [66] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,442 [124] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,512 [57] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:50,548 [56] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:51,537 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:51,890 [58] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:48:52,204 [68] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:49:03,842 [68] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:49:05,145 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:51:39,066 [112] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:51:42,082 [108] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 13:59:17,710 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx
+2018-01-23 14:02:07,198 [56] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/JetBrainsTests.aspx

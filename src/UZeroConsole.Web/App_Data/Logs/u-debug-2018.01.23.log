@@ -2458,3 +2458,1493 @@
 2018-01-23 13:33:42,619 [283] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
 2018-01-23 13:33:42,621 [283] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
 2018-01-23 13:33:42,861 [283] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:33:43,019 [283] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:33:43,208 [283] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:33:43,216 [283] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:33:43,219 [283] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:33:43,219 [283] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:33:43,220 [283] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:33:43,220 [283] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:33:43,221 [283] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:33:43,221 [283] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:33:43,222 [283] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:33:43,222 [283] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:33:43,229 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:33:43,319 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:33:43,320 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:33:43,322 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:33:43,324 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:33:43,325 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:33:43,326 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:33:43,327 [Worker #a6d503cb] Hangfire.Server.Worker - (null) - Background process 'Worker #a6d503cb' started.
+2018-01-23 13:33:43,329 [Worker #1821b149] Hangfire.Server.Worker - (null) - Background process 'Worker #1821b149' started.
+2018-01-23 13:33:43,333 [Worker #babdf1f3] Hangfire.Server.Worker - (null) - Background process 'Worker #babdf1f3' started.
+2018-01-23 13:33:43,337 [Worker #6b35c993] Hangfire.Server.Worker - (null) - Background process 'Worker #6b35c993' started.
+2018-01-23 13:33:43,341 [Worker #e3947b2c] Hangfire.Server.Worker - (null) - Background process 'Worker #e3947b2c' started.
+2018-01-23 13:33:43,342 [Worker #a5112ef6] Hangfire.Server.Worker - (null) - Background process 'Worker #a5112ef6' started.
+2018-01-23 13:33:43,343 [Worker #c8ea645f] Hangfire.Server.Worker - (null) - Background process 'Worker #c8ea645f' started.
+2018-01-23 13:33:43,345 [Worker #09573b99] Hangfire.Server.Worker - (null) - Background process 'Worker #09573b99' started.
+2018-01-23 13:33:43,344 [Worker #d49636dc] Hangfire.Server.Worker - (null) - Background process 'Worker #d49636dc' started.
+2018-01-23 13:33:43,346 [Worker #f0994cba] Hangfire.Server.Worker - (null) - Background process 'Worker #f0994cba' started.
+2018-01-23 13:33:43,345 [Worker #ee0f5bde] Hangfire.Server.Worker - (null) - Background process 'Worker #ee0f5bde' started.
+2018-01-23 13:33:43,347 [Worker #9e4928bc] Hangfire.Server.Worker - (null) - Background process 'Worker #9e4928bc' started.
+2018-01-23 13:33:43,347 [Worker #60dd0efd] Hangfire.Server.Worker - (null) - Background process 'Worker #60dd0efd' started.
+2018-01-23 13:33:43,348 [Worker #45e25d33] Hangfire.Server.Worker - (null) - Background process 'Worker #45e25d33' started.
+2018-01-23 13:33:43,349 [Worker #8d1d30f5] Hangfire.Server.Worker - (null) - Background process 'Worker #8d1d30f5' started.
+2018-01-23 13:33:43,348 [Worker #bab8832d] Hangfire.Server.Worker - (null) - Background process 'Worker #bab8832d' started.
+2018-01-23 13:33:43,350 [Worker #4a7a1cb6] Hangfire.Server.Worker - (null) - Background process 'Worker #4a7a1cb6' started.
+2018-01-23 13:33:43,349 [Worker #693ea281] Hangfire.Server.Worker - (null) - Background process 'Worker #693ea281' started.
+2018-01-23 13:33:43,351 [Worker #ff5db513] Hangfire.Server.Worker - (null) - Background process 'Worker #ff5db513' started.
+2018-01-23 13:33:43,351 [Worker #a4e5a768] Hangfire.Server.Worker - (null) - Background process 'Worker #a4e5a768' started.
+2018-01-23 13:33:43,352 [Worker #6576295b] Hangfire.Server.Worker - (null) - Background process 'Worker #6576295b' started.
+2018-01-23 13:33:43,352 [Worker #a8871eb4] Hangfire.Server.Worker - (null) - Background process 'Worker #a8871eb4' started.
+2018-01-23 13:33:43,353 [Worker #b5dcbb70] Hangfire.Server.Worker - (null) - Background process 'Worker #b5dcbb70' started.
+2018-01-23 13:33:43,353 [Worker #abf970a0] Hangfire.Server.Worker - (null) - Background process 'Worker #abf970a0' started.
+2018-01-23 13:33:43,354 [Worker #f3051e03] Hangfire.Server.Worker - (null) - Background process 'Worker #f3051e03' started.
+2018-01-23 13:33:43,354 [Worker #9b369fc6] Hangfire.Server.Worker - (null) - Background process 'Worker #9b369fc6' started.
+2018-01-23 13:33:43,355 [Worker #4c520bba] Hangfire.Server.Worker - (null) - Background process 'Worker #4c520bba' started.
+2018-01-23 13:33:43,355 [Worker #9de7a585] Hangfire.Server.Worker - (null) - Background process 'Worker #9de7a585' started.
+2018-01-23 13:33:43,356 [Worker #54a6d34d] Hangfire.Server.Worker - (null) - Background process 'Worker #54a6d34d' started.
+2018-01-23 13:33:43,357 [Worker #a4abdc54] Hangfire.Server.Worker - (null) - Background process 'Worker #a4abdc54' started.
+2018-01-23 13:33:43,357 [Worker #35ef5a15] Hangfire.Server.Worker - (null) - Background process 'Worker #35ef5a15' started.
+2018-01-23 13:33:43,358 [Worker #ce74e498] Hangfire.Server.Worker - (null) - Background process 'Worker #ce74e498' started.
+2018-01-23 13:33:43,358 [Worker #5cdcff97] Hangfire.Server.Worker - (null) - Background process 'Worker #5cdcff97' started.
+2018-01-23 13:33:43,359 [Worker #3f0c64fb] Hangfire.Server.Worker - (null) - Background process 'Worker #3f0c64fb' started.
+2018-01-23 13:33:43,360 [Worker #dbadf1df] Hangfire.Server.Worker - (null) - Background process 'Worker #dbadf1df' started.
+2018-01-23 13:33:43,360 [Worker #af339913] Hangfire.Server.Worker - (null) - Background process 'Worker #af339913' started.
+2018-01-23 13:33:43,359 [Worker #0647e959] Hangfire.Server.Worker - (null) - Background process 'Worker #0647e959' started.
+2018-01-23 13:33:43,362 [Worker #5b41a8ec] Hangfire.Server.Worker - (null) - Background process 'Worker #5b41a8ec' started.
+2018-01-23 13:33:43,361 [Worker #bc42cadc] Hangfire.Server.Worker - (null) - Background process 'Worker #bc42cadc' started.
+2018-01-23 13:33:43,361 [Worker #9ad82ecf] Hangfire.Server.Worker - (null) - Background process 'Worker #9ad82ecf' started.
+2018-01-23 13:33:43,363 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:33:43,362 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:33:43,464 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:33:43,577 [283] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:33:43,578 [283] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:33:44,253 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:33:44,340 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:33:44,428 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:38:43,596 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:43:43,630 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:46:00,533 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:46:07,255 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:46:07,264 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,265 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,266 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,267 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,268 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,269 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,270 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,271 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,272 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,273 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,274 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:07,277 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:46:07,508 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:46:07,704 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:46:08,029 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:46:08,039 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:46:08,041 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:46:08,042 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:46:08,043 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:46:08,044 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:46:08,044 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:46:08,045 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:46:08,045 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:46:08,046 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:46:08,065 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:46:08,198 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:46:08,202 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:46:08,217 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:46:08,218 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:46:08,221 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:46:08,224 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:46:08,224 [Worker #f448f3d8] Hangfire.Server.Worker - (null) - Background process 'Worker #f448f3d8' started.
+2018-01-23 13:46:08,248 [Worker #ed6d152d] Hangfire.Server.Worker - (null) - Background process 'Worker #ed6d152d' started.
+2018-01-23 13:46:08,258 [Worker #fb50083a] Hangfire.Server.Worker - (null) - Background process 'Worker #fb50083a' started.
+2018-01-23 13:46:08,269 [Worker #ff5d77ae] Hangfire.Server.Worker - (null) - Background process 'Worker #ff5d77ae' started.
+2018-01-23 13:46:08,280 [Worker #72bdfaf4] Hangfire.Server.Worker - (null) - Background process 'Worker #72bdfaf4' started.
+2018-01-23 13:46:08,283 [Worker #432b7202] Hangfire.Server.Worker - (null) - Background process 'Worker #432b7202' started.
+2018-01-23 13:46:08,287 [Worker #23ebd876] Hangfire.Server.Worker - (null) - Background process 'Worker #23ebd876' started.
+2018-01-23 13:46:08,291 [Worker #d42ae1d9] Hangfire.Server.Worker - (null) - Background process 'Worker #d42ae1d9' started.
+2018-01-23 13:46:08,296 [Worker #878363bf] Hangfire.Server.Worker - (null) - Background process 'Worker #878363bf' started.
+2018-01-23 13:46:08,299 [Worker #ac7dc04c] Hangfire.Server.Worker - (null) - Background process 'Worker #ac7dc04c' started.
+2018-01-23 13:46:08,303 [Worker #adba13e7] Hangfire.Server.Worker - (null) - Background process 'Worker #adba13e7' started.
+2018-01-23 13:46:08,310 [Worker #bc14e096] Hangfire.Server.Worker - (null) - Background process 'Worker #bc14e096' started.
+2018-01-23 13:46:08,315 [Worker #97740b61] Hangfire.Server.Worker - (null) - Background process 'Worker #97740b61' started.
+2018-01-23 13:46:08,324 [Worker #fbbcf40f] Hangfire.Server.Worker - (null) - Background process 'Worker #fbbcf40f' started.
+2018-01-23 13:46:08,328 [Worker #ebf7a648] Hangfire.Server.Worker - (null) - Background process 'Worker #ebf7a648' started.
+2018-01-23 13:46:08,333 [Worker #8b9a10b5] Hangfire.Server.Worker - (null) - Background process 'Worker #8b9a10b5' started.
+2018-01-23 13:46:08,337 [Worker #8438fd7f] Hangfire.Server.Worker - (null) - Background process 'Worker #8438fd7f' started.
+2018-01-23 13:46:08,348 [Worker #85fccf7f] Hangfire.Server.Worker - (null) - Background process 'Worker #85fccf7f' started.
+2018-01-23 13:46:08,363 [Worker #a791aeae] Hangfire.Server.Worker - (null) - Background process 'Worker #a791aeae' started.
+2018-01-23 13:46:08,368 [Worker #168d99cb] Hangfire.Server.Worker - (null) - Background process 'Worker #168d99cb' started.
+2018-01-23 13:46:08,374 [Worker #e557880b] Hangfire.Server.Worker - (null) - Background process 'Worker #e557880b' started.
+2018-01-23 13:46:08,377 [Worker #30b3c666] Hangfire.Server.Worker - (null) - Background process 'Worker #30b3c666' started.
+2018-01-23 13:46:08,381 [Worker #711cdffb] Hangfire.Server.Worker - (null) - Background process 'Worker #711cdffb' started.
+2018-01-23 13:46:08,387 [Worker #bdde9803] Hangfire.Server.Worker - (null) - Background process 'Worker #bdde9803' started.
+2018-01-23 13:46:08,387 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:46:08,392 [Worker #6121a13c] Hangfire.Server.Worker - (null) - Background process 'Worker #6121a13c' started.
+2018-01-23 13:46:08,398 [Worker #988f473f] Hangfire.Server.Worker - (null) - Background process 'Worker #988f473f' started.
+2018-01-23 13:46:08,405 [Worker #ba671c79] Hangfire.Server.Worker - (null) - Background process 'Worker #ba671c79' started.
+2018-01-23 13:46:08,410 [Worker #74a785ed] Hangfire.Server.Worker - (null) - Background process 'Worker #74a785ed' started.
+2018-01-23 13:46:08,414 [Worker #a8502b9d] Hangfire.Server.Worker - (null) - Background process 'Worker #a8502b9d' started.
+2018-01-23 13:46:08,419 [Worker #81992774] Hangfire.Server.Worker - (null) - Background process 'Worker #81992774' started.
+2018-01-23 13:46:08,425 [Worker #b346c157] Hangfire.Server.Worker - (null) - Background process 'Worker #b346c157' started.
+2018-01-23 13:46:08,439 [Worker #68dbec28] Hangfire.Server.Worker - (null) - Background process 'Worker #68dbec28' started.
+2018-01-23 13:46:08,443 [Worker #6ea5fdde] Hangfire.Server.Worker - (null) - Background process 'Worker #6ea5fdde' started.
+2018-01-23 13:46:08,452 [Worker #85373460] Hangfire.Server.Worker - (null) - Background process 'Worker #85373460' started.
+2018-01-23 13:46:08,456 [Worker #34d93bca] Hangfire.Server.Worker - (null) - Background process 'Worker #34d93bca' started.
+2018-01-23 13:46:08,461 [Worker #935239a5] Hangfire.Server.Worker - (null) - Background process 'Worker #935239a5' started.
+2018-01-23 13:46:08,473 [Worker #093de7ee] Hangfire.Server.Worker - (null) - Background process 'Worker #093de7ee' started.
+2018-01-23 13:46:08,484 [Worker #435da40b] Hangfire.Server.Worker - (null) - Background process 'Worker #435da40b' started.
+2018-01-23 13:46:08,489 [Worker #21380bbd] Hangfire.Server.Worker - (null) - Background process 'Worker #21380bbd' started.
+2018-01-23 13:46:08,498 [Worker #1525ffeb] Hangfire.Server.Worker - (null) - Background process 'Worker #1525ffeb' started.
+2018-01-23 13:46:08,510 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:46:08,514 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:46:08,813 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:46:08,814 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:46:09,150 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:46:09,297 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:46:09,423 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:46:36,894 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:46:37,352 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:46:37,360 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,361 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,362 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,363 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,364 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,365 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,366 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,367 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,368 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,369 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,370 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:46:37,373 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:46:37,630 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:46:37,812 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:46:38,080 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:46:38,090 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:46:38,093 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:46:38,094 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:46:38,095 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:46:38,095 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:46:38,096 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:46:38,097 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:46:38,098 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:46:38,098 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:46:38,135 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:46:38,223 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:46:38,240 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:46:38,243 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:46:38,265 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:46:38,265 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:46:38,951 [Worker #29f853a6] Hangfire.Server.Worker - (null) - Background process 'Worker #29f853a6' started.
+2018-01-23 13:46:38,951 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:46:38,964 [Worker #1f5c9aeb] Hangfire.Server.Worker - (null) - Background process 'Worker #1f5c9aeb' started.
+2018-01-23 13:46:38,967 [Worker #582a3853] Hangfire.Server.Worker - (null) - Background process 'Worker #582a3853' started.
+2018-01-23 13:46:38,978 [Worker #fa0b139a] Hangfire.Server.Worker - (null) - Background process 'Worker #fa0b139a' started.
+2018-01-23 13:46:38,979 [Worker #8db3912b] Hangfire.Server.Worker - (null) - Background process 'Worker #8db3912b' started.
+2018-01-23 13:46:38,983 [Worker #7813a16c] Hangfire.Server.Worker - (null) - Background process 'Worker #7813a16c' started.
+2018-01-23 13:46:38,985 [Worker #f3639a2b] Hangfire.Server.Worker - (null) - Background process 'Worker #f3639a2b' started.
+2018-01-23 13:46:38,988 [Worker #96ef1e74] Hangfire.Server.Worker - (null) - Background process 'Worker #96ef1e74' started.
+2018-01-23 13:46:38,991 [Worker #ee2756d9] Hangfire.Server.Worker - (null) - Background process 'Worker #ee2756d9' started.
+2018-01-23 13:46:38,994 [Worker #d11bba2e] Hangfire.Server.Worker - (null) - Background process 'Worker #d11bba2e' started.
+2018-01-23 13:46:38,998 [Worker #7aac7d20] Hangfire.Server.Worker - (null) - Background process 'Worker #7aac7d20' started.
+2018-01-23 13:46:39,001 [Worker #f115be2b] Hangfire.Server.Worker - (null) - Background process 'Worker #f115be2b' started.
+2018-01-23 13:46:39,005 [Worker #31c646fd] Hangfire.Server.Worker - (null) - Background process 'Worker #31c646fd' started.
+2018-01-23 13:46:39,009 [Worker #dca5be86] Hangfire.Server.Worker - (null) - Background process 'Worker #dca5be86' started.
+2018-01-23 13:46:39,012 [Worker #f74364dd] Hangfire.Server.Worker - (null) - Background process 'Worker #f74364dd' started.
+2018-01-23 13:46:39,017 [Worker #539cf582] Hangfire.Server.Worker - (null) - Background process 'Worker #539cf582' started.
+2018-01-23 13:46:39,022 [Worker #f7416e15] Hangfire.Server.Worker - (null) - Background process 'Worker #f7416e15' started.
+2018-01-23 13:46:39,026 [Worker #6c842f79] Hangfire.Server.Worker - (null) - Background process 'Worker #6c842f79' started.
+2018-01-23 13:46:39,029 [Worker #7ce7aa99] Hangfire.Server.Worker - (null) - Background process 'Worker #7ce7aa99' started.
+2018-01-23 13:46:39,041 [Worker #bac43acd] Hangfire.Server.Worker - (null) - Background process 'Worker #bac43acd' started.
+2018-01-23 13:46:39,045 [Worker #335f4e51] Hangfire.Server.Worker - (null) - Background process 'Worker #335f4e51' started.
+2018-01-23 13:46:39,051 [Worker #1a29f6b1] Hangfire.Server.Worker - (null) - Background process 'Worker #1a29f6b1' started.
+2018-01-23 13:46:39,056 [Worker #fc37d20c] Hangfire.Server.Worker - (null) - Background process 'Worker #fc37d20c' started.
+2018-01-23 13:46:39,062 [Worker #a3897911] Hangfire.Server.Worker - (null) - Background process 'Worker #a3897911' started.
+2018-01-23 13:46:39,065 [Worker #83524e23] Hangfire.Server.Worker - (null) - Background process 'Worker #83524e23' started.
+2018-01-23 13:46:39,069 [Worker #b2808cda] Hangfire.Server.Worker - (null) - Background process 'Worker #b2808cda' started.
+2018-01-23 13:46:39,073 [Worker #0380cc8d] Hangfire.Server.Worker - (null) - Background process 'Worker #0380cc8d' started.
+2018-01-23 13:46:39,078 [Worker #2f7ad55d] Hangfire.Server.Worker - (null) - Background process 'Worker #2f7ad55d' started.
+2018-01-23 13:46:39,082 [Worker #96293652] Hangfire.Server.Worker - (null) - Background process 'Worker #96293652' started.
+2018-01-23 13:46:39,088 [Worker #9583140f] Hangfire.Server.Worker - (null) - Background process 'Worker #9583140f' started.
+2018-01-23 13:46:39,093 [Worker #98394f48] Hangfire.Server.Worker - (null) - Background process 'Worker #98394f48' started.
+2018-01-23 13:46:39,102 [Worker #009a39bc] Hangfire.Server.Worker - (null) - Background process 'Worker #009a39bc' started.
+2018-01-23 13:46:39,108 [Worker #436c2821] Hangfire.Server.Worker - (null) - Background process 'Worker #436c2821' started.
+2018-01-23 13:46:39,111 [Worker #e2111d88] Hangfire.Server.Worker - (null) - Background process 'Worker #e2111d88' started.
+2018-01-23 13:46:39,121 [Worker #6cd2eb80] Hangfire.Server.Worker - (null) - Background process 'Worker #6cd2eb80' started.
+2018-01-23 13:46:39,124 [Worker #f08c354d] Hangfire.Server.Worker - (null) - Background process 'Worker #f08c354d' started.
+2018-01-23 13:46:39,129 [Worker #ff4f707a] Hangfire.Server.Worker - (null) - Background process 'Worker #ff4f707a' started.
+2018-01-23 13:46:39,133 [Worker #8fd5be53] Hangfire.Server.Worker - (null) - Background process 'Worker #8fd5be53' started.
+2018-01-23 13:46:39,141 [Worker #ea1cb6cc] Hangfire.Server.Worker - (null) - Background process 'Worker #ea1cb6cc' started.
+2018-01-23 13:46:39,147 [Worker #115ae3c4] Hangfire.Server.Worker - (null) - Background process 'Worker #115ae3c4' started.
+2018-01-23 13:46:39,151 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:46:39,155 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:46:39,308 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:46:39,501 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:46:39,503 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:46:40,164 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:46:40,269 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:46:40,380 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:47:11,998 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:47:12,289 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:47:12,296 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,297 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,298 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,299 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,299 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,300 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,301 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,301 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,302 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,303 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,304 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:12,306 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:47:12,515 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:47:12,683 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:47:12,951 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:12,959 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:47:12,961 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:47:12,962 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:47:12,962 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:47:12,963 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:47:12,963 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:47:12,964 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:47:12,964 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:47:12,965 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:47:12,972 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:47:13,017 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:47:13,018 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:47:13,021 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:47:13,021 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:47:13,022 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:47:13,023 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:47:13,023 [Worker #f76ad430] Hangfire.Server.Worker - (null) - Background process 'Worker #f76ad430' started.
+2018-01-23 13:47:13,024 [Worker #9b3fd5a8] Hangfire.Server.Worker - (null) - Background process 'Worker #9b3fd5a8' started.
+2018-01-23 13:47:13,027 [Worker #22f0bf98] Hangfire.Server.Worker - (null) - Background process 'Worker #22f0bf98' started.
+2018-01-23 13:47:13,027 [Worker #bbcde92b] Hangfire.Server.Worker - (null) - Background process 'Worker #bbcde92b' started.
+2018-01-23 13:47:13,028 [Worker #c963df25] Hangfire.Server.Worker - (null) - Background process 'Worker #c963df25' started.
+2018-01-23 13:47:13,029 [Worker #bbce4957] Hangfire.Server.Worker - (null) - Background process 'Worker #bbce4957' started.
+2018-01-23 13:47:13,029 [Worker #90c5dd6f] Hangfire.Server.Worker - (null) - Background process 'Worker #90c5dd6f' started.
+2018-01-23 13:47:13,030 [Worker #db86a93f] Hangfire.Server.Worker - (null) - Background process 'Worker #db86a93f' started.
+2018-01-23 13:47:13,030 [Worker #9984ead1] Hangfire.Server.Worker - (null) - Background process 'Worker #9984ead1' started.
+2018-01-23 13:47:13,031 [Worker #52272e7d] Hangfire.Server.Worker - (null) - Background process 'Worker #52272e7d' started.
+2018-01-23 13:47:13,031 [Worker #ba966d8f] Hangfire.Server.Worker - (null) - Background process 'Worker #ba966d8f' started.
+2018-01-23 13:47:13,031 [Worker #c4376044] Hangfire.Server.Worker - (null) - Background process 'Worker #c4376044' started.
+2018-01-23 13:47:13,033 [Worker #e56a2e13] Hangfire.Server.Worker - (null) - Background process 'Worker #e56a2e13' started.
+2018-01-23 13:47:13,033 [Worker #bd0f5388] Hangfire.Server.Worker - (null) - Background process 'Worker #bd0f5388' started.
+2018-01-23 13:47:13,033 [Worker #76f61500] Hangfire.Server.Worker - (null) - Background process 'Worker #76f61500' started.
+2018-01-23 13:47:13,034 [Worker #defdf15c] Hangfire.Server.Worker - (null) - Background process 'Worker #defdf15c' started.
+2018-01-23 13:47:13,035 [Worker #ab442097] Hangfire.Server.Worker - (null) - Background process 'Worker #ab442097' started.
+2018-01-23 13:47:13,035 [Worker #4dcb5d58] Hangfire.Server.Worker - (null) - Background process 'Worker #4dcb5d58' started.
+2018-01-23 13:47:13,036 [Worker #6171c42a] Hangfire.Server.Worker - (null) - Background process 'Worker #6171c42a' started.
+2018-01-23 13:47:13,036 [Worker #f6792fe7] Hangfire.Server.Worker - (null) - Background process 'Worker #f6792fe7' started.
+2018-01-23 13:47:13,037 [Worker #753d96a8] Hangfire.Server.Worker - (null) - Background process 'Worker #753d96a8' started.
+2018-01-23 13:47:13,037 [Worker #3a2062dc] Hangfire.Server.Worker - (null) - Background process 'Worker #3a2062dc' started.
+2018-01-23 13:47:13,039 [Worker #4bb44342] Hangfire.Server.Worker - (null) - Background process 'Worker #4bb44342' started.
+2018-01-23 13:47:13,039 [Worker #4048dba0] Hangfire.Server.Worker - (null) - Background process 'Worker #4048dba0' started.
+2018-01-23 13:47:13,040 [Worker #aaef8b2e] Hangfire.Server.Worker - (null) - Background process 'Worker #aaef8b2e' started.
+2018-01-23 13:47:13,040 [Worker #c3a21e5f] Hangfire.Server.Worker - (null) - Background process 'Worker #c3a21e5f' started.
+2018-01-23 13:47:13,041 [Worker #ba9eec13] Hangfire.Server.Worker - (null) - Background process 'Worker #ba9eec13' started.
+2018-01-23 13:47:13,041 [Worker #299ca553] Hangfire.Server.Worker - (null) - Background process 'Worker #299ca553' started.
+2018-01-23 13:47:13,042 [Worker #b807a3bb] Hangfire.Server.Worker - (null) - Background process 'Worker #b807a3bb' started.
+2018-01-23 13:47:13,043 [Worker #40827fd0] Hangfire.Server.Worker - (null) - Background process 'Worker #40827fd0' started.
+2018-01-23 13:47:13,044 [Worker #59ea7d4d] Hangfire.Server.Worker - (null) - Background process 'Worker #59ea7d4d' started.
+2018-01-23 13:47:13,044 [Worker #e5f788cf] Hangfire.Server.Worker - (null) - Background process 'Worker #e5f788cf' started.
+2018-01-23 13:47:13,045 [Worker #86cb6da7] Hangfire.Server.Worker - (null) - Background process 'Worker #86cb6da7' started.
+2018-01-23 13:47:13,045 [Worker #796eee70] Hangfire.Server.Worker - (null) - Background process 'Worker #796eee70' started.
+2018-01-23 13:47:13,045 [Worker #7a2cad46] Hangfire.Server.Worker - (null) - Background process 'Worker #7a2cad46' started.
+2018-01-23 13:47:13,046 [Worker #d5fe5baf] Hangfire.Server.Worker - (null) - Background process 'Worker #d5fe5baf' started.
+2018-01-23 13:47:13,046 [Worker #1926c985] Hangfire.Server.Worker - (null) - Background process 'Worker #1926c985' started.
+2018-01-23 13:47:13,047 [Worker #fff37ed4] Hangfire.Server.Worker - (null) - Background process 'Worker #fff37ed4' started.
+2018-01-23 13:47:13,047 [Worker #b412cc8a] Hangfire.Server.Worker - (null) - Background process 'Worker #b412cc8a' started.
+2018-01-23 13:47:13,049 [Worker #c0e82074] Hangfire.Server.Worker - (null) - Background process 'Worker #c0e82074' started.
+2018-01-23 13:47:13,049 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:47:13,049 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:47:13,148 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:47:13,232 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:47:13,233 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:47:13,967 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:47:14,054 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:47:14,142 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:47:33,139 [54] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:33,140 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:47:33,141 [Worker #c0e82074] Hangfire.Server.Worker - (null) - Background process 'Worker #c0e82074' stopped.
+2018-01-23 13:47:33,140 [Worker #fff37ed4] Hangfire.Server.Worker - (null) - Background process 'Worker #fff37ed4' stopped.
+2018-01-23 13:47:33,140 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:47:33,140 [Worker #e5f788cf] Hangfire.Server.Worker - (null) - Background process 'Worker #e5f788cf' stopped.
+2018-01-23 13:47:33,147 [Worker #9984ead1] Hangfire.Server.Worker - (null) - Background process 'Worker #9984ead1' stopped.
+2018-01-23 13:47:33,141 [Worker #d5fe5baf] Hangfire.Server.Worker - (null) - Background process 'Worker #d5fe5baf' stopped.
+2018-01-23 13:47:33,141 [Worker #86cb6da7] Hangfire.Server.Worker - (null) - Background process 'Worker #86cb6da7' stopped.
+2018-01-23 13:47:33,147 [Worker #db86a93f] Hangfire.Server.Worker - (null) - Background process 'Worker #db86a93f' stopped.
+2018-01-23 13:47:33,141 [Worker #7a2cad46] Hangfire.Server.Worker - (null) - Background process 'Worker #7a2cad46' stopped.
+2018-01-23 13:47:33,142 [Worker #ba9eec13] Hangfire.Server.Worker - (null) - Background process 'Worker #ba9eec13' stopped.
+2018-01-23 13:47:33,144 [Worker #f6792fe7] Hangfire.Server.Worker - (null) - Background process 'Worker #f6792fe7' stopped.
+2018-01-23 13:47:33,145 [Worker #bd0f5388] Hangfire.Server.Worker - (null) - Background process 'Worker #bd0f5388' stopped.
+2018-01-23 13:47:33,146 [Worker #90c5dd6f] Hangfire.Server.Worker - (null) - Background process 'Worker #90c5dd6f' stopped.
+2018-01-23 13:47:33,145 [Worker #defdf15c] Hangfire.Server.Worker - (null) - Background process 'Worker #defdf15c' stopped.
+2018-01-23 13:47:33,146 [Worker #ba966d8f] Hangfire.Server.Worker - (null) - Background process 'Worker #ba966d8f' stopped.
+2018-01-23 13:47:33,141 [Worker #b412cc8a] Hangfire.Server.Worker - (null) - Background process 'Worker #b412cc8a' stopped.
+2018-01-23 13:47:33,142 [Worker #299ca553] Hangfire.Server.Worker - (null) - Background process 'Worker #299ca553' stopped.
+2018-01-23 13:47:33,143 [Worker #aaef8b2e] Hangfire.Server.Worker - (null) - Background process 'Worker #aaef8b2e' stopped.
+2018-01-23 13:47:33,145 [Worker #753d96a8] Hangfire.Server.Worker - (null) - Background process 'Worker #753d96a8' stopped.
+2018-01-23 13:47:33,144 [Worker #6171c42a] Hangfire.Server.Worker - (null) - Background process 'Worker #6171c42a' stopped.
+2018-01-23 13:47:33,147 [Worker #bbce4957] Hangfire.Server.Worker - (null) - Background process 'Worker #bbce4957' stopped.
+2018-01-23 13:47:33,147 [Worker #e56a2e13] Hangfire.Server.Worker - (null) - Background process 'Worker #e56a2e13' stopped.
+2018-01-23 13:47:33,143 [Worker #4048dba0] Hangfire.Server.Worker - (null) - Background process 'Worker #4048dba0' stopped.
+2018-01-23 13:47:33,145 [Worker #ab442097] Hangfire.Server.Worker - (null) - Background process 'Worker #ab442097' stopped.
+2018-01-23 13:47:33,148 [Worker #f76ad430] Hangfire.Server.Worker - (null) - Background process 'Worker #f76ad430' stopped.
+2018-01-23 13:47:33,150 [Worker #9b3fd5a8] Hangfire.Server.Worker - (null) - Background process 'Worker #9b3fd5a8' stopped.
+2018-01-23 13:47:33,146 [Worker #bbcde92b] Hangfire.Server.Worker - (null) - Background process 'Worker #bbcde92b' stopped.
+2018-01-23 13:47:33,151 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:47:33,144 [Worker #4bb44342] Hangfire.Server.Worker - (null) - Background process 'Worker #4bb44342' stopped.
+2018-01-23 13:47:33,141 [Worker #1926c985] Hangfire.Server.Worker - (null) - Background process 'Worker #1926c985' stopped.
+2018-01-23 13:47:33,145 [Worker #c4376044] Hangfire.Server.Worker - (null) - Background process 'Worker #c4376044' stopped.
+2018-01-23 13:47:33,148 [Worker #c963df25] Hangfire.Server.Worker - (null) - Background process 'Worker #c963df25' stopped.
+2018-01-23 13:47:33,170 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:47:33,152 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:47:33,141 [Worker #796eee70] Hangfire.Server.Worker - (null) - Background process 'Worker #796eee70' stopped.
+2018-01-23 13:47:33,152 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:47:33,142 [Worker #3a2062dc] Hangfire.Server.Worker - (null) - Background process 'Worker #3a2062dc' stopped.
+2018-01-23 13:47:33,146 [Worker #4dcb5d58] Hangfire.Server.Worker - (null) - Background process 'Worker #4dcb5d58' stopped.
+2018-01-23 13:47:33,143 [Worker #b807a3bb] Hangfire.Server.Worker - (null) - Background process 'Worker #b807a3bb' stopped.
+2018-01-23 13:47:33,144 [Worker #c3a21e5f] Hangfire.Server.Worker - (null) - Background process 'Worker #c3a21e5f' stopped.
+2018-01-23 13:47:33,149 [Worker #22f0bf98] Hangfire.Server.Worker - (null) - Background process 'Worker #22f0bf98' stopped.
+2018-01-23 13:47:33,141 [Worker #59ea7d4d] Hangfire.Server.Worker - (null) - Background process 'Worker #59ea7d4d' stopped.
+2018-01-23 13:47:33,144 [Worker #52272e7d] Hangfire.Server.Worker - (null) - Background process 'Worker #52272e7d' stopped.
+2018-01-23 13:47:33,142 [Worker #40827fd0] Hangfire.Server.Worker - (null) - Background process 'Worker #40827fd0' stopped.
+2018-01-23 13:47:33,145 [Worker #76f61500] Hangfire.Server.Worker - (null) - Background process 'Worker #76f61500' stopped.
+2018-01-23 13:47:33,214 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:47:33,215 [54] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:47:33,215 [54] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:34,863 [61] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:47:35,314 [61] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:47:35,320 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,321 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,322 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,323 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,323 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,324 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,325 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,326 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,327 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,327 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,328 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:35,330 [61] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:47:35,554 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:47:35,711 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:47:35,894 [61] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:35,901 [61] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:47:35,903 [61] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:47:35,904 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:47:35,904 [61] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:47:35,904 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:47:35,905 [61] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:47:35,905 [61] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:47:35,906 [61] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:47:35,906 [61] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:47:35,912 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:47:35,980 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:47:35,980 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:47:35,982 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:47:35,983 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:47:35,984 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:47:35,984 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:47:35,985 [Worker #e8c945db] Hangfire.Server.Worker - (null) - Background process 'Worker #e8c945db' started.
+2018-01-23 13:47:35,987 [Worker #dd23e73c] Hangfire.Server.Worker - (null) - Background process 'Worker #dd23e73c' started.
+2018-01-23 13:47:35,988 [Worker #a78f01a8] Hangfire.Server.Worker - (null) - Background process 'Worker #a78f01a8' started.
+2018-01-23 13:47:35,989 [Worker #3a442257] Hangfire.Server.Worker - (null) - Background process 'Worker #3a442257' started.
+2018-01-23 13:47:35,989 [Worker #dad8b72f] Hangfire.Server.Worker - (null) - Background process 'Worker #dad8b72f' started.
+2018-01-23 13:47:35,990 [Worker #35c1324a] Hangfire.Server.Worker - (null) - Background process 'Worker #35c1324a' started.
+2018-01-23 13:47:35,990 [Worker #f3e89b98] Hangfire.Server.Worker - (null) - Background process 'Worker #f3e89b98' started.
+2018-01-23 13:47:35,991 [Worker #a92daa70] Hangfire.Server.Worker - (null) - Background process 'Worker #a92daa70' started.
+2018-01-23 13:47:35,991 [Worker #216c948f] Hangfire.Server.Worker - (null) - Background process 'Worker #216c948f' started.
+2018-01-23 13:47:35,992 [Worker #d7dc0561] Hangfire.Server.Worker - (null) - Background process 'Worker #d7dc0561' started.
+2018-01-23 13:47:35,992 [Worker #9b11f750] Hangfire.Server.Worker - (null) - Background process 'Worker #9b11f750' started.
+2018-01-23 13:47:35,993 [Worker #e1b49924] Hangfire.Server.Worker - (null) - Background process 'Worker #e1b49924' started.
+2018-01-23 13:47:35,993 [Worker #f4fe473c] Hangfire.Server.Worker - (null) - Background process 'Worker #f4fe473c' started.
+2018-01-23 13:47:35,994 [Worker #231d81b0] Hangfire.Server.Worker - (null) - Background process 'Worker #231d81b0' started.
+2018-01-23 13:47:35,994 [Worker #a7297451] Hangfire.Server.Worker - (null) - Background process 'Worker #a7297451' started.
+2018-01-23 13:47:35,995 [Worker #452ff0a6] Hangfire.Server.Worker - (null) - Background process 'Worker #452ff0a6' started.
+2018-01-23 13:47:35,995 [Worker #bbebf412] Hangfire.Server.Worker - (null) - Background process 'Worker #bbebf412' started.
+2018-01-23 13:47:35,996 [Worker #ca8e22f6] Hangfire.Server.Worker - (null) - Background process 'Worker #ca8e22f6' started.
+2018-01-23 13:47:35,997 [Worker #4a2b7908] Hangfire.Server.Worker - (null) - Background process 'Worker #4a2b7908' started.
+2018-01-23 13:47:35,998 [Worker #8b324725] Hangfire.Server.Worker - (null) - Background process 'Worker #8b324725' started.
+2018-01-23 13:47:35,998 [Worker #cb30fc12] Hangfire.Server.Worker - (null) - Background process 'Worker #cb30fc12' started.
+2018-01-23 13:47:35,999 [Worker #4804e175] Hangfire.Server.Worker - (null) - Background process 'Worker #4804e175' started.
+2018-01-23 13:47:36,000 [Worker #7515574e] Hangfire.Server.Worker - (null) - Background process 'Worker #7515574e' started.
+2018-01-23 13:47:36,001 [Worker #c69a5464] Hangfire.Server.Worker - (null) - Background process 'Worker #c69a5464' started.
+2018-01-23 13:47:36,002 [Worker #b72e41e1] Hangfire.Server.Worker - (null) - Background process 'Worker #b72e41e1' started.
+2018-01-23 13:47:36,002 [Worker #ebe39fd4] Hangfire.Server.Worker - (null) - Background process 'Worker #ebe39fd4' started.
+2018-01-23 13:47:36,002 [Worker #d5b22943] Hangfire.Server.Worker - (null) - Background process 'Worker #d5b22943' started.
+2018-01-23 13:47:36,003 [Worker #b8b4093d] Hangfire.Server.Worker - (null) - Background process 'Worker #b8b4093d' started.
+2018-01-23 13:47:36,004 [Worker #5381f99b] Hangfire.Server.Worker - (null) - Background process 'Worker #5381f99b' started.
+2018-01-23 13:47:36,004 [Worker #ccec0715] Hangfire.Server.Worker - (null) - Background process 'Worker #ccec0715' started.
+2018-01-23 13:47:36,005 [Worker #f6793d94] Hangfire.Server.Worker - (null) - Background process 'Worker #f6793d94' started.
+2018-01-23 13:47:36,005 [Worker #6e81f255] Hangfire.Server.Worker - (null) - Background process 'Worker #6e81f255' started.
+2018-01-23 13:47:36,006 [Worker #a6d6eea8] Hangfire.Server.Worker - (null) - Background process 'Worker #a6d6eea8' started.
+2018-01-23 13:47:36,006 [Worker #84db9746] Hangfire.Server.Worker - (null) - Background process 'Worker #84db9746' started.
+2018-01-23 13:47:36,006 [Worker #fd2307e3] Hangfire.Server.Worker - (null) - Background process 'Worker #fd2307e3' started.
+2018-01-23 13:47:36,007 [Worker #58a5afc9] Hangfire.Server.Worker - (null) - Background process 'Worker #58a5afc9' started.
+2018-01-23 13:47:36,008 [Worker #538f8cf8] Hangfire.Server.Worker - (null) - Background process 'Worker #538f8cf8' started.
+2018-01-23 13:47:36,009 [Worker #8f7e9ad7] Hangfire.Server.Worker - (null) - Background process 'Worker #8f7e9ad7' started.
+2018-01-23 13:47:36,009 [Worker #0db7d14c] Hangfire.Server.Worker - (null) - Background process 'Worker #0db7d14c' started.
+2018-01-23 13:47:36,010 [Worker #aacdebc9] Hangfire.Server.Worker - (null) - Background process 'Worker #aacdebc9' started.
+2018-01-23 13:47:36,011 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:47:36,013 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:47:36,105 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:47:36,197 [61] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:47:36,198 [61] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:47:36,903 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:47:36,991 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:47:37,078 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:47:40,213 [63] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:40,215 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:47:40,217 [Worker #a6d6eea8] Hangfire.Server.Worker - (null) - Background process 'Worker #a6d6eea8' stopped.
+2018-01-23 13:47:40,215 [Worker #58a5afc9] Hangfire.Server.Worker - (null) - Background process 'Worker #58a5afc9' stopped.
+2018-01-23 13:47:40,218 [Worker #b72e41e1] Hangfire.Server.Worker - (null) - Background process 'Worker #b72e41e1' stopped.
+2018-01-23 13:47:40,219 [Worker #b8b4093d] Hangfire.Server.Worker - (null) - Background process 'Worker #b8b4093d' stopped.
+2018-01-23 13:47:40,219 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:47:40,224 [Worker #e1b49924] Hangfire.Server.Worker - (null) - Background process 'Worker #e1b49924' stopped.
+2018-01-23 13:47:40,223 [Worker #216c948f] Hangfire.Server.Worker - (null) - Background process 'Worker #216c948f' stopped.
+2018-01-23 13:47:40,224 [Worker #aacdebc9] Hangfire.Server.Worker - (null) - Background process 'Worker #aacdebc9' stopped.
+2018-01-23 13:47:40,225 [Worker #5381f99b] Hangfire.Server.Worker - (null) - Background process 'Worker #5381f99b' stopped.
+2018-01-23 13:47:40,226 [Worker #0db7d14c] Hangfire.Server.Worker - (null) - Background process 'Worker #0db7d14c' stopped.
+2018-01-23 13:47:40,227 [Worker #cb30fc12] Hangfire.Server.Worker - (null) - Background process 'Worker #cb30fc12' stopped.
+2018-01-23 13:47:40,220 [Worker #bbebf412] Hangfire.Server.Worker - (null) - Background process 'Worker #bbebf412' stopped.
+2018-01-23 13:47:40,228 [Worker #6e81f255] Hangfire.Server.Worker - (null) - Background process 'Worker #6e81f255' stopped.
+2018-01-23 13:47:40,223 [Worker #ccec0715] Hangfire.Server.Worker - (null) - Background process 'Worker #ccec0715' stopped.
+2018-01-23 13:47:40,229 [Worker #9b11f750] Hangfire.Server.Worker - (null) - Background process 'Worker #9b11f750' stopped.
+2018-01-23 13:47:40,229 [Worker #d7dc0561] Hangfire.Server.Worker - (null) - Background process 'Worker #d7dc0561' stopped.
+2018-01-23 13:47:40,215 [Worker #f6793d94] Hangfire.Server.Worker - (null) - Background process 'Worker #f6793d94' stopped.
+2018-01-23 13:47:40,222 [Worker #8b324725] Hangfire.Server.Worker - (null) - Background process 'Worker #8b324725' stopped.
+2018-01-23 13:47:40,229 [Worker #a78f01a8] Hangfire.Server.Worker - (null) - Background process 'Worker #a78f01a8' stopped.
+2018-01-23 13:47:40,232 [Worker #dad8b72f] Hangfire.Server.Worker - (null) - Background process 'Worker #dad8b72f' stopped.
+2018-01-23 13:47:40,225 [Worker #4804e175] Hangfire.Server.Worker - (null) - Background process 'Worker #4804e175' stopped.
+2018-01-23 13:47:40,226 [Worker #4a2b7908] Hangfire.Server.Worker - (null) - Background process 'Worker #4a2b7908' stopped.
+2018-01-23 13:47:40,232 [Worker #dd23e73c] Hangfire.Server.Worker - (null) - Background process 'Worker #dd23e73c' stopped.
+2018-01-23 13:47:40,233 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:47:40,225 [Worker #3a442257] Hangfire.Server.Worker - (null) - Background process 'Worker #3a442257' stopped.
+2018-01-23 13:47:40,234 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:47:40,230 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:47:40,229 [Worker #35c1324a] Hangfire.Server.Worker - (null) - Background process 'Worker #35c1324a' stopped.
+2018-01-23 13:47:40,227 [Worker #231d81b0] Hangfire.Server.Worker - (null) - Background process 'Worker #231d81b0' stopped.
+2018-01-23 13:47:40,222 [Worker #fd2307e3] Hangfire.Server.Worker - (null) - Background process 'Worker #fd2307e3' stopped.
+2018-01-23 13:47:40,218 [Worker #8f7e9ad7] Hangfire.Server.Worker - (null) - Background process 'Worker #8f7e9ad7' stopped.
+2018-01-23 13:47:40,226 [Worker #ebe39fd4] Hangfire.Server.Worker - (null) - Background process 'Worker #ebe39fd4' stopped.
+2018-01-23 13:47:40,224 [Worker #d5b22943] Hangfire.Server.Worker - (null) - Background process 'Worker #d5b22943' stopped.
+2018-01-23 13:47:40,230 [Worker #f4fe473c] Hangfire.Server.Worker - (null) - Background process 'Worker #f4fe473c' stopped.
+2018-01-23 13:47:40,239 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:47:40,228 [Worker #ca8e22f6] Hangfire.Server.Worker - (null) - Background process 'Worker #ca8e22f6' stopped.
+2018-01-23 13:47:40,231 [Worker #a7297451] Hangfire.Server.Worker - (null) - Background process 'Worker #a7297451' stopped.
+2018-01-23 13:47:40,234 [Worker #a92daa70] Hangfire.Server.Worker - (null) - Background process 'Worker #a92daa70' stopped.
+2018-01-23 13:47:40,221 [Worker #84db9746] Hangfire.Server.Worker - (null) - Background process 'Worker #84db9746' stopped.
+2018-01-23 13:47:40,232 [Worker #452ff0a6] Hangfire.Server.Worker - (null) - Background process 'Worker #452ff0a6' stopped.
+2018-01-23 13:47:40,215 [Worker #538f8cf8] Hangfire.Server.Worker - (null) - Background process 'Worker #538f8cf8' stopped.
+2018-01-23 13:47:40,224 [Worker #7515574e] Hangfire.Server.Worker - (null) - Background process 'Worker #7515574e' stopped.
+2018-01-23 13:47:40,235 [Worker #f3e89b98] Hangfire.Server.Worker - (null) - Background process 'Worker #f3e89b98' stopped.
+2018-01-23 13:47:40,229 [Worker #c69a5464] Hangfire.Server.Worker - (null) - Background process 'Worker #c69a5464' stopped.
+2018-01-23 13:47:40,237 [Worker #e8c945db] Hangfire.Server.Worker - (null) - Background process 'Worker #e8c945db' stopped.
+2018-01-23 13:47:40,276 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:47:40,276 [63] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:47:40,277 [63] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:44,105 [61] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:47:44,506 [61] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:47:44,512 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,513 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,514 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,514 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,515 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,516 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,516 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,517 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,518 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,518 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,519 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:47:44,522 [61] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:47:44,742 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:47:44,913 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:47:45,129 [61] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:47:45,137 [61] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:47:45,140 [61] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:47:45,141 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:47:45,141 [61] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:47:45,142 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:47:45,142 [61] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:47:45,142 [61] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:47:45,143 [61] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:47:45,143 [61] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:47:45,150 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:47:45,218 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:47:45,219 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:47:45,221 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:47:45,222 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:47:45,222 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:47:45,223 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:47:45,224 [Worker #16fbce4d] Hangfire.Server.Worker - (null) - Background process 'Worker #16fbce4d' started.
+2018-01-23 13:47:45,224 [Worker #61ffbe1e] Hangfire.Server.Worker - (null) - Background process 'Worker #61ffbe1e' started.
+2018-01-23 13:47:45,226 [Worker #b236e127] Hangfire.Server.Worker - (null) - Background process 'Worker #b236e127' started.
+2018-01-23 13:47:45,227 [Worker #780dd9a3] Hangfire.Server.Worker - (null) - Background process 'Worker #780dd9a3' started.
+2018-01-23 13:47:45,228 [Worker #0cbda2d8] Hangfire.Server.Worker - (null) - Background process 'Worker #0cbda2d8' started.
+2018-01-23 13:47:45,228 [Worker #76570b73] Hangfire.Server.Worker - (null) - Background process 'Worker #76570b73' started.
+2018-01-23 13:47:45,229 [Worker #286ccde6] Hangfire.Server.Worker - (null) - Background process 'Worker #286ccde6' started.
+2018-01-23 13:47:45,229 [Worker #56ca3397] Hangfire.Server.Worker - (null) - Background process 'Worker #56ca3397' started.
+2018-01-23 13:47:45,230 [Worker #7bee7ff1] Hangfire.Server.Worker - (null) - Background process 'Worker #7bee7ff1' started.
+2018-01-23 13:47:45,230 [Worker #bb317a27] Hangfire.Server.Worker - (null) - Background process 'Worker #bb317a27' started.
+2018-01-23 13:47:45,231 [Worker #8458fbbd] Hangfire.Server.Worker - (null) - Background process 'Worker #8458fbbd' started.
+2018-01-23 13:47:45,232 [Worker #ce7f16d4] Hangfire.Server.Worker - (null) - Background process 'Worker #ce7f16d4' started.
+2018-01-23 13:47:45,232 [Worker #cf2d071d] Hangfire.Server.Worker - (null) - Background process 'Worker #cf2d071d' started.
+2018-01-23 13:47:45,233 [Worker #ea8e31ae] Hangfire.Server.Worker - (null) - Background process 'Worker #ea8e31ae' started.
+2018-01-23 13:47:45,233 [Worker #1d62705c] Hangfire.Server.Worker - (null) - Background process 'Worker #1d62705c' started.
+2018-01-23 13:47:45,234 [Worker #5669afbf] Hangfire.Server.Worker - (null) - Background process 'Worker #5669afbf' started.
+2018-01-23 13:47:45,234 [Worker #65555256] Hangfire.Server.Worker - (null) - Background process 'Worker #65555256' started.
+2018-01-23 13:47:45,235 [Worker #ff70af65] Hangfire.Server.Worker - (null) - Background process 'Worker #ff70af65' started.
+2018-01-23 13:47:45,235 [Worker #93217b26] Hangfire.Server.Worker - (null) - Background process 'Worker #93217b26' started.
+2018-01-23 13:47:45,236 [Worker #8a7a3e36] Hangfire.Server.Worker - (null) - Background process 'Worker #8a7a3e36' started.
+2018-01-23 13:47:45,237 [Worker #e45c4965] Hangfire.Server.Worker - (null) - Background process 'Worker #e45c4965' started.
+2018-01-23 13:47:45,237 [Worker #689ea4cf] Hangfire.Server.Worker - (null) - Background process 'Worker #689ea4cf' started.
+2018-01-23 13:47:45,238 [Worker #36af66d8] Hangfire.Server.Worker - (null) - Background process 'Worker #36af66d8' started.
+2018-01-23 13:47:45,239 [Worker #bc37b12e] Hangfire.Server.Worker - (null) - Background process 'Worker #bc37b12e' started.
+2018-01-23 13:47:45,239 [Worker #379d120b] Hangfire.Server.Worker - (null) - Background process 'Worker #379d120b' started.
+2018-01-23 13:47:45,240 [Worker #ed21ec80] Hangfire.Server.Worker - (null) - Background process 'Worker #ed21ec80' started.
+2018-01-23 13:47:45,241 [Worker #0ce07df8] Hangfire.Server.Worker - (null) - Background process 'Worker #0ce07df8' started.
+2018-01-23 13:47:45,242 [Worker #807b09bb] Hangfire.Server.Worker - (null) - Background process 'Worker #807b09bb' started.
+2018-01-23 13:47:45,242 [Worker #4fb2c3a4] Hangfire.Server.Worker - (null) - Background process 'Worker #4fb2c3a4' started.
+2018-01-23 13:47:45,242 [Worker #6ab19abc] Hangfire.Server.Worker - (null) - Background process 'Worker #6ab19abc' started.
+2018-01-23 13:47:45,244 [Worker #8f03dfbb] Hangfire.Server.Worker - (null) - Background process 'Worker #8f03dfbb' started.
+2018-01-23 13:47:45,244 [Worker #a68899e1] Hangfire.Server.Worker - (null) - Background process 'Worker #a68899e1' started.
+2018-01-23 13:47:45,246 [Worker #00b48f31] Hangfire.Server.Worker - (null) - Background process 'Worker #00b48f31' started.
+2018-01-23 13:47:45,246 [Worker #7c0909a8] Hangfire.Server.Worker - (null) - Background process 'Worker #7c0909a8' started.
+2018-01-23 13:47:45,247 [Worker #bf92e878] Hangfire.Server.Worker - (null) - Background process 'Worker #bf92e878' started.
+2018-01-23 13:47:45,248 [Worker #8c4ff0c0] Hangfire.Server.Worker - (null) - Background process 'Worker #8c4ff0c0' started.
+2018-01-23 13:47:45,248 [Worker #09ea076c] Hangfire.Server.Worker - (null) - Background process 'Worker #09ea076c' started.
+2018-01-23 13:47:45,249 [Worker #fd2a252b] Hangfire.Server.Worker - (null) - Background process 'Worker #fd2a252b' started.
+2018-01-23 13:47:45,250 [Worker #380536f2] Hangfire.Server.Worker - (null) - Background process 'Worker #380536f2' started.
+2018-01-23 13:47:45,251 [Worker #d57efe7a] Hangfire.Server.Worker - (null) - Background process 'Worker #d57efe7a' started.
+2018-01-23 13:47:45,252 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:47:45,254 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:47:45,345 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:47:45,464 [61] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:47:45,465 [61] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:47:46,167 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:47:46,259 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:47:46,350 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:48:02,762 [58] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:02,763 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:48:02,764 [Worker #09ea076c] Hangfire.Server.Worker - (null) - Background process 'Worker #09ea076c' stopped.
+2018-01-23 13:48:02,763 [Worker #380536f2] Hangfire.Server.Worker - (null) - Background process 'Worker #380536f2' stopped.
+2018-01-23 13:48:02,770 [Worker #bb317a27] Hangfire.Server.Worker - (null) - Background process 'Worker #bb317a27' stopped.
+2018-01-23 13:48:02,774 [Worker #56ca3397] Hangfire.Server.Worker - (null) - Background process 'Worker #56ca3397' stopped.
+2018-01-23 13:48:02,775 [Worker #b236e127] Hangfire.Server.Worker - (null) - Background process 'Worker #b236e127' stopped.
+2018-01-23 13:48:02,776 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:48:02,765 [Worker #8f03dfbb] Hangfire.Server.Worker - (null) - Background process 'Worker #8f03dfbb' stopped.
+2018-01-23 13:48:02,766 [Worker #d57efe7a] Hangfire.Server.Worker - (null) - Background process 'Worker #d57efe7a' stopped.
+2018-01-23 13:48:02,767 [Worker #bf92e878] Hangfire.Server.Worker - (null) - Background process 'Worker #bf92e878' stopped.
+2018-01-23 13:48:02,769 [Worker #ea8e31ae] Hangfire.Server.Worker - (null) - Background process 'Worker #ea8e31ae' stopped.
+2018-01-23 13:48:02,768 [Worker #0ce07df8] Hangfire.Server.Worker - (null) - Background process 'Worker #0ce07df8' stopped.
+2018-01-23 13:48:02,769 [Worker #bc37b12e] Hangfire.Server.Worker - (null) - Background process 'Worker #bc37b12e' stopped.
+2018-01-23 13:48:02,770 [Worker #93217b26] Hangfire.Server.Worker - (null) - Background process 'Worker #93217b26' stopped.
+2018-01-23 13:48:02,772 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:48:02,780 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:48:02,773 [Worker #0cbda2d8] Hangfire.Server.Worker - (null) - Background process 'Worker #0cbda2d8' stopped.
+2018-01-23 13:48:02,766 [Worker #ed21ec80] Hangfire.Server.Worker - (null) - Background process 'Worker #ed21ec80' stopped.
+2018-01-23 13:48:02,782 [Worker #8c4ff0c0] Hangfire.Server.Worker - (null) - Background process 'Worker #8c4ff0c0' stopped.
+2018-01-23 13:48:02,767 [Worker #65555256] Hangfire.Server.Worker - (null) - Background process 'Worker #65555256' stopped.
+2018-01-23 13:48:02,768 [Worker #689ea4cf] Hangfire.Server.Worker - (null) - Background process 'Worker #689ea4cf' stopped.
+2018-01-23 13:48:02,784 [Worker #00b48f31] Hangfire.Server.Worker - (null) - Background process 'Worker #00b48f31' stopped.
+2018-01-23 13:48:02,785 [Worker #807b09bb] Hangfire.Server.Worker - (null) - Background process 'Worker #807b09bb' stopped.
+2018-01-23 13:48:02,770 [Worker #286ccde6] Hangfire.Server.Worker - (null) - Background process 'Worker #286ccde6' stopped.
+2018-01-23 13:48:02,771 [Worker #5669afbf] Hangfire.Server.Worker - (null) - Background process 'Worker #5669afbf' stopped.
+2018-01-23 13:48:02,785 [Worker #379d120b] Hangfire.Server.Worker - (null) - Background process 'Worker #379d120b' stopped.
+2018-01-23 13:48:02,772 [Worker #16fbce4d] Hangfire.Server.Worker - (null) - Background process 'Worker #16fbce4d' stopped.
+2018-01-23 13:48:02,768 [Worker #a68899e1] Hangfire.Server.Worker - (null) - Background process 'Worker #a68899e1' stopped.
+2018-01-23 13:48:02,786 [Worker #8a7a3e36] Hangfire.Server.Worker - (null) - Background process 'Worker #8a7a3e36' stopped.
+2018-01-23 13:48:02,767 [Worker #e45c4965] Hangfire.Server.Worker - (null) - Background process 'Worker #e45c4965' stopped.
+2018-01-23 13:48:02,772 [Worker #8458fbbd] Hangfire.Server.Worker - (null) - Background process 'Worker #8458fbbd' stopped.
+2018-01-23 13:48:02,788 [Worker #7bee7ff1] Hangfire.Server.Worker - (null) - Background process 'Worker #7bee7ff1' stopped.
+2018-01-23 13:48:02,769 [Worker #cf2d071d] Hangfire.Server.Worker - (null) - Background process 'Worker #cf2d071d' stopped.
+2018-01-23 13:48:02,770 [Worker #61ffbe1e] Hangfire.Server.Worker - (null) - Background process 'Worker #61ffbe1e' stopped.
+2018-01-23 13:48:02,789 [Worker #ce7f16d4] Hangfire.Server.Worker - (null) - Background process 'Worker #ce7f16d4' stopped.
+2018-01-23 13:48:02,765 [Worker #4fb2c3a4] Hangfire.Server.Worker - (null) - Background process 'Worker #4fb2c3a4' stopped.
+2018-01-23 13:48:02,768 [Worker #ff70af65] Hangfire.Server.Worker - (null) - Background process 'Worker #ff70af65' stopped.
+2018-01-23 13:48:02,764 [Worker #7c0909a8] Hangfire.Server.Worker - (null) - Background process 'Worker #7c0909a8' stopped.
+2018-01-23 13:48:02,791 [Worker #780dd9a3] Hangfire.Server.Worker - (null) - Background process 'Worker #780dd9a3' stopped.
+2018-01-23 13:48:02,771 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:48:02,766 [Worker #36af66d8] Hangfire.Server.Worker - (null) - Background process 'Worker #36af66d8' stopped.
+2018-01-23 13:48:02,765 [Worker #6ab19abc] Hangfire.Server.Worker - (null) - Background process 'Worker #6ab19abc' stopped.
+2018-01-23 13:48:02,769 [Worker #1d62705c] Hangfire.Server.Worker - (null) - Background process 'Worker #1d62705c' stopped.
+2018-01-23 13:48:02,773 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:48:02,771 [Worker #76570b73] Hangfire.Server.Worker - (null) - Background process 'Worker #76570b73' stopped.
+2018-01-23 13:48:02,764 [Worker #fd2a252b] Hangfire.Server.Worker - (null) - Background process 'Worker #fd2a252b' stopped.
+2018-01-23 13:48:02,827 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:48:02,828 [58] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:48:02,828 [58] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:06,164 [61] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:48:06,531 [61] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:48:06,537 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,538 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,539 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,539 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,540 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,541 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,542 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,542 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,543 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,544 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,544 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:06,547 [61] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:48:06,784 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:48:06,948 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:48:07,142 [61] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:07,150 [61] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:48:07,152 [61] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:48:07,153 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:48:07,153 [61] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:48:07,153 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:48:07,154 [61] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:48:07,154 [61] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:48:07,154 [61] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:48:07,155 [61] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:48:07,161 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:48:07,230 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:48:07,231 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:48:07,233 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:48:07,234 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:48:07,234 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:48:07,235 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:48:07,237 [Worker #852d227d] Hangfire.Server.Worker - (null) - Background process 'Worker #852d227d' started.
+2018-01-23 13:48:07,237 [Worker #7006bb79] Hangfire.Server.Worker - (null) - Background process 'Worker #7006bb79' started.
+2018-01-23 13:48:07,240 [Worker #55cf0550] Hangfire.Server.Worker - (null) - Background process 'Worker #55cf0550' started.
+2018-01-23 13:48:07,241 [Worker #042083d0] Hangfire.Server.Worker - (null) - Background process 'Worker #042083d0' started.
+2018-01-23 13:48:07,243 [Worker #f57dc4d4] Hangfire.Server.Worker - (null) - Background process 'Worker #f57dc4d4' started.
+2018-01-23 13:48:07,243 [Worker #1959a0d0] Hangfire.Server.Worker - (null) - Background process 'Worker #1959a0d0' started.
+2018-01-23 13:48:07,244 [Worker #d738068e] Hangfire.Server.Worker - (null) - Background process 'Worker #d738068e' started.
+2018-01-23 13:48:07,244 [Worker #2cf6c475] Hangfire.Server.Worker - (null) - Background process 'Worker #2cf6c475' started.
+2018-01-23 13:48:07,246 [Worker #7f7b4a30] Hangfire.Server.Worker - (null) - Background process 'Worker #7f7b4a30' started.
+2018-01-23 13:48:07,246 [Worker #a4a8a1c7] Hangfire.Server.Worker - (null) - Background process 'Worker #a4a8a1c7' started.
+2018-01-23 13:48:07,247 [Worker #08f9a922] Hangfire.Server.Worker - (null) - Background process 'Worker #08f9a922' started.
+2018-01-23 13:48:07,247 [Worker #97ded4dc] Hangfire.Server.Worker - (null) - Background process 'Worker #97ded4dc' started.
+2018-01-23 13:48:07,248 [Worker #5bf2eac2] Hangfire.Server.Worker - (null) - Background process 'Worker #5bf2eac2' started.
+2018-01-23 13:48:07,248 [Worker #80dd2cc1] Hangfire.Server.Worker - (null) - Background process 'Worker #80dd2cc1' started.
+2018-01-23 13:48:07,249 [Worker #d5b089a6] Hangfire.Server.Worker - (null) - Background process 'Worker #d5b089a6' started.
+2018-01-23 13:48:07,249 [Worker #0b6bf5f5] Hangfire.Server.Worker - (null) - Background process 'Worker #0b6bf5f5' started.
+2018-01-23 13:48:07,250 [Worker #16a989da] Hangfire.Server.Worker - (null) - Background process 'Worker #16a989da' started.
+2018-01-23 13:48:07,251 [Worker #4afacec1] Hangfire.Server.Worker - (null) - Background process 'Worker #4afacec1' started.
+2018-01-23 13:48:07,251 [Worker #bd77f260] Hangfire.Server.Worker - (null) - Background process 'Worker #bd77f260' started.
+2018-01-23 13:48:07,252 [Worker #7f8c726e] Hangfire.Server.Worker - (null) - Background process 'Worker #7f8c726e' started.
+2018-01-23 13:48:07,253 [Worker #1d16230a] Hangfire.Server.Worker - (null) - Background process 'Worker #1d16230a' started.
+2018-01-23 13:48:07,254 [Worker #30245cdf] Hangfire.Server.Worker - (null) - Background process 'Worker #30245cdf' started.
+2018-01-23 13:48:07,254 [Worker #5a0f5afb] Hangfire.Server.Worker - (null) - Background process 'Worker #5a0f5afb' started.
+2018-01-23 13:48:07,255 [Worker #d44b0cc8] Hangfire.Server.Worker - (null) - Background process 'Worker #d44b0cc8' started.
+2018-01-23 13:48:07,256 [Worker #eb581b9a] Hangfire.Server.Worker - (null) - Background process 'Worker #eb581b9a' started.
+2018-01-23 13:48:07,257 [Worker #21535bae] Hangfire.Server.Worker - (null) - Background process 'Worker #21535bae' started.
+2018-01-23 13:48:07,258 [Worker #ee3764d6] Hangfire.Server.Worker - (null) - Background process 'Worker #ee3764d6' started.
+2018-01-23 13:48:07,260 [Worker #af4ca317] Hangfire.Server.Worker - (null) - Background process 'Worker #af4ca317' started.
+2018-01-23 13:48:07,261 [Worker #91472f15] Hangfire.Server.Worker - (null) - Background process 'Worker #91472f15' started.
+2018-01-23 13:48:07,261 [Worker #ea0e5942] Hangfire.Server.Worker - (null) - Background process 'Worker #ea0e5942' started.
+2018-01-23 13:48:07,262 [Worker #bd86fd12] Hangfire.Server.Worker - (null) - Background process 'Worker #bd86fd12' started.
+2018-01-23 13:48:07,263 [Worker #dc6da741] Hangfire.Server.Worker - (null) - Background process 'Worker #dc6da741' started.
+2018-01-23 13:48:07,263 [Worker #a2cb43cf] Hangfire.Server.Worker - (null) - Background process 'Worker #a2cb43cf' started.
+2018-01-23 13:48:07,265 [Worker #0e21ba1f] Hangfire.Server.Worker - (null) - Background process 'Worker #0e21ba1f' started.
+2018-01-23 13:48:07,266 [Worker #80e1aa23] Hangfire.Server.Worker - (null) - Background process 'Worker #80e1aa23' started.
+2018-01-23 13:48:07,268 [Worker #46cc39ac] Hangfire.Server.Worker - (null) - Background process 'Worker #46cc39ac' started.
+2018-01-23 13:48:07,269 [Worker #c68e4207] Hangfire.Server.Worker - (null) - Background process 'Worker #c68e4207' started.
+2018-01-23 13:48:07,269 [Worker #c647ee96] Hangfire.Server.Worker - (null) - Background process 'Worker #c647ee96' started.
+2018-01-23 13:48:07,270 [Worker #88464511] Hangfire.Server.Worker - (null) - Background process 'Worker #88464511' started.
+2018-01-23 13:48:07,271 [Worker #8ed65619] Hangfire.Server.Worker - (null) - Background process 'Worker #8ed65619' started.
+2018-01-23 13:48:07,271 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:48:07,273 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:48:07,355 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:48:07,489 [61] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:48:07,490 [61] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:48:08,172 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:48:08,259 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:48:08,345 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:48:28,364 [64] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:28,365 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:48:28,366 [Worker #2cf6c475] Hangfire.Server.Worker - (null) - Background process 'Worker #2cf6c475' stopped.
+2018-01-23 13:48:28,365 [Worker #a2cb43cf] Hangfire.Server.Worker - (null) - Background process 'Worker #a2cb43cf' stopped.
+2018-01-23 13:48:28,366 [Worker #dc6da741] Hangfire.Server.Worker - (null) - Background process 'Worker #dc6da741' stopped.
+2018-01-23 13:48:28,367 [Worker #88464511] Hangfire.Server.Worker - (null) - Background process 'Worker #88464511' stopped.
+2018-01-23 13:48:28,367 [Worker #af4ca317] Hangfire.Server.Worker - (null) - Background process 'Worker #af4ca317' stopped.
+2018-01-23 13:48:28,367 [Worker #c647ee96] Hangfire.Server.Worker - (null) - Background process 'Worker #c647ee96' stopped.
+2018-01-23 13:48:28,368 [Worker #8ed65619] Hangfire.Server.Worker - (null) - Background process 'Worker #8ed65619' stopped.
+2018-01-23 13:48:28,368 [Worker #eb581b9a] Hangfire.Server.Worker - (null) - Background process 'Worker #eb581b9a' stopped.
+2018-01-23 13:48:28,368 [Worker #c68e4207] Hangfire.Server.Worker - (null) - Background process 'Worker #c68e4207' stopped.
+2018-01-23 13:48:28,369 [Worker #80e1aa23] Hangfire.Server.Worker - (null) - Background process 'Worker #80e1aa23' stopped.
+2018-01-23 13:48:28,369 [Worker #7f8c726e] Hangfire.Server.Worker - (null) - Background process 'Worker #7f8c726e' stopped.
+2018-01-23 13:48:28,369 [Worker #5a0f5afb] Hangfire.Server.Worker - (null) - Background process 'Worker #5a0f5afb' stopped.
+2018-01-23 13:48:28,374 [Worker #7f7b4a30] Hangfire.Server.Worker - (null) - Background process 'Worker #7f7b4a30' stopped.
+2018-01-23 13:48:28,365 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:48:28,370 [Worker #ea0e5942] Hangfire.Server.Worker - (null) - Background process 'Worker #ea0e5942' stopped.
+2018-01-23 13:48:28,372 [Worker #91472f15] Hangfire.Server.Worker - (null) - Background process 'Worker #91472f15' stopped.
+2018-01-23 13:48:28,370 [Worker #21535bae] Hangfire.Server.Worker - (null) - Background process 'Worker #21535bae' stopped.
+2018-01-23 13:48:28,370 [Worker #16a989da] Hangfire.Server.Worker - (null) - Background process 'Worker #16a989da' stopped.
+2018-01-23 13:48:28,374 [Worker #30245cdf] Hangfire.Server.Worker - (null) - Background process 'Worker #30245cdf' stopped.
+2018-01-23 13:48:28,376 [Worker #80dd2cc1] Hangfire.Server.Worker - (null) - Background process 'Worker #80dd2cc1' stopped.
+2018-01-23 13:48:28,373 [Worker #042083d0] Hangfire.Server.Worker - (null) - Background process 'Worker #042083d0' stopped.
+2018-01-23 13:48:28,371 [Worker #97ded4dc] Hangfire.Server.Worker - (null) - Background process 'Worker #97ded4dc' stopped.
+2018-01-23 13:48:28,379 [Worker #1959a0d0] Hangfire.Server.Worker - (null) - Background process 'Worker #1959a0d0' stopped.
+2018-01-23 13:48:28,369 [Worker #bd86fd12] Hangfire.Server.Worker - (null) - Background process 'Worker #bd86fd12' stopped.
+2018-01-23 13:48:28,376 [Worker #55cf0550] Hangfire.Server.Worker - (null) - Background process 'Worker #55cf0550' stopped.
+2018-01-23 13:48:28,366 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:48:28,374 [Worker #46cc39ac] Hangfire.Server.Worker - (null) - Background process 'Worker #46cc39ac' stopped.
+2018-01-23 13:48:28,371 [Worker #d44b0cc8] Hangfire.Server.Worker - (null) - Background process 'Worker #d44b0cc8' stopped.
+2018-01-23 13:48:28,373 [Worker #1d16230a] Hangfire.Server.Worker - (null) - Background process 'Worker #1d16230a' stopped.
+2018-01-23 13:48:28,374 [Worker #0b6bf5f5] Hangfire.Server.Worker - (null) - Background process 'Worker #0b6bf5f5' stopped.
+2018-01-23 13:48:28,377 [Worker #852d227d] Hangfire.Server.Worker - (null) - Background process 'Worker #852d227d' stopped.
+2018-01-23 13:48:28,381 [Worker #f57dc4d4] Hangfire.Server.Worker - (null) - Background process 'Worker #f57dc4d4' stopped.
+2018-01-23 13:48:28,372 [Worker #bd77f260] Hangfire.Server.Worker - (null) - Background process 'Worker #bd77f260' stopped.
+2018-01-23 13:48:28,367 [Worker #0e21ba1f] Hangfire.Server.Worker - (null) - Background process 'Worker #0e21ba1f' stopped.
+2018-01-23 13:48:28,377 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:48:28,370 [Worker #ee3764d6] Hangfire.Server.Worker - (null) - Background process 'Worker #ee3764d6' stopped.
+2018-01-23 13:48:28,382 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:48:28,372 [Worker #d5b089a6] Hangfire.Server.Worker - (null) - Background process 'Worker #d5b089a6' stopped.
+2018-01-23 13:48:28,375 [Worker #08f9a922] Hangfire.Server.Worker - (null) - Background process 'Worker #08f9a922' stopped.
+2018-01-23 13:48:28,378 [Worker #7006bb79] Hangfire.Server.Worker - (null) - Background process 'Worker #7006bb79' stopped.
+2018-01-23 13:48:28,373 [Worker #4afacec1] Hangfire.Server.Worker - (null) - Background process 'Worker #4afacec1' stopped.
+2018-01-23 13:48:28,374 [Worker #a4a8a1c7] Hangfire.Server.Worker - (null) - Background process 'Worker #a4a8a1c7' stopped.
+2018-01-23 13:48:28,378 [Worker #5bf2eac2] Hangfire.Server.Worker - (null) - Background process 'Worker #5bf2eac2' stopped.
+2018-01-23 13:48:28,383 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:48:28,375 [Worker #d738068e] Hangfire.Server.Worker - (null) - Background process 'Worker #d738068e' stopped.
+2018-01-23 13:48:28,430 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:48:28,430 [64] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:48:28,431 [64] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:32,209 [59] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:48:32,449 [59] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:48:32,455 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,456 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,457 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,458 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,459 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,460 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,460 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,461 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,462 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,463 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,463 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:32,466 [59] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:48:32,630 [59] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:48:32,790 [59] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:48:32,972 [59] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:32,979 [59] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:48:32,981 [59] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:48:32,982 [59] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:48:32,982 [59] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:48:32,983 [59] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:48:32,983 [59] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:48:32,984 [59] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:48:32,984 [59] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:48:32,985 [59] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:48:32,991 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:48:33,038 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:48:33,040 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:48:33,042 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:48:33,043 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:48:33,044 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:48:33,044 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:48:33,045 [Worker #0d62a564] Hangfire.Server.Worker - (null) - Background process 'Worker #0d62a564' started.
+2018-01-23 13:48:33,045 [Worker #deceb183] Hangfire.Server.Worker - (null) - Background process 'Worker #deceb183' started.
+2018-01-23 13:48:33,046 [Worker #43824941] Hangfire.Server.Worker - (null) - Background process 'Worker #43824941' started.
+2018-01-23 13:48:33,047 [Worker #46f3db8e] Hangfire.Server.Worker - (null) - Background process 'Worker #46f3db8e' started.
+2018-01-23 13:48:33,050 [Worker #ecfbe93f] Hangfire.Server.Worker - (null) - Background process 'Worker #ecfbe93f' started.
+2018-01-23 13:48:33,050 [Worker #9358f10f] Hangfire.Server.Worker - (null) - Background process 'Worker #9358f10f' started.
+2018-01-23 13:48:33,051 [Worker #95805dd4] Hangfire.Server.Worker - (null) - Background process 'Worker #95805dd4' started.
+2018-01-23 13:48:33,052 [Worker #98f86efe] Hangfire.Server.Worker - (null) - Background process 'Worker #98f86efe' started.
+2018-01-23 13:48:33,053 [Worker #02843d1f] Hangfire.Server.Worker - (null) - Background process 'Worker #02843d1f' started.
+2018-01-23 13:48:33,053 [Worker #80744793] Hangfire.Server.Worker - (null) - Background process 'Worker #80744793' started.
+2018-01-23 13:48:33,054 [Worker #34759dff] Hangfire.Server.Worker - (null) - Background process 'Worker #34759dff' started.
+2018-01-23 13:48:33,055 [Worker #bb5525b2] Hangfire.Server.Worker - (null) - Background process 'Worker #bb5525b2' started.
+2018-01-23 13:48:33,056 [Worker #b7c7d933] Hangfire.Server.Worker - (null) - Background process 'Worker #b7c7d933' started.
+2018-01-23 13:48:33,056 [Worker #fe7d84ec] Hangfire.Server.Worker - (null) - Background process 'Worker #fe7d84ec' started.
+2018-01-23 13:48:33,057 [Worker #f6715ef1] Hangfire.Server.Worker - (null) - Background process 'Worker #f6715ef1' started.
+2018-01-23 13:48:33,057 [Worker #c1c46014] Hangfire.Server.Worker - (null) - Background process 'Worker #c1c46014' started.
+2018-01-23 13:48:33,058 [Worker #ec96c1ee] Hangfire.Server.Worker - (null) - Background process 'Worker #ec96c1ee' started.
+2018-01-23 13:48:33,059 [Worker #392f3a12] Hangfire.Server.Worker - (null) - Background process 'Worker #392f3a12' started.
+2018-01-23 13:48:33,059 [Worker #e4953ed5] Hangfire.Server.Worker - (null) - Background process 'Worker #e4953ed5' started.
+2018-01-23 13:48:33,060 [Worker #e2df3735] Hangfire.Server.Worker - (null) - Background process 'Worker #e2df3735' started.
+2018-01-23 13:48:33,061 [Worker #ba7b93ac] Hangfire.Server.Worker - (null) - Background process 'Worker #ba7b93ac' started.
+2018-01-23 13:48:33,062 [Worker #c5aaceb3] Hangfire.Server.Worker - (null) - Background process 'Worker #c5aaceb3' started.
+2018-01-23 13:48:33,063 [Worker #d438b710] Hangfire.Server.Worker - (null) - Background process 'Worker #d438b710' started.
+2018-01-23 13:48:33,063 [Worker #60119f2b] Hangfire.Server.Worker - (null) - Background process 'Worker #60119f2b' started.
+2018-01-23 13:48:33,064 [Worker #65dd395f] Hangfire.Server.Worker - (null) - Background process 'Worker #65dd395f' started.
+2018-01-23 13:48:33,065 [Worker #4f6ce400] Hangfire.Server.Worker - (null) - Background process 'Worker #4f6ce400' started.
+2018-01-23 13:48:33,066 [Worker #11fffaba] Hangfire.Server.Worker - (null) - Background process 'Worker #11fffaba' started.
+2018-01-23 13:48:33,067 [Worker #e4915109] Hangfire.Server.Worker - (null) - Background process 'Worker #e4915109' started.
+2018-01-23 13:48:33,067 [Worker #f3e895fd] Hangfire.Server.Worker - (null) - Background process 'Worker #f3e895fd' started.
+2018-01-23 13:48:33,068 [Worker #f0f5a92b] Hangfire.Server.Worker - (null) - Background process 'Worker #f0f5a92b' started.
+2018-01-23 13:48:33,068 [Worker #3a83b41d] Hangfire.Server.Worker - (null) - Background process 'Worker #3a83b41d' started.
+2018-01-23 13:48:33,069 [Worker #daedc6ed] Hangfire.Server.Worker - (null) - Background process 'Worker #daedc6ed' started.
+2018-01-23 13:48:33,070 [Worker #931d4ccc] Hangfire.Server.Worker - (null) - Background process 'Worker #931d4ccc' started.
+2018-01-23 13:48:33,071 [Worker #956b60df] Hangfire.Server.Worker - (null) - Background process 'Worker #956b60df' started.
+2018-01-23 13:48:33,071 [Worker #4f0e7d55] Hangfire.Server.Worker - (null) - Background process 'Worker #4f0e7d55' started.
+2018-01-23 13:48:33,072 [Worker #9c7a99ea] Hangfire.Server.Worker - (null) - Background process 'Worker #9c7a99ea' started.
+2018-01-23 13:48:33,073 [Worker #db317fc6] Hangfire.Server.Worker - (null) - Background process 'Worker #db317fc6' started.
+2018-01-23 13:48:33,073 [Worker #865ab645] Hangfire.Server.Worker - (null) - Background process 'Worker #865ab645' started.
+2018-01-23 13:48:33,073 [Worker #70e7c5df] Hangfire.Server.Worker - (null) - Background process 'Worker #70e7c5df' started.
+2018-01-23 13:48:33,074 [Worker #14d6e70f] Hangfire.Server.Worker - (null) - Background process 'Worker #14d6e70f' started.
+2018-01-23 13:48:33,074 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:48:33,076 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:48:33,199 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:48:33,288 [59] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:48:33,289 [59] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:48:33,973 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:48:34,059 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:48:34,148 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:48:42,226 [124] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:42,227 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:48:42,228 [Worker #f0f5a92b] Hangfire.Server.Worker - (null) - Background process 'Worker #f0f5a92b' stopped.
+2018-01-23 13:48:42,235 [Worker #02843d1f] Hangfire.Server.Worker - (null) - Background process 'Worker #02843d1f' stopped.
+2018-01-23 13:48:42,236 [Worker #43824941] Hangfire.Server.Worker - (null) - Background process 'Worker #43824941' stopped.
+2018-01-23 13:48:42,227 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:48:42,232 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:48:42,227 [Worker #865ab645] Hangfire.Server.Worker - (null) - Background process 'Worker #865ab645' stopped.
+2018-01-23 13:48:42,230 [Worker #65dd395f] Hangfire.Server.Worker - (null) - Background process 'Worker #65dd395f' stopped.
+2018-01-23 13:48:42,232 [Worker #ec96c1ee] Hangfire.Server.Worker - (null) - Background process 'Worker #ec96c1ee' stopped.
+2018-01-23 13:48:42,233 [Worker #80744793] Hangfire.Server.Worker - (null) - Background process 'Worker #80744793' stopped.
+2018-01-23 13:48:42,230 [Worker #fe7d84ec] Hangfire.Server.Worker - (null) - Background process 'Worker #fe7d84ec' stopped.
+2018-01-23 13:48:42,235 [Worker #d438b710] Hangfire.Server.Worker - (null) - Background process 'Worker #d438b710' stopped.
+2018-01-23 13:48:42,231 [Worker #9358f10f] Hangfire.Server.Worker - (null) - Background process 'Worker #9358f10f' stopped.
+2018-01-23 13:48:42,254 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:48:42,232 [Worker #9c7a99ea] Hangfire.Server.Worker - (null) - Background process 'Worker #9c7a99ea' stopped.
+2018-01-23 13:48:42,255 [Worker #14d6e70f] Hangfire.Server.Worker - (null) - Background process 'Worker #14d6e70f' stopped.
+2018-01-23 13:48:42,256 [Worker #4f0e7d55] Hangfire.Server.Worker - (null) - Background process 'Worker #4f0e7d55' stopped.
+2018-01-23 13:48:42,235 [Worker #e4915109] Hangfire.Server.Worker - (null) - Background process 'Worker #e4915109' stopped.
+2018-01-23 13:48:42,228 [Worker #931d4ccc] Hangfire.Server.Worker - (null) - Background process 'Worker #931d4ccc' stopped.
+2018-01-23 13:48:42,257 [Worker #11fffaba] Hangfire.Server.Worker - (null) - Background process 'Worker #11fffaba' stopped.
+2018-01-23 13:48:42,258 [Worker #e4953ed5] Hangfire.Server.Worker - (null) - Background process 'Worker #e4953ed5' stopped.
+2018-01-23 13:48:42,242 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:48:42,227 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:48:42,228 [Worker #daedc6ed] Hangfire.Server.Worker - (null) - Background process 'Worker #daedc6ed' stopped.
+2018-01-23 13:48:42,229 [Worker #70e7c5df] Hangfire.Server.Worker - (null) - Background process 'Worker #70e7c5df' stopped.
+2018-01-23 13:48:42,259 [Worker #c1c46014] Hangfire.Server.Worker - (null) - Background process 'Worker #c1c46014' stopped.
+2018-01-23 13:48:42,259 [Worker #34759dff] Hangfire.Server.Worker - (null) - Background process 'Worker #34759dff' stopped.
+2018-01-23 13:48:42,259 [Worker #98f86efe] Hangfire.Server.Worker - (null) - Background process 'Worker #98f86efe' stopped.
+2018-01-23 13:48:42,260 [Worker #0d62a564] Hangfire.Server.Worker - (null) - Background process 'Worker #0d62a564' stopped.
+2018-01-23 13:48:42,257 [Worker #c5aaceb3] Hangfire.Server.Worker - (null) - Background process 'Worker #c5aaceb3' stopped.
+2018-01-23 13:48:42,241 [Worker #95805dd4] Hangfire.Server.Worker - (null) - Background process 'Worker #95805dd4' stopped.
+2018-01-23 13:48:42,239 [Worker #deceb183] Hangfire.Server.Worker - (null) - Background process 'Worker #deceb183' stopped.
+2018-01-23 13:48:42,238 [Worker #e2df3735] Hangfire.Server.Worker - (null) - Background process 'Worker #e2df3735' stopped.
+2018-01-23 13:48:42,233 [Worker #3a83b41d] Hangfire.Server.Worker - (null) - Background process 'Worker #3a83b41d' stopped.
+2018-01-23 13:48:42,231 [Worker #956b60df] Hangfire.Server.Worker - (null) - Background process 'Worker #956b60df' stopped.
+2018-01-23 13:48:42,234 [Worker #4f6ce400] Hangfire.Server.Worker - (null) - Background process 'Worker #4f6ce400' stopped.
+2018-01-23 13:48:42,258 [Worker #60119f2b] Hangfire.Server.Worker - (null) - Background process 'Worker #60119f2b' stopped.
+2018-01-23 13:48:42,243 [Worker #ecfbe93f] Hangfire.Server.Worker - (null) - Background process 'Worker #ecfbe93f' stopped.
+2018-01-23 13:48:42,233 [Worker #f3e895fd] Hangfire.Server.Worker - (null) - Background process 'Worker #f3e895fd' stopped.
+2018-01-23 13:48:42,240 [Worker #b7c7d933] Hangfire.Server.Worker - (null) - Background process 'Worker #b7c7d933' stopped.
+2018-01-23 13:48:42,245 [Worker #46f3db8e] Hangfire.Server.Worker - (null) - Background process 'Worker #46f3db8e' stopped.
+2018-01-23 13:48:42,238 [Worker #392f3a12] Hangfire.Server.Worker - (null) - Background process 'Worker #392f3a12' stopped.
+2018-01-23 13:48:42,236 [Worker #f6715ef1] Hangfire.Server.Worker - (null) - Background process 'Worker #f6715ef1' stopped.
+2018-01-23 13:48:42,230 [Worker #db317fc6] Hangfire.Server.Worker - (null) - Background process 'Worker #db317fc6' stopped.
+2018-01-23 13:48:42,241 [Worker #bb5525b2] Hangfire.Server.Worker - (null) - Background process 'Worker #bb5525b2' stopped.
+2018-01-23 13:48:42,236 [Worker #ba7b93ac] Hangfire.Server.Worker - (null) - Background process 'Worker #ba7b93ac' stopped.
+2018-01-23 13:48:42,304 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:48:42,305 [124] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:48:42,305 [124] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:46,205 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:48:46,575 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:48:46,581 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,582 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,583 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,583 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,584 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,585 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,586 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,587 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,587 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,588 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,589 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:48:46,591 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:48:46,823 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:48:46,983 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:48:47,167 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:47,174 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:48:47,176 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:48:47,177 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:48:47,178 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:48:47,178 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:48:47,178 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:48:47,179 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:48:47,179 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:48:47,180 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:48:47,186 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:48:47,268 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:48:47,269 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:48:47,273 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:48:47,274 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:48:47,275 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:48:47,275 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:48:47,276 [Worker #18190533] Hangfire.Server.Worker - (null) - Background process 'Worker #18190533' started.
+2018-01-23 13:48:47,276 [Worker #4c24c726] Hangfire.Server.Worker - (null) - Background process 'Worker #4c24c726' started.
+2018-01-23 13:48:47,278 [Worker #061265e4] Hangfire.Server.Worker - (null) - Background process 'Worker #061265e4' started.
+2018-01-23 13:48:47,279 [Worker #5cec8c08] Hangfire.Server.Worker - (null) - Background process 'Worker #5cec8c08' started.
+2018-01-23 13:48:47,280 [Worker #43165006] Hangfire.Server.Worker - (null) - Background process 'Worker #43165006' started.
+2018-01-23 13:48:47,281 [Worker #78b92177] Hangfire.Server.Worker - (null) - Background process 'Worker #78b92177' started.
+2018-01-23 13:48:47,281 [Worker #06b40727] Hangfire.Server.Worker - (null) - Background process 'Worker #06b40727' started.
+2018-01-23 13:48:47,282 [Worker #b8df5546] Hangfire.Server.Worker - (null) - Background process 'Worker #b8df5546' started.
+2018-01-23 13:48:47,282 [Worker #b552d8c7] Hangfire.Server.Worker - (null) - Background process 'Worker #b552d8c7' started.
+2018-01-23 13:48:47,282 [Worker #31193e7b] Hangfire.Server.Worker - (null) - Background process 'Worker #31193e7b' started.
+2018-01-23 13:48:47,283 [Worker #3dd6cadf] Hangfire.Server.Worker - (null) - Background process 'Worker #3dd6cadf' started.
+2018-01-23 13:48:47,283 [Worker #702d528c] Hangfire.Server.Worker - (null) - Background process 'Worker #702d528c' started.
+2018-01-23 13:48:47,284 [Worker #590fc6cf] Hangfire.Server.Worker - (null) - Background process 'Worker #590fc6cf' started.
+2018-01-23 13:48:47,284 [Worker #176f4bac] Hangfire.Server.Worker - (null) - Background process 'Worker #176f4bac' started.
+2018-01-23 13:48:47,285 [Worker #83ada414] Hangfire.Server.Worker - (null) - Background process 'Worker #83ada414' started.
+2018-01-23 13:48:47,285 [Worker #251bcc31] Hangfire.Server.Worker - (null) - Background process 'Worker #251bcc31' started.
+2018-01-23 13:48:47,286 [Worker #b1f8b6cb] Hangfire.Server.Worker - (null) - Background process 'Worker #b1f8b6cb' started.
+2018-01-23 13:48:47,286 [Worker #1bdcce82] Hangfire.Server.Worker - (null) - Background process 'Worker #1bdcce82' started.
+2018-01-23 13:48:47,286 [Worker #523fa1ea] Hangfire.Server.Worker - (null) - Background process 'Worker #523fa1ea' started.
+2018-01-23 13:48:47,287 [Worker #d5e171be] Hangfire.Server.Worker - (null) - Background process 'Worker #d5e171be' started.
+2018-01-23 13:48:47,287 [Worker #f1739a2c] Hangfire.Server.Worker - (null) - Background process 'Worker #f1739a2c' started.
+2018-01-23 13:48:47,288 [Worker #ad913eba] Hangfire.Server.Worker - (null) - Background process 'Worker #ad913eba' started.
+2018-01-23 13:48:47,288 [Worker #cbd4093c] Hangfire.Server.Worker - (null) - Background process 'Worker #cbd4093c' started.
+2018-01-23 13:48:47,289 [Worker #baaf420b] Hangfire.Server.Worker - (null) - Background process 'Worker #baaf420b' started.
+2018-01-23 13:48:47,290 [Worker #65c78817] Hangfire.Server.Worker - (null) - Background process 'Worker #65c78817' started.
+2018-01-23 13:48:47,290 [Worker #d064f9bb] Hangfire.Server.Worker - (null) - Background process 'Worker #d064f9bb' started.
+2018-01-23 13:48:47,291 [Worker #3d91511f] Hangfire.Server.Worker - (null) - Background process 'Worker #3d91511f' started.
+2018-01-23 13:48:47,292 [Worker #f0fe8496] Hangfire.Server.Worker - (null) - Background process 'Worker #f0fe8496' started.
+2018-01-23 13:48:47,293 [Worker #17395206] Hangfire.Server.Worker - (null) - Background process 'Worker #17395206' started.
+2018-01-23 13:48:47,294 [Worker #7dcc0c0b] Hangfire.Server.Worker - (null) - Background process 'Worker #7dcc0c0b' started.
+2018-01-23 13:48:47,294 [Worker #9c51c8c9] Hangfire.Server.Worker - (null) - Background process 'Worker #9c51c8c9' started.
+2018-01-23 13:48:47,295 [Worker #d5140cda] Hangfire.Server.Worker - (null) - Background process 'Worker #d5140cda' started.
+2018-01-23 13:48:47,296 [Worker #d660ab15] Hangfire.Server.Worker - (null) - Background process 'Worker #d660ab15' started.
+2018-01-23 13:48:47,296 [Worker #1395a71f] Hangfire.Server.Worker - (null) - Background process 'Worker #1395a71f' started.
+2018-01-23 13:48:47,297 [Worker #884e93b7] Hangfire.Server.Worker - (null) - Background process 'Worker #884e93b7' started.
+2018-01-23 13:48:47,297 [Worker #d54acf99] Hangfire.Server.Worker - (null) - Background process 'Worker #d54acf99' started.
+2018-01-23 13:48:47,298 [Worker #7064729b] Hangfire.Server.Worker - (null) - Background process 'Worker #7064729b' started.
+2018-01-23 13:48:47,299 [Worker #dd55a597] Hangfire.Server.Worker - (null) - Background process 'Worker #dd55a597' started.
+2018-01-23 13:48:47,300 [Worker #6c60fff2] Hangfire.Server.Worker - (null) - Background process 'Worker #6c60fff2' started.
+2018-01-23 13:48:47,301 [Worker #be6f6641] Hangfire.Server.Worker - (null) - Background process 'Worker #be6f6641' started.
+2018-01-23 13:48:47,302 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:48:47,304 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:48:47,400 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:48:47,509 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:48:47,511 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:48:48,226 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:48:48,313 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:48:48,399 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:48:58,116 [67] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:48:58,118 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:48:58,118 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:48:58,119 [Worker #d54acf99] Hangfire.Server.Worker - (null) - Background process 'Worker #d54acf99' stopped.
+2018-01-23 13:48:58,118 [Worker #9c51c8c9] Hangfire.Server.Worker - (null) - Background process 'Worker #9c51c8c9' stopped.
+2018-01-23 13:48:58,119 [Worker #1395a71f] Hangfire.Server.Worker - (null) - Background process 'Worker #1395a71f' stopped.
+2018-01-23 13:48:58,120 [Worker #884e93b7] Hangfire.Server.Worker - (null) - Background process 'Worker #884e93b7' stopped.
+2018-01-23 13:48:58,120 [Worker #be6f6641] Hangfire.Server.Worker - (null) - Background process 'Worker #be6f6641' stopped.
+2018-01-23 13:48:58,121 [Worker #d064f9bb] Hangfire.Server.Worker - (null) - Background process 'Worker #d064f9bb' stopped.
+2018-01-23 13:48:58,122 [Worker #dd55a597] Hangfire.Server.Worker - (null) - Background process 'Worker #dd55a597' stopped.
+2018-01-23 13:48:58,122 [Worker #7064729b] Hangfire.Server.Worker - (null) - Background process 'Worker #7064729b' stopped.
+2018-01-23 13:48:58,122 [Worker #cbd4093c] Hangfire.Server.Worker - (null) - Background process 'Worker #cbd4093c' stopped.
+2018-01-23 13:48:58,123 [Worker #d5140cda] Hangfire.Server.Worker - (null) - Background process 'Worker #d5140cda' stopped.
+2018-01-23 13:48:58,124 [Worker #17395206] Hangfire.Server.Worker - (null) - Background process 'Worker #17395206' stopped.
+2018-01-23 13:48:58,124 [Worker #1bdcce82] Hangfire.Server.Worker - (null) - Background process 'Worker #1bdcce82' stopped.
+2018-01-23 13:48:58,124 [Worker #ad913eba] Hangfire.Server.Worker - (null) - Background process 'Worker #ad913eba' stopped.
+2018-01-23 13:48:58,125 [Worker #baaf420b] Hangfire.Server.Worker - (null) - Background process 'Worker #baaf420b' stopped.
+2018-01-23 13:48:58,126 [Worker #f1739a2c] Hangfire.Server.Worker - (null) - Background process 'Worker #f1739a2c' stopped.
+2018-01-23 13:48:58,126 [Worker #7dcc0c0b] Hangfire.Server.Worker - (null) - Background process 'Worker #7dcc0c0b' stopped.
+2018-01-23 13:48:58,127 [Worker #523fa1ea] Hangfire.Server.Worker - (null) - Background process 'Worker #523fa1ea' stopped.
+2018-01-23 13:48:58,128 [Worker #65c78817] Hangfire.Server.Worker - (null) - Background process 'Worker #65c78817' stopped.
+2018-01-23 13:48:58,128 [Worker #06b40727] Hangfire.Server.Worker - (null) - Background process 'Worker #06b40727' stopped.
+2018-01-23 13:48:58,132 [Worker #b552d8c7] Hangfire.Server.Worker - (null) - Background process 'Worker #b552d8c7' stopped.
+2018-01-23 13:48:58,132 [Worker #4c24c726] Hangfire.Server.Worker - (null) - Background process 'Worker #4c24c726' stopped.
+2018-01-23 13:48:58,133 [Worker #78b92177] Hangfire.Server.Worker - (null) - Background process 'Worker #78b92177' stopped.
+2018-01-23 13:48:58,134 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:48:58,133 [Worker #061265e4] Hangfire.Server.Worker - (null) - Background process 'Worker #061265e4' stopped.
+2018-01-23 13:48:58,129 [Worker #590fc6cf] Hangfire.Server.Worker - (null) - Background process 'Worker #590fc6cf' stopped.
+2018-01-23 13:48:58,129 [Worker #18190533] Hangfire.Server.Worker - (null) - Background process 'Worker #18190533' stopped.
+2018-01-23 13:48:58,130 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:48:58,121 [Worker #f0fe8496] Hangfire.Server.Worker - (null) - Background process 'Worker #f0fe8496' stopped.
+2018-01-23 13:48:58,118 [Worker #6c60fff2] Hangfire.Server.Worker - (null) - Background process 'Worker #6c60fff2' stopped.
+2018-01-23 13:48:58,125 [Worker #31193e7b] Hangfire.Server.Worker - (null) - Background process 'Worker #31193e7b' stopped.
+2018-01-23 13:48:58,127 [Worker #5cec8c08] Hangfire.Server.Worker - (null) - Background process 'Worker #5cec8c08' stopped.
+2018-01-23 13:48:58,126 [Worker #d5e171be] Hangfire.Server.Worker - (null) - Background process 'Worker #d5e171be' stopped.
+2018-01-23 13:48:58,128 [Worker #702d528c] Hangfire.Server.Worker - (null) - Background process 'Worker #702d528c' stopped.
+2018-01-23 13:48:58,131 [Worker #3dd6cadf] Hangfire.Server.Worker - (null) - Background process 'Worker #3dd6cadf' stopped.
+2018-01-23 13:48:58,135 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:48:58,130 [Worker #b8df5546] Hangfire.Server.Worker - (null) - Background process 'Worker #b8df5546' stopped.
+2018-01-23 13:48:58,132 [Worker #43165006] Hangfire.Server.Worker - (null) - Background process 'Worker #43165006' stopped.
+2018-01-23 13:48:58,127 [Worker #251bcc31] Hangfire.Server.Worker - (null) - Background process 'Worker #251bcc31' stopped.
+2018-01-23 13:48:58,123 [Worker #3d91511f] Hangfire.Server.Worker - (null) - Background process 'Worker #3d91511f' stopped.
+2018-01-23 13:48:58,124 [Worker #83ada414] Hangfire.Server.Worker - (null) - Background process 'Worker #83ada414' stopped.
+2018-01-23 13:48:58,123 [Worker #d660ab15] Hangfire.Server.Worker - (null) - Background process 'Worker #d660ab15' stopped.
+2018-01-23 13:48:58,129 [Worker #b1f8b6cb] Hangfire.Server.Worker - (null) - Background process 'Worker #b1f8b6cb' stopped.
+2018-01-23 13:48:58,119 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:48:58,130 [Worker #176f4bac] Hangfire.Server.Worker - (null) - Background process 'Worker #176f4bac' stopped.
+2018-01-23 13:48:58,174 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:48:58,175 [67] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:48:58,176 [67] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:49:01,957 [61] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:49:02,418 [61] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:49:02,427 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,428 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,429 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,430 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,431 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,432 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,433 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,433 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,434 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,435 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,435 [61] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:49:02,438 [61] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:49:02,662 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:49:02,824 [61] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:49:03,009 [61] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:49:03,017 [61] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:49:03,019 [61] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:49:03,020 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:49:03,020 [61] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:49:03,021 [61] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:49:03,021 [61] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:49:03,022 [61] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:49:03,022 [61] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:49:03,022 [61] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:49:03,030 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:49:03,102 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:49:03,103 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:49:03,105 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:49:03,105 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:49:03,107 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:49:03,107 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:49:03,109 [Worker #82bf3791] Hangfire.Server.Worker - (null) - Background process 'Worker #82bf3791' started.
+2018-01-23 13:49:03,109 [Worker #ccd10fdc] Hangfire.Server.Worker - (null) - Background process 'Worker #ccd10fdc' started.
+2018-01-23 13:49:03,117 [Worker #bd23255d] Hangfire.Server.Worker - (null) - Background process 'Worker #bd23255d' started.
+2018-01-23 13:49:03,118 [Worker #f1efaaee] Hangfire.Server.Worker - (null) - Background process 'Worker #f1efaaee' started.
+2018-01-23 13:49:03,119 [Worker #56c335b0] Hangfire.Server.Worker - (null) - Background process 'Worker #56c335b0' started.
+2018-01-23 13:49:03,120 [Worker #6d841135] Hangfire.Server.Worker - (null) - Background process 'Worker #6d841135' started.
+2018-01-23 13:49:03,121 [Worker #47290d4a] Hangfire.Server.Worker - (null) - Background process 'Worker #47290d4a' started.
+2018-01-23 13:49:03,122 [Worker #dfe7f1d5] Hangfire.Server.Worker - (null) - Background process 'Worker #dfe7f1d5' started.
+2018-01-23 13:49:03,123 [Worker #b765656d] Hangfire.Server.Worker - (null) - Background process 'Worker #b765656d' started.
+2018-01-23 13:49:03,123 [Worker #707ddb67] Hangfire.Server.Worker - (null) - Background process 'Worker #707ddb67' started.
+2018-01-23 13:49:03,126 [Worker #2144cf57] Hangfire.Server.Worker - (null) - Background process 'Worker #2144cf57' started.
+2018-01-23 13:49:03,127 [Worker #114829ac] Hangfire.Server.Worker - (null) - Background process 'Worker #114829ac' started.
+2018-01-23 13:49:03,127 [Worker #b2fa76f5] Hangfire.Server.Worker - (null) - Background process 'Worker #b2fa76f5' started.
+2018-01-23 13:49:03,128 [Worker #a94a8ad9] Hangfire.Server.Worker - (null) - Background process 'Worker #a94a8ad9' started.
+2018-01-23 13:49:03,129 [Worker #28cc1c60] Hangfire.Server.Worker - (null) - Background process 'Worker #28cc1c60' started.
+2018-01-23 13:49:03,130 [Worker #b1e18473] Hangfire.Server.Worker - (null) - Background process 'Worker #b1e18473' started.
+2018-01-23 13:49:03,131 [Worker #6f1f45aa] Hangfire.Server.Worker - (null) - Background process 'Worker #6f1f45aa' started.
+2018-01-23 13:49:03,132 [Worker #2f306840] Hangfire.Server.Worker - (null) - Background process 'Worker #2f306840' started.
+2018-01-23 13:49:03,132 [Worker #621831e9] Hangfire.Server.Worker - (null) - Background process 'Worker #621831e9' started.
+2018-01-23 13:49:03,133 [Worker #0bd6002f] Hangfire.Server.Worker - (null) - Background process 'Worker #0bd6002f' started.
+2018-01-23 13:49:03,135 [Worker #1a4faf99] Hangfire.Server.Worker - (null) - Background process 'Worker #1a4faf99' started.
+2018-01-23 13:49:03,136 [Worker #62f8c914] Hangfire.Server.Worker - (null) - Background process 'Worker #62f8c914' started.
+2018-01-23 13:49:03,137 [Worker #5f2f3225] Hangfire.Server.Worker - (null) - Background process 'Worker #5f2f3225' started.
+2018-01-23 13:49:03,137 [Worker #afe18e85] Hangfire.Server.Worker - (null) - Background process 'Worker #afe18e85' started.
+2018-01-23 13:49:03,138 [Worker #d036747c] Hangfire.Server.Worker - (null) - Background process 'Worker #d036747c' started.
+2018-01-23 13:49:03,139 [Worker #074b8f03] Hangfire.Server.Worker - (null) - Background process 'Worker #074b8f03' started.
+2018-01-23 13:49:03,140 [Worker #cd3e6068] Hangfire.Server.Worker - (null) - Background process 'Worker #cd3e6068' started.
+2018-01-23 13:49:03,141 [Worker #f72739a6] Hangfire.Server.Worker - (null) - Background process 'Worker #f72739a6' started.
+2018-01-23 13:49:03,142 [Worker #881a523e] Hangfire.Server.Worker - (null) - Background process 'Worker #881a523e' started.
+2018-01-23 13:49:03,143 [Worker #e12c509f] Hangfire.Server.Worker - (null) - Background process 'Worker #e12c509f' started.
+2018-01-23 13:49:03,143 [Worker #4932c1c8] Hangfire.Server.Worker - (null) - Background process 'Worker #4932c1c8' started.
+2018-01-23 13:49:03,144 [Worker #06ad82c4] Hangfire.Server.Worker - (null) - Background process 'Worker #06ad82c4' started.
+2018-01-23 13:49:03,145 [Worker #b3a3fcc5] Hangfire.Server.Worker - (null) - Background process 'Worker #b3a3fcc5' started.
+2018-01-23 13:49:03,145 [Worker #ae44d944] Hangfire.Server.Worker - (null) - Background process 'Worker #ae44d944' started.
+2018-01-23 13:49:03,146 [Worker #ad33f7b7] Hangfire.Server.Worker - (null) - Background process 'Worker #ad33f7b7' started.
+2018-01-23 13:49:03,146 [Worker #5bbc7f39] Hangfire.Server.Worker - (null) - Background process 'Worker #5bbc7f39' started.
+2018-01-23 13:49:03,146 [Worker #2d4d91c5] Hangfire.Server.Worker - (null) - Background process 'Worker #2d4d91c5' started.
+2018-01-23 13:49:03,147 [Worker #09abf3eb] Hangfire.Server.Worker - (null) - Background process 'Worker #09abf3eb' started.
+2018-01-23 13:49:03,148 [Worker #a24b0c26] Hangfire.Server.Worker - (null) - Background process 'Worker #a24b0c26' started.
+2018-01-23 13:49:03,149 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:49:03,147 [Worker #d70203e4] Hangfire.Server.Worker - (null) - Background process 'Worker #d70203e4' started.
+2018-01-23 13:49:03,150 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:49:03,278 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:49:03,365 [61] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:49:03,367 [61] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:49:04,107 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:49:04,194 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:49:04,301 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:51:25,297 [112] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:51:25,298 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 13:51:25,299 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 13:51:25,298 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 13:51:25,299 [Worker #d70203e4] Hangfire.Server.Worker - (null) - Background process 'Worker #d70203e4' stopped.
+2018-01-23 13:51:25,299 [Worker #d036747c] Hangfire.Server.Worker - (null) - Background process 'Worker #d036747c' stopped.
+2018-01-23 13:51:25,307 [Worker #b3a3fcc5] Hangfire.Server.Worker - (null) - Background process 'Worker #b3a3fcc5' stopped.
+2018-01-23 13:51:25,299 [Worker #ccd10fdc] Hangfire.Server.Worker - (null) - Background process 'Worker #ccd10fdc' stopped.
+2018-01-23 13:51:25,308 [Worker #2144cf57] Hangfire.Server.Worker - (null) - Background process 'Worker #2144cf57' stopped.
+2018-01-23 13:51:25,308 [Worker #dfe7f1d5] Hangfire.Server.Worker - (null) - Background process 'Worker #dfe7f1d5' stopped.
+2018-01-23 13:51:25,309 [Worker #56c335b0] Hangfire.Server.Worker - (null) - Background process 'Worker #56c335b0' stopped.
+2018-01-23 13:51:25,301 [Worker #074b8f03] Hangfire.Server.Worker - (null) - Background process 'Worker #074b8f03' stopped.
+2018-01-23 13:51:25,301 [Worker #4932c1c8] Hangfire.Server.Worker - (null) - Background process 'Worker #4932c1c8' stopped.
+2018-01-23 13:51:25,300 [Worker #a24b0c26] Hangfire.Server.Worker - (null) - Background process 'Worker #a24b0c26' stopped.
+2018-01-23 13:51:25,303 [Worker #62f8c914] Hangfire.Server.Worker - (null) - Background process 'Worker #62f8c914' stopped.
+2018-01-23 13:51:25,300 [Worker #2d4d91c5] Hangfire.Server.Worker - (null) - Background process 'Worker #2d4d91c5' stopped.
+2018-01-23 13:51:25,305 [Worker #b1e18473] Hangfire.Server.Worker - (null) - Background process 'Worker #b1e18473' stopped.
+2018-01-23 13:51:25,301 [Worker #e12c509f] Hangfire.Server.Worker - (null) - Background process 'Worker #e12c509f' stopped.
+2018-01-23 13:51:25,306 [Worker #b2fa76f5] Hangfire.Server.Worker - (null) - Background process 'Worker #b2fa76f5' stopped.
+2018-01-23 13:51:25,303 [Worker #6f1f45aa] Hangfire.Server.Worker - (null) - Background process 'Worker #6f1f45aa' stopped.
+2018-01-23 13:51:25,304 [Worker #2f306840] Hangfire.Server.Worker - (null) - Background process 'Worker #2f306840' stopped.
+2018-01-23 13:51:25,305 [Worker #b765656d] Hangfire.Server.Worker - (null) - Background process 'Worker #b765656d' stopped.
+2018-01-23 13:51:25,305 [Worker #bd23255d] Hangfire.Server.Worker - (null) - Background process 'Worker #bd23255d' stopped.
+2018-01-23 13:51:25,306 [Worker #82bf3791] Hangfire.Server.Worker - (null) - Background process 'Worker #82bf3791' stopped.
+2018-01-23 13:51:25,300 [Worker #5bbc7f39] Hangfire.Server.Worker - (null) - Background process 'Worker #5bbc7f39' stopped.
+2018-01-23 13:51:25,299 [Worker #ae44d944] Hangfire.Server.Worker - (null) - Background process 'Worker #ae44d944' stopped.
+2018-01-23 13:51:25,302 [Worker #cd3e6068] Hangfire.Server.Worker - (null) - Background process 'Worker #cd3e6068' stopped.
+2018-01-23 13:51:25,302 [Worker #881a523e] Hangfire.Server.Worker - (null) - Background process 'Worker #881a523e' stopped.
+2018-01-23 13:51:25,300 [Worker #f72739a6] Hangfire.Server.Worker - (null) - Background process 'Worker #f72739a6' stopped.
+2018-01-23 13:51:25,303 [Worker #afe18e85] Hangfire.Server.Worker - (null) - Background process 'Worker #afe18e85' stopped.
+2018-01-23 13:51:25,304 [Worker #1a4faf99] Hangfire.Server.Worker - (null) - Background process 'Worker #1a4faf99' stopped.
+2018-01-23 13:51:25,319 [Worker #ad33f7b7] Hangfire.Server.Worker - (null) - Background process 'Worker #ad33f7b7' stopped.
+2018-01-23 13:51:25,322 [Worker #114829ac] Hangfire.Server.Worker - (null) - Background process 'Worker #114829ac' stopped.
+2018-01-23 13:51:25,306 [Worker #a94a8ad9] Hangfire.Server.Worker - (null) - Background process 'Worker #a94a8ad9' stopped.
+2018-01-23 13:51:25,322 [Worker #5f2f3225] Hangfire.Server.Worker - (null) - Background process 'Worker #5f2f3225' stopped.
+2018-01-23 13:51:25,324 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 13:51:25,323 [Worker #47290d4a] Hangfire.Server.Worker - (null) - Background process 'Worker #47290d4a' stopped.
+2018-01-23 13:51:25,322 [Worker #f1efaaee] Hangfire.Server.Worker - (null) - Background process 'Worker #f1efaaee' stopped.
+2018-01-23 13:51:25,304 [Worker #621831e9] Hangfire.Server.Worker - (null) - Background process 'Worker #621831e9' stopped.
+2018-01-23 13:51:25,299 [Worker #06ad82c4] Hangfire.Server.Worker - (null) - Background process 'Worker #06ad82c4' stopped.
+2018-01-23 13:51:25,300 [Worker #28cc1c60] Hangfire.Server.Worker - (null) - Background process 'Worker #28cc1c60' stopped.
+2018-01-23 13:51:25,322 [Worker #0bd6002f] Hangfire.Server.Worker - (null) - Background process 'Worker #0bd6002f' stopped.
+2018-01-23 13:51:25,305 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 13:51:25,304 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 13:51:25,302 [Worker #6d841135] Hangfire.Server.Worker - (null) - Background process 'Worker #6d841135' stopped.
+2018-01-23 13:51:25,301 [Worker #707ddb67] Hangfire.Server.Worker - (null) - Background process 'Worker #707ddb67' stopped.
+2018-01-23 13:51:25,299 [Worker #09abf3eb] Hangfire.Server.Worker - (null) - Background process 'Worker #09abf3eb' stopped.
+2018-01-23 13:51:25,362 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 13:51:25,363 [112] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 13:51:25,363 [112] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:51:28,265 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:51:28,686 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:51:28,695 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,696 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,697 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,698 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,698 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,699 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,700 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,701 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,702 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,702 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,703 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:51:28,707 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:51:28,935 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:51:29,090 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:51:29,273 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:51:29,281 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:51:29,283 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:51:29,284 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:51:29,284 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:51:29,284 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:51:29,285 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:51:29,285 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:51:29,286 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:51:29,286 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:51:29,292 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:51:29,362 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:51:29,362 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:51:29,365 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:51:29,365 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:51:29,367 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:51:29,367 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:51:29,369 [Worker #a1d1d07c] Hangfire.Server.Worker - (null) - Background process 'Worker #a1d1d07c' started.
+2018-01-23 13:51:29,370 [Worker #ca86539b] Hangfire.Server.Worker - (null) - Background process 'Worker #ca86539b' started.
+2018-01-23 13:51:29,374 [Worker #9ba02ba2] Hangfire.Server.Worker - (null) - Background process 'Worker #9ba02ba2' started.
+2018-01-23 13:51:29,375 [Worker #29a9b345] Hangfire.Server.Worker - (null) - Background process 'Worker #29a9b345' started.
+2018-01-23 13:51:29,376 [Worker #b3a14829] Hangfire.Server.Worker - (null) - Background process 'Worker #b3a14829' started.
+2018-01-23 13:51:29,376 [Worker #26f09d48] Hangfire.Server.Worker - (null) - Background process 'Worker #26f09d48' started.
+2018-01-23 13:51:29,377 [Worker #acb4bdb0] Hangfire.Server.Worker - (null) - Background process 'Worker #acb4bdb0' started.
+2018-01-23 13:51:29,375 [Worker #d7ba3f74] Hangfire.Server.Worker - (null) - Background process 'Worker #d7ba3f74' started.
+2018-01-23 13:51:29,377 [Worker #98674354] Hangfire.Server.Worker - (null) - Background process 'Worker #98674354' started.
+2018-01-23 13:51:29,378 [Worker #53db16be] Hangfire.Server.Worker - (null) - Background process 'Worker #53db16be' started.
+2018-01-23 13:51:29,379 [Worker #779d9277] Hangfire.Server.Worker - (null) - Background process 'Worker #779d9277' started.
+2018-01-23 13:51:29,379 [Worker #5ce863b6] Hangfire.Server.Worker - (null) - Background process 'Worker #5ce863b6' started.
+2018-01-23 13:51:29,380 [Worker #632e9874] Hangfire.Server.Worker - (null) - Background process 'Worker #632e9874' started.
+2018-01-23 13:51:29,381 [Worker #74f3c386] Hangfire.Server.Worker - (null) - Background process 'Worker #74f3c386' started.
+2018-01-23 13:51:29,381 [Worker #5dfe92de] Hangfire.Server.Worker - (null) - Background process 'Worker #5dfe92de' started.
+2018-01-23 13:51:29,382 [Worker #46ab9a5e] Hangfire.Server.Worker - (null) - Background process 'Worker #46ab9a5e' started.
+2018-01-23 13:51:29,383 [Worker #a7d262c0] Hangfire.Server.Worker - (null) - Background process 'Worker #a7d262c0' started.
+2018-01-23 13:51:29,384 [Worker #db6222ff] Hangfire.Server.Worker - (null) - Background process 'Worker #db6222ff' started.
+2018-01-23 13:51:29,384 [Worker #10efac46] Hangfire.Server.Worker - (null) - Background process 'Worker #10efac46' started.
+2018-01-23 13:51:29,385 [Worker #76f6ec68] Hangfire.Server.Worker - (null) - Background process 'Worker #76f6ec68' started.
+2018-01-23 13:51:29,386 [Worker #807bec69] Hangfire.Server.Worker - (null) - Background process 'Worker #807bec69' started.
+2018-01-23 13:51:29,387 [Worker #cce8110a] Hangfire.Server.Worker - (null) - Background process 'Worker #cce8110a' started.
+2018-01-23 13:51:29,388 [Worker #38b8f07a] Hangfire.Server.Worker - (null) - Background process 'Worker #38b8f07a' started.
+2018-01-23 13:51:29,389 [Worker #907a80b2] Hangfire.Server.Worker - (null) - Background process 'Worker #907a80b2' started.
+2018-01-23 13:51:29,390 [Worker #2f2e0888] Hangfire.Server.Worker - (null) - Background process 'Worker #2f2e0888' started.
+2018-01-23 13:51:29,391 [Worker #c331b0b7] Hangfire.Server.Worker - (null) - Background process 'Worker #c331b0b7' started.
+2018-01-23 13:51:29,393 [Worker #c13fda99] Hangfire.Server.Worker - (null) - Background process 'Worker #c13fda99' started.
+2018-01-23 13:51:29,396 [Worker #207435bc] Hangfire.Server.Worker - (null) - Background process 'Worker #207435bc' started.
+2018-01-23 13:51:29,397 [Worker #0e4ade02] Hangfire.Server.Worker - (null) - Background process 'Worker #0e4ade02' started.
+2018-01-23 13:51:29,398 [Worker #098d01cc] Hangfire.Server.Worker - (null) - Background process 'Worker #098d01cc' started.
+2018-01-23 13:51:29,399 [Worker #ddea6a68] Hangfire.Server.Worker - (null) - Background process 'Worker #ddea6a68' started.
+2018-01-23 13:51:29,402 [Worker #6328e8b0] Hangfire.Server.Worker - (null) - Background process 'Worker #6328e8b0' started.
+2018-01-23 13:51:29,403 [Worker #5dc2487f] Hangfire.Server.Worker - (null) - Background process 'Worker #5dc2487f' started.
+2018-01-23 13:51:29,403 [Worker #ee245c59] Hangfire.Server.Worker - (null) - Background process 'Worker #ee245c59' started.
+2018-01-23 13:51:29,404 [Worker #9ad4206e] Hangfire.Server.Worker - (null) - Background process 'Worker #9ad4206e' started.
+2018-01-23 13:51:29,405 [Worker #7ef7c06b] Hangfire.Server.Worker - (null) - Background process 'Worker #7ef7c06b' started.
+2018-01-23 13:51:29,405 [Worker #7de98662] Hangfire.Server.Worker - (null) - Background process 'Worker #7de98662' started.
+2018-01-23 13:51:29,406 [Worker #da35d236] Hangfire.Server.Worker - (null) - Background process 'Worker #da35d236' started.
+2018-01-23 13:51:29,406 [Worker #b296ac59] Hangfire.Server.Worker - (null) - Background process 'Worker #b296ac59' started.
+2018-01-23 13:51:29,407 [Worker #aa4dfb9a] Hangfire.Server.Worker - (null) - Background process 'Worker #aa4dfb9a' started.
+2018-01-23 13:51:29,407 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:51:29,408 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:51:29,490 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:51:29,616 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:51:29,617 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:51:30,326 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:51:30,416 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:51:30,505 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 13:59:15,966 [1] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 13:59:16,256 [1] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 13:59:16,262 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,262 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,263 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,264 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,265 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,265 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,266 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,267 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,267 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,268 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,268 [1] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 13:59:16,271 [1] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 13:59:16,497 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 13:59:16,663 [1] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 13:59:16,930 [1] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 13:59:16,937 [1] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 13:59:16,939 [1] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 13:59:16,940 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 13:59:16,940 [1] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 13:59:16,941 [1] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 13:59:16,941 [1] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 13:59:16,942 [1] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 13:59:16,942 [1] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 13:59:16,942 [1] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 13:59:16,950 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 13:59:16,997 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 13:59:16,998 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 13:59:16,999 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 13:59:17,000 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 13:59:17,002 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 13:59:17,002 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 13:59:17,002 [Worker #0c5296bc] Hangfire.Server.Worker - (null) - Background process 'Worker #0c5296bc' started.
+2018-01-23 13:59:17,003 [Worker #1db87ead] Hangfire.Server.Worker - (null) - Background process 'Worker #1db87ead' started.
+2018-01-23 13:59:17,006 [Worker #2b62d76b] Hangfire.Server.Worker - (null) - Background process 'Worker #2b62d76b' started.
+2018-01-23 13:59:17,007 [Worker #f37982b9] Hangfire.Server.Worker - (null) - Background process 'Worker #f37982b9' started.
+2018-01-23 13:59:17,007 [Worker #60fba155] Hangfire.Server.Worker - (null) - Background process 'Worker #60fba155' started.
+2018-01-23 13:59:17,008 [Worker #e5b21b6d] Hangfire.Server.Worker - (null) - Background process 'Worker #e5b21b6d' started.
+2018-01-23 13:59:17,008 [Worker #6d6a0bb4] Hangfire.Server.Worker - (null) - Background process 'Worker #6d6a0bb4' started.
+2018-01-23 13:59:17,009 [Worker #c569c906] Hangfire.Server.Worker - (null) - Background process 'Worker #c569c906' started.
+2018-01-23 13:59:17,009 [Worker #78f96e26] Hangfire.Server.Worker - (null) - Background process 'Worker #78f96e26' started.
+2018-01-23 13:59:17,010 [Worker #d75ca363] Hangfire.Server.Worker - (null) - Background process 'Worker #d75ca363' started.
+2018-01-23 13:59:17,011 [Worker #f4604226] Hangfire.Server.Worker - (null) - Background process 'Worker #f4604226' started.
+2018-01-23 13:59:17,010 [Worker #fe1f1fde] Hangfire.Server.Worker - (null) - Background process 'Worker #fe1f1fde' started.
+2018-01-23 13:59:17,011 [Worker #b18c3743] Hangfire.Server.Worker - (null) - Background process 'Worker #b18c3743' started.
+2018-01-23 13:59:17,012 [Worker #323d5688] Hangfire.Server.Worker - (null) - Background process 'Worker #323d5688' started.
+2018-01-23 13:59:17,013 [Worker #e5f056ac] Hangfire.Server.Worker - (null) - Background process 'Worker #e5f056ac' started.
+2018-01-23 13:59:17,013 [Worker #3c4cec49] Hangfire.Server.Worker - (null) - Background process 'Worker #3c4cec49' started.
+2018-01-23 13:59:17,014 [Worker #b46bfada] Hangfire.Server.Worker - (null) - Background process 'Worker #b46bfada' started.
+2018-01-23 13:59:17,014 [Worker #f3213d1d] Hangfire.Server.Worker - (null) - Background process 'Worker #f3213d1d' started.
+2018-01-23 13:59:17,015 [Worker #2157c7c8] Hangfire.Server.Worker - (null) - Background process 'Worker #2157c7c8' started.
+2018-01-23 13:59:17,015 [Worker #0b789287] Hangfire.Server.Worker - (null) - Background process 'Worker #0b789287' started.
+2018-01-23 13:59:17,016 [Worker #60f3e846] Hangfire.Server.Worker - (null) - Background process 'Worker #60f3e846' started.
+2018-01-23 13:59:17,017 [Worker #53eed9d6] Hangfire.Server.Worker - (null) - Background process 'Worker #53eed9d6' started.
+2018-01-23 13:59:17,018 [Worker #482597a2] Hangfire.Server.Worker - (null) - Background process 'Worker #482597a2' started.
+2018-01-23 13:59:17,018 [Worker #a44c2177] Hangfire.Server.Worker - (null) - Background process 'Worker #a44c2177' started.
+2018-01-23 13:59:17,019 [Worker #48e36fdf] Hangfire.Server.Worker - (null) - Background process 'Worker #48e36fdf' started.
+2018-01-23 13:59:17,019 [Worker #94801693] Hangfire.Server.Worker - (null) - Background process 'Worker #94801693' started.
+2018-01-23 13:59:17,020 [Worker #605d14ea] Hangfire.Server.Worker - (null) - Background process 'Worker #605d14ea' started.
+2018-01-23 13:59:17,021 [Worker #5829a5d3] Hangfire.Server.Worker - (null) - Background process 'Worker #5829a5d3' started.
+2018-01-23 13:59:17,021 [Worker #9250f3c4] Hangfire.Server.Worker - (null) - Background process 'Worker #9250f3c4' started.
+2018-01-23 13:59:17,022 [Worker #7350dfe8] Hangfire.Server.Worker - (null) - Background process 'Worker #7350dfe8' started.
+2018-01-23 13:59:17,023 [Worker #dfda8330] Hangfire.Server.Worker - (null) - Background process 'Worker #dfda8330' started.
+2018-01-23 13:59:17,023 [Worker #90a151f4] Hangfire.Server.Worker - (null) - Background process 'Worker #90a151f4' started.
+2018-01-23 13:59:17,024 [Worker #9b697927] Hangfire.Server.Worker - (null) - Background process 'Worker #9b697927' started.
+2018-01-23 13:59:17,024 [Worker #052e1dad] Hangfire.Server.Worker - (null) - Background process 'Worker #052e1dad' started.
+2018-01-23 13:59:17,024 [Worker #080c943c] Hangfire.Server.Worker - (null) - Background process 'Worker #080c943c' started.
+2018-01-23 13:59:17,025 [Worker #ee7e7ec8] Hangfire.Server.Worker - (null) - Background process 'Worker #ee7e7ec8' started.
+2018-01-23 13:59:17,025 [Worker #4e93b4f6] Hangfire.Server.Worker - (null) - Background process 'Worker #4e93b4f6' started.
+2018-01-23 13:59:17,026 [Worker #5efc02d9] Hangfire.Server.Worker - (null) - Background process 'Worker #5efc02d9' started.
+2018-01-23 13:59:17,026 [Worker #ed85b0af] Hangfire.Server.Worker - (null) - Background process 'Worker #ed85b0af' started.
+2018-01-23 13:59:17,027 [Worker #7bb604b0] Hangfire.Server.Worker - (null) - Background process 'Worker #7bb604b0' started.
+2018-01-23 13:59:17,027 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 13:59:17,027 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 13:59:17,123 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 13:59:17,205 [1] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 13:59:17,207 [1] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 13:59:18,050 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 13:59:18,142 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 13:59:18,234 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 14:01:02,192 [67] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 14:01:02,197 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 14:01:02,197 [Worker #080c943c] Hangfire.Server.Worker - (null) - Background process 'Worker #080c943c' stopped.
+2018-01-23 14:01:02,198 [Worker #9b697927] Hangfire.Server.Worker - (null) - Background process 'Worker #9b697927' stopped.
+2018-01-23 14:01:02,199 [Worker #7350dfe8] Hangfire.Server.Worker - (null) - Background process 'Worker #7350dfe8' stopped.
+2018-01-23 14:01:02,199 [Worker #605d14ea] Hangfire.Server.Worker - (null) - Background process 'Worker #605d14ea' stopped.
+2018-01-23 14:01:02,200 [Worker #5829a5d3] Hangfire.Server.Worker - (null) - Background process 'Worker #5829a5d3' stopped.
+2018-01-23 14:01:02,200 [Worker #53eed9d6] Hangfire.Server.Worker - (null) - Background process 'Worker #53eed9d6' stopped.
+2018-01-23 14:01:02,201 [Worker #d75ca363] Hangfire.Server.Worker - (null) - Background process 'Worker #d75ca363' stopped.
+2018-01-23 14:01:02,201 [Worker #94801693] Hangfire.Server.Worker - (null) - Background process 'Worker #94801693' stopped.
+2018-01-23 14:01:02,202 [Worker #fe1f1fde] Hangfire.Server.Worker - (null) - Background process 'Worker #fe1f1fde' stopped.
+2018-01-23 14:01:02,202 [Worker #c569c906] Hangfire.Server.Worker - (null) - Background process 'Worker #c569c906' stopped.
+2018-01-23 14:01:02,202 [Worker #b18c3743] Hangfire.Server.Worker - (null) - Background process 'Worker #b18c3743' stopped.
+2018-01-23 14:01:02,203 [Worker #2b62d76b] Hangfire.Server.Worker - (null) - Background process 'Worker #2b62d76b' stopped.
+2018-01-23 14:01:02,204 [Worker #0c5296bc] Hangfire.Server.Worker - (null) - Background process 'Worker #0c5296bc' stopped.
+2018-01-23 14:01:02,205 [Worker #e5b21b6d] Hangfire.Server.Worker - (null) - Background process 'Worker #e5b21b6d' stopped.
+2018-01-23 14:01:02,199 [Worker #7bb604b0] Hangfire.Server.Worker - (null) - Background process 'Worker #7bb604b0' stopped.
+2018-01-23 14:01:02,205 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 14:01:02,201 [Worker #60f3e846] Hangfire.Server.Worker - (null) - Background process 'Worker #60f3e846' stopped.
+2018-01-23 14:01:02,199 [Worker #052e1dad] Hangfire.Server.Worker - (null) - Background process 'Worker #052e1dad' stopped.
+2018-01-23 14:01:02,197 [Worker #90a151f4] Hangfire.Server.Worker - (null) - Background process 'Worker #90a151f4' stopped.
+2018-01-23 14:01:02,201 [Worker #a44c2177] Hangfire.Server.Worker - (null) - Background process 'Worker #a44c2177' stopped.
+2018-01-23 14:01:02,199 [Worker #48e36fdf] Hangfire.Server.Worker - (null) - Background process 'Worker #48e36fdf' stopped.
+2018-01-23 14:01:02,202 [Worker #78f96e26] Hangfire.Server.Worker - (null) - Background process 'Worker #78f96e26' stopped.
+2018-01-23 14:01:02,203 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 14:01:02,200 [Worker #2157c7c8] Hangfire.Server.Worker - (null) - Background process 'Worker #2157c7c8' stopped.
+2018-01-23 14:01:02,197 [Worker #5efc02d9] Hangfire.Server.Worker - (null) - Background process 'Worker #5efc02d9' stopped.
+2018-01-23 14:01:02,210 [Worker #9250f3c4] Hangfire.Server.Worker - (null) - Background process 'Worker #9250f3c4' stopped.
+2018-01-23 14:01:02,210 [Worker #3c4cec49] Hangfire.Server.Worker - (null) - Background process 'Worker #3c4cec49' stopped.
+2018-01-23 14:01:02,201 [Worker #b46bfada] Hangfire.Server.Worker - (null) - Background process 'Worker #b46bfada' stopped.
+2018-01-23 14:01:02,209 [Worker #ee7e7ec8] Hangfire.Server.Worker - (null) - Background process 'Worker #ee7e7ec8' stopped.
+2018-01-23 14:01:02,213 [Worker #f37982b9] Hangfire.Server.Worker - (null) - Background process 'Worker #f37982b9' stopped.
+2018-01-23 14:01:02,211 [Worker #0b789287] Hangfire.Server.Worker - (null) - Background process 'Worker #0b789287' stopped.
+2018-01-23 14:01:02,204 [Worker #60fba155] Hangfire.Server.Worker - (null) - Background process 'Worker #60fba155' stopped.
+2018-01-23 14:01:02,220 [Worker #ed85b0af] Hangfire.Server.Worker - (null) - Background process 'Worker #ed85b0af' stopped.
+2018-01-23 14:01:02,222 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 14:01:02,223 [Worker #e5f056ac] Hangfire.Server.Worker - (null) - Background process 'Worker #e5f056ac' stopped.
+2018-01-23 14:01:02,212 [Worker #f4604226] Hangfire.Server.Worker - (null) - Background process 'Worker #f4604226' stopped.
+2018-01-23 14:01:02,223 [Worker #6d6a0bb4] Hangfire.Server.Worker - (null) - Background process 'Worker #6d6a0bb4' stopped.
+2018-01-23 14:01:02,204 [Worker #1db87ead] Hangfire.Server.Worker - (null) - Background process 'Worker #1db87ead' stopped.
+2018-01-23 14:01:02,222 [Worker #482597a2] Hangfire.Server.Worker - (null) - Background process 'Worker #482597a2' stopped.
+2018-01-23 14:01:02,203 [Worker #323d5688] Hangfire.Server.Worker - (null) - Background process 'Worker #323d5688' stopped.
+2018-01-23 14:01:02,198 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 14:01:02,202 [Worker #f3213d1d] Hangfire.Server.Worker - (null) - Background process 'Worker #f3213d1d' stopped.
+2018-01-23 14:01:02,209 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 14:01:02,222 [Worker #dfda8330] Hangfire.Server.Worker - (null) - Background process 'Worker #dfda8330' stopped.
+2018-01-23 14:01:02,198 [Worker #4e93b4f6] Hangfire.Server.Worker - (null) - Background process 'Worker #4e93b4f6' stopped.
+2018-01-23 14:01:02,259 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 14:01:02,262 [67] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 14:01:02,262 [67] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 14:01:05,306 [59] U.Logging.ULog4netLogger - (null) - Loading UPrimes...
+2018-01-23 14:01:05,717 [59] U.Logging.ULog4netLogger - (null) - Found 11 UPrimes in total.
+2018-01-23 14:01:05,723 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.WebApi.UWebApiUPrime, U.Web.Api, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,723 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Logging.UZeroConsoleLoggingUPrime, UZeroConsole.Logging, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,724 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.UZeroConsoleUPrime, UZeroConsole, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,724 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.Web.UZeroConsoleWebUPrime, UZeroConsole.Web, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,725 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.AutoMapper.UAutoMapperUPrime, U.AutoMapper, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,726 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.ULeadershipUPrime, U, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,726 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: UZeroConsole.EntityFramework.UZeroConsoleEntityFrameworkUPrime, UZeroConsole.EntityFramework, Version=0.1.7.2, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,727 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Web.UWebUPrime, U.Web, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,728 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.EntityFramework.UEntityFrameworkUPrime, U.EntityFramework, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,728 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.FakeMvc.UFakeMvcUPrime, U.FakeMvc, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,729 [59] U.Logging.ULog4netLogger - (null) - Loaded UPrime: U.Hangfire.UHangfireUPrime, U.HangFire, Version=0.5.7.4, Culture=neutral, PublicKeyToken=null
+2018-01-23 14:01:05,731 [59] U.Logging.ULog4netLogger - (null) - 11 UPrime loaded.
+2018-01-23 14:01:05,971 [59] Hangfire.SqlServer.SqlServerStorage - (null) - Start installing Hangfire SQL objects...
+2018-01-23 14:01:06,135 [59] Hangfire.SqlServer.SqlServerStorage - (null) - Hangfire SQL objects installed.
+2018-01-23 14:01:06,327 [59] U.Logging.ULog4netLogger - (null) - Start background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 14:01:06,333 [59] Hangfire.BackgroundJobServer - (null) - Starting Hangfire Server
+2018-01-23 14:01:06,335 [59] Hangfire.BackgroundJobServer - (null) - Using job storage: 'SQL Server: 120.132.57.7,1444@UZeroConsole.Tests'.
+2018-01-23 14:01:06,336 [59] Hangfire.BackgroundJobServer - (null) - Using the following options for SQL Server job storage:
+2018-01-23 14:01:06,336 [59] Hangfire.BackgroundJobServer - (null) -     Queue poll interval: 00:00:15.
+2018-01-23 14:01:06,337 [59] Hangfire.BackgroundJobServer - (null) - Using the following options for Hangfire Server:
+2018-01-23 14:01:06,337 [59] Hangfire.BackgroundJobServer - (null) -     Worker count: 40.
+2018-01-23 14:01:06,337 [59] Hangfire.BackgroundJobServer - (null) -     Listening queues: 'default'.
+2018-01-23 14:01:06,338 [59] Hangfire.BackgroundJobServer - (null) -     Shutdown timeout: 00:00:15.
+2018-01-23 14:01:06,338 [59] Hangfire.BackgroundJobServer - (null) -     Schedule polling interval: 00:00:15.
+2018-01-23 14:01:06,344 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' started.
+2018-01-23 14:01:06,411 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' started.
+2018-01-23 14:01:06,412 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' started.
+2018-01-23 14:01:06,414 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-23 14:01:06,414 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-23 14:01:06,415 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'AggregatedCounter'...
+2018-01-23 14:01:06,416 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Aggregating records in 'Counter' table...
+2018-01-23 14:01:06,416 [Worker #e6eabfa0] Hangfire.Server.Worker - (null) - Background process 'Worker #e6eabfa0' started.
+2018-01-23 14:01:06,416 [Worker #d007b6aa] Hangfire.Server.Worker - (null) - Background process 'Worker #d007b6aa' started.
+2018-01-23 14:01:06,418 [Worker #46ae83ec] Hangfire.Server.Worker - (null) - Background process 'Worker #46ae83ec' started.
+2018-01-23 14:01:06,419 [Worker #dcc4835e] Hangfire.Server.Worker - (null) - Background process 'Worker #dcc4835e' started.
+2018-01-23 14:01:06,420 [Worker #97dbd661] Hangfire.Server.Worker - (null) - Background process 'Worker #97dbd661' started.
+2018-01-23 14:01:06,420 [Worker #8040e621] Hangfire.Server.Worker - (null) - Background process 'Worker #8040e621' started.
+2018-01-23 14:01:06,420 [Worker #022ee480] Hangfire.Server.Worker - (null) - Background process 'Worker #022ee480' started.
+2018-01-23 14:01:06,421 [Worker #f51c7d7e] Hangfire.Server.Worker - (null) - Background process 'Worker #f51c7d7e' started.
+2018-01-23 14:01:06,422 [Worker #789bc816] Hangfire.Server.Worker - (null) - Background process 'Worker #789bc816' started.
+2018-01-23 14:01:06,422 [Worker #32c4bed7] Hangfire.Server.Worker - (null) - Background process 'Worker #32c4bed7' started.
+2018-01-23 14:01:06,423 [Worker #f605a284] Hangfire.Server.Worker - (null) - Background process 'Worker #f605a284' started.
+2018-01-23 14:01:06,423 [Worker #fe683c80] Hangfire.Server.Worker - (null) - Background process 'Worker #fe683c80' started.
+2018-01-23 14:01:06,424 [Worker #53079b70] Hangfire.Server.Worker - (null) - Background process 'Worker #53079b70' started.
+2018-01-23 14:01:06,424 [Worker #d6ad97e6] Hangfire.Server.Worker - (null) - Background process 'Worker #d6ad97e6' started.
+2018-01-23 14:01:06,425 [Worker #def7998d] Hangfire.Server.Worker - (null) - Background process 'Worker #def7998d' started.
+2018-01-23 14:01:06,425 [Worker #f559e892] Hangfire.Server.Worker - (null) - Background process 'Worker #f559e892' started.
+2018-01-23 14:01:06,426 [Worker #dcc4db73] Hangfire.Server.Worker - (null) - Background process 'Worker #dcc4db73' started.
+2018-01-23 14:01:06,426 [Worker #1b497829] Hangfire.Server.Worker - (null) - Background process 'Worker #1b497829' started.
+2018-01-23 14:01:06,427 [Worker #d9ea0776] Hangfire.Server.Worker - (null) - Background process 'Worker #d9ea0776' started.
+2018-01-23 14:01:06,427 [Worker #333f4b0a] Hangfire.Server.Worker - (null) - Background process 'Worker #333f4b0a' started.
+2018-01-23 14:01:06,428 [Worker #cb44d1b4] Hangfire.Server.Worker - (null) - Background process 'Worker #cb44d1b4' started.
+2018-01-23 14:01:06,429 [Worker #5a6dbc2c] Hangfire.Server.Worker - (null) - Background process 'Worker #5a6dbc2c' started.
+2018-01-23 14:01:06,430 [Worker #491b56f7] Hangfire.Server.Worker - (null) - Background process 'Worker #491b56f7' started.
+2018-01-23 14:01:06,430 [Worker #4bce90e8] Hangfire.Server.Worker - (null) - Background process 'Worker #4bce90e8' started.
+2018-01-23 14:01:06,431 [Worker #de695946] Hangfire.Server.Worker - (null) - Background process 'Worker #de695946' started.
+2018-01-23 14:01:06,432 [Worker #c182b55e] Hangfire.Server.Worker - (null) - Background process 'Worker #c182b55e' started.
+2018-01-23 14:01:06,432 [Worker #e4a7a084] Hangfire.Server.Worker - (null) - Background process 'Worker #e4a7a084' started.
+2018-01-23 14:01:06,433 [Worker #e622762a] Hangfire.Server.Worker - (null) - Background process 'Worker #e622762a' started.
+2018-01-23 14:01:06,434 [Worker #98125aab] Hangfire.Server.Worker - (null) - Background process 'Worker #98125aab' started.
+2018-01-23 14:01:06,435 [Worker #c62ddfd8] Hangfire.Server.Worker - (null) - Background process 'Worker #c62ddfd8' started.
+2018-01-23 14:01:06,436 [Worker #29f97504] Hangfire.Server.Worker - (null) - Background process 'Worker #29f97504' started.
+2018-01-23 14:01:06,436 [Worker #b1c5528c] Hangfire.Server.Worker - (null) - Background process 'Worker #b1c5528c' started.
+2018-01-23 14:01:06,437 [Worker #68bc8cd2] Hangfire.Server.Worker - (null) - Background process 'Worker #68bc8cd2' started.
+2018-01-23 14:01:06,438 [Worker #ca66ad31] Hangfire.Server.Worker - (null) - Background process 'Worker #ca66ad31' started.
+2018-01-23 14:01:06,438 [Worker #d7ffefff] Hangfire.Server.Worker - (null) - Background process 'Worker #d7ffefff' started.
+2018-01-23 14:01:06,439 [Worker #38d97838] Hangfire.Server.Worker - (null) - Background process 'Worker #38d97838' started.
+2018-01-23 14:01:06,440 [Worker #5aaa091e] Hangfire.Server.Worker - (null) - Background process 'Worker #5aaa091e' started.
+2018-01-23 14:01:06,440 [Worker #9c4b8ec3] Hangfire.Server.Worker - (null) - Background process 'Worker #9c4b8ec3' started.
+2018-01-23 14:01:06,441 [Worker #834ce91d] Hangfire.Server.Worker - (null) - Background process 'Worker #834ce91d' started.
+2018-01-23 14:01:06,441 [Worker #1b4257d6] Hangfire.Server.Worker - (null) - Background process 'Worker #1b4257d6' started.
+2018-01-23 14:01:06,442 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' started.
+2018-01-23 14:01:06,444 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' started.
+2018-01-23 14:01:06,537 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Job'...
+2018-01-23 14:01:06,630 [59] U.Logging.ULog4netLogger - (null) - Found 0 classes defines auto mapping attributes
+2018-01-23 14:01:06,631 [59] U.Logging.ULog4netLogger - (null) - (^_^)(^_^)(^_^) UStarter startup completed.
+2018-01-23 14:01:07,352 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'List'...
+2018-01-23 14:01:07,441 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Set'...
+2018-01-23 14:01:07,529 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Removing outdated records from table 'Hash'...
+2018-01-23 14:02:40,972 [69] U.Logging.ULog4netLogger - (null) - Stop background worker£ºU.Hangfire.HangfireBackgroundJobManager
+2018-01-23 14:02:40,974 [DelayedJobScheduler] Hangfire.Server.DelayedJobScheduler - (null) - Background process 'DelayedJobScheduler' stopped.
+2018-01-23 14:02:40,974 [Worker #38d97838] Hangfire.Server.Worker - (null) - Background process 'Worker #38d97838' stopped.
+2018-01-23 14:02:40,974 [Worker #1b4257d6] Hangfire.Server.Worker - (null) - Background process 'Worker #1b4257d6' stopped.
+2018-01-23 14:02:40,974 [Worker #834ce91d] Hangfire.Server.Worker - (null) - Background process 'Worker #834ce91d' stopped.
+2018-01-23 14:02:40,974 [Worker #98125aab] Hangfire.Server.Worker - (null) - Background process 'Worker #98125aab' stopped.
+2018-01-23 14:02:40,981 [Worker #def7998d] Hangfire.Server.Worker - (null) - Background process 'Worker #def7998d' stopped.
+2018-01-23 14:02:40,976 [Worker #4bce90e8] Hangfire.Server.Worker - (null) - Background process 'Worker #4bce90e8' stopped.
+2018-01-23 14:02:40,975 [Worker #d7ffefff] Hangfire.Server.Worker - (null) - Background process 'Worker #d7ffefff' stopped.
+2018-01-23 14:02:40,983 [Worker #dcc4db73] Hangfire.Server.Worker - (null) - Background process 'Worker #dcc4db73' stopped.
+2018-01-23 14:02:40,976 [Worker #022ee480] Hangfire.Server.Worker - (null) - Background process 'Worker #022ee480' stopped.
+2018-01-23 14:02:40,984 [Worker #dcc4835e] Hangfire.Server.Worker - (null) - Background process 'Worker #dcc4835e' stopped.
+2018-01-23 14:02:40,975 [Worker #789bc816] Hangfire.Server.Worker - (null) - Background process 'Worker #789bc816' stopped.
+2018-01-23 14:02:40,975 [Worker #e622762a] Hangfire.Server.Worker - (null) - Background process 'Worker #e622762a' stopped.
+2018-01-23 14:02:40,993 [Worker #d007b6aa] Hangfire.Server.Worker - (null) - Background process 'Worker #d007b6aa' stopped.
+2018-01-23 14:02:40,987 [Hangfire.SqlServer.ExpirationManager] Hangfire.SqlServer.ExpirationManager - (null) - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-23 14:02:40,977 [Worker #97dbd661] Hangfire.Server.Worker - (null) - Background process 'Worker #97dbd661' stopped.
+2018-01-23 14:02:40,986 [Worker #ca66ad31] Hangfire.Server.Worker - (null) - Background process 'Worker #ca66ad31' stopped.
+2018-01-23 14:02:40,980 [Worker #de695946] Hangfire.Server.Worker - (null) - Background process 'Worker #de695946' stopped.
+2018-01-23 14:02:40,977 [Worker #fe683c80] Hangfire.Server.Worker - (null) - Background process 'Worker #fe683c80' stopped.
+2018-01-23 14:02:40,979 [Worker #68bc8cd2] Hangfire.Server.Worker - (null) - Background process 'Worker #68bc8cd2' stopped.
+2018-01-23 14:02:40,978 [ServerHeartbeat] Hangfire.Server.ServerHeartbeat - (null) - Background process 'ServerHeartbeat' stopped.
+2018-01-23 14:02:40,976 [Worker #333f4b0a] Hangfire.Server.Worker - (null) - Background process 'Worker #333f4b0a' stopped.
+2018-01-23 14:02:40,986 [Worker #e6eabfa0] Hangfire.Server.Worker - (null) - Background process 'Worker #e6eabfa0' stopped.
+2018-01-23 14:02:40,976 [Worker #53079b70] Hangfire.Server.Worker - (null) - Background process 'Worker #53079b70' stopped.
+2018-01-23 14:02:40,979 [Worker #f605a284] Hangfire.Server.Worker - (null) - Background process 'Worker #f605a284' stopped.
+2018-01-23 14:02:40,979 [Worker #5aaa091e] Hangfire.Server.Worker - (null) - Background process 'Worker #5aaa091e' stopped.
+2018-01-23 14:02:40,975 [Worker #cb44d1b4] Hangfire.Server.Worker - (null) - Background process 'Worker #cb44d1b4' stopped.
+2018-01-23 14:02:40,978 [Worker #f51c7d7e] Hangfire.Server.Worker - (null) - Background process 'Worker #f51c7d7e' stopped.
+2018-01-23 14:02:40,975 [Worker #b1c5528c] Hangfire.Server.Worker - (null) - Background process 'Worker #b1c5528c' stopped.
+2018-01-23 14:02:40,978 [ServerWatchdog] Hangfire.Server.ServerWatchdog - (null) - Background process 'ServerWatchdog' stopped.
+2018-01-23 14:02:40,984 [RecurringJobScheduler] Hangfire.Server.RecurringJobScheduler - (null) - Background process 'RecurringJobScheduler' stopped.
+2018-01-23 14:02:40,979 [Worker #29f97504] Hangfire.Server.Worker - (null) - Background process 'Worker #29f97504' stopped.
+2018-01-23 14:02:40,977 [Worker #e4a7a084] Hangfire.Server.Worker - (null) - Background process 'Worker #e4a7a084' stopped.
+2018-01-23 14:02:40,981 [Worker #46ae83ec] Hangfire.Server.Worker - (null) - Background process 'Worker #46ae83ec' stopped.
+2018-01-23 14:02:40,978 [Worker #d9ea0776] Hangfire.Server.Worker - (null) - Background process 'Worker #d9ea0776' stopped.
+2018-01-23 14:02:40,976 [Worker #491b56f7] Hangfire.Server.Worker - (null) - Background process 'Worker #491b56f7' stopped.
+2018-01-23 14:02:40,974 [Worker #9c4b8ec3] Hangfire.Server.Worker - (null) - Background process 'Worker #9c4b8ec3' stopped.
+2018-01-23 14:02:40,977 [Worker #f559e892] Hangfire.Server.Worker - (null) - Background process 'Worker #f559e892' stopped.
+2018-01-23 14:02:40,980 [Worker #8040e621] Hangfire.Server.Worker - (null) - Background process 'Worker #8040e621' stopped.
+2018-01-23 14:02:40,976 [Worker #5a6dbc2c] Hangfire.Server.Worker - (null) - Background process 'Worker #5a6dbc2c' stopped.
+2018-01-23 14:02:40,978 [Worker #d6ad97e6] Hangfire.Server.Worker - (null) - Background process 'Worker #d6ad97e6' stopped.
+2018-01-23 14:02:40,980 [Hangfire.SqlServer.CountersAggregator] Hangfire.SqlServer.CountersAggregator - (null) - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-23 14:02:40,987 [Worker #c182b55e] Hangfire.Server.Worker - (null) - Background process 'Worker #c182b55e' stopped.
+2018-01-23 14:02:40,975 [Worker #c62ddfd8] Hangfire.Server.Worker - (null) - Background process 'Worker #c62ddfd8' stopped.
+2018-01-23 14:02:40,989 [Worker #1b497829] Hangfire.Server.Worker - (null) - Background process 'Worker #1b497829' stopped.
+2018-01-23 14:02:40,991 [Worker #32c4bed7] Hangfire.Server.Worker - (null) - Background process 'Worker #32c4bed7' stopped.
+2018-01-23 14:02:41,049 [BackgroundProcessingServer] Hangfire.Server.BackgroundProcessingServer - (null) - Background process 'BackgroundProcessingServer' stopped.
+2018-01-23 14:02:41,050 [69] Hangfire.BackgroundJobServer - (null) - Hangfire Server stopped.
+2018-01-23 14:02:41,051 [69] U.Logging.ULog4netLogger - (null) - WaitToStop background worker£ºU.Hangfire.HangfireBackgroundJobManager

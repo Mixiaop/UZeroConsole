@@ -13,11 +13,14 @@ namespace UZeroConsole.Web._Tests
         protected void Page_Load(object sender, EventArgs e)
         {
             var jet = new JetBrainsClass();
-           Response.Write(jet.Child);
+            var child = jet.Child;
+           Response.Write(child.Name);
+            Response.Write("sus");
         }
     }
 
     public class JetBrainsClass {
+        [NotNull]
         public JetBrainsChild Child { get; set; }
         public string Name { get; set; }
     }
