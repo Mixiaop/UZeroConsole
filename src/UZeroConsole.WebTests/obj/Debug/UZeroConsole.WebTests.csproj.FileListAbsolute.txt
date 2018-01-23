@@ -71,3 +71,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTest
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructure.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Administration.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructure.xml
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTests.csproj.CoreCompileInputs.cache

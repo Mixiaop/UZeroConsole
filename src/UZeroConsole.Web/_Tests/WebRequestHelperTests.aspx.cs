@@ -56,7 +56,7 @@ namespace UZeroConsole.Web._Tests
 
         void HttpGet2_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> headers = new Dictionary<string, string>();
+            Dictionary<string, string> headers = new Dictionary<string, string>(); 
             headers.Add("Auth", "123123");
             headers.Add("Sign", "321321");
             var html = WebRequestHelper.HttpGet("http://www.mbjuan.com", headers);

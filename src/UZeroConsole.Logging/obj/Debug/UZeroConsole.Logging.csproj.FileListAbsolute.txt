@@ -47,3 +47,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.Logging\bin\Debug\Microsoft.Web.Administration.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.Logging\obj\Debug\UZeroConsole.Logging.csproj.CoreCompileInputs.cache

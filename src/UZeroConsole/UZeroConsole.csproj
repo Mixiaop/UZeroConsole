@@ -186,6 +186,7 @@
     <Compile Include="Services\Impl\PermissionsService.cs" />
     <Compile Include="Services\Impl\RoleService.cs" />
     <Compile Include="Services\Monitoring\MonitorStatus.cs" />
+    <Compile Include="Services\Monitoring\PollNode.cs" />
     <Compile Include="Services\Sso\Dto\AppDto.cs" />
     <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
     <Compile Include="Services\Sso\IAppService.cs" />
