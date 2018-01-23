@@ -35,13 +35,14 @@ namespace UZeroConsole.Services.Jobs
         /// <param name="key">任务KEY（唯一）</param>
         /// <param name="name">名称</param>
         /// <param name="url">URL路径</param>
+        /// <param name="parentId"></param>
         /// <param name="desc">描述</param>
         /// <param name="jobType">类型，默认为循环任务</param>
         /// <param name="recurringSeconds">循环任务的间隔（秒）</param>
         /// <param name="atTime">定时任务的触发的时间</param>
         /// <param name="tags"></param>
         /// <returns></returns>
-        RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "");
+        RemoteJob CreateJob(string key, string name, string url, int parentId = 0, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "");
 
         /// <summary>
         /// 运行任务
@@ -50,9 +51,12 @@ namespace UZeroConsole.Services.Jobs
         void Run(RemoteJob job);
 
         /// <summary>
-        /// 运行任务
+        /// 运行任务项
         /// </summary>
-        /// <param name="job"></param>
+        /// <param name="parent"></param>
+        /// <param name="url"></param>
+        /// <param name="desc"></param>
+        void RunItem(RemoteJob parent, string url, string desc);
 
         /// <summary>
         /// 执行中改变状态

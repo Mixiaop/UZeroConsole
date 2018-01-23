@@ -79,6 +79,7 @@
     <Compile Include="Configuration\DatabaseSettings.cs" />
     <Compile Include="Configuration\ConsoleSettings.cs" />
     <Compile Include="Configuration\LoggingSettings.cs" />
+    <Compile Include="Configuration\Monitoring\SQLSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
     <Compile Include="Domain\CMS\CMSEnums.cs" />
     <Compile Include="Domain\CMS\Content.cs" />
@@ -184,6 +185,7 @@
     <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
     <Compile Include="Services\Impl\PermissionsService.cs" />
     <Compile Include="Services\Impl\RoleService.cs" />
+    <Compile Include="Services\Monitoring\MonitorStatus.cs" />
     <Compile Include="Services\Sso\Dto\AppDto.cs" />
     <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
     <Compile Include="Services\Sso\IAppService.cs" />
@@ -199,6 +201,7 @@
   <ItemGroup>
     <Folder Include="Domain\Caching\" />
     <Folder Include="Services\Config\Dto\" />
+    <Folder Include="Services\Monitoring\SQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

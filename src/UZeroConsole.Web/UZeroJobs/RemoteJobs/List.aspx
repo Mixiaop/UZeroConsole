@@ -64,6 +64,7 @@
                         <thead>
                             <tr>
                                 <th width="5%" ></th>
+                                <th class="text-center" width="4%" >JobId</th>
                                 <th class="text-center" width="15%" >Name</th>
                                 <th class="text-center" width="8%" >Type</th>
                                 <th class="text-center" width="10%">Key</th>
@@ -83,6 +84,7 @@
                                     <a class='btn btn-default btn-xs active-btn btnRun' data-id="<%= app.Id %>" href="javascript:void(0);" data-toggle="tooltip" title="Run the job"><i class="fa fa-check"></i></a>
                                     <a class='btn btn-default btn-xs active-btn btnDelete' data-id="<%= app.Id %>" href="javascript:void(0);" data-toggle="tooltip" title="Delete the job"><i class="fa fa-remove"></i></a>
                                 </td>
+                                <td><%= app.Id %></td>
                                 <td ><%= app.Name %> <% if (app.Opend)
                                                        { %>
                                     <label class="label label-success">已启动</label>

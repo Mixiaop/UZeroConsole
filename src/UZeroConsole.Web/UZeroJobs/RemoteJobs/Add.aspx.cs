@@ -32,7 +32,8 @@ namespace UZeroConsole.Web.UZeroJobs.RemoteJobs
             string recurringTime = tbRecurringTime.Text.Trim();
             string tags = tbTags.Text.Trim();
 
-            if (key.IsNullOrEmpty() || name.IsNullOrEmpty() || url.IsNullOrEmpty()) { 
+            if (key.IsNullOrEmpty() || name.IsNullOrEmpty() || url.IsNullOrEmpty())
+            {
                 ltlMessage.Text = AlertError("【名称、Key、URL】不能为空");
                 return;
             }
@@ -53,14 +54,15 @@ namespace UZeroConsole.Web.UZeroJobs.RemoteJobs
             {
                 atTime = strAtTime.ToDateTime();
             }
-            _remoteJobService.CreateJob(key, name, url, desc, (RemoteJobType)typeId, recurringTime.ToInt(), atTime, tags);
+            _remoteJobService.CreateJob(key, name, url, 0, desc, (RemoteJobType)typeId, recurringTime.ToInt(), atTime, tags);
 
             ltlMessage.Text = AlertSuccess("添加成功");
             RedirectByTime(GetBackUrlDecoded("List.aspx"), 1000);
         }
     }
 
-    public class AddModel {
+    public class AddModel
+    {
         public IList<Tag> Tags { get; set; }
     }
 }

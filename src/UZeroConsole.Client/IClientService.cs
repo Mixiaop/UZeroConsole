@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UZeroConsole.Client
 {
-    public class UZeroConsoleUprime
+    public interface IClientService : U.Application.Services.IApplicationService
     {
     }
 }

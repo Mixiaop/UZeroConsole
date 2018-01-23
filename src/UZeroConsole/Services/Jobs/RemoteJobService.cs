@@ -14,10 +14,10 @@ namespace UZeroConsole.Services.Jobs
         private IRemoteJobRepository _jobRepository;
 
         private ITagService _tagService;
-        public RemoteJobService(IRemoteJobRepository jobRepository, IBackgroundJobManager backgroundJobManager, ITagService tagService)
+        public RemoteJobService(IBackgroundJobManager backgroundJobManager, IRemoteJobRepository jobRepository, ITagService tagService)
         {
-            _jobRepository = jobRepository;
             _backgroundJobManager = backgroundJobManager;
+            _jobRepository = jobRepository;
 
             _tagService = tagService;
         }
@@ -33,17 +33,20 @@ namespace UZeroConsole.Services.Jobs
         /// <returns></returns>
         public PagedResultDto<RemoteJob> Query(string keywords, string tags = "", bool? executing = null, int pageIndex = 1, int pageSize = 20)
         {
-            var query = _jobRepository.GetAll();
+            var query = _jobRepository.GetAll().Where(x => x.ParentId == 0);
 
-            if (keywords.IsNotNullOrEmpty()) {
+            if (keywords.IsNotNullOrEmpty())
+            {
                 query = query.Where(x => x.Key.Contains(keywords) || x.Name.Contains(keywords));
             }
 
-            if (tags.IsNotNullOrEmpty()) {
+            if (tags.IsNotNullOrEmpty())
+            {
                 query = query.Where(x => x.Tags.Contains(tags));
             }
 
-            if (executing.HasValue) {
+            if (executing.HasValue)
+            {
                 if (executing.Value)
                     query = query.Where(x => x.IsExecuting == true);
                 else
@@ -63,23 +66,13 @@ namespace UZeroConsole.Services.Jobs
         /// </summary>
         /// <param name="jobId"></param>
         /// <returns></returns>
-        public RemoteJob Get(int jobId) {
+        public RemoteJob Get(int jobId)
+        {
             return _jobRepository.Get(jobId);
         }
 
-        /// <summary>
-        /// 创建一个任务
-        /// </summary>
-        /// <param name="key">任务KEY（唯一）</param>
-        /// <param name="name">名称</param>
-        /// <param name="url">URL路径</param>
-        /// <param name="desc">描述</param>
-        /// <param name="jobType">类型，默认为循环任务</param>
-        /// <param name="recurringSeconds">循环任务的间隔（秒）</param>
-        /// <param name="atTime">定时任务的触发的时间</param>
-        /// <param name="tags"></param>
-        /// <returns></returns>
-        public RemoteJob CreateJob(string key, string name, string url, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "") {
+        public RemoteJob CreateJob(string key, string name, string url, int parentId = 0, string desc = "", RemoteJobType jobType = RemoteJobType.Recurring, int recurringSeconds = 300, DateTime? atTime = null, string tags = "")
+        {
             RemoteJob job = new RemoteJob();
             job.Key = key;
             job.Name = name;
@@ -89,8 +82,9 @@ namespace UZeroConsole.Services.Jobs
             job.RecurringSeconds = recurringSeconds;
             job.AtTime = atTime;
             job.Tags = tags;
-
-            if (job.Tags.IsNotNullOrEmpty()) {
+            job.ParentId = parentId;
+            if (job.Tags.IsNotNullOrEmpty())
+            {
                 job.Tags = job.Tags.Replace("，", ",");
                 _tagService.UpdateTags(TagType.Job, job.Tags);
             }
@@ -104,9 +98,11 @@ namespace UZeroConsole.Services.Jobs
         /// 运行任务
         /// </summary>
         /// <param name="job"></param>
-        public void Run(RemoteJob job) {
+        public void Run(RemoteJob job)
+        {
             string appJobId = "";
-            switch (job.Type) { 
+            switch (job.Type)
+            {
                 case RemoteJobType.General:
                     appJobId = _backgroundJobManager.Enqueue<URemoteJob, int>(job.Id);
                     break;
@@ -132,10 +128,26 @@ namespace UZeroConsole.Services.Jobs
         }
 
         /// <summary>
+        /// 运行任务项
+        /// </summary>
+        /// <param name="parent"></param>
+        /// <param name="url"></param>
+        /// <param name="desc"></param>
+        public void RunItem(RemoteJob parent, string url, string desc)
+        {
+            if (parent != null)
+            {
+                var job = CreateJob(parent.Key + "_item", "", url, parent.Id, desc, RemoteJobType.General, 0);
+                Run(job);
+            }
+        }
+
+        /// <summary>
         /// 执行中改变状态
         /// </summary>
         /// <param name="job"></param>
-        public void Executing(RemoteJob job) {
+        public void Executing(RemoteJob job)
+        {
             job.IsExecuting = true;
             _jobRepository.Update(job);
         }
@@ -144,13 +156,15 @@ namespace UZeroConsole.Services.Jobs
         /// 执行完成改变状态
         /// </summary>
         /// <param name="job"></param>
-        public void ExecuteComplete(RemoteJob job) {
+        public void ExecuteComplete(RemoteJob job)
+        {
             job.IsExecuting = false;
             job.LastSuccessTime = DateTime.Now;
             _jobRepository.Update(job);
 
             //Timeout运行
-            if (job.Type == RemoteJobType.Recurring) {
+            if (job.Type == RemoteJobType.Recurring)
+            {
                 Run(job);
             }
         }
@@ -160,7 +174,8 @@ namespace UZeroConsole.Services.Jobs
         /// </summary>
         /// <param name="job"></param>
         /// <param name="errorMessage"></param>
-        public void ExecuteError(RemoteJob job, string errorMessage) {
+        public void ExecuteError(RemoteJob job, string errorMessage)
+        {
             job.LastErrorDesc = errorMessage;
             job.LastErrorTime = DateTime.Now;
             _jobRepository.Update(job);
@@ -176,13 +191,17 @@ namespace UZeroConsole.Services.Jobs
         /// 删除一个任务
         /// </summary>
         /// <param name="jobId"></param>
-        public void DeleteJob(int jobId) {
+        public void DeleteJob(int jobId)
+        {
             var job = Get(jobId);
-            if (job != null && job.AppJobId.IsNotNullOrEmpty()) {
+            if (job != null && job.AppJobId.IsNotNullOrEmpty())
+            {
                 _backgroundJobManager.Delete(job.AppJobId);
             }
             _jobRepository.Delete(jobId);
 
         }
+
+
     }
 }

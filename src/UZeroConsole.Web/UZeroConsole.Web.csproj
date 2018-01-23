@@ -78,6 +78,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\HangFire.SqlServer.1.5.3\lib\net45\Hangfire.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="JetBrains.Annotations, Version=11.1.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.11.1.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin">
       <HintPath>..\packages\Microsoft.Owin.dll</HintPath>
@@ -688,11 +692,13 @@
     <Content Include="assets\waterfall\js\vendor\jquery-1.10.2.min.js" />
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
+    <Content Include="UZeroSOA\Jobs\RunItem.aspx" />
     <Content Include="UZero\AdminBindCorpWeixin.aspx" />
     <Content Include="UZero\Configuration\SetConsoleSettings.aspx" />
     <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
     <Content Include="UZero\Configuration\SetLoggingSettings.aspx" />
     <Content Include="UZero\Install\Index.aspx" />
+    <Content Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\CallbackTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\Tests.aspx" />
     <Content Include="UZeroConfig\Projects\Add.aspx" />
@@ -724,12 +730,14 @@
     <Content Include="UZero\Sso\roleList.js" />
     <Content Include="UZero\Sso\RoleSetPermissions.aspx" />
     <Content Include="_Tests\InstallTests.aspx" />
+    <Content Include="_Tests\JetBrainsTests.aspx" />
     <Content Include="_Tests\JobTests.aspx" />
     <Content Include="_Tests\LoggingTests.aspx" />
     <Content Include="_Tests\RepositoryTests.aspx" />
     <Content Include="_Tests\WebForm1.aspx" />
     <Content Include="_Tests\WebRequestHelperPostReceiveTests.aspx" />
     <Content Include="_Tests\WebRequestHelperTests.aspx" />
+    <Content Include="Config\UZeroConsole\ClientSettings.json" />
     <None Include="Config\UZeroConsole\ConsoleSettings.json" />
     <Content Include="Config\U\EmailSenderSettings.json" />
     <Content Include="Config\U\HangfireSettings.json" />
@@ -1443,6 +1451,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZeroSOA\Jobs\RunItem.aspx.cs">
+      <DependentUpon>RunItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Jobs\RunItem.aspx.designer.cs">
+      <DependentUpon>RunItem.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\AdminBindCorpWeixin.aspx.cs">
       <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1477,6 +1492,13 @@
     </Compile>
     <Compile Include="UZero\Install\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx.cs">
+      <DependentUpon>IRemoteJobClientServiceTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx.designer.cs">
+      <DependentUpon>IRemoteJobClientServiceTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\EnterpriseWeixin\CallbackTests.aspx.cs">
       <DependentUpon>CallbackTests.aspx</DependentUpon>
@@ -1754,6 +1776,13 @@
     <Compile Include="_Tests\InstallTests.aspx.designer.cs">
       <DependentUpon>InstallTests.aspx</DependentUpon>
     </Compile>
+    <Compile Include="_Tests\JetBrainsTests.aspx.cs">
+      <DependentUpon>JetBrainsTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\JetBrainsTests.aspx.designer.cs">
+      <DependentUpon>JetBrainsTests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_Tests\JobTests.aspx.cs">
       <DependentUpon>JobTests.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1798,6 +1827,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\UZeroConsole.Client\UZeroConsole.Client.csproj">
+      <Project>{0795393f-4aed-4ace-8030-845d0a972e44}</Project>
+      <Name>UZeroConsole.Client</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UZeroConsole.EntityFramework\UZeroConsole.EntityFramework.csproj">
       <Project>{73fdf0e2-da37-4256-8838-3052a00983d1}</Project>
       <Name>UZeroConsole.EntityFramework</Name>

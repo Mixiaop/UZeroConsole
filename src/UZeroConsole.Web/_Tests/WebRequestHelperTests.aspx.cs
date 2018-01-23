@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Newtonsoft.Json;
 using System.Net;
 using System.Text;
 using System.Security.Cryptography.X509Certificates;
@@ -16,13 +17,21 @@ namespace UZeroConsole.Web._Tests
 {
     public partial class WebRequestHelperTests : System.Web.UI.Page
     {
+        public List<Instance> Nodes { get; set; } = new List<Instance>();
+
         IUWebApiClient webApiClient = UPrimeEngine.Instance.Resolve<IUWebApiClient>();
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpGet1.Click += HttpGet1_Click;
             HttpGet2.Click += HttpGet2_Click;
             HttpPost.Click += HttpPost_Click;
-        }
+            Response.Write(JsonConvert.SerializeObject(Nodes));
+            Nodes.Add(new Instance() { name = "1" });
+            Response.Write(JsonConvert.SerializeObject(Nodes));
+             
+    }
+
+
 
         void HttpPost_Click(object sender, EventArgs e)
         {
@@ -197,5 +206,12 @@ namespace UZeroConsole.Web._Tests
                 }
             }
         }
+
+
     }
+
+public class Instance
+{
+    public string name { get; set; }
+}
 }

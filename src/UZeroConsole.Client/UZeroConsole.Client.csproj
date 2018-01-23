@@ -55,7 +55,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UZeroConsoleUprime.cs" />
+    <Compile Include="BaseClientService.cs" />
+    <Compile Include="ClientSettings.cs" />
+    <Compile Include="IClientService.cs" />
+    <Compile Include="Jobs\Impl\RemoteJobClientService.cs" />
+    <Compile Include="Jobs\IRemoteJobClientService.cs" />
+    <Compile Include="UZeroConsoleClientUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

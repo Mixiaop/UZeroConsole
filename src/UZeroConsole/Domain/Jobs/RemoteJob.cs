@@ -89,6 +89,14 @@ namespace UZeroConsole.Domain.Jobs
         /// </summary>
         public string Tags { get; set; }
 
+        /// <summary>
+        /// 父节点Id
+        /// 0 = 任务
+        /// >0 = 任务项
+        /// 任务项流程 RemoteJob（polling） -> 访问远程Url -> IRemoteJobClientService.RunJobItem(jobId, remoteUrl, desc);直接执行并记录
+        /// </summary>
+        public int ParentId { get; set; }
+
         #region Custom
         /// <summary>
         /// 任务类型
