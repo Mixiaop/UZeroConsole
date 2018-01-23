@@ -1827,10 +1827,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UZeroConsole.Client\UZeroConsole.Client.csproj">
-      <Project>{0795393f-4aed-4ace-8030-845d0a972e44}</Project>
-      <Name>UZeroConsole.Client</Name>
-    </ProjectReference>
     <ProjectReference Include="..\UZeroConsole.EntityFramework\UZeroConsole.EntityFramework.csproj">
       <Project>{73fdf0e2-da37-4256-8838-3052a00983d1}</Project>
       <Name>UZeroConsole.EntityFramework</Name>
