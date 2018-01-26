@@ -696,6 +696,7 @@
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="UZeroSOA\Jobs\RunItem.aspx" />
+    <Content Include="UZeroSOA\Logging\Visit.aspx" />
     <Content Include="UZero\AdminBindCorpWeixin.aspx" />
     <Content Include="UZero\Configuration\SetConsoleSettings.aspx" />
     <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
@@ -735,6 +736,7 @@
     <Content Include="_Tests\InstallTests.aspx" />
     <Content Include="_Tests\JetBrainsTests.aspx" />
     <Content Include="_Tests\JobTests.aspx" />
+    <Content Include="_Tests\LanguageTests.aspx" />
     <Content Include="_Tests\LoggingTests.aspx" />
     <Content Include="_Tests\RepositoryTests.aspx" />
     <Content Include="_Tests\WebForm1.aspx" />
@@ -1461,6 +1463,13 @@
     <Compile Include="UZeroSOA\Jobs\RunItem.aspx.designer.cs">
       <DependentUpon>RunItem.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZeroSOA\Logging\Visit.aspx.cs">
+      <DependentUpon>Visit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Logging\Visit.aspx.designer.cs">
+      <DependentUpon>Visit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\AdminBindCorpWeixin.aspx.cs">
       <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1792,6 +1801,13 @@
     </Compile>
     <Compile Include="_Tests\JobTests.aspx.designer.cs">
       <DependentUpon>JobTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\LanguageTests.aspx.cs">
+      <DependentUpon>LanguageTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\LanguageTests.aspx.designer.cs">
+      <DependentUpon>LanguageTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\LoggingTests.aspx.cs">
       <DependentUpon>LoggingTests.aspx</DependentUpon>

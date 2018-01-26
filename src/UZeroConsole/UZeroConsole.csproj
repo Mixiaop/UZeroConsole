@@ -38,6 +38,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="MiniProfiler">
+      <HintPath>..\packages\MiniProfiler.3.2.0.157\lib\net40\MiniProfiler.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -45,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -137,6 +141,17 @@
     <Compile Include="Domain\Sso\Repositories\IAdminAuthSessionRepository.cs" />
     <Compile Include="Domain\Sso\Repositories\IAppRepository.cs" />
     <Compile Include="Domain\Tag.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Helpers\LocalCache.cs" />
+    <Compile Include="Monitoring\Cache.cs" />
+    <Compile Include="Monitoring\Current.cs" />
+    <Compile Include="Monitoring\MonitoringSettings.cs" />
+    <Compile Include="Monitoring\MonitorStatus.cs" />
+    <Compile Include="Monitoring\PollingEngine.cs" />
+    <Compile Include="Monitoring\PollNode.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.cs" />
+    <Compile Include="Monitoring\SQL\SqlModule.cs" />
+    <Compile Include="Monitoring\SQL\SQLServerVersions.cs" />
     <Compile Include="Services\Impl\AdminService.cs" />
     <Compile Include="Services\ApplicationServiceBase.cs" />
     <Compile Include="Services\CMS\Impl\NodeService.cs" />
@@ -185,8 +200,6 @@
     <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
     <Compile Include="Services\Impl\PermissionsService.cs" />
     <Compile Include="Services\Impl\RoleService.cs" />
-    <Compile Include="Services\Monitoring\MonitorStatus.cs" />
-    <Compile Include="Services\Monitoring\PollNode.cs" />
     <Compile Include="Services\Sso\Dto\AppDto.cs" />
     <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
     <Compile Include="Services\Sso\IAppService.cs" />
@@ -195,6 +208,9 @@
     <Compile Include="Services\Sso\Impl\SsoWebService.cs" />
     <Compile Include="Services\Sso\ISsoAuthenticationService.cs" />
     <Compile Include="Services\Sso\ISsoWebService.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="StatusModule.cs" />
+    <Compile Include="StringSplits.cs" />
     <Compile Include="UZeroConsoleConsts.cs" />
     <Compile Include="UZeroConsoleUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -202,7 +218,6 @@
   <ItemGroup>
     <Folder Include="Domain\Caching\" />
     <Folder Include="Services\Config\Dto\" />
-    <Folder Include="Services\Monitoring\SQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
