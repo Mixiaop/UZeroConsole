@@ -190,6 +190,7 @@
     <Content Include="assets\css\themes\flat.min.css" />
     <Content Include="assets\css\themes\modern.min.css" />
     <Content Include="assets\css\themes\smooth.min.css" />
+    <Content Include="assets\css\uzeroconsole-monitoring.css" />
     <Content Include="assets\css\uzeroconsole.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
@@ -702,6 +703,7 @@
     <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
     <Content Include="UZero\Configuration\SetLoggingSettings.aspx" />
     <Content Include="UZero\Install\Index.aspx" />
+    <Content Include="UZero\Monitoring\SQL\Servers.aspx" />
     <Content Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\CallbackTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\Tests.aspx" />
@@ -738,6 +740,8 @@
     <Content Include="_Tests\JobTests.aspx" />
     <Content Include="_Tests\LanguageTests.aspx" />
     <Content Include="_Tests\LoggingTests.aspx" />
+    <Content Include="_Tests\Monitoring\PollingEngineTests.aspx" />
+    <Content Include="_Tests\Monitoring\SQLTests.aspx" />
     <Content Include="_Tests\RepositoryTests.aspx" />
     <Content Include="_Tests\WebForm1.aspx" />
     <Content Include="_Tests\WebRequestHelperPostReceiveTests.aspx" />
@@ -854,7 +858,9 @@
     <Content Include="Config\UZeroConsole\LoggingSettings.json" />
     <Content Include="packages.config" />
     <Content Include="Config\UZeroConsole\CorpWeixinSettings.json" />
+    <Content Include="Config\UZeroConsole\Monitoring\SQLSettings.json" />
     <None Include="Properties\PublishProfiles\UZeroConsolePublish.pubxml" />
+    <Content Include="UZero\Monitoring\Monitoring.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1456,6 +1462,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Monitoring\SQL\DashboardModel.cs" />
+    <Compile Include="Models\Monitoring\SQL\ServersModel.cs" />
     <Compile Include="UZeroSOA\Jobs\RunItem.aspx.cs">
       <DependentUpon>RunItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1504,6 +1512,20 @@
     </Compile>
     <Compile Include="UZero\Install\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Monitoring.master.cs">
+      <DependentUpon>Monitoring.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Monitoring.master.designer.cs">
+      <DependentUpon>Monitoring.master</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Monitoring\SQL\Servers.aspx.cs">
+      <DependentUpon>Servers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\SQL\Servers.aspx.designer.cs">
+      <DependentUpon>Servers.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx.cs">
       <DependentUpon>IRemoteJobClientServiceTests.aspx</DependentUpon>
@@ -1815,6 +1837,20 @@
     </Compile>
     <Compile Include="_Tests\LoggingTests.aspx.designer.cs">
       <DependentUpon>LoggingTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\Monitoring\PollingEngineTests.aspx.cs">
+      <DependentUpon>PollingEngineTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\Monitoring\PollingEngineTests.aspx.designer.cs">
+      <DependentUpon>PollingEngineTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Tests\Monitoring\SQLTests.aspx.cs">
+      <DependentUpon>SQLTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\Monitoring\SQLTests.aspx.designer.cs">
+      <DependentUpon>SQLTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="_Tests\RepositoryTests.aspx.cs">
       <DependentUpon>RepositoryTests.aspx</DependentUpon>

@@ -2,6 +2,7 @@
 using System.Web;
 using U;
 using U.Logging;
+using UZeroConsole.Monitoring;
 
 namespace UZeroConsole.Web
 {
@@ -34,6 +35,10 @@ namespace UZeroConsole.Web
                 //    //Response.Redirect("/page-not-found");
                 //}
             }
+        }
+
+        protected void Application_End() {
+            PollingEngine.StopPolling();
         }
     }
 }

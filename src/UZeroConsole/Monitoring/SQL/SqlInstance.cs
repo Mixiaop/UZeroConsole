@@ -12,9 +12,13 @@ namespace UZeroConsole.Monitoring.SQL
 {
     public partial class SQLInstance : PollNode
     {
+        #region Properties
         public string ObjectName { get; internal set; }
         protected string ConnectionString { get; set; }
         protected SQLSettings.Instance Settings { get; }
+
+        public override int MinSecondsBetweenPolls => 2;
+        #endregion
 
         public SQLInstance(SQLSettings.Instance settings) : base(settings.Name)
         {

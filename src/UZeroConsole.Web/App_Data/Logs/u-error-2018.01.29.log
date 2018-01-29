@@ -1,0 +1,6 @@
+2018-01-29 15:13:51,640 [53] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/Monitoring/PollingEngineTests.aspx
+2018-01-29 15:16:26,380 [9] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/Monitoring/PollingEngineTests.aspx
+2018-01-29 15:16:33,900 [64] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/_Tests/Monitoring/PollingEngineTests.aspx

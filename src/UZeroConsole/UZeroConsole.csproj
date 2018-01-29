@@ -149,6 +149,7 @@
     <Compile Include="Monitoring\MonitorStatus.cs" />
     <Compile Include="Monitoring\PollingEngine.cs" />
     <Compile Include="Monitoring\PollNode.cs" />
+    <Compile Include="Monitoring\PollNodeJob.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.cs" />
     <Compile Include="Monitoring\SQL\SqlModule.cs" />
     <Compile Include="Monitoring\SQL\SQLServerVersions.cs" />

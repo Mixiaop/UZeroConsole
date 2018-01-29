@@ -90,8 +90,8 @@ D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Newtonsoft.Json.xml
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Microsoft.Web.Administration.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csproj.CoreCompileInputs.cache
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\MiniProfiler.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\MiniProfiler.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\MiniProfiler.xml
+D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache

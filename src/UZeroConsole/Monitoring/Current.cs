@@ -10,7 +10,7 @@ namespace UZeroConsole.Monitoring
         public static void LogException(string message, Exception innerException)
         {
             var ex = new Exception(message, innerException);
-
+            LogException(ex);
         }
 
         public static void LogException(Exception exception, string key = null)

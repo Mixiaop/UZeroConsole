@@ -23,6 +23,12 @@ namespace UZeroConsole.Configuration
         public bool UseJobs { get; set; }
 
         /// <summary>
+        /// 是否启动监控
+        /// 启动：则会创建全局用的轮询后台线程
+        /// </summary>
+        public bool UseMonitoring { get; set; }
+
+        /// <summary>
         /// 是否开启Sso
         /// </summary>
         public bool IsSsoOpend { get; set; }

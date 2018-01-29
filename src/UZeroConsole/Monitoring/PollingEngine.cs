@@ -1,53 +1,102 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Hosting;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web.Hosting;
+using U;
+using U.BackgroundJobs;
+
 
 namespace UZeroConsole.Monitoring
 {
     public static class PollingEngine
     {
+        #region Properties
+        private static IBackgroundJobManager _backgroundJobManager = UPrimeEngine.Instance.Resolve<IBackgroundJobManager>();
+
         private static readonly object _addLock = new object();
         private static readonly object _pollAllLock = new object();
-        public static readonly HashSet<PollNode> AllPollNodes = new HashSet<PollNode>();
 
         private static Thread _globalPollingThread;
         private static volatile bool _shuttingDown;
         private static long _totalPollIntervals;
-        internal static long _activePolls;
         private static DateTime? _lastPollAll;
         private static DateTime _startTime;
+
+        internal static long _activePolls;
+        public static readonly HashSet<PollNode> AllPollNodes = new HashSet<PollNode>();
+        #endregion
+
+
 
         static PollingEngine()
         {
             StartPolling();
         }
 
-        public static void StartPolling() {
-            //_startTime = DateTime.Now;
-            //_globalPollingThread = _globalPollingThread??new Thread(moni)
-        }
-
         /// <summary>
-        /// 当前轮询完成后执行停止(soft)
+        /// 创建全局的轮询线程并启动
         /// </summary>
-        public static void StopPolling() {
+        public static void StartPolling()
+        {
+            if (Current.Settings.Console.UseMonitoring)
+            {
+                _startTime = DateTime.Now;
+                _globalPollingThread = _globalPollingThread ?? new Thread(MonitorPollingLoop)
+                {
+                    Name = "UZeroConsole.Monitoring.GlobalPolling",
+                    Priority = ThreadPriority.Lowest,
+                    IsBackground = true
+                };
 
+                if (!_globalPollingThread.IsAlive)
+                {
+                    _globalPollingThread.Start();
+                }
+            }
         }
 
-        
-
-        public static void PollAllAndForget() {
-
+        public static void StopPolling()
+        {
+            if (Current.Settings.Console.UseMonitoring)
+            {
+                _shuttingDown = true;
+            }
         }
 
-        public static async Task<bool> PollAsync(string nodeType, string key, Guid? cacheGuid = null) {
+        public static void PollAllAndForget()
+        {
+            if (!Monitor.TryEnter(_pollAllLock, 500)) return;
+            Interlocked.Increment(ref _totalPollIntervals);
+            try
+            {
+                foreach (var n in AllPollNodes)
+                {
+                    if (n.IsPolling || !n.NeedsPoll)
+                    {
+                        continue;
+                    }
+                    //后台执行节点任务
+                    _backgroundJobManager.EnqueueAsync<PollNodeJob, PollNode>(n);
+                    //HostingEnvironment.QueueBackgroundWorkItem(ct => n.PollAsync());
+                }
+            }
+            catch (Exception ex)
+            {
+                Current.LogException(ex);
+            }
+            finally
+            {
+                Monitor.Exit(_pollAllLock);
+            }
+            _lastPollAll = DateTime.Now;
+        }
+
+        public static async Task<bool> PollAsync(string nodeType, string key, Guid? cacheGuid = null)
+        {
             throw new Exception();
         }
-        #region Private methods
-        #endregion
 
         #region GlobalPollingStatus
         public static GlobalPollingStatus GetPollingStatus()
@@ -68,7 +117,8 @@ namespace UZeroConsole.Monitoring
             };
         }
 
-        public class GlobalPollingStatus : IMonitorStatus {
+        public class GlobalPollingStatus : IMonitorStatus
+        {
             public MonitorStatus MonitorStatus { get; internal set; }
             public string MonitorStatusReason { get; internal set; }
             public DateTime StartTime { get; internal set; }
@@ -80,6 +130,48 @@ namespace UZeroConsole.Monitoring
             public int TotalPollers { get; internal set; }
             public List<Tuple<Type, int>> NodeBreakdown { get; internal set; }
             public List<PollNode> Nodes { get; internal set; }
+        }
+        #endregion
+
+        #region Private methods
+        /// <summary>
+        /// 确保启动
+        /// </summary>
+        private static void MonitorPollingLoop()
+        {
+            while (!_shuttingDown)
+            {
+                try
+                {
+                    StartPollLoop();
+                }
+                catch (ThreadAbortException e)
+                {
+                    if (!_shuttingDown)
+                        Current.LogException("Global polling loop shutting down", e);
+                }
+                catch (Exception ex)
+                {
+                    Current.LogException(ex);
+                }
+                try
+                {
+                    Thread.Sleep(2000);
+                }
+                catch (ThreadAbortException)
+                {
+                    // application is cycling, AND THAT'S OKAY
+                }
+            }
+        }
+
+        private static void StartPollLoop()
+        {
+            while (!_shuttingDown)
+            {
+                PollAllAndForget();
+                Thread.Sleep(1000);
+            }
         }
         #endregion
 

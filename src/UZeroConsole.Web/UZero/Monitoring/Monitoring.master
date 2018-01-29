@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Masters/UZero.Master" AutoEventWireup="true" CodeBehind="Monitoring.master.cs" Inherits="UZeroConsole.Web.UZero.Monitoring.Monitoring" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="header" runat="server">
+    <link rel="stylesheet" href="/assets/css/uzeroconsole-monitoring.css" />
+    <asp:ContentPlaceHolder runat="server" ID="monitoringHeader"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="monitoringBody"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="monitoringFooter"></asp:ContentPlaceHolder>
+</asp:Content>
