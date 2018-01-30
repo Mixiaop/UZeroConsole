@@ -51,8 +51,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Extension.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Utilities.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.Logging.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Web.Api.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Castle.Core.dll
@@ -60,7 +58,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\log4net.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Nito.AsyncEx.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\System.Collections.Immutable.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Nito.AsyncEx.Enlightenment.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.Logging.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Autofac.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Autofac.Integration.Mvc.xml
@@ -72,3 +69,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructu
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Administration.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Microsoft.Web.Infrastructure.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTests.csproj.CoreCompileInputs.cache
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.xml

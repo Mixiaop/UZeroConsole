@@ -7,7 +7,7 @@ namespace UZeroConsole
         /// <summary>
         /// 当前版本
         /// </summary>
-        public const string CurrentVersion = "0.1.7.3";
+        public const string CurrentVersion = "0.2.7.3";
     }
     //0.1.2.0  -增加了获取操作日志统计的接口方法
     //0.1.2.1  -操作日志更新【清除日志】的功能
@@ -19,4 +19,5 @@ namespace UZeroConsole
     //         -提供自动安装应用
     //0.1.7.2  -新增UZeroConsole.Client.Jobs命名空间，提供客户端调用SOA运行任务项
     //0.1.7.3  -更新U 0.5.11.10
+    //0.2.7.3  -合并了ClientService 至 UZeroConsole.Client
 }

@@ -202,15 +202,15 @@ namespace UZeroConsole.Services.Installation
                     menu13.Order = 2;
                     menu13.Id = permissionRepository.InsertAndGetId(menu13);
 
-                    var menu14 = new Permission();
-                    menu14.SsoAppId = app.Id;
-                    menu14.IsSystem = true;
-                    menu14.Name = "日志";
-                    menu14.Url = "/UZero/Configuration/SetLoggingSettings.aspx";
-                    menu14.ParentId = menu11.Id;
-                    menu14.Level = 3;
-                    menu14.Order = 3;
-                    menu14.Id = permissionRepository.InsertAndGetId(menu14);
+                    //var menu14 = new Permission();
+                    //menu14.SsoAppId = app.Id;
+                    //menu14.IsSystem = true;
+                    //menu14.Name = "日志";
+                    //menu14.Url = "/UZero/Configuration/SetLoggingSettings.aspx";
+                    //menu14.ParentId = menu11.Id;
+                    //menu14.Level = 3;
+                    //menu14.Order = 3;
+                    //menu14.Id = permissionRepository.InsertAndGetId(menu14);
                     #endregion
 
                     #region Create admin

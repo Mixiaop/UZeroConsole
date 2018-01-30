@@ -156,7 +156,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.Api.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.EntityFramework.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Logging.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.WebPages.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\log4net.dll
@@ -165,7 +164,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\System.Collections.Immutable.dl
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.WebPages.Deployment.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Nito.AsyncEx.Enlightenment.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.EntityFramework.pdb
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.Logging.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Integration.Mvc.xml
@@ -187,3 +185,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\JetBrains.Annotations.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\obj\Debug\UZeroConsole.Web.csproj.CoreCompileInputs.cache
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Extras.DynamicProxy2.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Extras.DynamicProxy2.xml
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\MiniProfiler.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\MiniProfiler.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\MiniProfiler.xml

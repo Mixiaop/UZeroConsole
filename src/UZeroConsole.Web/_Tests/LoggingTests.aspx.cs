@@ -5,14 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using U;
-using UZeroConsole.Logging;
+//using UZeroConsole.Logging;
 using UZeroConsole.Services.Logging;
 
 namespace UZeroConsole.Web._Tests
 {
     public partial class LoggingTests : System.Web.UI.Page
     {
-        ILoggingClientService loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
+        //ILoggingClientService loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
         IActionLogService actionLogService = UPrimeEngine.Instance.Resolve<IActionLogService>();
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StackExchange.Profiling;
 
 namespace UZeroConsole.Monitoring
 {
@@ -65,6 +66,9 @@ namespace UZeroConsole.Monitoring
 
         public virtual async Task PollAsync(bool force = false)
         {
+            using (MiniProfiler.Current.Step("Poll - " + UniqueKey)) {
+
+            }
         }
 
         public void Dispose()
