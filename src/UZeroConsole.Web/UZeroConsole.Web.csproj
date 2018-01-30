@@ -855,7 +855,6 @@
     <Content Include="assets\less\themes\smooth.less" />
     <Content Include="assets\less\variables.less" />
     <Content Include="Masters\UZero.Master" />
-    <Content Include="Config\UZeroConsole\LoggingSettings.json" />
     <Content Include="packages.config" />
     <Content Include="Config\UZeroConsole\CorpWeixinSettings.json" />
     <Content Include="Config\UZeroConsole\Monitoring\SQLSettings.json" />
