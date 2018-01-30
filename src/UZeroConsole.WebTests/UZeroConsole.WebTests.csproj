@@ -105,9 +105,22 @@
     <Reference Include="U.Web">
       <HintPath>..\packages\U\U.Web.dll</HintPath>
     </Reference>
+    <Reference Include="UZeroConsole, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.dll</HintPath>
+    </Reference>
+    <Reference Include="UZeroConsole.Client, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="UZeroConsole.EntityFramework, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="UZeroConsole.Web, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\UZeroConsole\LoggingSettings.json" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -118,6 +131,7 @@
   <ItemGroup>
     <Content Include="ExceptionTests.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Monitoring\SQLTests.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -131,13 +145,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Monitoring\SQLTests.aspx.cs">
+      <DependentUpon>SQLTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\SQLTests.aspx.designer.cs">
+      <DependentUpon>SQLTests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UZeroConsole\UZeroConsole.csproj">
-      <Project>{b9e6c5ee-e169-4fd1-a3e9-6dda04caf54d}</Project>
-      <Name>UZeroConsole</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

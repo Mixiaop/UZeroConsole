@@ -13,8 +13,6 @@ namespace UZeroConsole.Monitoring
     public static class PollingEngine
     {
         #region Properties
-        private static IBackgroundJobManager _backgroundJobManager = UPrimeEngine.Instance.Resolve<IBackgroundJobManager>();
-
         private static readonly object _addLock = new object();
         private static readonly object _pollAllLock = new object();
 
@@ -27,8 +25,6 @@ namespace UZeroConsole.Monitoring
         internal static long _activePolls;
         public static readonly HashSet<PollNode> AllPollNodes = new HashSet<PollNode>();
         #endregion
-
-
 
         static PollingEngine()
         {
@@ -78,8 +74,7 @@ namespace UZeroConsole.Monitoring
                         continue;
                     }
                     //后台执行节点任务
-                    _backgroundJobManager.EnqueueAsync<PollNodeJob, PollNode>(n);
-                    //HostingEnvironment.QueueBackgroundWorkItem(ct => n.PollAsync());
+                    HostingEnvironment.QueueBackgroundWorkItem(ct => n.PollAsync());
                 }
             }
             catch (Exception ex)

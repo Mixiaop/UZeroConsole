@@ -1,0 +1,16 @@
+{
+  "IsDebug": true,
+  "AppName": "UZeroConsole.WebTests",
+  "Title": "优志愿【企业版】控制中心1",
+  "UseJobs": true,
+  "UseMonitoring": true,
+  "IsSsoOpend": false,
+  "IsSsoServer": false,
+  "SsoAuthExpiresMinutes": 1440,
+  "SsoServerHost": "",
+  "SsoAppKey": "3c9c3063b1864b7eb60998b10fc8d570",
+  "UNoteExternalLoginOpened": true,
+  "UNoteExternalLoginUrl": "http://note.youzy.cn/externallogin.aspx",
+  "UNoteAppKey": "956e775af7384eaf8b7f8f33e3b993d2",
+  "IsCorpWeixinLoginOpened": false
+}
