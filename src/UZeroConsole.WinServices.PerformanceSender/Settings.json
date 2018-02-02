@@ -1,0 +1,6 @@
+﻿{
+  "ServerHost": "",
+  "ClientId": 1,
+  "ClientName": "客户端1",
+  "SendInterval": 3000
+}

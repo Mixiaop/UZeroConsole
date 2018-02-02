@@ -1,10 +1,17 @@
 ﻿using System;
+using U;
+using U.Logging;
+using UZeroConsole.Monitoring;
+using UZeroConsole.Configuration;
 
-namespace UZeroConsole.Monitoring
+namespace UZeroConsole
 {
     internal static partial class Current
     {
-        public static MonitoringSettings Settings => MonitoringSettings.Current;
+        private static ConsoleSettings _consoleSettings = UPrimeEngine.Instance.Resolve<ConsoleSettings>();
+
+        public static ConsoleSettings ConsoleSettings => _consoleSettings;
+        public static MonitoringSettings MonitoringSettings => MonitoringSettings.Current;
         public static readonly Helpers.LocalCache LocalCache = new Helpers.LocalCache();
 
         public static void LogException(string message, Exception innerException)
@@ -15,7 +22,7 @@ namespace UZeroConsole.Monitoring
 
         public static void LogException(Exception exception, string key = null)
         {
-            
+            LogHelper.Logger.Error(exception, exception.Message);
         }
     }
 

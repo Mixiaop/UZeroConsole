@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.WebTests", "UZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.Client", "UZeroConsole.Client\UZeroConsole.Client.csproj", "{0795393F-4AED-4ACE-8030-845D0A972E44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.WebConsole", "UZeroConsole.WebConsole\UZeroConsole.WebConsole.csproj", "{B018502B-57DE-473E-8239-2FCFF6263B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.WinServices.PerformanceSender", "UZeroConsole.WinServices.PerformanceSender\UZeroConsole.WinServices.PerformanceSender.csproj", "{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0795393F-4AED-4ACE-8030-845D0A972E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0795393F-4AED-4ACE-8030-845D0A972E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0795393F-4AED-4ACE-8030-845D0A972E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B018502B-57DE-473E-8239-2FCFF6263B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B018502B-57DE-473E-8239-2FCFF6263B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B018502B-57DE-473E-8239-2FCFF6263B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B018502B-57DE-473E-8239-2FCFF6263B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

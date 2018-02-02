@@ -9,14 +9,17 @@ using UZeroConsole.Web.Models.Monitoring.SQL;
 
 namespace UZeroConsole.Web.UZero.Monitoring.SQL
 {
-    public partial class Servers : AuthPageBase
+    public partial class Servers : MonitoringPageBase
     {
-        protected ServersModel Model = new ServersModel();
+        protected ServersModel Model = new ServersModel()
+        {
+            StandaloneInstances = SQLModule.StandaloneInstances,
+            Refresh = 5
+        };
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) {
-                //SqlModule.StandaloneInstances                
-            }
+            
         }
     }
 }

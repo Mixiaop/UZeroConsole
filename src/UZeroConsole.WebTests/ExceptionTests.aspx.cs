@@ -19,6 +19,7 @@ namespace UZeroConsole.WebTests
             //var list = _loggingService.GetActionTopLogs("18c1af7d487f483fb118e9b3cd517a21", "1462", 10);
             //Response.Write(JsonConvert.SerializeObject(list));
             //var a = 1;
+            Response.Write(JsonConvert.SerializeObject(new Version()));
         }
     }
 }

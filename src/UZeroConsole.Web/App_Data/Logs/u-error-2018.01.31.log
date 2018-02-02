@@ -1,0 +1,2 @@
+2018-01-31 17:44:06,348 [65] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Servers.aspx(37): error CS1061: “UZeroConsole.Monitoring.SQL.SQLInstance”不包含“CurrentCPUPercent”的定义，并且找不到可接受类型为“UZeroConsole.Monitoring.SQL.SQLInstance”的第一个参数的扩展方法“CurrentCPUPercent”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/SQL/Servers.aspx

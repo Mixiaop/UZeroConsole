@@ -7,5 +7,6 @@
     <asp:ContentPlaceHolder runat="server" ID="monitoringBody"></asp:ContentPlaceHolder>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    <script src="/UZero/Monitoring/monitoring.controller.js?v=<%= DateTime.Now.Ticks %>"></script>
     <asp:ContentPlaceHolder runat="server" ID="monitoringFooter"></asp:ContentPlaceHolder>
 </asp:Content>

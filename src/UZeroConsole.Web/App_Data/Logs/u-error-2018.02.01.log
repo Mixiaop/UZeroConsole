@@ -1,0 +1,80 @@
+2018-02-01 11:00:48,395 [21] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Servers.aspx(44): error CS1061: “UZeroConsole.Monitoring.Cache”不包含“ToPollSpan”的定义，并且找不到可接受类型为“UZeroConsole.Monitoring.Cache”的第一个参数的扩展方法“ToPollSpan”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/SQL/Servers.aspx
+2018-02-01 11:56:42,842 [68] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Servers.aspx(46): error CS1525: 无效的表达式项“.”
+ http://localhost:8400/UZero/Monitoring/SQL/Servers.aspx
+2018-02-01 11:56:51,489 [74] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Servers.aspx(46): error CS1525: 无效的表达式项“.”
+ http://localhost:8400/UZero/Monitoring/SQL/Servers.aspx
+2018-02-01 15:59:13,772 [63] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Databases.aspx(26): error CS1061: “ASP.uzero_monitoring_sql_databases_aspx”不包含“ddlRole_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.uzero_monitoring_sql_databases_aspx”的第一个参数的扩展方法“ddlRole_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx?_=1517471833047
+2018-02-01 16:01:54,174 [74] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Databases.aspx(13): error CS1525: 无效的表达式项“.”
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx?_=1517471993623
+2018-02-01 16:02:27,695 [92] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Databases.aspx(19): error CS1003: 语法错误，应输入“:”
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:02:43,732 [103] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Databases.aspx(19): error CS1003: 语法错误，应输入“:”
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:09:27,963 [148] U.Logging.ULog4netLogger - (null) - c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.j5zw4oyi.0.cs(550): error CS1519: 类、结构或接口成员声明中的标记“this”无效
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx?_=1517472326588
+2018-02-01 16:09:37,524 [131] U.Logging.ULog4netLogger - (null) - c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.j5zw4oyi.0.cs(550): error CS1519: 类、结构或接口成员声明中的标记“this”无效
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:10:06,351 [150] U.Logging.ULog4netLogger - (null) - c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.eexj4smq.0.cs(550): error CS1519: 类、结构或接口成员声明中的标记“this”无效
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:10:56,139 [168] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:10:56,487 [142] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:18:44,335 [176] U.Logging.ULog4netLogger - (null) - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.la1vv2gl.0.cs(713): error CS1513: 应输入 }</format><args>{System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.la1vv2gl.0.cs(713): error CS1513: 应输入 }
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)}</args></log4net.Error>
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx?_=1517473004058
+2018-02-01 16:21:20,949 [104] U.Logging.ULog4netLogger - (null) - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.3slmflkm.0.cs(824): error CS1513: 应输入 }</format><args>{System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.3slmflkm.0.cs(824): error CS1513: 应输入 }
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)}</args></log4net.Error>
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx?_=1517473160528
+2018-02-01 16:25:31,490 [31] U.Logging.ULog4netLogger - (null) - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.uwtlirpw.0.cs(908): error CS1513: 应输入 }</format><args>{System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.uwtlirpw.0.cs(908): error CS1513: 应输入 }
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)}</args></log4net.Error>
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:25:46,441 [32] U.Logging.ULog4netLogger - (null) - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.9rbk04pj.0.cs(949): error CS1513: 应输入 }</format><args>{System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b8dab966\de3c61a8\App_Web_databases.aspx.bf8f5a97.9rbk04pj.0.cs(949): error CS1513: 应输入 }
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)}</args></log4net.Error>
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:26:43,346 [18] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/SQL/Databases.aspx
+2018-02-01 16:53:45,650 [170] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\SQL\Servers.aspx(65): error CS1061: “long”不包含“ToSize”的定义，并且找不到可接受类型为“long”的第一个参数的扩展方法“ToSize”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/SQL/Servers.aspx?_=1517475204676

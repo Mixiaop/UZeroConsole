@@ -23,7 +23,7 @@ namespace UZeroConsole.Services
         /// <param name="createPersistentCookie">是否创建固定的cookie</param>
         public void SignIn(AdminDto admin, bool createPersistentCookie = true)
         {
-            var now = DateTime.UtcNow.ToLocalTime();
+            var now = DateTime.Now.ToLocalTime();
             var ticket = new FormsAuthenticationTicket(
                 1 /*version*/,
                 admin.Username,

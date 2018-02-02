@@ -1,0 +1,282 @@
+2018-02-02 15:59:28,925 [54] U.Logging.ULog4netLogger - (null) - 
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 15:59:32,094 [64] U.Logging.ULog4netLogger - (null) - 
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 15:59:32,096 [54] U.Logging.ULog4netLogger - (null) - 
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 15:59:32,098 [5] U.Logging.ULog4netLogger - (null) - 
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 15:59:33,587 [64] U.Logging.ULog4netLogger - (null) - 
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 16:43:24,484 [55] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 17:11:36,118 [54] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 17:12:54,850 [61] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 17:12:54,855 [61] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:04:20,209 [95] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(49): error CS1002: 应输入 ;
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx?_=1517565834523
+2018-02-02 18:10:49,655 [32] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(59): error CS0221: 常量值“120030973952”无法转换为“int”(使用“unchecked”语法重写)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx?_=1517566197405
+2018-02-02 18:10:49,655 [128] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(59): error CS0221: 常量值“120030973952”无法转换为“int”(使用“unchecked”语法重写)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx?_=1517566040441
+2018-02-02 18:10:49,892 [139] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(59): error CS0221: 常量值“120030973952”无法转换为“int”(使用“unchecked”语法重写)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx
+2018-02-02 18:10:51,095 [89] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(59): error CS0221: 常量值“120030973952”无法转换为“int”(使用“unchecked”语法重写)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx
+2018-02-02 18:12:19,627 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:19","CPUUsagePercent":0.0,"RAMUsedPercent":61.39,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:19,629 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:23,403 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:23","CPUUsagePercent":19.66,"RAMUsedPercent":61.4,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:23,405 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:28,411 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:28","CPUUsagePercent":18.27,"RAMUsedPercent":61.41,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:28,412 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:33,419 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:33","CPUUsagePercent":20.77,"RAMUsedPercent":61.44,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:33,420 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:38,420 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:38","CPUUsagePercent":21.07,"RAMUsedPercent":61.52,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:38,421 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:47,071 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:47","CPUUsagePercent":42.14,"RAMUsedPercent":61.81,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:47,072 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:48,436 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:48","CPUUsagePercent":35.37,"RAMUsedPercent":62.01,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:48,437 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:53,456 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:53","CPUUsagePercent":25.67,"RAMUsedPercent":62.08,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:53,457 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:58,483 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:12:58","CPUUsagePercent":20.45,"RAMUsedPercent":62.06,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:12:58,484 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:03,464 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:03","CPUUsagePercent":20.03,"RAMUsedPercent":62.08,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:03,465 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:08,476 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:08","CPUUsagePercent":21.93,"RAMUsedPercent":62.14,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:08,477 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:13,479 [28] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:13","CPUUsagePercent":21.31,"RAMUsedPercent":62.17,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:13,480 [28] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:18,486 [133] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:18","CPUUsagePercent":23.61,"RAMUsedPercent":62.15,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:18,487 [133] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:23,495 [28] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:23","CPUUsagePercent":23.45,"RAMUsedPercent":62.07,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21597.0,"UsedSpace":92873.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:23,497 [28] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:28,506 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:28","CPUUsagePercent":20.61,"RAMUsedPercent":62.03,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:28,507 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:33,514 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:33","CPUUsagePercent":21.39,"RAMUsedPercent":62.15,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21598.0,"UsedSpace":92872.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:33,515 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:36,339 [39] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(62): error CS1061: “UZeroConsole.Configuration.Monitoring.ClientHostSettings.DiskInfo”不包含“VolumeMountPoint”的定义，并且找不到可接受类型为“UZeroConsole.Configuration.Monitoring.ClientHostSettings.DiskInfo”的第一个参数的扩展方法“VolumeMountPoint”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx?_=1517566266308
+2018-02-02 18:13:37,813 [128] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Hosts\ClientHosts.aspx(62): error CS1061: “UZeroConsole.Configuration.Monitoring.ClientHostSettings.DiskInfo”不包含“VolumeMountPoint”的定义，并且找不到可接受类型为“UZeroConsole.Configuration.Monitoring.ClientHostSettings.DiskInfo”的第一个参数的扩展方法“VolumeMountPoint”(是否缺少 using 指令或程序集引用?)
+ http://localhost:8400/UZero/Monitoring/Hosts/ClientHosts.aspx?_=1517566401996
+2018-02-02 18:13:38,519 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:38","CPUUsagePercent":27.42,"RAMUsedPercent":61.58,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:38,520 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:43,519 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:43","CPUUsagePercent":19.43,"RAMUsedPercent":61.58,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:43,520 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:48,528 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:48","CPUUsagePercent":19.87,"RAMUsedPercent":61.55,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:48,529 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:53,536 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:53","CPUUsagePercent":18.43,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:53,537 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:53,537 [93] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ (null)
+2018-02-02 18:13:58,544 [28] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:13:58","CPUUsagePercent":17.18,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:13:58,546 [28] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:03,554 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:03","CPUUsagePercent":20.39,"RAMUsedPercent":61.52,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:03,555 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:08,561 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:08","CPUUsagePercent":17.4,"RAMUsedPercent":61.5,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55299.0,"UsedSpace":386566.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:08,562 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:13,569 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:13","CPUUsagePercent":20.92,"RAMUsedPercent":61.55,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:13,570 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:18,577 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:18","CPUUsagePercent":17.77,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:18,578 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:23,589 [33] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:23","CPUUsagePercent":16.95,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:23,590 [33] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:28,597 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:28","CPUUsagePercent":16.09,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:28,598 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:33,602 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:33","CPUUsagePercent":16.02,"RAMUsedPercent":61.53,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:33,603 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:38,614 [141] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:38","CPUUsagePercent":17.18,"RAMUsedPercent":61.53,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:38,615 [141] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:43,611 [33] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:43","CPUUsagePercent":23.95,"RAMUsedPercent":61.54,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:43,612 [33] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:48,623 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:48","CPUUsagePercent":17.81,"RAMUsedPercent":61.56,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:48,624 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:53,628 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:53","CPUUsagePercent":20.3,"RAMUsedPercent":61.58,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:53,629 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:58,636 [38] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:14:58","CPUUsagePercent":18.97,"RAMUsedPercent":61.55,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:14:58,637 [38] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:03,654 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:03","CPUUsagePercent":19.99,"RAMUsedPercent":61.55,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:03,655 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:08,653 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:08","CPUUsagePercent":20.34,"RAMUsedPercent":61.55,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:08,654 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:13,660 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:13","CPUUsagePercent":21.12,"RAMUsedPercent":61.61,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25984.0,"UsedSpace":230015.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:13,662 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:18,669 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:18","CPUUsagePercent":20.45,"RAMUsedPercent":61.58,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:18,670 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:23,677 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:23","CPUUsagePercent":21.93,"RAMUsedPercent":61.53,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:23,678 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:23,679 [7] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ (null)
+2018-02-02 18:15:28,685 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:28","CPUUsagePercent":25.55,"RAMUsedPercent":61.71,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:28,686 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:33,694 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:33","CPUUsagePercent":20.34,"RAMUsedPercent":61.69,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:33,695 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:38,702 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:38","CPUUsagePercent":16.09,"RAMUsedPercent":61.67,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:38,703 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:43,703 [33] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:43","CPUUsagePercent":18.88,"RAMUsedPercent":61.7,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:43,704 [33] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:48,710 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:48","CPUUsagePercent":17.38,"RAMUsedPercent":61.73,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:48,712 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:53,723 [28] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:53","CPUUsagePercent":18.94,"RAMUsedPercent":61.91,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:53,724 [28] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:58,727 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:15:58","CPUUsagePercent":17.14,"RAMUsedPercent":61.71,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:15:58,728 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:03,735 [33] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:03","CPUUsagePercent":17.92,"RAMUsedPercent":61.75,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:03,736 [33] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:08,744 [38] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:08","CPUUsagePercent":17.42,"RAMUsedPercent":61.76,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55304.0,"UsedSpace":386561.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:08,745 [38] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:08,745 [34] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ (null)
+2018-02-02 18:16:13,752 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:13","CPUUsagePercent":17.3,"RAMUsedPercent":61.81,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21593.0,"UsedSpace":92877.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55302.0,"UsedSpace":386563.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:13,753 [31] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ (null)
+2018-02-02 18:16:13,753 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:18,763 [128] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:18","CPUUsagePercent":20.06,"RAMUsedPercent":61.83,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21594.0,"UsedSpace":92876.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:18,764 [34] U.Logging.ULog4netLogger - (null) - Error loading settings from D:\!Github\UZeroConsole\src\UZeroConsole.Web\Config\UZeroConsole\Monitoring\ClientHostSettings.json
+ (null)
+2018-02-02 18:16:18,764 [128] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:23,770 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:23","CPUUsagePercent":21.19,"RAMUsedPercent":61.85,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55299.0,"UsedSpace":386566.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:23,771 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:28,779 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:28","CPUUsagePercent":22.63,"RAMUsedPercent":61.96,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:28,781 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:33,785 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:33","CPUUsagePercent":18.27,"RAMUsedPercent":61.76,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:33,786 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:38,793 [39] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:38","CPUUsagePercent":21.62,"RAMUsedPercent":61.85,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:38,794 [39] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:43,795 [7] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:43","CPUUsagePercent":21.07,"RAMUsedPercent":61.81,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55300.0,"UsedSpace":386565.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:43,796 [7] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:48,802 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:48","CPUUsagePercent":21.89,"RAMUsedPercent":61.87,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:48,803 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:53,810 [28] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:53","CPUUsagePercent":20.57,"RAMUsedPercent":61.82,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55306.0,"UsedSpace":386559.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:53,811 [28] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:58,819 [32] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:16:58","CPUUsagePercent":19.99,"RAMUsedPercent":61.76,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55305.0,"UsedSpace":386560.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:16:58,820 [32] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:03,827 [7] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:17:03","CPUUsagePercent":17.69,"RAMUsedPercent":61.76,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55303.0,"UsedSpace":386562.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:03,828 [7] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:08,835 [29] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:17:08","CPUUsagePercent":17.57,"RAMUsedPercent":61.79,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55301.0,"UsedSpace":386564.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:08,836 [29] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:13,849 [89] U.Logging.ULog4netLogger - (null) - {"Hosts":[{"Id":1002,"Name":"客户端1","LastUpdate":"2018/2/2 18:17:13","CPUUsagePercent":17.92,"RAMUsedPercent":61.66,"Disks":[{"Name":"C:\\","TotalSize":114470.0,"FreeTotalSpace":21592.0,"UsedSpace":92878.0},{"Name":"D:\\","TotalSize":441865.0,"FreeTotalSpace":55299.0,"UsedSpace":386566.0},{"Name":"E:\\","TotalSize":255999.0,"FreeTotalSpace":25983.0,"UsedSpace":230016.0},{"Name":"F:\\","TotalSize":255999.0,"FreeTotalSpace":232504.0,"UsedSpace":23495.0},{"Name":"G:\\","TotalSize":1907694.0,"FreeTotalSpace":1373896.0,"UsedSpace":533798.0}],"WebService_CurrentConnections":0.0}]}
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx
+2018-02-02 18:17:13,850 [89] U.Logging.ULog4netLogger - (null) - 出错了：正在中止线程。
+ http://localhost:8400/UZeroSOA/Monitoring/Server.aspx

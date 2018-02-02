@@ -12,9 +12,9 @@ namespace UZeroConsole.Configuration.Monitoring
         public string DefaultConnectionString { get; set; }
 
         /// <summary>
-        /// 刷新间隔（对所有服务器轮询的频率）
+        /// 默认刷新间隔（对所有服务器轮询的频率）
         /// </summary>
-        public string RefreshIntervalSeconds { get; set; }
+        public int RefreshIntervalSeconds { get; set; }
 
         public IList<Cluster> Clusters { get; set; } = new List<Cluster>();
 
@@ -33,7 +33,7 @@ namespace UZeroConsole.Configuration.Monitoring
             /// <summary>
             /// 简介
             /// </summary>
-            public string Desc { get; set; }
+            public string Description { get; set; }
 
             /// <summary>
             /// 刷新间隔（null则使用默认的）
@@ -58,7 +58,7 @@ namespace UZeroConsole.Configuration.Monitoring
             /// <summary>
             /// 简介
             /// </summary>
-            public string Desc { get; set; }
+            public string Description { get; set; }
 
             /// <summary>
             /// 连接字符串

@@ -139,17 +139,21 @@
     <Reference Include="U.EntityFramework">
       <HintPath>..\packages\U\U.EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
+    <Reference Include="U.Extension.Collections, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
+    <Reference Include="U.Extension.Core, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Core.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Serialization">
-      <HintPath>..\packages\U\U.Extension.Serialization.dll</HintPath>
+    <Reference Include="U.Extension.Serialization, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Web">
-      <HintPath>..\packages\U\U.Extension.Web.dll</HintPath>
+    <Reference Include="U.Extension.Web, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Web.dll</HintPath>
     </Reference>
     <Reference Include="U.FakeMvc">
       <HintPath>..\packages\U\U.FakeMvc.dll</HintPath>
@@ -698,11 +702,15 @@
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="UZeroSOA\Jobs\RunItem.aspx" />
     <Content Include="UZeroSOA\Logging\Visit.aspx" />
+    <Content Include="UZeroSOA\Monitoring\Server.aspx" />
     <Content Include="UZero\AdminBindCorpWeixin.aspx" />
     <Content Include="UZero\Configuration\SetConsoleSettings.aspx" />
     <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
     <Content Include="UZero\Configuration\SetLoggingSettings.aspx" />
     <Content Include="UZero\Install\Index.aspx" />
+    <Content Include="UZero\Monitoring\Hosts\ClientHosts.aspx" />
+    <Content Include="UZero\Monitoring\monitoring.controller.js" />
+    <Content Include="UZero\Monitoring\SQL\Databases.aspx" />
     <Content Include="UZero\Monitoring\SQL\Servers.aspx" />
     <Content Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx" />
     <Content Include="_Tests\EnterpriseWeixin\CallbackTests.aspx" />
@@ -858,6 +866,7 @@
     <Content Include="packages.config" />
     <Content Include="Config\UZeroConsole\CorpWeixinSettings.json" />
     <Content Include="Config\UZeroConsole\Monitoring\SQLSettings.json" />
+    <Content Include="Config\UZeroConsole\Monitoring\ClientHostSettings.json" />
     <None Include="Properties\PublishProfiles\UZeroConsolePublish.pubxml" />
     <Content Include="UZero\Monitoring\Monitoring.master" />
     <None Include="Web.Debug.config">
@@ -1477,6 +1486,13 @@
     <Compile Include="UZeroSOA\Logging\Visit.aspx.designer.cs">
       <DependentUpon>Visit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZeroSOA\Monitoring\Server.aspx.cs">
+      <DependentUpon>Server.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Monitoring\Server.aspx.designer.cs">
+      <DependentUpon>Server.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\AdminBindCorpWeixin.aspx.cs">
       <DependentUpon>AdminBindCorpWeixin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1512,12 +1528,30 @@
     <Compile Include="UZero\Install\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZero\Monitoring\ExtensionMethods.cs" />
+    <Compile Include="UZero\Monitoring\Hosts\ClientHosts.aspx.cs">
+      <DependentUpon>ClientHosts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Hosts\ClientHosts.aspx.designer.cs">
+      <DependentUpon>ClientHosts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\Monitoring\Monitoring.master.cs">
       <DependentUpon>Monitoring.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UZero\Monitoring\Monitoring.master.designer.cs">
       <DependentUpon>Monitoring.master</DependentUpon>
+    </Compile>
+    <Compile Include="UZero\Monitoring\MonitoringPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\SQL\Databases.aspx.cs">
+      <DependentUpon>Databases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\SQL\Databases.aspx.designer.cs">
+      <DependentUpon>Databases.aspx</DependentUpon>
     </Compile>
     <Compile Include="UZero\Monitoring\SQL\Servers.aspx.cs">
       <DependentUpon>Servers.aspx</DependentUpon>

@@ -36,7 +36,7 @@ namespace UZeroConsole.Helpers
         {
             var policy = new CacheItemPolicy { Priority = priority };
             if (!isSliding && duration.HasValue)
-                policy.AbsoluteExpiration = DateTime.UtcNow.Add(duration.Value);
+                policy.AbsoluteExpiration = DateTime.Now.Add(duration.Value);
             if (isSliding && duration.HasValue)
                 policy.SlidingExpiration = duration.Value;
 

@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web.Hosting;
 using System.Threading;
 using System.Threading.Tasks;
-using U;
-using U.BackgroundJobs;
-
+using System.Web.Hosting;
 
 namespace UZeroConsole.Monitoring
 {
@@ -31,12 +28,29 @@ namespace UZeroConsole.Monitoring
             StartPolling();
         }
 
+        public static bool TryAdd(PollNode node)
+        {
+            lock (_addLock)
+            {
+                return AllPollNodes.Add(node);
+            }
+        }
+
+        public static bool TryRemove(PollNode node)
+        {
+            if (node == null || !node.AddedToGlobalPollers) return false;
+            lock (_addLock)
+            {
+                return AllPollNodes.Remove(node);
+            }
+        }
+
         /// <summary>
         /// 创建全局的轮询线程并启动
         /// </summary>
         public static void StartPolling()
         {
-            if (Current.Settings.Console.UseMonitoring)
+            if (Current.ConsoleSettings.UseMonitoring)
             {
                 _startTime = DateTime.Now;
                 _globalPollingThread = _globalPollingThread ?? new Thread(MonitorPollingLoop)
@@ -55,7 +69,7 @@ namespace UZeroConsole.Monitoring
 
         public static void StopPolling()
         {
-            if (Current.Settings.Console.UseMonitoring)
+            if (Current.ConsoleSettings.UseMonitoring)
             {
                 _shuttingDown = true;
             }
@@ -90,25 +104,67 @@ namespace UZeroConsole.Monitoring
 
         public static async Task<bool> PollAsync(string nodeType, string key, Guid? cacheGuid = null)
         {
-            throw new Exception();
+            if (nodeType == Cache.TimedCacheKey)
+            {
+                Cache.Purge(key);
+                return true;
+            }
+
+            var node = AllPollNodes.FirstOrDefault(p => p.NodeType == nodeType && p.UniqueKey == key);
+            if (node == null) return false;
+
+            if (cacheGuid.HasValue)
+            {
+                var cache = node.DataPollers.FirstOrDefault(p => p.UniqueId == cacheGuid);
+                if (cache != null)
+                {
+                    await cache.PollGenericAsync(true).ConfigureAwait(false);
+                }
+                return cache?.LastPollSuccessful ?? false;
+            }
+            // Polling an entire server
+            await node.PollAsync(true).ConfigureAwait(false);
+            return true;
         }
 
-        #region GlobalPollingStatus
+        public static List<PollNode> GetNodes(string type)
+        {
+            return AllPollNodes.Where(pn => string.Equals(pn.NodeType, type, StringComparison.InvariantCultureIgnoreCase)).ToList();
+        }
+
+        public static PollNode GetNode(string type, string key)
+        {
+            return AllPollNodes.FirstOrDefault(pn => string.Equals(pn.NodeType, type, StringComparison.InvariantCultureIgnoreCase) && pn.UniqueKey == key);
+        }
+
+        public static Cache GetCache(Guid id)
+        {
+            foreach (var pn in AllPollNodes)
+            {
+                foreach (var c in pn.DataPollers)
+                {
+                    if (c.UniqueId == id) return c;
+                }
+            }
+            return null;
+        }
+
+        #region Global polling status
         public static GlobalPollingStatus GetPollingStatus()
         {
             return new GlobalPollingStatus
             {
-                //MonitorStatus = _globalPollingThread.IsAlive ? (AllPollNodes.Count > 0 ? MonitorStatus.Good : MonitorStatus.Unknown) : MonitorStatus.Critical,
-                //MonitorStatusReason = _globalPollingThread.IsAlive ? (AllPollNodes.Count > 0 ? null : "无轮询节点") : "全局轮询线程已挂",
-                //StartTime = _startTime,
-                //LastPollAll = _lastPollAll,
-                //IsAlive = _globalPollingThread.IsAlive,
-                //TotalPollIntervals = _totalPollIntervals,
-                //ActivePolls = _activePolls,
-                //NodeCount = AllPollNodes.Count,
-                //TotalPollers = AllPollNodes.Sum(n => n.DataPollers.Count()),
-                //NodeBreakdown = AllPollNodes.GroupBy(n => n.GetType()).Select(g => Tuple.Create(g.Key, g.Count())).ToList(),
-                //Nodes = AllPollNodes.ToList()
+                MonitorStatus = _globalPollingThread.IsAlive ? (AllPollNodes.Count > 0 ? MonitorStatus.Good : MonitorStatus.Unknown) : MonitorStatus.Critical,
+                MonitorStatusReason = _globalPollingThread.IsAlive ? (AllPollNodes.Count > 0 ? null : "无轮询节点") : "全局轮询线程已挂",
+                StartTime = _startTime,
+                LastPollAll = _lastPollAll,
+                IsAlive = _globalPollingThread.IsAlive,
+                TotalPollIntervals = _totalPollIntervals,
+                ActivePolls = _activePolls,
+                NodeCount = AllPollNodes.Count,
+                TotalPollers = AllPollNodes.Sum(n => n.DataPollers.Count()),
+                NodeBreakdown = AllPollNodes.GroupBy(n => n.GetType()).Select(g => Tuple.Create(g.Key, g.Count())).ToList(),
+                Nodes = AllPollNodes.ToList()
             };
         }
 
@@ -128,6 +184,41 @@ namespace UZeroConsole.Monitoring
         }
         #endregion
 
+        #region ThreadStats
+        public static ThreadStats GetThreadStats() => new ThreadStats();
+
+        public class ThreadStats
+        {
+            private readonly int _minWorkerThreads;
+            public int MinWorkerThreads => _minWorkerThreads;
+
+            private readonly int _minIOThreads;
+            public int MinIOThreads => _minIOThreads;
+
+            private readonly int _availableWorkerThreads;
+            public int AvailableWorkerThreads => _availableWorkerThreads;
+
+            private readonly int _availableIOThreads;
+            public int AvailableIOThreads => _availableIOThreads;
+
+            private readonly int _maxIOThreads;
+            public int MaxIOThreads => _maxIOThreads;
+
+            private readonly int _maxWorkerThreads;
+            public int MaxWorkerThreads => _maxWorkerThreads;
+
+            public int BusyIOThreads => _maxIOThreads - _availableIOThreads;
+            public int BusyWorkerThreads => _maxWorkerThreads - _availableWorkerThreads;
+
+            public ThreadStats()
+            {
+                ThreadPool.GetMinThreads(out _minWorkerThreads, out _minIOThreads);
+                ThreadPool.GetAvailableThreads(out _availableWorkerThreads, out _availableIOThreads);
+                ThreadPool.GetMaxThreads(out _maxWorkerThreads, out _maxIOThreads);
+            }
+        }
+        #endregion
+
         #region Private methods
         /// <summary>
         /// 确保启动
@@ -143,7 +234,7 @@ namespace UZeroConsole.Monitoring
                 catch (ThreadAbortException e)
                 {
                     if (!_shuttingDown)
-                        Current.LogException("Global polling loop shutting down", e);
+                        Current.LogException("全局轮询循环已挂", e);
                 }
                 catch (Exception ex)
                 {
@@ -155,7 +246,7 @@ namespace UZeroConsole.Monitoring
                 }
                 catch (ThreadAbortException)
                 {
-                    // application is cycling, AND THAT'S OKAY
+                    // 没事，应用程序已循环
                 }
             }
         }
@@ -168,9 +259,6 @@ namespace UZeroConsole.Monitoring
                 Thread.Sleep(1000);
             }
         }
-        #endregion
-
-        #region ThreadStats
         #endregion
     }
 }

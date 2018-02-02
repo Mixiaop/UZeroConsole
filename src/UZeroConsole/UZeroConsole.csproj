@@ -39,8 +39,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="MiniProfiler">
-      <HintPath>..\packages\MiniProfiler.3.2.0.157\lib\net40\MiniProfiler.dll</HintPath>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler, Version=3.2.0.157, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MiniProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler.Shared">
+      <HintPath>..\packages\MiniProfiler.Shared.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -50,6 +57,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -63,13 +71,13 @@
       <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Collections.dll</HintPath>
     </Reference>
     <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Core.dll</HintPath>
     </Reference>
     <Reference Include="U.Extension.Serialization">
-      <HintPath>..\packages\U\U.Extension.Serialization.dll</HintPath>
+      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="U.HangFire">
       <HintPath>..\packages\U\U.HangFire.dll</HintPath>
@@ -83,6 +91,7 @@
     <Compile Include="Configuration\CorpWeixinSettings.cs" />
     <Compile Include="Configuration\DatabaseSettings.cs" />
     <Compile Include="Configuration\ConsoleSettings.cs" />
+    <Compile Include="Configuration\Monitoring\ClientHostSettings.cs" />
     <Compile Include="Configuration\Monitoring\SQLSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
     <Compile Include="Domain\CMS\CMSEnums.cs" />
@@ -142,15 +151,42 @@
     <Compile Include="Domain\Sso\Repositories\IAppRepository.cs" />
     <Compile Include="Domain\Tag.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="ExtensionMethods.Sql.cs" />
+    <Compile Include="ExtensionMethods.Time.cs" />
+    <Compile Include="Helpers\Connection.cs" />
+    <Compile Include="Helpers\FileSizeFormatProvider.cs" />
     <Compile Include="Helpers\LocalCache.cs" />
+    <Compile Include="Monitoring\IMinVersioned.cs" />
     <Compile Include="Monitoring\Cache.cs" />
-    <Compile Include="Monitoring\Current.cs" />
+    <Compile Include="Current.cs" />
+    <Compile Include="Monitoring\ExtensionMethods.cs" />
+    <Compile Include="Monitoring\IPNet.cs" />
+    <Compile Include="Monitoring\ISearchableNode.cs" />
+    <Compile Include="Monitoring\Issue.cs" />
     <Compile Include="Monitoring\MonitoringSettings.cs" />
     <Compile Include="Monitoring\MonitorStatus.cs" />
     <Compile Include="Monitoring\PollingEngine.cs" />
     <Compile Include="Monitoring\PollNode.cs" />
+    <Compile Include="Monitoring\PollNode.Equality.cs" />
+    <Compile Include="Monitoring\PollNode.Events.cs" />
+    <Compile Include="Monitoring\SQL\Enums.cs" />
+    <Compile Include="Monitoring\SQL\ISQLVersioned.cs" />
+    <Compile Include="Monitoring\SQL\SQLCluster.cs" />
+    <Compile Include="Monitoring\SQL\SQLCluster.Issues.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Connections.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.CPUHistory.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.cs" />
-    <Compile Include="Monitoring\SQL\SqlModule.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Databases.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Memory.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.PerfCounters.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Properties.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Services.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.Volumes.cs" />
+    <Compile Include="Monitoring\SQL\SQLModule.cs" />
+    <Compile Include="Monitoring\SQL\SQLNode.AvailabilityGroups..cs" />
+    <Compile Include="Monitoring\SQL\SQLNode.ClusterInfo.cs" />
+    <Compile Include="Monitoring\SQL\SQLNode.cs" />
+    <Compile Include="Monitoring\SQL\SQLNode.TCPListener.cs" />
     <Compile Include="Monitoring\SQL\SQLServerVersions.cs" />
     <Compile Include="Services\Impl\AdminService.cs" />
     <Compile Include="Services\ApplicationServiceBase.cs" />
@@ -210,6 +246,7 @@
     <Compile Include="Services\Sso\ISsoWebService.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="StatusModule.cs" />
+    <Compile Include="StringBuilderCache.cs" />
     <Compile Include="StringSplits.cs" />
     <Compile Include="UZeroConsoleConsts.cs" />
     <Compile Include="UZeroConsoleUPrime.cs" />

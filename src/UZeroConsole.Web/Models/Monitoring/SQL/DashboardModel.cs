@@ -1,4 +1,6 @@
-﻿using UZeroConsole.Monitoring.SQL;
+﻿using System.Collections.Generic;
+using UZeroConsole.Monitoring;
+using UZeroConsole.Monitoring.SQL;
 
 namespace UZeroConsole.Web.Models.Monitoring.SQL
 {
@@ -8,6 +10,10 @@ namespace UZeroConsole.Web.Models.Monitoring.SQL
         public string ErrorMessage { get; set; }
 
         public int Refresh { get; set; }
+
+        public List<SQLInstance.SQLConnectionInfo> Connections { get; set; }
+        public Cache Cache { get; set; }
+
         public enum LastRunInterval
         {
             FiveMinutes = 5 * 60,

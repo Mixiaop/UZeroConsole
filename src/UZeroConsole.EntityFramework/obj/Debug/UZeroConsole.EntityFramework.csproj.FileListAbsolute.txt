@@ -42,7 +42,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Castle.Core.d
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\log4net.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Nito.AsyncEx.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\System.Collections.Immutable.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Newtonsoft.Json.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Nito.AsyncEx.Enlightenment.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramework.xml
@@ -50,9 +49,8 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramewo
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.csprojResolveAssemblyReference.cache
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.pdb
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Newtonsoft.Json.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Microsoft.Web.Administration.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.EntityFramework.csproj.CoreCompileInputs.cache
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.pdb
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.xml
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.Shared.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Dapper.dll

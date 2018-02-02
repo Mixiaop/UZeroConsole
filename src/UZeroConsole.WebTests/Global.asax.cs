@@ -4,15 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using StackExchange.Profiling;
 using U;
+
 namespace UZeroConsole.WebTests
 {
-    public class Global : U.Web.UWebApplication
+    public class Global : System.Web.HttpApplication
     {
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            base.Application_Start(sender, e);
+            new U.UStarter().Startup();
         }
 
         protected void Session_Start(object sender, EventArgs e)
@@ -22,7 +24,11 @@ namespace UZeroConsole.WebTests
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
+            MiniProfiler.Start();
+        }
 
+        protected void Application_EndRequest(object sender, EventArgs e) {
+            MiniProfiler.Stop();
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
@@ -30,7 +36,7 @@ namespace UZeroConsole.WebTests
 
         }
 
-        protected override void Application_Error(object sender, EventArgs e)
+        protected void Application_Error(object sender, EventArgs e)
         {
             //var exception = Server.GetLastError();
             //var loggingService = UPrimeEngine.Instance.Resolve<ILoggingClientService>();
@@ -61,7 +67,7 @@ namespace UZeroConsole.WebTests
 
         protected void Application_End(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
