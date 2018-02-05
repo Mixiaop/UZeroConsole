@@ -91,6 +91,7 @@
     <Compile Include="Configuration\CorpWeixinSettings.cs" />
     <Compile Include="Configuration\DatabaseSettings.cs" />
     <Compile Include="Configuration\ConsoleSettings.cs" />
+    <Compile Include="Configuration\Monitoring\AlertSettings.cs" />
     <Compile Include="Configuration\Monitoring\ClientHostSettings.cs" />
     <Compile Include="Configuration\Monitoring\SQLSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Helpers\Connection.cs" />
     <Compile Include="Helpers\FileSizeFormatProvider.cs" />
     <Compile Include="Helpers\LocalCache.cs" />
+    <Compile Include="Monitoring\Hosts\HostModule.cs" />
     <Compile Include="Monitoring\IMinVersioned.cs" />
     <Compile Include="Monitoring\Cache.cs" />
     <Compile Include="Current.cs" />

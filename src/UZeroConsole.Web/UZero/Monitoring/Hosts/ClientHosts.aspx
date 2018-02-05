@@ -27,6 +27,7 @@
                         <tr>
                             <th class="text-center">Id</th>
                             <th class="text-center">Name</th>
+                            <th class="text-center">Ip</th>
                             <th class="text-center">CPU</th>
                             <th class="text-center">Memory</th>
                             <th class="text-center">容量</th>
@@ -34,15 +35,16 @@
                             <th class="text-center">最后更新</th>
                         </tr>
                     </thead>
-                    <% if (Settings.Hosts.Any())
+                    <% if (Hosts.Any())
                         { %>
                     <tbody>
-                        <%foreach (var host in Settings.Hosts)
+                        <%foreach (var host in Hosts)
                             {
                         %>
                         <tr>
                             <td class="text-center"><%= host.Id %></td>
                             <td class="text-center"><%= host.Name %></td>
+                            <td class="text-center"><%= host.Ip %></td>
                             <td class="text-center"><%= host.CPUUsagePercent + "%" %></td>
                             <td class="text-center"><%= host.RAMUsedPercent + "%" %></td>
                             <td class="text-center">

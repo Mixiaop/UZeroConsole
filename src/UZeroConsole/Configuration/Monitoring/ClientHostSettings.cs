@@ -13,6 +13,7 @@ namespace UZeroConsole.Configuration.Monitoring
         {
             public int Id { get; set; }
             public string Name { get; set; }
+            public string Ip { get; set; }
             public string LastUpdate { get; set; }
 
             public float CPUUsagePercent { get; set; }

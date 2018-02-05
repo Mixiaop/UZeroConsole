@@ -1,4 +1,5 @@
-﻿namespace UZeroConsole.WinServices.PerformanceSender
+﻿
+namespace UZeroConsole.WinServices.PerformanceSender
 {
     partial class PerformanceSenderService
     {

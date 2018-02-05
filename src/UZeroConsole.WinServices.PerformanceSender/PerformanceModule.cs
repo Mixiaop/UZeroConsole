@@ -98,6 +98,7 @@ namespace UZeroConsole.WinServices.PerformanceSender
         public class HostInfo
         {
             public int ClientId { get; set; }
+            public string ClientIp { get; set; }
             public string ClientName { get; set; }
             public float CPUUsagePercent { get; set; }
             public float RAMUsedPercent { get; set; }

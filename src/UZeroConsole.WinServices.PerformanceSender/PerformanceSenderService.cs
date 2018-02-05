@@ -25,10 +25,10 @@ namespace UZeroConsole.WinServices.PerformanceSender
             var client = PerformanceModule.Current();
             client.ClientId = _settings.ClientId;
             client.ClientName = _settings.ClientName;
-
+            client.ClientIp = _settings.ClientIp;
             var json = JsonConvert.SerializeObject(client);
             var requestJson = JsonConvert.SerializeObject(json);
-            WriteLog(json);
+            
             HttpContent httpContent = new StringContent(requestJson);
             httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
             var httpClient = new HttpClient();
@@ -74,6 +74,7 @@ namespace UZeroConsole.WinServices.PerformanceSender
         public class Settings
         {
             public string ServerHost { get; set; }
+            public string ClientIp { get; set; }
             public int ClientId { get; set; }
             public string ClientName { get; set; }
             public int SendInterval { get; set; }
