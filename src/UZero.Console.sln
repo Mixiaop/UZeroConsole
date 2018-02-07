@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.WebConsole", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroConsole.WinServices.PerformanceSender", "UZeroConsole.WinServices.PerformanceSender\UZeroConsole.WinServices.PerformanceSender.csproj", "{FB3AC515-8D29-4AB2-8C7B-E61E2A628017}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E8CF0508-B845-4B71-8E69-9584AC8A2986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38175033-4BA9-4445-ACBD-4B57F1351228} = {E8CF0508-B845-4B71-8E69-9584AC8A2986}
+		{B018502B-57DE-473E-8239-2FCFF6263B1C} = {E8CF0508-B845-4B71-8E69-9584AC8A2986}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {465CAE20-5987-4378-8A2E-0CD9C3FAFB7F}

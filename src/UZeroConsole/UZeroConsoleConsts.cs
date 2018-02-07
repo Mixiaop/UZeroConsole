@@ -7,7 +7,7 @@ namespace UZeroConsole
         /// <summary>
         /// 当前版本
         /// </summary>
-        public const string CurrentVersion = "0.2.8.3";
+        public const string CurrentVersion = "0.3.8.3";
     }
     //0.1.2.0  -增加了获取操作日志统计的接口方法
     //0.1.2.1  -操作日志更新【清除日志】的功能
@@ -21,4 +21,5 @@ namespace UZeroConsole
     //0.1.7.3  -更新U 0.5.11.10
     //0.2.7.3  -合并了ClientService 至 UZeroConsole.Client
     //0.2.8.3  -监控win services
+    //0.3.8.3  -后台新增监护页面SQL、Redis、Hosts
 }

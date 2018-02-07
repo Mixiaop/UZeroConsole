@@ -188,3 +188,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Extras.DynamicProxy2.xm
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\MiniProfiler.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\MiniProfiler.Shared.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Dapper.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\StackExchange.Redis.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\StackExchange.Redis.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\StackExchange.Redis.xml

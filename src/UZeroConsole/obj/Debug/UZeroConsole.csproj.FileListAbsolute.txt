@@ -95,3 +95,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\MiniProfiler.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\MiniProfiler.Shared.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Dapper.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.xml

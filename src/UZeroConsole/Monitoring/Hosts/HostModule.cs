@@ -13,6 +13,10 @@ namespace UZeroConsole.Monitoring.Hosts
     {
         public static ClientHostSettings Settings = UPrimeEngine.Instance.Resolve<ClientHostSettings>();
 
+        /// <summary>
+        /// 接收UZeroConsole.WinServices.PerformanceSender发送的数据，存储到配置里
+        /// </summary>
+        /// <param name="clientInfo"></param>
         public static void Receive(string clientInfo)
         {
             if (clientInfo.IsNotNullOrEmpty())
@@ -34,9 +38,9 @@ namespace UZeroConsole.Monitoring.Hosts
                 {
                     current = new ClientHostSettings.HostInfo();
                     current.Id = client.ClientId;
-                    current.Name = client.ClientName;
                 }
 
+                current.Name = client.ClientName;
                 current.Ip = client.ClientIp;
                 current.LastUpdate = DateTime.Now.ToString();
                 current.CPUUsagePercent = client.CPUUsagePercent;
@@ -71,6 +75,10 @@ namespace UZeroConsole.Monitoring.Hosts
             }
         }
 
+        /// <summary>
+        /// 获取当前所有监控的主机（往监控台发数据)
+        /// </summary>
+        /// <returns></returns>
         public static List<ClientHostSettings.HostInfo> GetHosts()
         {
             return Settings?.Hosts ?? new List<ClientHostSettings.HostInfo>();

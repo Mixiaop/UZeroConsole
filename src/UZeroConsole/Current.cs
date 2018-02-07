@@ -9,7 +9,7 @@ namespace UZeroConsole
     internal static partial class Current
     {
         private static ConsoleSettings _consoleSettings = UPrimeEngine.Instance.Resolve<ConsoleSettings>();
-
+        
         public static ConsoleSettings ConsoleSettings => _consoleSettings;
         public static MonitoringSettings MonitoringSettings => MonitoringSettings.Current;
         public static readonly Helpers.LocalCache LocalCache = new Helpers.LocalCache();

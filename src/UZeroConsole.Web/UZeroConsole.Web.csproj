@@ -708,8 +708,10 @@
     <Content Include="UZero\Configuration\SetCorpWeixinSettings.aspx" />
     <Content Include="UZero\Configuration\SetLoggingSettings.aspx" />
     <Content Include="UZero\Install\Index.aspx" />
+    <Content Include="UZero\Monitoring\Dashboard.aspx" />
     <Content Include="UZero\Monitoring\Hosts\ClientHosts.aspx" />
     <Content Include="UZero\Monitoring\monitoring.controller.js" />
+    <Content Include="UZero\Monitoring\Redis\Servers.aspx" />
     <Content Include="UZero\Monitoring\SQL\Databases.aspx" />
     <Content Include="UZero\Monitoring\SQL\Servers.aspx" />
     <Content Include="_Tests\ClientService\IRemoteJobClientServiceTests.aspx" />
@@ -867,6 +869,8 @@
     <Content Include="Config\UZeroConsole\CorpWeixinSettings.json" />
     <Content Include="Config\UZeroConsole\Monitoring\SQLSettings.json" />
     <Content Include="Config\UZeroConsole\Monitoring\ClientHostSettings.json" />
+    <Content Include="Config\UZeroConsole\Monitoring\AlertSettings.json" />
+    <Content Include="Config\UZeroConsole\Monitoring\RedisSettings.json" />
     <None Include="Properties\PublishProfiles\UZeroConsolePublish.pubxml" />
     <Content Include="UZero\Monitoring\Monitoring.master" />
     <None Include="Web.Debug.config">
@@ -1470,6 +1474,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Monitoring\DashboardModel.cs" />
+    <Compile Include="Models\Monitoring\Redis\ServersModel.cs" />
     <Compile Include="Models\Monitoring\SQL\DashboardModel.cs" />
     <Compile Include="Models\Monitoring\SQL\ServersModel.cs" />
     <Compile Include="UZeroSOA\Jobs\RunItem.aspx.cs">
@@ -1528,6 +1534,13 @@
     <Compile Include="UZero\Install\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UZero\Monitoring\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UZero\Monitoring\ExtensionMethods.cs" />
     <Compile Include="UZero\Monitoring\Hosts\ClientHosts.aspx.cs">
       <DependentUpon>ClientHosts.aspx</DependentUpon>
@@ -1545,6 +1558,13 @@
     </Compile>
     <Compile Include="UZero\Monitoring\MonitoringPageBase.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Redis\Servers.aspx.cs">
+      <DependentUpon>Servers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZero\Monitoring\Redis\Servers.aspx.designer.cs">
+      <DependentUpon>Servers.aspx</DependentUpon>
     </Compile>
     <Compile Include="UZero\Monitoring\SQL\Databases.aspx.cs">
       <DependentUpon>Databases.aspx</DependentUpon>

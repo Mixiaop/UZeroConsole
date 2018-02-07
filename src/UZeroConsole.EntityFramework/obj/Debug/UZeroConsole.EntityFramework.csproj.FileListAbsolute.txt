@@ -54,3 +54,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\obj\Debug\UZeroConsole.
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\MiniProfiler.Shared.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Dapper.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.xml

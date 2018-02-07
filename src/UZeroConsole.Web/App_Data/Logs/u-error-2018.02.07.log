@@ -1,0 +1,16 @@
+2018-02-07 11:08:48,179 [112] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:08:50,629 [116] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:08:51,913 [117] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:08:52,101 [119] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:08:52,335 [116] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:08:52,499 [114] U.Logging.ULog4netLogger - (null) - 引发类型为“System.Web.HttpUnhandledException”的异常。
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:14:09,019 [57] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Redis\Servers.aspx(46): error CS0103: 当前上下文中不存在名称“m”
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx
+2018-02-07 11:23:12,413 [141] U.Logging.ULog4netLogger - (null) - d:\!Github\UZeroConsole\src\UZeroConsole.Web\UZero\Monitoring\Redis\Servers.aspx(53): error CS0103: 当前上下文中不存在名称“GetAllOps”
+ http://localhost:8400/UZero/Monitoring/Redis/Servers.aspx

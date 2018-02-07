@@ -53,6 +53,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="StackExchange.Redis">
+      <HintPath>..\packages\StackExchange.Redis.1.0.488\lib\net45\StackExchange.Redis.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -93,6 +96,7 @@
     <Compile Include="Configuration\ConsoleSettings.cs" />
     <Compile Include="Configuration\Monitoring\AlertSettings.cs" />
     <Compile Include="Configuration\Monitoring\ClientHostSettings.cs" />
+    <Compile Include="Configuration\Monitoring\RedisSettings.cs" />
     <Compile Include="Configuration\Monitoring\SQLSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
     <Compile Include="Domain\CMS\CMSEnums.cs" />
@@ -154,6 +158,7 @@
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="ExtensionMethods.Sql.cs" />
     <Compile Include="ExtensionMethods.Time.cs" />
+    <Compile Include="Helpers\AppCache.cs" />
     <Compile Include="Helpers\Connection.cs" />
     <Compile Include="Helpers\FileSizeFormatProvider.cs" />
     <Compile Include="Helpers\LocalCache.cs" />
@@ -171,8 +176,24 @@
     <Compile Include="Monitoring\PollNode.cs" />
     <Compile Include="Monitoring\PollNode.Equality.cs" />
     <Compile Include="Monitoring\PollNode.Events.cs" />
+    <Compile Include="Monitoring\Redis\RedisAnalyzer.Memory.cs" />
+    <Compile Include="Monitoring\Redis\RedisConnectionInfo.cs" />
+    <Compile Include="Monitoring\Redis\RedisInfo.cs" />
+    <Compile Include="Monitoring\Redis\RedisInfo.Parsing.cs" />
+    <Compile Include="Monitoring\Redis\RedisInfo.PropertyAttribute.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Actions.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Cache.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Clients.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Config.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Info.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.Issues.cs" />
+    <Compile Include="Monitoring\Redis\RedisInstance.SlowLog.cs" />
+    <Compile Include="Monitoring\Redis\RedisModule.cs" />
     <Compile Include="Monitoring\SQL\Enums.cs" />
     <Compile Include="Monitoring\SQL\ISQLVersioned.cs" />
+    <Compile Include="Monitoring\SQL\QueryPlans\ShowPlanXML.cs" />
+    <Compile Include="Monitoring\SQL\QueryPlans\ShowPlanXML.generated.cs" />
     <Compile Include="Monitoring\SQL\SQLCluster.cs" />
     <Compile Include="Monitoring\SQL\SQLCluster.Issues.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.Connections.cs" />
@@ -180,6 +201,7 @@
     <Compile Include="Monitoring\SQL\SQLInstance.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.Databases.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.Memory.cs" />
+    <Compile Include="Monitoring\SQL\SQLInstance.OperationTops.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.PerfCounters.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.Properties.cs" />
     <Compile Include="Monitoring\SQL\SQLInstance.Services.cs" />
