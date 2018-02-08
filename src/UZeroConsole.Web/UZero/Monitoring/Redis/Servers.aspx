@@ -19,8 +19,8 @@
     <input type="hidden" class="js-refresh-time" value="<%= Model.Refresh? 5: 0 %>" />
     <div class="content js-refresh" data-name="sql">
         <div class="block">
-            <div class="block-content">
-                <table class="table table-hover js-dataTable-full">
+            <div class="block-content table-responsive">
+                <table class="table table-hover js-dataTable-full ">
                     <thead>
                         <tr>
                             <th class="text-center">Name</th>

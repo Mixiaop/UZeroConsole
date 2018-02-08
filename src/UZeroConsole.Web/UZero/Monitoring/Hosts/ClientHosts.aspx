@@ -21,7 +21,7 @@
     <input type="hidden" class="js-refresh-time" value="3" />
     <div class="content js-refresh" data-name="hosts">
         <div class="block">
-            <div class="block-content">
+            <div class="block-content table-responsive">
                 <table class="table table-hover js-dataTable-full">
                     <thead>
                         <tr>

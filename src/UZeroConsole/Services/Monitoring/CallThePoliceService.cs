@@ -61,10 +61,9 @@ namespace UZeroConsole.Services.Monitoring
                         _corpWeixinService.SendMessage(_settings.CorpWeixinIdList, subject);
                     }
 
-                    var props = instance.ServerProperties.SafeData();
-                    if (props != null && props.PhysicalMemoryBytes > 0)
+                    if (instance.CurrentMemoryPercent.HasValue)
                     {
-                        if (props.PhysicalMemoryBytes > _settings.SqlMemoryWarning) {
+                        if (instance.CurrentMemoryPercent.Value > _settings.SqlMemoryWarning) {
                             var subject = string.Format("【Sql Server】{0}：Memory超出警告值（{1}）", instance.Name, _settings.SqlMemoryWarning);
 
                             _corpWeixinService.SendMessage(_settings.CorpWeixinIdList, subject);
