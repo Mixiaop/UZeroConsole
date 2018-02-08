@@ -24,11 +24,11 @@
                     <thead>
                         <tr>
                             <th class="text-center">Name</th>
+                            <th class="text-center">Ops(sec)</th>
+                            <th class="text-center">Memory(used)</th>
                             <th class="text-center">Host(port)</th>
                             <th class="text-center">Role</th>
                             <th class="text-center">Slaves</th>
-                            <th class="text-center">Ops(sec)</th>
-                            <th class="text-center">Memory(used)</th>
                             <th class="text-center">Clients</th>
                             <th class="text-center">最后更新</th>
                         </tr>
@@ -44,13 +44,13 @@
                     <tbody>
                         <tr>
                             <td class="text-center"><%= server.ConnectionInfo.Name %></td>
+                            <td class="text-center"><%= GetAllOps() %> <span class="text-muted small">(<%= GetAllOpsPerSec()%>)</span></td>
+                            <td class="text-center"><%= GetAllMemory() %><span class="text-muted small">(<%= GetAllMemoryUsed() %>)</span></td>
                             <td class="text-center"><%=  server.Host%> <span class="text-muted small">(<%= server.Port.ToString() %>)</span></td>
                             <td class="text-center">
                                 <strong>Master</strong>
                             </td>
                             <td class="text-center">0</td>
-                            <td class="text-center"><%= GetAllOps() %> <span class="text-muted small">(<%= GetAllOpsPerSec()%>)</span></td>
-                            <td class="text-center"><%= GetAllMemory() %><span class="text-muted small">(<%= GetAllMemoryUsed() %>)</span></td>
                             <td class="text-center"><%= GetAllClients() %></td>
                             <td class="text-center"><%= server.LastFetch.ToPollSpan() %></td>
                         </tr>
