@@ -3,11 +3,16 @@
     /// <summary>
     /// 标签类型
     /// </summary>
-    public enum TagType {
+    public enum TagType
+    {
         /// <summary>
-        /// Job模块
+        /// Job module
         /// </summary>
         Job = 1,
-        None = 0            
+        /// <summary>
+        /// Caching module
+        /// </summary>
+        Caching = 2,
+        None = 0
     }
 }
