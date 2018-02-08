@@ -216,6 +216,8 @@
     <Compile Include="Monitoring\SQL\SQLServerVersions.cs" />
     <Compile Include="Services\Caching\ICachingService.Redis.cs" />
     <Compile Include="Services\Caching\Impl\CachingService.Redis.cs" />
+    <Compile Include="Services\External\Dto\CorpWeixinSendMessageDto.cs" />
+    <Compile Include="Services\External\Dto\CorpWeixinSendMessageOutput.cs" />
     <Compile Include="Services\Impl\AdminService.cs" />
     <Compile Include="Services\ApplicationServiceBase.cs" />
     <Compile Include="Services\CMS\Impl\NodeService.cs" />
@@ -264,6 +266,8 @@
     <Compile Include="Services\Mappers\CustomDtoMapper.cs" />
     <Compile Include="Services\Impl\PermissionsService.cs" />
     <Compile Include="Services\Impl\RoleService.cs" />
+    <Compile Include="Services\Monitoring\CallThePoliceService.cs" />
+    <Compile Include="Services\Monitoring\ICallThePoliceService.cs" />
     <Compile Include="Services\Sso\Dto\AppDto.cs" />
     <Compile Include="Services\Sso\Dto\CreateOrUpdateAppInput.cs" />
     <Compile Include="Services\Sso\IAppService.cs" />

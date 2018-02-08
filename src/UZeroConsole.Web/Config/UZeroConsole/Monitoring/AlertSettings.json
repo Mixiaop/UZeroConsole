@@ -1,6 +1,10 @@
 ﻿{
-  "HostCPUWarning": 5,
-  "HostMemoryWarning": 5,
-  "CorpWeixinIdList": ["15800448791"],
+  "WebServerCPUWarning": 80,
+  "WebServerMemoryWarning": 90,
+  "SqlCPUWarning": 80,
+  "SqlMemoryWarning": 90,
+  "RedisOpsPerSecWarning": 300,
+  "RedisUsedMemoryWarning": 90,
+  "CorpWeixinIdList": [ "15800448791", "13626686806" ],
   "Emails": [ "answerhoop@126.com" ]
 }

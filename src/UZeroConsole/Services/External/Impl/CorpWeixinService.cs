@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using U.Utilities.Net;
 using UZeroConsole.Configuration;
@@ -49,6 +50,39 @@ namespace UZeroConsole.Services.External.Impl
 
                 if (response.IsNotNullOrEmpty())
                     res = JsonConvert.DeserializeObject<GetCorpWeixinUserIdOutput>(response);
+            }
+            return res;
+        }
+
+        public CorpWeixinSendMessageOutput SendMessage(List<string> userIdList, string content)
+        {
+            CorpWeixinSendMessageOutput res = new CorpWeixinSendMessageOutput();
+
+            GetCorpWexinAccessTokenOutput token = GetAccessToken();
+            if (token.errmsg == "ok")
+            {
+                string accessToken = token.access_token;
+
+                var url = string.Format("https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token={0}", accessToken);
+
+                CorpWeixinSendMessageDto input = new CorpWeixinSendMessageDto();
+
+                if (userIdList != null)
+                {
+                    userIdList.ForEach((userId) => {
+                        input.touser += userId + "|";
+                    });
+
+                    if (input.touser.IsNotNullOrEmpty())
+                        input.touser = input.touser.TrimEnd("|");
+                }
+                input.agentid = _settings.AuthAgentId;
+                input.text.content = content;
+                var data = JsonConvert.SerializeObject(input);
+
+                var response = WebRequestHelper.HttpPost(url, data);
+                if (response.IsNotNullOrEmpty())
+                    res = JsonConvert.DeserializeObject<CorpWeixinSendMessageOutput>(response);
             }
             return res;
         }

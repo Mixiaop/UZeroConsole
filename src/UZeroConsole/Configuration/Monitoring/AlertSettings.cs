@@ -13,12 +13,32 @@ namespace UZeroConsole.Configuration.Monitoring
         /// <summary>
         /// 客户端Cpu警告值（通知）
         /// </summary>
-        public int HostCPUWarning { get; set; }
+        public int WebServerCPUWarning { get; set; }
 
         /// <summary>
         /// 客户端内存警告值（通知）
         /// </summary>
-        public int HostMemoryWarning { get; set; }
+        public int WebServerMemoryWarning { get; set; }
+
+        /// <summary>
+        /// SQL服务器CPU警告值
+        /// </summary>
+        public int SqlCPUWarning { get; set; }
+
+        /// <summary>
+        /// SQL服务器内存警告值
+        /// </summary>
+        public int SqlMemoryWarning { get; set; }
+
+        /// <summary>
+        /// Redis每秒OPS警告值
+        /// </summary>
+        public int RedisOpsPerSecWarning { get; set; }
+
+        /// <summary>
+        /// Redis使用内存警告值
+        /// </summary>
+        public int RedisUsedMemoryWarning { get; set; }
 
         /// <summary>
         /// 接收通知的企业微信Id

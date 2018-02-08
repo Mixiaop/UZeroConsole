@@ -702,6 +702,7 @@
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="UZeroSOA\Jobs\RunItem.aspx" />
     <Content Include="UZeroSOA\Logging\Visit.aspx" />
+    <Content Include="UZeroSOA\Monitoring\CheckAndCallThePolice.aspx" />
     <Content Include="UZeroSOA\Monitoring\Server.aspx" />
     <Content Include="UZero\AdminBindCorpWeixin.aspx" />
     <Content Include="UZero\Configuration\SetConsoleSettings.aspx" />
@@ -1491,6 +1492,13 @@
     </Compile>
     <Compile Include="UZeroSOA\Logging\Visit.aspx.designer.cs">
       <DependentUpon>Visit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZeroSOA\Monitoring\CheckAndCallThePolice.aspx.cs">
+      <DependentUpon>CheckAndCallThePolice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Monitoring\CheckAndCallThePolice.aspx.designer.cs">
+      <DependentUpon>CheckAndCallThePolice.aspx</DependentUpon>
     </Compile>
     <Compile Include="UZeroSOA\Monitoring\Server.aspx.cs">
       <DependentUpon>Server.aspx</DependentUpon>

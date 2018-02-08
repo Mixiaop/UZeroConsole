@@ -1,4 +1,6 @@
-﻿using UZeroConsole.Services.External.Dto;
+﻿using System.Collections.Generic;
+using UZeroConsole.Services.External.Dto;
+
 namespace UZeroConsole.Services.External
 {
     /// <summary>
@@ -19,5 +21,13 @@ namespace UZeroConsole.Services.External
         /// <param name="code">回调code</param>
         /// <returns></returns>
         GetCorpWeixinUserIdOutput GetUserId(string accessToken, string code);
+
+        /// <summary>
+        /// 发送消息到对应的用户列表
+        /// </summary>
+        /// <param name="userIdList"></param>
+        /// <param name="content"></param>
+        /// <returns></returns>
+        CorpWeixinSendMessageOutput SendMessage(List<string> userIdList, string content);
     }
 }
