@@ -72,7 +72,7 @@
                             <td class="text-center"><%= HtmlHelper.HealthDescription(dbs) %></td>
                             <%= HtmlSQLHelper.ConnectionsCell(server) %>
                             <%= HtmlSQLHelper.BatchesCell(server) %>
-                            <td class="text-center"><%= server.LastFetch.ToPollSpan() %></td>
+                            <td class="text-center"><%= server.LastFetch.ToPollSpan() %></td>k
                         </tr>
                         <%} %>
                     </tbody>
