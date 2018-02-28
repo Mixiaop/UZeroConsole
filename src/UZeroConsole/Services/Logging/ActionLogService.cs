@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using U.AutoMapper;
 using U.Application.Services.Dto;
 using UZeroConsole.Domain.Logging;
 using UZeroConsole.Services.Logging.Dto;
@@ -38,7 +39,7 @@ namespace UZeroConsole.Services.Logging
             return _logRepository.Get(id);
         }
 
-        public PagedResultDto<ActionLog> Search(int appId, string moduleName = "", string keywords = "", DateTime? from = null, DateTime? to = null, int pageIndex = 1, int pageSize = 20)
+        public PagedResultDto<ActionLogDto> Search(int appId, string moduleName = "", string operatorId = "", string keywords = "", DateTime? from = null, DateTime? to = null, int pageIndex = 1, int pageSize = 20)
         {
             var query = _logRepository.GetAll()
                                       .Where(x => x.AppId == appId);
@@ -46,6 +47,11 @@ namespace UZeroConsole.Services.Logging
             if (moduleName.IsNotNullOrEmpty())
             {
                 query = query.Where(x => x.ModuleName == moduleName);
+            }
+
+            if (operatorId.IsNotNullOrEmpty())
+            {
+                query = query.Where(x => x.OperatorId == operatorId);
             }
 
             if (keywords.IsNotNullOrEmpty())
@@ -64,8 +70,7 @@ namespace UZeroConsole.Services.Logging
             var count = query.Count();
 
             var list = query.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
-
-            return new PagedResultDto<ActionLog>(count, list);
+            return new PagedResultDto<ActionLogDto>(count, list.MapTo<List<ActionLogDto>>());
         }
 
         public IList<ActionLogTopDto> GetTopLogs(int appId, string operatorId, int topCount = 10)
@@ -89,7 +94,8 @@ namespace UZeroConsole.Services.Logging
             return result;
         }
 
-        public void ClearAll(int appId) {
+        public void ClearAll(int appId)
+        {
             _logRepository.ClearAll(appId);
         }
 

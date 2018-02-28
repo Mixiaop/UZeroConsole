@@ -68,8 +68,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTest
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.Client.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Owin.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.pdb
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.EntityFramework.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\EntityFramework.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.AutoMapper.dll
@@ -85,3 +83,10 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\AjaxPro.2.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Web.Api.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Castle.Core.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\obj\Debug\UZeroConsole.WebTests.csprojResolveAssemblyReference.cache
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Dapper.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\MiniProfiler.Shared.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\StackExchange.Redis.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.Client.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\StackExchange.Redis.pdb
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\StackExchange.Redis.xml
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.pdb

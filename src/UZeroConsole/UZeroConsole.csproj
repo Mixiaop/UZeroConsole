@@ -256,6 +256,7 @@
     <Compile Include="Services\Jobs\RemoteJobService.cs" />
     <Compile Include="Services\Jobs\URemoteJob.cs" />
     <Compile Include="Services\Logging\ActionLogService.cs" />
+    <Compile Include="Services\Logging\Dto\ActionLogDto.cs" />
     <Compile Include="Services\Logging\Dto\ActionLogTopDto.cs" />
     <Compile Include="Services\Logging\ExceptionLogService.cs" />
     <Compile Include="Services\Logging\IActionLogService.cs" />

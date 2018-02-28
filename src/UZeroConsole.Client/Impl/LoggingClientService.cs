@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using U.WebApi.Models;
 using U.Utilities.Web;
 using U.Utilities.Net;
+using U.Application.Services.Dto;
 using UZeroConsole.Configuration;
 using UZeroConsole.Domain.Logging;
 using UZeroConsole.Services.Logging.Dto;
@@ -18,7 +19,7 @@ namespace UZeroConsole.Client.Impl
         public const string SOA_Log = "/UZeroLogging/SOA/Log.aspx";
         public const string SOA_ActionGetTopLogs = "/UZeroLogging/SOA/Action_GetTopLogs.aspx";
 
-        public void HandleException(Exception ex, string appKey = "")
+        public void HandleException(Exception ex, string appKey = "", string appHost = "")
         {
             if (appKey.IsNullOrEmpty())
                 appKey = this.Settings.LoggingDefaultKey;
@@ -32,10 +33,10 @@ namespace UZeroConsole.Client.Impl
                 log.FullMessage += "[HtmlErrorMessage]：" + httpException.GetHtmlErrorMessage();
             }
 
-            SendException(log);
+            SendException(log, false, appHost);
         }
 
-        public Task HandleExceptionAsync(Exception ex, string appKey = "")
+        public Task HandleExceptionAsync(Exception ex, string appKey = "", string appHost = "")
         {
             if (appKey.IsNullOrEmpty())
                 appKey = this.Settings.LoggingDefaultKey;
@@ -48,12 +49,12 @@ namespace UZeroConsole.Client.Impl
                 log.StatusCode = httpException.GetHttpCode().ToString();
                 log.FullMessage += "[HtmlErrorMessage]：" + httpException.GetHtmlErrorMessage();
             }
-            SendException(log, true);
+            SendException(log, true, appHost);
             return Task.FromResult(0);
         }
 
         public void Log(string moduleName = "", ActionLogOperateType operateType = ActionLogOperateType.None,
-                 string shortMessage = "", string operatorName = "", string operatorId = "", string fullMessage = "", string remark = "", string appKey = "")
+                 string shortMessage = "", string operatorName = "", string operatorId = "", string fullMessage = "", string remark = "", string appKey = "", string appHost = "")
         {
             if (appKey.IsNullOrEmpty())
                 appKey = this.Settings.LoggingDefaultKey;
@@ -68,11 +69,11 @@ namespace UZeroConsole.Client.Impl
             log.OperatorId = operatorId;
             log.Remark = remark;
 
-            SendActionLog(log);
+            SendActionLog(log, false, appHost);
         }
 
         public Task LogAsync(string moduleName = "", ActionLogOperateType operateType = ActionLogOperateType.None,
-                 string shortMessage = "", string operatorName = "", string operatorId = "", string fullMessage = "", string remark = "", string appKey = "")
+                 string shortMessage = "", string operatorName = "", string operatorId = "", string fullMessage = "", string remark = "", string appKey = "", string appHost = "")
         {
             if (appKey.IsNullOrEmpty())
                 appKey = this.Settings.LoggingDefaultKey;
@@ -87,12 +88,12 @@ namespace UZeroConsole.Client.Impl
             log.OperatorId = operatorId;
             log.Remark = remark;
 
-            SendActionLog(log, true);
+            SendActionLog(log, true, appHost);
             return Task.FromResult(0);
         }
 
-        public IList<ActionLogTopDto> GetActionTopLogs(string appKey, string operatorId, int topCount = 10) {
-            var url = CombineUrl(this.Settings.LoggingSoaHost, SOA_ActionGetTopLogs);
+        public IList<ActionLogTopDto> GetActionTopLogs(string operatorId, int topCount = 10, string appKey = "", string appHost = "") {
+            var url = CombineUrl(appHost.IsNotNullOrEmpty() ? appHost : this.Settings.LoggingSoaHost, SOA_ActionGetTopLogs);
             Dictionary<string, string> formData = new Dictionary<string, string>();
             formData.Add("appKey", appKey);
             formData.Add("operatorId", operatorId);
@@ -109,15 +110,35 @@ namespace UZeroConsole.Client.Impl
                 return new List<ActionLogTopDto>();
         }
 
+        public PagedResultDto<ActionLogDto> Search(string moduleName, string operatorId, int pageIndex = 1, int pageSize = 10, string appKey = "", string appHost = "") {
+            var url = CombineUrl(appHost.IsNotNullOrEmpty() ? appHost : this.Settings.LoggingSoaHost, "/UZeroSOA/Logging/ActionLog_Search.aspx");
+            Dictionary<string, string> formData = new Dictionary<string, string>();
+            formData.Add("appKey", appKey);
+            formData.Add("moduleName", moduleName);
+            formData.Add("operatorId", operatorId);
+            formData.Add("pageIndex", pageIndex.ToString());
+            formData.Add("pageSize", pageSize.ToString());
+
+            var res = WebRequestHelper.HttpPost(url, formData);
+
+            var json = JsonConvert.DeserializeObject<UResponseMessage<PagedResultDto<ActionLogDto>>>(res);
+            if (json != null && json.IsSuccess())
+            {
+                return json.Results;
+            }
+            else
+                return new PagedResultDto<ActionLogDto>();
+        }
+
         #region Utilities
         /// <summary>
         /// 发送异常到SOA接口
         /// </summary>
         /// <param name="log"></param>
         /// <param name="isAsync"></param>
-        private void SendException(ExceptionLog log, bool isAsync = false)
+        private void SendException(ExceptionLog log, bool isAsync = false, string appHost = "")
         {
-            var url = CombineUrl(this.Settings.LoggingSoaHost, SOA_Exception);
+            var url = CombineUrl(appHost.IsNotNullOrEmpty() ? appHost : this.Settings.LoggingSoaHost, SOA_Exception);
             Dictionary<string, string> formData = new Dictionary<string, string>();
             formData.Add("appKey", log.App.Key);
             formData.Add("machineName", log.MachineName);
@@ -148,9 +169,9 @@ namespace UZeroConsole.Client.Impl
             //}
         }
 
-        private void SendActionLog(ActionLog log, bool isAsync = false)
+        private void SendActionLog(ActionLog log, bool isAsync = false, string appHost = "")
         {
-            var url = CombineUrl(this.Settings.LoggingSoaHost, SOA_Log);
+            var url = CombineUrl(appHost.IsNotNullOrEmpty() ? appHost : this.Settings.LoggingSoaHost, SOA_Log);
             Dictionary<string, string> formData = new Dictionary<string, string>();
             formData.Add("appKey", log.App.Key);
             formData.Add("moduleName", log.ModuleName);

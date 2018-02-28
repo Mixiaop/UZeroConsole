@@ -64,8 +64,9 @@
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
-    <Reference Include="MiniProfiler">
-      <HintPath>..\packages\MiniProfiler.3.2.0.157\lib\net40\MiniProfiler.dll</HintPath>
+    <Reference Include="MiniProfiler, Version=3.2.0.157, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MiniProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -143,15 +144,10 @@
     <Reference Include="U.Web.Mvc">
       <HintPath>..\packages\U\U.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="UZeroConsole, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.dll</HintPath>
-    </Reference>
-    <Reference Include="UZeroConsole.Client, Version=0.2.7.3, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Youzy.UZeroConsole.0.2.7.3\lib\UZeroConsole.Client.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\UZeroConsole\LoggingSettings.json" />
+    <Content Include="ClientServiceTests.aspx" />
+    <Content Include="Config\UZeroConsole\ClientSettings.json" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="Config\U\EmailSenderSettings.json" />
     <Content Include="Config\U\HangfireSettings.json" />
@@ -177,6 +173,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientServiceTests.aspx.cs">
+      <DependentUpon>ClientServiceTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientServiceTests.aspx.designer.cs">
+      <DependentUpon>ClientServiceTests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ExceptionTests.aspx.cs">
       <DependentUpon>ExceptionTests.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -231,6 +234,16 @@
     <Compile Include="SystemPerformance.aspx.designer.cs">
       <DependentUpon>SystemPerformance.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UZeroConsole.Client\UZeroConsole.Client.csproj">
+      <Project>{0795393f-4aed-4ace-8030-845d0a972e44}</Project>
+      <Name>UZeroConsole.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UZeroConsole\UZeroConsole.csproj">
+      <Project>{b9e6c5ee-e169-4fd1-a3e9-6dda04caf54d}</Project>
+      <Name>UZeroConsole</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

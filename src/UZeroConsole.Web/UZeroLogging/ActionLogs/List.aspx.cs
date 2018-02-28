@@ -1,11 +1,12 @@
-﻿using System;
+﻿using AjaxPro;
+using System;
 using System.Collections.Generic;
-using AjaxPro;
 using U;
 using U.Application.Services.Dto;
 using U.Utilities.Web;
 using UZeroConsole.Domain.Logging;
 using UZeroConsole.Services.Logging;
+using UZeroConsole.Services.Logging.Dto;
 
 namespace UZeroConsole.Web.UZeroLogging.ActionLogs
 {
@@ -46,7 +47,7 @@ namespace UZeroConsole.Web.UZeroLogging.ActionLogs
                 toDate = Model.GetToTime.ToDateTime();
 
 
-            Model.Results = _logService.Search(Model.GetAppId, Model.GetModule, Model.GetKeywords.Trim(), fromDate, toDate,
+            Model.Results = _logService.Search(Model.GetAppId, Model.GetModule, "", Model.GetKeywords.Trim(), fromDate, toDate,
                                                pageInfo.PageIndex,
                                                pageInfo.PageSize);
 
@@ -75,7 +76,7 @@ namespace UZeroConsole.Web.UZeroLogging.ActionLogs
         public LogApp App { get; set; }
 
         public IList<ActionModule> Modules { get; set; }
-        public PagedResultDto<ActionLog> Results { get; set; }
+        public PagedResultDto<ActionLogDto> Results { get; set; }
 
         public string PagingHTML { get; set; }
     }

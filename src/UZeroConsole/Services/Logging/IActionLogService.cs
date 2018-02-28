@@ -13,7 +13,7 @@ namespace UZeroConsole.Services.Logging
 
         ActionLog Get(int id);
 
-        PagedResultDto<ActionLog> Search(int appId, string moduleName = "", string keywords = "", DateTime? from = null, DateTime? to = null, int pageIndex = 1, int pageSize = 20);
+        PagedResultDto<ActionLogDto> Search(int appId, string moduleName = "", string operatorId = "", string keywords = "", DateTime? from = null, DateTime? to = null, int pageIndex = 1, int pageSize = 20);
 
         /// <summary>
         /// 获取某个操作者的最常用的操作（次数大到小排序）

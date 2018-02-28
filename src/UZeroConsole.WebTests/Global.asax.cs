@@ -24,11 +24,11 @@ namespace UZeroConsole.WebTests
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            MiniProfiler.Start();
+            //MiniProfiler.Start();
         }
 
         protected void Application_EndRequest(object sender, EventArgs e) {
-            MiniProfiler.Stop();
+            //MiniProfiler.Stop();
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)

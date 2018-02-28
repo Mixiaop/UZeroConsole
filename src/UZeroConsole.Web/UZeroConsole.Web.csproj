@@ -701,6 +701,7 @@
     <Content Include="assets\waterfall\js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
     <Content Include="UZeroSOA\Jobs\RunItem.aspx" />
+    <Content Include="UZeroSOA\Logging\ActionLog_Search.aspx" />
     <Content Include="UZeroSOA\Logging\Visit.aspx" />
     <Content Include="UZeroSOA\Monitoring\CheckAndCallThePolice.aspx" />
     <Content Include="UZeroSOA\Monitoring\Server.aspx" />
@@ -1485,6 +1486,13 @@
     </Compile>
     <Compile Include="UZeroSOA\Jobs\RunItem.aspx.designer.cs">
       <DependentUpon>RunItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UZeroSOA\Logging\ActionLog_Search.aspx.cs">
+      <DependentUpon>ActionLog_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UZeroSOA\Logging\ActionLog_Search.aspx.designer.cs">
+      <DependentUpon>ActionLog_Search.aspx</DependentUpon>
     </Compile>
     <Compile Include="UZeroSOA\Logging\Visit.aspx.cs">
       <DependentUpon>Visit.aspx</DependentUpon>
