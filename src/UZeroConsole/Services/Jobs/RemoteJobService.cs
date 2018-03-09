@@ -98,7 +98,8 @@ namespace UZeroConsole.Services.Jobs
         /// 运行任务
         /// </summary>
         /// <param name="job"></param>
-        public void Run(RemoteJob job)
+        /// <param name="isFirst">是否首次点击运行</param>
+        public void Run(RemoteJob job, bool isFirst = false)
         {
             string appJobId = "";
             switch (job.Type)
@@ -127,6 +128,11 @@ namespace UZeroConsole.Services.Jobs
             if (appJobId.IsNotNullOrEmpty())
             {
                 job.AppJobId = appJobId;
+                if (isFirst) {
+                    job.LastSuccessTime = null;
+                    job.LastErrorTime = null;
+                    job.LastErrorDesc = "";
+                }
                 _jobRepository.Update(job);
             }
         }

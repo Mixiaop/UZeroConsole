@@ -48,7 +48,8 @@ namespace UZeroConsole.Services.Jobs
         /// 运行任务
         /// </summary>
         /// <param name="job"></param>
-        void Run(RemoteJob job);
+        /// <param name="isFirst"></param>
+        void Run(RemoteJob job, bool isFirst = false);
 
         /// <summary>
         /// 运行任务项

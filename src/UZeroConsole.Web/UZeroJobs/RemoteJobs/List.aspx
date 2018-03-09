@@ -85,8 +85,20 @@
                                     <a class='btn btn-default btn-xs active-btn btnDelete' data-id="<%= app.Id %>" href="javascript:void(0);" data-toggle="tooltip" title="Delete the job"><i class="fa fa-remove"></i></a>
                                 </td>
                                 <td><%= app.Id %></td>
-                                <td ><%= app.Name %> <% if (app.Opend)
-                                                       { %>
+                                <td ><%= app.Name %> <% 
+                                                         var found = true;
+                                                         //if (app.LastSuccessTime.HasValue) {
+                                                         //    if (app.Type == UZeroConsole.Domain.Jobs.RemoteJobType.Recurring)
+                                                         //    {
+                                                         //        if (app.LastSuccessTime.Value.AddSeconds(app.RecurringSeconds * 2) >= DateTime.Now)
+                                                         //        {
+                                                         //            found = false;
+                                                         //        }
+                                                         //    }
+                                                         //}
+                                                         if (app.Opend && found)
+                                                         {
+                                                             %>
                                     <label class="label label-success">已启动</label>
                                     <%}
                                                        else

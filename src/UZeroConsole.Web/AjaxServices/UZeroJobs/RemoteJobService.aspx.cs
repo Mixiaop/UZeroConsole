@@ -24,7 +24,7 @@ namespace UZeroConsole.Web.AjaxServices.UZeroJobs
             var job = _remoteJobService.Get(jobId);
             if (job != null)
             {
-                _remoteJobService.Run(job);
+                _remoteJobService.Run(job, true);
             }
         }
     }
