@@ -10,3 +10,5 @@ src/UZero.Console.v12.suo
 *.ide
 *.ide
 src/UZeroConsole.EntityFramework/bin/Debug/UZeroConsole.dll
+*.log
+*.log
