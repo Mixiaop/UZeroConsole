@@ -74,6 +74,7 @@
                                     <asp:DropDownList runat="server" ID="ddlType" CssClass="form-control">
                                         <asp:ListItem Text="普通" Value="10"></asp:ListItem>
                                         <asp:ListItem Text="定时" Value="20"></asp:ListItem>
+                                        <asp:ListItem Text="定时循环" Value="21"></asp:ListItem>
                                         <asp:ListItem Text="循环" Value="30"></asp:ListItem>
                                     </asp:DropDownList>
                                     <label >任务类型</label>

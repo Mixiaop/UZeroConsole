@@ -110,6 +110,10 @@ namespace UZeroConsole.Services.Jobs
                     if (job.AtTime.HasValue)
                         appJobId = _backgroundJobManager.Schedule<URemoteJob, int>(job.Id, job.AtTime.Value);
                     break;
+                case RemoteJobType.AtTimeRecurring:
+                    if (job.AtTime.HasValue)
+                        appJobId = _backgroundJobManager.Schedule<URemoteJob, int>(job.Id, job.AtTime.Value);
+                    break;
                 case RemoteJobType.Recurring:
                     //float minutes = job.RecurringSeconds / 60f;
                     //appJobId = _backgroundJobManager.AddRecurringJob<URemoteJob, int>(job.Id, string.Format("0/{0} * * * *", minutes));
@@ -163,7 +167,7 @@ namespace UZeroConsole.Services.Jobs
             _jobRepository.Update(job);
 
             //Timeout运行
-            if (job.Type == RemoteJobType.Recurring)
+            if (job.Type == RemoteJobType.Recurring || job.Type == RemoteJobType.AtTimeRecurring)
             {
                 Run(job);
             }
@@ -181,7 +185,7 @@ namespace UZeroConsole.Services.Jobs
             _jobRepository.Update(job);
 
             //继续执行
-            if (job.Type == RemoteJobType.Recurring)
+            if (job.Type == RemoteJobType.Recurring || job.Type == RemoteJobType.AtTimeRecurring)
             {
                 Run(job);
             }

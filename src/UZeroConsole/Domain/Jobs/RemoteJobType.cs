@@ -12,6 +12,10 @@ namespace UZeroConsole.Domain.Jobs
         /// </summary>
         AtTime = 20,
         /// <summary>
+        /// 定时循环
+        /// </summary>
+        AtTimeRecurring = 21,
+        /// <summary>
         /// 循环的
         /// </summary>
         Recurring = 30

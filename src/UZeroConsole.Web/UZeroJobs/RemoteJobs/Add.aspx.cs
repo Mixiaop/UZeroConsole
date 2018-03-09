@@ -38,7 +38,7 @@ namespace UZeroConsole.Web.UZeroJobs.RemoteJobs
                 return;
             }
 
-            if ((RemoteJobType)typeId == RemoteJobType.AtTime && strAtTime.IsNullOrEmpty())
+            if (((RemoteJobType)typeId == RemoteJobType.AtTime || (RemoteJobType)typeId == RemoteJobType.AtTimeRecurring) && strAtTime.IsNullOrEmpty())
             {
                 ltlMessage.Text = AlertError("【定时时间】不能为空");
                 return;

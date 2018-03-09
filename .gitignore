@@ -7,3 +7,6 @@ obj/*
 src/UZero.Console.v12.suo
 *.pdb
 *.pdb
+*.ide
+*.ide
+src/UZeroConsole.EntityFramework/bin/Debug/UZeroConsole.dll
