@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExceptionTests.aspx" />
+    <Content Include="FirewallTests.aspx" />
     <Content Include="GetCurrentSystemInfoTests.aspx" />
     <Content Include="GetCurrentSystemInfoUsedTests.aspx" />
     <Content Include="Global.asax" />
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="ExceptionTests.aspx.designer.cs">
       <DependentUpon>ExceptionTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirewallTests.aspx.cs">
+      <DependentUpon>FirewallTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirewallTests.aspx.designer.cs">
+      <DependentUpon>FirewallTests.aspx</DependentUpon>
     </Compile>
     <Compile Include="GetCurrentSystemInfoTests.aspx.cs">
       <DependentUpon>GetCurrentSystemInfoTests.aspx</DependentUpon>
