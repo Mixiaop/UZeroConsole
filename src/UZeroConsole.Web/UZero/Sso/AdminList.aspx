@@ -47,7 +47,7 @@
                                 <th class="text-center" >用户名</th>
                                 <th class="text-center">姓名（昵称）</th>
                                 <th class="text-center" >角色</th>
-                                <th class="text-center" >UNote用户名</th>
+                                <th class="text-center" >企业微信 / UNote</th>
                                 <th class="text-center" width="10%">最后一次登录</th>
                                 <th class="text-center" width="8%">创建时间</th>
                             </tr>
@@ -65,7 +65,7 @@
                                         <td class="text-center"><%# Eval("Username") %></td>
                                         <td class="text-center"><%#Eval("Name")!=null?Eval("Name"):"-" %></td>
                                         <td class="text-center"><%# GetRoleName((AdminDto)Container.DataItem) %></td>
-                                        <td class="text-center"><%# Eval("UNoteUsername") %></td>
+                                        <td class="text-center"><%# Eval("CorpWeixinUserId") %> / <%# Eval("UNoteUsername") %></td>
                                         <td class="text-center"><%# ((DateTime?)Eval("LastLoginTime")).HasValue?((DateTime?)Eval("LastLoginTime")).Value.ToString("yyyy-MM-dd HH:mm"):"-" %></td>
                                         <td class="text-center"><%# Eval("CreationTime","{0:yyyy-MM-dd HH:mm}") %></td>
                                     </tr>

@@ -35,13 +35,17 @@ namespace UZeroConsole.EntityFramework.Repositories
                     admin.Roles = new List<Role>();
                 }
 
-                var query = _roleRepository.GetAll().Where(x => roleIds.Contains(x.Id));
-                var roleList = query.ToList();
-                if (roleList != null) {
-                    foreach (var role in roleList)
-                        admin.Roles.Add(role);
+                if (roleIds != null && roleIds.Count > 0)
+                {
+                    var query = _roleRepository.GetAll().Where(x => roleIds.Contains(x.Id));
+                    var roleList = query.ToList();
+                    if (roleList != null)
+                    {
+                        foreach (var role in roleList)
+                            admin.Roles.Add(role);
 
-                    this.Update(admin);
+                        this.Update(admin);
+                    }
                 }
             }
         }

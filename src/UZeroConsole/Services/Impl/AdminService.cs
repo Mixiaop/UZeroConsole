@@ -187,10 +187,12 @@ namespace UZeroConsole.Services
                 admin.UNoteUsername = unoteUsername;
                 _adminRepository.Update(admin);
 
-                if (roleIds != null)
+                if (roleIds  == null)
                 {
-                    SetRoles(admin.Id, roleIds);
+                    roleIds = new List<int>();
                 }
+
+                SetRoles(admin.Id, roleIds);
             }
         }
 
@@ -314,8 +316,9 @@ namespace UZeroConsole.Services
         /// <param name="roleIds">角色Id列表</param>
         public void SetRoles(int adminId, List<int> roleIds)
         {
-            if (roleIds != null && roleIds.Count > 0)
-                _adminRepository.SetRoles(adminId, roleIds);
+            if (roleIds == null)
+                roleIds = new List<int>();
+            _adminRepository.SetRoles(adminId, roleIds);
         }
     }
 }
