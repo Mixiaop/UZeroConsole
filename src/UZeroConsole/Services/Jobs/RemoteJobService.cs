@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Linq;
-using U.BackgroundJobs;
-using U.Application.Services;
 using U.Application.Services.Dto;
-using UZeroConsole.Domain;
+using U.BackgroundJobs;
 using UZeroConsole.Domain.Jobs;
+using UZeroConsole.Domain.Jobs.Repositories;
 
 namespace UZeroConsole.Services.Jobs
 {

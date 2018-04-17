@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Owin;
 using Owin;
-using Hangfire;
-using Hangfire.Dashboard;
+//using Hangfire;
+//using Hangfire.Dashboard;
 using U;
 using U.Reflection;
 using UZeroConsole.Configuration;
@@ -18,16 +18,16 @@ namespace UZeroConsole.Web
     {
         public void Configuration(IAppBuilder app)
         {
-            if (UPrimeEngine.Instance.Resolve<ConsoleSettings>().UseJobs)
-            {
-                // 有关如何配置应用程序的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=316888
+            //if (UPrimeEngine.Instance.Resolve<ConsoleSettings>().UseJobs)
+            //{
+            //    // 有关如何配置应用程序的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=316888
 
-                var authList = new List<IAuthorizationFilter>();
-                authList.Add(new HangfireAuthorizationFilter());
-                var option = new DashboardOptions();
-                option.AuthorizationFilters = authList;
-                app.UseHangfireDashboard("/jobs", option);
-            }
+            //    var authList = new List<IAuthorizationFilter>();
+            //    authList.Add(new HangfireAuthorizationFilter());
+            //    var option = new DashboardOptions();
+            //    option.AuthorizationFilters = authList;
+            //    app.UseHangfireDashboard("/jobs", option);
+            //}
 
             //路由配置
             ITypeFinder typeFinder = UPrimeEngine.Instance.Resolve<ITypeFinder>();

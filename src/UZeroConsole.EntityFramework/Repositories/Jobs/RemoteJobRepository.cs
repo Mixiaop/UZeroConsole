@@ -1,4 +1,5 @@
 ﻿using UZeroConsole.Domain.Jobs;
+using UZeroConsole.Domain.Jobs.Repositories;
 
 namespace UZeroConsole.EntityFramework.Repositories.Jobs
 {

@@ -134,8 +134,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Castle.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.DynamicFilters.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.SqlServer.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.Core.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.SqlServer.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Owin.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.dll
@@ -150,7 +148,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Serialization.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Extension.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.FakeMvc.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.HangFire.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Utilities.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.Api.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\U.Web.dll
@@ -169,8 +166,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Autofac.Integration.Mvc.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\EntityFramework.SqlServer.xml
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.Core.xml
-D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Hangfire.SqlServer.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\Newtonsoft.Json.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\System.Web.Http.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.Web\bin\zh-Hans\System.Web.Http.resources.dll

@@ -126,13 +126,14 @@
     <Compile Include="Domain\Config\Repositories\IConfigAttrRepository.cs" />
     <Compile Include="Domain\Config\Repositories\IConfigObjectRepository.cs" />
     <Compile Include="Domain\Config\Repositories\IConfigProjectRepository.cs" />
+    <Compile Include="Domain\Jobs\Repositories\IHangfireJobRepository.cs" />
     <Compile Include="Domain\Repositories\IAdminRepository.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Domain\Repositories\IPermissionRepository.cs" />
     <Compile Include="Domain\Repositories\IRolePermissionRepository.cs" />
     <Compile Include="Domain\Repositories\IRoleRepository.cs" />
-    <Compile Include="Domain\Jobs\IRemoteJobRepository.cs" />
+    <Compile Include="Domain\Jobs\Repositories\IRemoteJobRepository.cs" />
     <Compile Include="Domain\Jobs\RemoteJob.cs" />
     <Compile Include="Domain\Jobs\RemoteJobType.cs" />
     <Compile Include="Domain\Logging\ActionModule.cs" />
