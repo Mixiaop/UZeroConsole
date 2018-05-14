@@ -73,6 +73,8 @@
   <ItemGroup>
     <Compile Include="DbConsts.cs" />
     <Compile Include="Mapping\AdminMap.cs" />
+    <Compile Include="Mapping\Caching\RedisDatabaseMap.cs" />
+    <Compile Include="Mapping\Caching\RedisInstanceMap.cs" />
     <Compile Include="Mapping\CMS\NodeMap.cs" />
     <Compile Include="Mapping\Config\ConfigAttrMap.cs" />
     <Compile Include="Mapping\Config\ConfigObjectMap.cs" />
@@ -91,6 +93,8 @@
     <Compile Include="Mapping\TagMap.cs" />
     <Compile Include="Mapping\UZeroConsoleEntityTypeConfiguration.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
+    <Compile Include="Repositories\Caching\RedisDatabaseRepository.cs" />
+    <Compile Include="Repositories\Caching\RedisInstanceRepository.cs" />
     <Compile Include="Repositories\CMS\NodeRepository.cs" />
     <Compile Include="Repositories\Config\ConfigAttrRepository.cs" />
     <Compile Include="Repositories\Config\ConfigObjectRepository.cs" />

@@ -1,14 +1,26 @@
-obj/
-bin/
-App_Data/Logs/
-_temp/
-*.suo
-obj/*
-src/UZero.Console.v12.suo
-*.pdb
-*.pdb
-*.ide
-*.ide
-src/UZeroConsole.EntityFramework/bin/Debug/UZeroConsole.dll
-*.log
-*.log
+src/.vs/UZero.Console/v14/.suo
+src/.vs/UZero.Console/v15/.suo
+src/_old project/UZeroConsole.Config/bin
+src/_old project/UZeroConsole.Config/obj
+src/_old project/UZeroConsole.Dapper/bin/*
+src/_old project/UZeroConsole.Dapper/obj/*
+src/_old project/UZeroConsole.Logging/bin
+src/_old project/UZeroConsole.Logging/obj
+src/UZeroConsole.Client/bin
+src/UZeroConsole.Client/obj
+src/UZeroConsole.EntityFramework/bin
+src/UZeroConsole.EntityFramework/obj
+src/UZeroConsole.Web/App_Data
+src/UZeroConsole.Web/bin
+src/UZeroConsole.Web/obj
+src/UZeroConsole.WebConsole/bin
+src/UZeroConsole.WebConsole/obj
+src/UZeroConsole.WebTests/App_Data
+src/UZeroConsole.WebTests/bin
+src/UZeroConsole.WebTests/obj
+src/UZeroConsole.WinServices.IISSender/bin
+src/UZeroConsole.WinServices.IISSender/obj
+src/UZeroConsole.WinServices.PerformanceSender/bin
+src/UZeroConsole.WinServices.PerformanceSender/obj
+src/UZeroConsole/bin
+src/UZeroConsole/obj

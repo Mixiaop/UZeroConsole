@@ -99,8 +99,11 @@
     <Compile Include="Configuration\Monitoring\RedisSettings.cs" />
     <Compile Include="Configuration\Monitoring\SQLSettings.cs" />
     <Compile Include="Domain\Admin.cs" />
+    <Compile Include="Domain\Caching\RedisCacheKeyRule.cs" />
     <Compile Include="Domain\Caching\RedisDatabase.cs" />
     <Compile Include="Domain\Caching\RedisInstance.cs" />
+    <Compile Include="Domain\Caching\Repositories\IRedisDatabaseRepository.cs" />
+    <Compile Include="Domain\Caching\Repositories\IRedisInstanceRepository.cs" />
     <Compile Include="Domain\CMS\CMSEnums.cs" />
     <Compile Include="Domain\CMS\Content.cs" />
     <Compile Include="Domain\CMS\ContentGroup.cs" />
@@ -215,8 +218,8 @@
     <Compile Include="Monitoring\SQL\SQLNode.cs" />
     <Compile Include="Monitoring\SQL\SQLNode.TCPListener.cs" />
     <Compile Include="Monitoring\SQL\SQLServerVersions.cs" />
-    <Compile Include="Services\Caching\ICachingService.Redis.cs" />
-    <Compile Include="Services\Caching\Impl\CachingService.Redis.cs" />
+    <Compile Include="Services\Caching\IRedisService.cs" />
+    <Compile Include="Services\Caching\Impl\RedisService.cs" />
     <Compile Include="Services\External\Dto\CorpWeixinSendMessageDto.cs" />
     <Compile Include="Services\External\Dto\CorpWeixinSendMessageOutput.cs" />
     <Compile Include="Services\Impl\AdminService.cs" />
@@ -287,7 +290,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Domain\Caching\Repositories\" />
     <Folder Include="Services\Config\Dto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

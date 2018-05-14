@@ -32,8 +32,11 @@ namespace UZeroConsole
             public const string Config_ConfigObjects = "UZeroConsole_Config_ConfigObjects";
             public const string Config_ConfigAttrs = "UZeroConsole_Config_ConfigAttrs";
 
-
             public const string CMS_Nodes = "UZeroConsole_CMS_Nodes";
+
+            public const string Caching_RedisInstances = "Caching_RedisInstances";
+            public const string Caching_RedisDatabases = "Caching_RedisDatabases";
+
         }
     }
 }
