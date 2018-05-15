@@ -31,17 +31,12 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramewo
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.EntityFramework.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.Extension.Collections.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.Extension.Core.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.Extension.Serialization.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.Utilities.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\U.AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\AutoMapper.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Castle.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\log4net.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Nito.AsyncEx.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\System.Collections.Immutable.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Nito.AsyncEx.Enlightenment.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\EntityFramework.xml
@@ -57,3 +52,7 @@ D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\Dapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\StackExchange.Redis.xml
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UPrime.Extensions.Core.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UPrime.Extensions.Collection.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UPrime.Extensions.Serialization.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.EntityFramework\bin\Debug\UPrime.Version.dll

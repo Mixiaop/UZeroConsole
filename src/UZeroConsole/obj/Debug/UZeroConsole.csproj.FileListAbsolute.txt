@@ -71,15 +71,10 @@ D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Autofac.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.AutoMapper.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.Extension.Collections.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.Extension.Core.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.Extension.Serialization.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.HangFire.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\U.Utilities.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Castle.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\log4net.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Nito.AsyncEx.dll
-D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\System.Collections.Immutable.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Newtonsoft.Json.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Hangfire.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Hangfire.SqlServer.dll
@@ -98,3 +93,7 @@ D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\StackExchange.Redis.xml
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\UPrime.Extensions.Collection.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\UPrime.Extensions.Core.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\UPrime.Extensions.Serialization.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\UPrime.Version.dll

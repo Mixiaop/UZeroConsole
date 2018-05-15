@@ -73,20 +73,23 @@
     <Reference Include="U.AutoMapper">
       <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Serialization">
-      <HintPath>..\packages\U.ExtensionMethods\U.Extension.Serialization.dll</HintPath>
-    </Reference>
     <Reference Include="U.HangFire">
       <HintPath>..\packages\U\U.HangFire.dll</HintPath>
     </Reference>
     <Reference Include="U.Utilities">
       <HintPath>..\packages\U\U.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Serialization">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Version">
+      <HintPath>..\packages\UPrime\UPrime.Version.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

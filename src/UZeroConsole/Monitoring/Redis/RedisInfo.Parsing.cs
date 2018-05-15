@@ -87,7 +87,7 @@ namespace UZeroConsole.Monitoring.Redis
                 {
                     if (prop.PropertyType == typeof(bool))
                     {
-                        prop.SetValue(currentSection, value.IsNullOrEmptyReturn("0") != "0");
+                        prop.SetValue(currentSection, value.IfNullOrEmpty("0") != "0");
                     }
                     else
                     {

@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 using UZeroConsole.Domain;
 using UZeroConsole.Domain.Sso;
 using UZeroConsole.Domain.Logging;
@@ -30,12 +31,17 @@ namespace UZeroConsole.Services.Mappers
 
         private static void CreateMappingsInternal()
         {
-            Mapper.CreateMap<Admin, AdminDto>().ReverseMap();
-            Mapper.CreateMap<Permission, PermissionDto>().ReverseMap();
-            Mapper.CreateMap<Role, RoleDto>().ReverseMap();
-            Mapper.CreateMap<RolePermission, RolePermissionDto>().ReverseMap();
-            Mapper.CreateMap<App, AppDto>().ReverseMap();
-            Mapper.CreateMap<ActionLog, ActionLogDto>().ReverseMap();
+            Action<IMapperConfigurationExpression> configurer = configuration =>
+            {
+
+                configuration.CreateMap<Admin, AdminDto>().ReverseMap();
+                configuration.CreateMap<Permission, PermissionDto>().ReverseMap();
+                configuration.CreateMap<Role, RoleDto>().ReverseMap();
+                configuration.CreateMap<RolePermission, RolePermissionDto>().ReverseMap();
+                configuration.CreateMap<App, AppDto>().ReverseMap();
+                configuration.CreateMap<ActionLog, ActionLogDto>().ReverseMap();
+            };
+                
         }
     }
 }

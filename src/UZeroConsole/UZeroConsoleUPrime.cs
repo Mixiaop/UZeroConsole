@@ -10,7 +10,7 @@ namespace UZeroConsole
         typeof(ULeadershipUPrime),
         typeof(UAutoMapperUPrime)
         )]
-    public class UZeroConsoleUPrime : UPrime
+    public class UZeroConsoleUPrime : U.UPrimes.UPrime
     {
          public override void Initialize()
          {

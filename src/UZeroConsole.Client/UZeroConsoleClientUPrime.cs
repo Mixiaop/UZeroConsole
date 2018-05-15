@@ -3,7 +3,7 @@ using U.UPrimes;
 
 namespace UZeroConsole.Client
 {
-    public class UZeroConsoleClientUPrime : UPrime
+    public class UZeroConsoleClientUPrime : U.UPrimes.UPrime
     {
         public override void Initialize()
         {

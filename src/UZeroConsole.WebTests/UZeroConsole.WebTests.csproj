@@ -120,15 +120,6 @@
     <Reference Include="U.EntityFramework">
       <HintPath>..\packages\U\U.EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Web">
-      <HintPath>..\packages\U\U.Extension.Web.dll</HintPath>
-    </Reference>
     <Reference Include="U.FakeMvc">
       <HintPath>..\packages\U\U.FakeMvc.dll</HintPath>
     </Reference>
@@ -143,6 +134,19 @@
     </Reference>
     <Reference Include="U.Web.Mvc">
       <HintPath>..\packages\U\U.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Serialization">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Version">
+      <HintPath>..\packages\UPrime\UPrime.Version.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

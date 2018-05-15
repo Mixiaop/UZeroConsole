@@ -7,7 +7,7 @@ namespace UZeroConsole
         /// <summary>
         /// 当前版本
         /// </summary>
-        public const string CurrentVersion = "0.3.9.4";
+        public const string CurrentVersion = "0.3.10.4";
     }
     //0.1.2.0  -增加了获取操作日志统计的接口方法
     //0.1.2.1  -操作日志更新【清除日志】的功能
@@ -24,4 +24,5 @@ namespace UZeroConsole
     //0.3.8.3  -后台新增监护页面SQL、Redis、Hosts
     //0.3.8.4  -新增定时循环
     //0.3.9.4  -取消了JOB应用，独立出项目Blackout
+    //0.3.10.4 -升级了依赖库Extensions、AutoMapper
 }

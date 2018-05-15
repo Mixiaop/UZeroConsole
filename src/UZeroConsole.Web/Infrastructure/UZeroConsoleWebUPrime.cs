@@ -13,7 +13,7 @@ namespace UZeroConsole.Web
         typeof(UZeroConsoleEntityFrameworkUPrime)
         //typeof(UHangfireUPrime)
         )]
-    public class UZeroConsoleWebUPrime : UPrime
+    public class UZeroConsoleWebUPrime : U.UPrimes.UPrime
     {
         public override void PreInitialize()
         {
