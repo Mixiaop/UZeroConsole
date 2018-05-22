@@ -98,3 +98,4 @@ D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csproj.CoreCompi
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.pdb
 D:\!Github\UZeroConsole\src\UZeroConsole\bin\Debug\Castle.Core.dll
+D:\!Github\UZeroConsole\src\UZeroConsole\obj\Debug\UZeroConsole.csprojResolveAssemblyReference.cache
