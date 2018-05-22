@@ -3,17 +3,22 @@ using System.Web;
 using U;
 using U.Logging;
 using UZeroConsole.Monitoring;
+using UZeroConsole.Web.Infrastructure;
 
 namespace UZeroConsole.Web
 {
-    public class Global : U.Web.UWebApplication
+    public class Global :  HttpApplication
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            base.Application_Start(sender, e);
+            new UStarter().Startup();
+
+            UPrime.UPrimeStarter.Create<UZeroConsoleWebModule>(
+            
+            ).Initialize();
         }
 
-        protected override void Application_Error(object sender, EventArgs e)
+        protected void Application_Error(object sender, EventArgs e)
         {
             var exception = Server.GetLastError();
             var logger = UPrimeEngine.Instance.Resolve<ILogger>();

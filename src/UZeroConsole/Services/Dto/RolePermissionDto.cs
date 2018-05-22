@@ -1,7 +1,10 @@
 ﻿using U.Application.Services.Dto;
+using UPrime.AutoMapper;
+using UZeroConsole.Domain;
 
 namespace UZeroConsole.Services.Dto
 {
+    [AutoMapFrom(typeof(RolePermission))]
     public class RolePermissionDto : EntityDto
     {
         public int RoleId { get; set; }

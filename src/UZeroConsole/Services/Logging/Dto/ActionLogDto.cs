@@ -1,7 +1,9 @@
-﻿using UZeroConsole.Domain.Logging;
+﻿using UPrime.AutoMapper;
+using UZeroConsole.Domain.Logging;
 
 namespace UZeroConsole.Services.Logging.Dto
 {
+    [AutoMapFrom(typeof(ActionLog))]
     public class ActionLogDto : U.Application.Services.Dto.CreationAuditedEntityDto
     {
         /// <summary>

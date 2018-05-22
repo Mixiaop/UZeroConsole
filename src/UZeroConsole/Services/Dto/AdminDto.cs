@@ -1,9 +1,12 @@
 ﻿using System.Collections.Generic;
+using UPrime.AutoMapper;
 using U.Application.Services.Dto;
 using System;
+using UZeroConsole.Domain;
 
 namespace UZeroConsole.Services.Dto
 {
+    [AutoMapFrom(typeof(Admin))]
     public class AdminDto : CreationAuditedEntityDto
     {
         /// <summary>

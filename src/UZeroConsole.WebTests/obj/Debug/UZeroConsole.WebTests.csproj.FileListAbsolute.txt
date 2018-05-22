@@ -50,7 +50,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\U.Web.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UZeroConsole.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Castle.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\log4net.dll
-D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Nito.AsyncEx.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Nito.AsyncEx.Enlightenment.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Autofac.xml
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\Autofac.Integration.Mvc.xml
@@ -90,3 +89,6 @@ D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.Extensions.Core.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.Extensions.Collection.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.Extensions.Serialization.dll
 D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.Version.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.AutoMapper.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.dll
+D:\!Github\UZeroConsole\src\UZeroConsole.WebTests\bin\UPrime.Utils.dll

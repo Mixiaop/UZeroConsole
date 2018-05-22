@@ -39,6 +39,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\UPrime Dependency\Castle.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Dapper">
       <HintPath>..\packages\Dapper.dll</HintPath>
     </Reference>
@@ -70,14 +73,17 @@
     <Reference Include="U">
       <HintPath>..\packages\U\U.dll</HintPath>
     </Reference>
-    <Reference Include="U.AutoMapper">
-      <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
-    </Reference>
     <Reference Include="U.HangFire">
       <HintPath>..\packages\U\U.HangFire.dll</HintPath>
     </Reference>
     <Reference Include="U.Utilities">
       <HintPath>..\packages\U\U.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime">
+      <HintPath>..\packages\UPrime\UPrime.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.AutoMapper">
+      <HintPath>..\packages\UPrime\UPrime.AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="UPrime.Extensions.Collection">
       <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
@@ -289,6 +295,7 @@
     <Compile Include="StringBuilderCache.cs" />
     <Compile Include="StringSplits.cs" />
     <Compile Include="UZeroConsoleConsts.cs" />
+    <Compile Include="UZeroConsoleModule.cs" />
     <Compile Include="UZeroConsoleUPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

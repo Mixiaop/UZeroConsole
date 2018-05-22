@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using U.AutoMapper;
+using UPrime.AutoMapper;
 using U.Application.Services.Dto;
 using UZeroConsole.Domain.Logging;
 using UZeroConsole.Services.Logging.Dto;

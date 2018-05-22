@@ -1,47 +1,24 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
+using System;
 using UZeroConsole.Domain;
-using UZeroConsole.Domain.Sso;
 using UZeroConsole.Domain.Logging;
+using UZeroConsole.Domain.Sso;
 using UZeroConsole.Services.Dto;
-using UZeroConsole.Services.Sso.Dto;
 using UZeroConsole.Services.Logging.Dto;
+using UZeroConsole.Services.Sso.Dto;
 
 namespace UZeroConsole.Services.Mappers
 {
-    internal static class CustomDtoMapper
+    public class CustomDtoMapper : Profile
     {
-        private static volatile bool _mappedBefore;
-        private static readonly object SyncObj = new object();
-
-        public static void CreateMappings()
+        public CustomDtoMapper(string profileName, Action<IProfileExpression> configurationAction) : base(profileName, configurationAction)
         {
-            lock (SyncObj)
-            {
-                if (_mappedBefore)
-                {
-                    return;
-                }
-
-                CreateMappingsInternal();
-
-                _mappedBefore = true;
-            }
-        }
-
-        private static void CreateMappingsInternal()
-        {
-            Action<IMapperConfigurationExpression> configurer = configuration =>
-            {
-
-                configuration.CreateMap<Admin, AdminDto>().ReverseMap();
-                configuration.CreateMap<Permission, PermissionDto>().ReverseMap();
-                configuration.CreateMap<Role, RoleDto>().ReverseMap();
-                configuration.CreateMap<RolePermission, RolePermissionDto>().ReverseMap();
-                configuration.CreateMap<App, AppDto>().ReverseMap();
-                configuration.CreateMap<ActionLog, ActionLogDto>().ReverseMap();
-            };
-                
+            base.CreateMap<Permission, PermissionDto>().ReverseMap();
+            base.CreateMap<Role, RoleDto>().ReverseMap();
+            base.CreateMap<RolePermission, RolePermissionDto>().ReverseMap();
+            base.CreateMap<App, AppDto>().ReverseMap();
+            base.CreateMap<ActionLog, ActionLogDto>().ReverseMap();
         }
     }
+    
 }

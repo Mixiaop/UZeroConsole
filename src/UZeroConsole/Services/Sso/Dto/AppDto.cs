@@ -1,7 +1,10 @@
 ﻿using U.Application.Services.Dto;
+using UPrime.AutoMapper;
+using UZeroConsole.Domain.Sso;
 
 namespace UZeroConsole.Services.Sso.Dto
 {
+    [AutoMapFrom(typeof(App))]
     public class AppDto : EntityDto
     {
         /// <summary>

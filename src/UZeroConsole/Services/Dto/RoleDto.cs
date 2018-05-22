@@ -1,8 +1,11 @@
 ﻿using U.Application.Services.Dto;
+using UPrime.AutoMapper;
+using UZeroConsole.Domain;
 using UZeroConsole.Services.Sso.Dto;
 
 namespace UZeroConsole.Services.Dto
 {
+    [AutoMapFrom(typeof(Role))]
     public class RoleDto : EntityDto
     {
         public int SsoAppId { get; set; }

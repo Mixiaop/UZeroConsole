@@ -1,8 +1,11 @@
 ﻿using System;
 using U.Application.Services.Dto;
+using UPrime.AutoMapper;
+using UZeroConsole.Domain;
 
 namespace UZeroConsole.Services.Dto
 {
+    [AutoMapFrom(typeof(Permission))]
     public class PermissionDto : EntityDto
     {
         public int SsoAppId { get; set; }

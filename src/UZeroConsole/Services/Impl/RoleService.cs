@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using U.AutoMapper;
+using UPrime.AutoMapper;
 using U.UI;
 using U.Domain.Entities;
 using UZeroConsole.Domain;

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web;
-using U.AutoMapper;
+using UPrime.AutoMapper;
 using UZeroConsole.Domain.Sso;
 using UZeroConsole.Services.Dto;
 

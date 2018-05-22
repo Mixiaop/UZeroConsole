@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using U.AutoMapper;
+using UPrime.AutoMapper;
 using U.Utilities.Security;
 using U.Domain.Entities;
 using U.Application.Services.Dto;
